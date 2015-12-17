@@ -7,8 +7,14 @@
 \newcommand*{\studentnumber}[1]{\gdef\@studentnumber{#1}}
 \newcommand*{\@studentnumber}{s1004654}
 
+\newcommand*{\studentemail}[1]{\gdef\@studentemail{#1}}
+\newcommand*{\@studentemail}{m.c.vandenenk@student.utwente.nl}
+
 \newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}}
 \newcommand*{\@supervisor}{\texttt{\string\supervisor} currently not set. Please fix this.}
+
+\newcommand*{\supervisoremail}[1]{\gdef\@supervisoremail{#1}}
+\newcommand*{\@supervisoremail}{\texttt{\string\supervisoremail} currently not set. Please fix this.}
 
 \newcommand*{\coursename}[1]{\gdef\@coursename{#1}}
 \newcommand*{\@coursename}{\texttt{\string\coursename} currently not set. Please fix this.}
@@ -35,12 +41,14 @@
 \emph{Author:}\\
 \@name\unskip\strut \\
 {[}\@studentnumber\unskip\strut{]} \\
+\@studentemail\unskip\strut \\
 \end{flushleft}
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
 \emph{Supervisor:} \\
 \@supervisor\unskip\strut \\
+\@supervisoremail\unskip\strut \\
 \end{flushright}
 \end{minipage}
 
