@@ -31,7 +31,9 @@
 \usepackage{hyperref}
 \usepackage{bibtopic}
 \usepackage{wrapfig}
+\usepackage{titling}
 \usepackage{michatitle}
+\usepackage{gitinfo2}
 % These packages are all incorporated in the memoir class to one degree or another...
 
 \usepackage{michatitle}
@@ -40,8 +42,8 @@
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
 \pagestyle{fancy} % options: empty , plain , fancy
 \renewcommand{\headrulewidth}{0pt} % customise the layout...
-\lhead{}\chead{}\rhead{}
-\lfoot{}\cfoot{\thepage}\rfoot{}
+\lhead{\gitAbbrevHash}\chead{}\rhead{Micha van den Enk {[}s1004654{]}}
+\lfoot{\today}\cfoot{}\rfoot{\thepage}
 
 %%% SECTION TITLE APPEARANCE
 \usepackage{sectsty}
@@ -74,12 +76,12 @@
 
 \maketitle
 \tableofcontents
+\thispagestyle{fancy}
 \bibliographystyle{apacite}
 
-%\include{part1}
-%\renewcommand*{\refname}{refpart1}
-%\begin{btSect}{bibpart1}
-%\btPrintCited
-%\end{btSect}
+\include{researchproposal}
+\begin{btSect}{references.bib}
+\btPrintCited
+\end{btSect}
 
 \end{document}
