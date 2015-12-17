@@ -1,7 +1,7 @@
 % !TEX TS-program = pdflatex
 % !TEX encoding = UTF-8 Unicode
 
-\documentclass[12pt]{report} % use larger type; default would be 10pt
+\documentclass[twoside]{report} % use larger type; default would be 10pt
 
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
 
@@ -79,7 +79,8 @@
 \thispagestyle{fancy}
 \bibliographystyle{apacite}
 
-\include{researchproposal}
+\part{Research Proposal}
+\input{ResearchProposal/researchproposal}
 \begin{btSect}{references.bib}
 \btPrintCited
 \end{btSect}

@@ -2,7 +2,10 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Cygwin)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mainfile.aux
 The style file: apacite.bst
-A level-1 auxiliary file: researchproposal.aux
+A level-1 auxiliary file: ResearchProposal/summary.aux
+A level-1 auxiliary file: ResearchProposal/projectdescription.aux
+A level-1 auxiliary file: ResearchProposal/researchdesignmethods.aux
+A level-1 auxiliary file: ResearchProposal/planning.aux
 I found no \citation commands---while reading file mainfile.aux
 I found no \bibdata command---while reading file mainfile.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -17,7 +20,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 0 entries,
             6951 wiz_defined-function locations,
-            1268 strings with 10662 characters,
+            1271 strings with 10780 characters,
 and the built_in function-call counts, 43 in all, are:
 = -- 0
 > -- 0
