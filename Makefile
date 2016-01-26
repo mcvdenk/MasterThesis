@@ -1,4 +1,4 @@
-filename=mainfile
+filename=MainFile.tex
 
 pdf:
 	pdflatex ${filename}
