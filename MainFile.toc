@@ -1,0 +1,48 @@
+\contentsline {part}{I\hspace {1em}Design Plan}{4}{part.1}
+\contentsline {chapter}{Flashcards}{5}{chapter*.2}
+\contentsline {section}{Scheduling}{5}{section*.3}
+\contentsline {subsection}{General order of presenting nodes}{5}{section*.4}
+\contentsline {subsection}{Rescheduling of nodes}{5}{section*.5}
+\contentsline {subsection}{Spaced repetition}{5}{section*.6}
+\contentsline {subsection}{Breaks during learning session}{5}{section*.7}
+\contentsline {section}{Evaluation of Response}{5}{section*.8}
+\contentsline {subsection}{Evaluation by the student himself}{5}{section*.9}
+\contentsline {subsection}{Automatic evaluation}{5}{section*.10}
+\contentsline {chapter}{Concept Maps}{6}{chapter*.11}
+\contentsline {section}{Directed or Undirected Graph}{6}{section*.12}
+\contentsline {section}{Cyclic or Acyclic graphs}{6}{section*.13}
+\contentsline {section}{Traveling route through graph}{6}{section*.14}
+\contentsline {section}{Incomplete concept maps}{6}{section*.15}
+\contentsline {chapter}{Feedback}{7}{chapter*.16}
+\contentsline {section}{Tracking of Progress}{7}{section*.17}
+\contentsline {section}{Feedback during Learning}{7}{section*.18}
+\contentsline {chapter}{Software Implementation}{8}{chapter*.19}
+\contentsline {section}{Server}{8}{section*.20}
+\contentsline {subsection}{Python}{8}{section*.21}
+\contentsline {subsection}{Java}{8}{section*.22}
+\contentsline {section}{Client}{8}{section*.23}
+\contentsline {subsection}{Javascript}{8}{section*.24}
+\contentsline {paragraph}{Sigma}{8}{section*.25}
+\contentsline {paragraph}{Cytoscape}{8}{section*.26}
+\contentsline {paragraph}{Vis.js}{8}{section*.27}
+\contentsline {paragraph}{D3}{8}{section*.28}
+\contentsline {section}{Database Format and Network Protocol}{8}{section*.29}
+\contentsline {subsection}{MySQL}{8}{section*.30}
+\contentsline {subsection}{JSON}{8}{section*.31}
+\contentsline {subsection}{DOT Language}{8}{section*.32}
+\contentsline {part}{II\hspace {1em}Research Proposal}{9}{part.2}
+\contentsline {chapter}{Summary}{10}{chapter*.33}
+\contentsline {chapter}{Project Description}{11}{chapter*.34}
+\contentsline {section}{Problem Statement}{11}{section*.35}
+\contentsline {section}{Theoretical Conceptual Framework}{11}{section*.36}
+\contentsline {section}{Research Question and Model}{11}{section*.37}
+\contentsline {section}{Scientific and Practical Relevance}{11}{section*.38}
+\contentsline {chapter}{Research Design and Methods}{12}{chapter*.39}
+\contentsline {section}{Research design}{12}{section*.40}
+\contentsline {section}{Respondents}{12}{section*.41}
+\contentsline {section}{Instrumentation}{12}{section*.42}
+\contentsline {section}{Procedure}{12}{section*.43}
+\contentsline {section}{Data Analysis}{12}{section*.44}
+\contentsline {chapter}{Planning}{13}{chapter*.45}
+\contentsline {section}{Timeline}{13}{section*.46}
+\contentsline {section}{Outputs}{13}{section*.47}
