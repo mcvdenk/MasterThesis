@@ -1,44 +1,28 @@
-\BOOKMARK [-1][-]{part.1}{I Design Plan}{}% 1
-\BOOKMARK [0][-]{chapter*.2}{Flashcards}{part.1}% 2
-\BOOKMARK [1][-]{section*.3}{Scheduling}{chapter*.2}% 3
-\BOOKMARK [2][-]{section*.4}{General order of presenting nodes}{section*.3}% 4
-\BOOKMARK [2][-]{section*.5}{Rescheduling of nodes}{section*.3}% 5
-\BOOKMARK [2][-]{section*.6}{Spaced repetition}{section*.3}% 6
-\BOOKMARK [2][-]{section*.7}{Breaks during learning session}{section*.3}% 7
-\BOOKMARK [1][-]{section*.8}{Evaluation of Response}{chapter*.2}% 8
-\BOOKMARK [2][-]{section*.9}{Evaluation by the student himself}{section*.8}% 9
-\BOOKMARK [2][-]{section*.10}{Automatic evaluation}{section*.8}% 10
-\BOOKMARK [0][-]{chapter*.11}{Concept Maps}{part.1}% 11
-\BOOKMARK [1][-]{section*.12}{Directed or Undirected Graph}{chapter*.11}% 12
-\BOOKMARK [1][-]{section*.13}{Cyclic or Acyclic graphs}{chapter*.11}% 13
-\BOOKMARK [1][-]{section*.14}{Traveling route through graph}{chapter*.11}% 14
-\BOOKMARK [1][-]{section*.15}{Incomplete concept maps}{chapter*.11}% 15
-\BOOKMARK [0][-]{chapter*.16}{Feedback}{part.1}% 16
-\BOOKMARK [1][-]{section*.17}{Tracking of Progress}{chapter*.16}% 17
-\BOOKMARK [1][-]{section*.18}{Feedback during Learning}{chapter*.16}% 18
-\BOOKMARK [0][-]{chapter*.19}{Software Implementation}{part.1}% 19
-\BOOKMARK [1][-]{section*.20}{Server}{chapter*.19}% 20
-\BOOKMARK [2][-]{section*.21}{Python}{section*.20}% 21
-\BOOKMARK [2][-]{section*.22}{Java}{section*.20}% 22
-\BOOKMARK [1][-]{section*.23}{Client}{chapter*.19}% 23
-\BOOKMARK [2][-]{section*.24}{Javascript}{section*.23}% 24
-\BOOKMARK [1][-]{section*.29}{Database Format and Network Protocol}{chapter*.19}% 25
-\BOOKMARK [2][-]{section*.30}{MySQL}{section*.29}% 26
-\BOOKMARK [2][-]{section*.31}{JSON}{section*.29}% 27
-\BOOKMARK [2][-]{section*.32}{DOT Language}{section*.29}% 28
-\BOOKMARK [-1][-]{part.2}{II Research Proposal}{}% 29
-\BOOKMARK [0][-]{chapter*.33}{Summary}{part.2}% 30
-\BOOKMARK [0][-]{chapter*.34}{Project Description}{part.2}% 31
-\BOOKMARK [1][-]{section*.35}{Problem Statement}{chapter*.34}% 32
-\BOOKMARK [1][-]{section*.36}{Theoretical Conceptual Framework}{chapter*.34}% 33
-\BOOKMARK [1][-]{section*.37}{Research Question and Model}{chapter*.34}% 34
-\BOOKMARK [1][-]{section*.38}{Scientific and Practical Relevance}{chapter*.34}% 35
-\BOOKMARK [0][-]{chapter*.39}{Research Design and Methods}{part.2}% 36
-\BOOKMARK [1][-]{section*.40}{Research design}{chapter*.39}% 37
-\BOOKMARK [1][-]{section*.41}{Respondents}{chapter*.39}% 38
-\BOOKMARK [1][-]{section*.42}{Instrumentation}{chapter*.39}% 39
-\BOOKMARK [1][-]{section*.43}{Procedure}{chapter*.39}% 40
-\BOOKMARK [1][-]{section*.44}{Data Analysis}{chapter*.39}% 41
-\BOOKMARK [0][-]{chapter*.45}{Planning}{part.2}% 42
-\BOOKMARK [1][-]{section*.46}{Timeline}{chapter*.45}% 43
-\BOOKMARK [1][-]{section*.47}{Outputs}{chapter*.45}% 44
+\BOOKMARK [-1][-]{part.1}{I Design}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Introduction}{part.1}% 2
+\BOOKMARK [0][-]{chapter*.3}{Conceptual Framework}{part.1}% 3
+\BOOKMARK [1][-]{section*.4}{Paired-Associate Learning}{chapter*.3}% 4
+\BOOKMARK [2][-]{section*.5}{Testing Effect}{section*.4}% 5
+\BOOKMARK [2][-]{section*.6}{Flashcards}{section*.4}% 6
+\BOOKMARK [2][-]{section*.7}{Research}{section*.4}% 7
+\BOOKMARK [1][-]{section*.10}{Concept Maps}{chapter*.3}% 8
+\BOOKMARK [0][-]{chapter*.11}{Concept Mapping}{part.1}% 9
+\BOOKMARK [0][-]{chapter*.12}{Paired-associate Learning}{part.1}% 10
+\BOOKMARK [0][-]{chapter*.13}{Design Guidelines}{part.1}% 11
+\BOOKMARK [0][-]{chapter*.14}{Summary}{part.1}% 12
+\BOOKMARK [-1][-]{part.2}{II Research Proposal}{}% 13
+\BOOKMARK [0][-]{chapter*.15}{Summary}{part.2}% 14
+\BOOKMARK [0][-]{chapter*.16}{Project Description}{part.2}% 15
+\BOOKMARK [1][-]{section*.17}{Problem Statement}{chapter*.16}% 16
+\BOOKMARK [1][-]{section*.18}{Theoretical Conceptual Framework}{chapter*.16}% 17
+\BOOKMARK [1][-]{section*.19}{Research Question and Model}{chapter*.16}% 18
+\BOOKMARK [1][-]{section*.20}{Scientific and Practical Relevance}{chapter*.16}% 19
+\BOOKMARK [0][-]{chapter*.21}{Research Design and Methods}{part.2}% 20
+\BOOKMARK [1][-]{section*.22}{Research design}{chapter*.21}% 21
+\BOOKMARK [1][-]{section*.23}{Respondents}{chapter*.21}% 22
+\BOOKMARK [1][-]{section*.24}{Instrumentation}{chapter*.21}% 23
+\BOOKMARK [1][-]{section*.25}{Procedure}{chapter*.21}% 24
+\BOOKMARK [1][-]{section*.26}{Data Analysis}{chapter*.21}% 25
+\BOOKMARK [0][-]{chapter*.27}{Planning}{part.2}% 26
+\BOOKMARK [1][-]{section*.28}{Timeline}{chapter*.27}% 27
+\BOOKMARK [1][-]{section*.29}{Outputs}{chapter*.27}% 28
