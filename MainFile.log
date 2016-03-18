@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  18 MAR 2016 10:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  18 MAR 2016 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -650,10 +650,11 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftsubtabindent=\skip113
 \cftsubtabnumwidth=\skip114
 ) (./MainFile.aux
-(./Design/introduction.aux) (./Design/concepts.aux)
-(./Design/conceptmapping.aux) (./Design/pairedassociatelearning.aux)
-(./Design/guidelines.aux) (./Design/summary.aux)
-(./ResearchProposal/summary.aux) (./ResearchProposal/projectdescription.aux)
+(./Design/introduction.aux) (./Design/idea.aux) (./Design/concepts.aux)
+(./Design/computer.aux) (./Design/conceptmapping.aux)
+(./Design/pairedassociatelearning.aux) (./Design/guidelines.aux)
+(./Design/summary.aux) (./ResearchProposal/summary.aux)
+(./ResearchProposal/projectdescription.aux)
 (./ResearchProposal/researchdesignmethods.aux) (./ResearchProposal/planning.aux
 ))
 \openout1 = `MainFile.aux'.
@@ -766,7 +767,7 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=116, 225.60284pt x 45.2892pt>
+<logo.png, id=144, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 99.
@@ -790,55 +791,68 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
-)
+ [2
+
+])
 \tf@toc=\write6
 \openout6 = `MainFile.toc'.
 
- [2
-
-] [3
+ [3] [4
 
 ] (./Design/design.tex
 \openout2 = `Design/introduction.aux'.
 
  (./Design/introduction.tex)
-[4
+[5
+
+
+]
+\openout2 = `Design/idea.aux'.
+
+ (./Design/idea.tex) [6
+
 
 
 ]
 \openout2 = `Design/concepts.aux'.
 
- (./Design/concepts.tex) [5
+ (./Design/concepts.tex) [7
+
+
+
+]
+\openout2 = `Design/computer.aux'.
+
+ (./Design/computer.tex) [8
 
 
 
 ]
 \openout2 = `Design/conceptmapping.aux'.
 
- (./Design/conceptmapping.tex) [6
+ (./Design/conceptmapping.tex) [9
 
 
 
 ]
 \openout2 = `Design/pairedassociatelearning.aux'.
 
-
-(./Design/pairedassociatelearning.tex) [7
+ (./Design/pairedassociatelearning.tex)
+[10
 
 
 
 ]
 \openout2 = `Design/guidelines.aux'.
 
- (./Design/guidelines.tex) [8
+ (./Design/guidelines.tex) [11
 
 
 
 ]
 \openout2 = `Design/summary.aux'.
 
-
-(./Design/summary.tex) [9
+ (./Design/summary.tex) [12
 
 
 
@@ -847,21 +861,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 \openout3 = `MainFile1.aux'.
 
- (./MainFile1.bbl) [10
+
+(./MainFile1.bbl) [13
 
 
-]
-(./ResearchProposal/researchproposal.tex
+] (./ResearchProposal/researchproposal.tex
 \openout2 = `ResearchProposal/summary.aux'.
 
- (./ResearchProposal/summary.tex)
-[11
+
+(./ResearchProposal/summary.tex) [14
 
 
 ]
 \openout2 = `ResearchProposal/projectdescription.aux'.
 
- (./ResearchProposal/projectdescription.tex) [12
+
+(./ResearchProposal/projectdescription.tex) [15
 
 
 
@@ -869,7 +884,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout2 = `ResearchProposal/researchdesignmethods.aux'.
 
 
-(./ResearchProposal/researchdesignmethods.tex) [13
+(./ResearchProposal/researchdesignmethods.tex) [16
 
 
 
@@ -877,7 +892,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout2 = `ResearchProposal/planning.aux'.
 
 
-(./ResearchProposal/planning.tex) [14
+(./ResearchProposal/planning.tex) [17
 
 
 
@@ -895,26 +910,27 @@ Package bibtopic Warning: Please (re)run BibTeX on the file(s):
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
-(./MainFile.aux (./Design/introduction.aux) (./Design/concepts.aux)
-(./Design/conceptmapping.aux) (./Design/pairedassociatelearning.aux)
-(./Design/guidelines.aux) (./Design/summary.aux)
-(./ResearchProposal/summary.aux) (./ResearchProposal/projectdescription.aux)
+(./MainFile.aux (./Design/introduction.aux) (./Design/idea.aux)
+(./Design/concepts.aux) (./Design/computer.aux) (./Design/conceptmapping.aux)
+(./Design/pairedassociatelearning.aux) (./Design/guidelines.aux)
+(./Design/summary.aux) (./ResearchProposal/summary.aux)
+(./ResearchProposal/projectdescription.aux)
 (./ResearchProposal/researchdesignmethods.aux) (./ResearchProposal/planning.aux
 ))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 2BFC949A684326B7487F45C13BF152BB;1714.
+(rerunfilecheck)             Checksum: 4A06483B150DD8F239CC421C9AB80913;2171.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 10485 strings out of 493304
- 154817 string characters out of 6139871
- 276868 words of memory out of 5000000
- 13656 multiletter control sequences out of 15000+600000
+ 10520 strings out of 493304
+ 155286 string characters out of 6139871
+ 277891 words of memory out of 5000000
+ 13665 multiletter control sequences out of 15000+600000
  13059 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,11n,43p,910b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,43p,910b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -924,10 +940,10 @@ t/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb>
-Output written on MainFile.pdf (14 pages, 158634 bytes).
+Output written on MainFile.pdf (17 pages, 161679 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,7 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: MainFile.aux
 The style file: apacite.bst
 A level-1 auxiliary file: Design/introduction.aux
+A level-1 auxiliary file: Design/idea.aux
 A level-1 auxiliary file: Design/concepts.aux
+A level-1 auxiliary file: Design/computer.aux
 A level-1 auxiliary file: Design/conceptmapping.aux
 A level-1 auxiliary file: Design/pairedassociatelearning.aux
 A level-1 auxiliary file: Design/guidelines.aux
@@ -26,7 +28,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 0 entries,
             6951 wiz_defined-function locations,
-            1277 strings with 10920 characters,
+            1279 strings with 10954 characters,
 and the built_in function-call counts, 43 in all, are:
 = -- 0
 > -- 0
