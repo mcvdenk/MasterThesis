@@ -4,36 +4,37 @@
 \contentsline {chapter}{Conceptual Framework}{7}{chapter*.4}
 \contentsline {section}{Concept maps}{7}{section*.5}
 \contentsline {subsection}{Comparison to other visual mapping techniques}{7}{section*.6}
-\contentsline {subsection}{Novakian concept map}{7}{section*.7}
-\contentsline {subsection}{Conditions}{7}{section*.8}
-\contentsline {subsection}{Research}{7}{section*.9}
-\contentsline {paragraph}{Effectiveness}{7}{section*.10}
-\contentsline {paragraph}{Attitudes}{7}{section*.11}
-\contentsline {section}{Paired-Associate Learning}{7}{section*.12}
-\contentsline {subsection}{Testing Effect}{7}{section*.13}
-\contentsline {subsection}{Flashcards}{7}{section*.14}
-\contentsline {subsection}{Research}{7}{section*.15}
-\contentsline {paragraph}{Effectiveness}{7}{section*.16}
-\contentsline {paragraph}{Student attitudes}{7}{section*.17}
-\contentsline {subsection}{Criticism}{7}{section*.18}
-\contentsline {chapter}{Software Implementation}{8}{chapter*.19}
-\contentsline {chapter}{Concept Mapping}{9}{chapter*.20}
-\contentsline {chapter}{Paired-associate Learning}{10}{chapter*.21}
-\contentsline {chapter}{Design Guidelines}{11}{chapter*.22}
-\contentsline {chapter}{Summary}{12}{chapter*.23}
-\contentsline {part}{II\hspace {1em}Research Proposal}{13}{part.2}
-\contentsline {chapter}{Summary}{14}{chapter*.24}
-\contentsline {chapter}{Project Description}{15}{chapter*.25}
-\contentsline {section}{Problem Statement}{15}{section*.26}
-\contentsline {section}{Theoretical Conceptual Framework}{15}{section*.27}
-\contentsline {section}{Research Question and Model}{15}{section*.28}
-\contentsline {section}{Scientific and Practical Relevance}{15}{section*.29}
-\contentsline {chapter}{Research Design and Methods}{16}{chapter*.30}
-\contentsline {section}{Research design}{16}{section*.31}
-\contentsline {section}{Respondents}{16}{section*.32}
-\contentsline {section}{Instrumentation}{16}{section*.33}
-\contentsline {section}{Procedure}{16}{section*.34}
-\contentsline {section}{Data Analysis}{16}{section*.35}
-\contentsline {chapter}{Planning}{17}{chapter*.36}
-\contentsline {section}{Timeline}{17}{section*.37}
-\contentsline {section}{Outputs}{17}{section*.38}
+\contentsline {subsection}{Novakian concept map}{7}{section*.8}
+\contentsline {subsection}{Conditions}{7}{section*.9}
+\contentsline {subsection}{Research}{7}{section*.10}
+\contentsline {paragraph}{Effectiveness}{7}{section*.11}
+\contentsline {paragraph}{Attitudes}{7}{section*.12}
+\contentsline {section}{Paired-Associate Learning}{7}{section*.13}
+\contentsline {subsection}{Testing Effect}{7}{section*.14}
+\contentsline {subsection}{Flashcards}{7}{section*.15}
+\contentsline {subsection}{Research}{7}{section*.16}
+\contentsline {paragraph}{Effectiveness}{7}{section*.17}
+\contentsline {paragraph}{Student attitudes}{7}{section*.18}
+\contentsline {subsection}{Criticism}{7}{section*.19}
+\contentsline {chapter}{Design Choices}{9}{chapter*.20}
+\contentsline {section}{Display}{9}{section*.21}
+\contentsline {subsection}{Visual mapping technique}{9}{section*.22}
+\contentsline {section}{Paired-Associate Learning}{9}{section*.23}
+\contentsline {chapter}{Design Guidelines}{10}{chapter*.24}
+\contentsline {chapter}{Summary}{11}{chapter*.25}
+\contentsline {part}{II\hspace {1em}Research Proposal}{12}{part.2}
+\contentsline {chapter}{Summary}{13}{chapter*.26}
+\contentsline {chapter}{Project Description}{14}{chapter*.27}
+\contentsline {section}{Problem Statement}{14}{section*.28}
+\contentsline {section}{Theoretical Conceptual Framework}{14}{section*.29}
+\contentsline {section}{Research Question and Model}{14}{section*.30}
+\contentsline {section}{Scientific and Practical Relevance}{14}{section*.31}
+\contentsline {chapter}{Research Design and Methods}{15}{chapter*.32}
+\contentsline {section}{Research design}{15}{section*.33}
+\contentsline {section}{Respondents}{15}{section*.34}
+\contentsline {section}{Instrumentation}{15}{section*.35}
+\contentsline {section}{Procedure}{15}{section*.36}
+\contentsline {section}{Data Analysis}{15}{section*.37}
+\contentsline {chapter}{Planning}{16}{chapter*.38}
+\contentsline {section}{Timeline}{16}{section*.39}
+\contentsline {section}{Outputs}{16}{section*.40}

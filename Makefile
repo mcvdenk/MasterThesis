@@ -3,6 +3,7 @@ filename=MainFile
 pdf:
 	pdflatex ${filename}
 	bibtex ${filename}||true
+	bibtex Design/%||true
 	pdflatex ${filename}
 	pdflatex ${filename}
 

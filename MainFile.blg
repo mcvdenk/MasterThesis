@@ -6,15 +6,12 @@ A level-1 auxiliary file: Design/introduction.aux
 A level-1 auxiliary file: Design/idea.aux
 A level-1 auxiliary file: Design/concepts.aux
 A level-1 auxiliary file: Design/computer.aux
-A level-1 auxiliary file: Design/conceptmapping.aux
-A level-1 auxiliary file: Design/pairedassociatelearning.aux
 A level-1 auxiliary file: Design/guidelines.aux
 A level-1 auxiliary file: Design/summary.aux
 A level-1 auxiliary file: ResearchProposal/summary.aux
 A level-1 auxiliary file: ResearchProposal/projectdescription.aux
 A level-1 auxiliary file: ResearchProposal/researchdesignmethods.aux
 A level-1 auxiliary file: ResearchProposal/planning.aux
-I found no \citation commands---while reading file MainFile.aux
 I found no \bibdata command---while reading file MainFile.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -25,10 +22,11 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--I didn't find a database entry for "eppler"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 0 entries,
             6951 wiz_defined-function locations,
-            1279 strings with 10954 characters,
+            1278 strings with 10901 characters,
 and the built_in function-call counts, 43 in all, are:
 = -- 0
 > -- 0
@@ -67,4 +65,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There were 2 error messages)
+(There was 1 error message)
