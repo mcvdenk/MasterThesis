@@ -23,10 +23,30 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--I didn't find a database entry for "eppler"
+Warning--I didn't find a database entry for "nakata"
+Warning--I didn't find a database entry for "joseph"
+Warning--I didn't find a database entry for "macquarrie"
+Warning--I didn't find a database entry for "burgess"
+Warning--I didn't find a database entry for "golding"
+Warning--I didn't find a database entry for "zirkle"
+Warning--I didn't find a database entry for "instructionaldesign"
+Warning--I didn't find a database entry for "mccullough"
+Warning--I didn't find a database entry for "hulstijn"
+Warning--I didn't find a database entry for "kornell"
+Warning--I didn't find a database entry for "glaserfield"
+Warning--I didn't find a database entry for "hwang2"
+Warning--I didn't find a database entry for "subramaniam"
+Warning--I didn't find a database entry for "canas"
+Warning--I didn't find a database entry for "singh"
+Warning--I didn't find a database entry for "nesbit2"
+Warning--I didn't find a database entry for "karpicke2"
+Warning--I didn't find a database entry for "microlearning"
+Warning--I didn't find a database entry for "tzeng"
+Warning--I didn't find a database entry for "moore"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 0 entries,
             6951 wiz_defined-function locations,
-            1278 strings with 10901 characters,
+            1298 strings with 11064 characters,
 and the built_in function-call counts, 43 in all, are:
 = -- 0
 > -- 0
