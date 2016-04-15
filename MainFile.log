@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  14 APR 2016 20:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  15 APR 2016 06:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,6 +1028,9 @@ LaTeX Warning: Reference `sec.conc.vmtechs' on page 9 undefined on input line 7
 
 (./ResearchProposal/projectdescription.tex
 
+LaTeX Warning: Citation `glaserfield' undefined on input line 14.
+
+
 LaTeX Warning: Citation `nakata' undefined on input line 14.
 
 
@@ -1056,9 +1059,6 @@ LaTeX Warning: Citation `hulstijn' undefined on input line 19.
 
 
 LaTeX Warning: Citation `kornell' undefined on input line 24.
-
-
-LaTeX Warning: Citation `glaserfield' undefined on input line 24.
 
 
 LaTeX Warning: Citation `ruiz1' undefined on input line 31.
@@ -1091,138 +1091,26 @@ LaTeX Warning: Citation `karpicke2' undefined on input line 31.
 
 ]
 
-LaTeX Warning: Citation `microlearning' undefined on input line 51.
+! LaTeX Error: File `img/conceptmap' not found.
 
-[15]
-
-LaTeX Warning: Citation `verkoeijen' undefined on input line 57.
-
-
-LaTeX Warning: Citation `logan' undefined on input line 57.
-
-
-LaTeX Warning: Citation `siegel' undefined on input line 57.
-
-
-LaTeX Warning: Citation `xue' undefined on input line 57.
-
-
-LaTeX Warning: Citation `eppler' undefined on input line 62.
-
-
-LaTeX Warning: Reference `fig:flashmap' on page 16 undefined on input line 69.
-
-
-LaTeX Warning: Citation `tzeng' undefined on input line 71.
-
-
-LaTeX Warning: Citation `moore' undefined on input line 71.
-
-[16]
-\c@researchquestion=\count133
-\c@subquestion=\count134
-
-
-LaTeX Warning: Citation `tam' undefined on input line 86.
-
-
-LaTeX Warning: Reference `fig:tam' on page 17 undefined on input line 86.
-
-) [17]
-\openout2 = `ResearchProposal/researchdesignmethods.aux'.
-
- (./ResearchProposal/researchdesignmethods.tex) [18
-
-
-
-]
-\openout2 = `ResearchProposal/planning.aux'.
-
-
-(./ResearchProposal/planning.tex) [19
-
-
-
-]) (./MainFile2.bbl)
-
-Package bibtopic Warning: Please (re)run BibTeX on the file(s):
-(bibtopic)                MainFile1
-(bibtopic)                MainFile2
-(bibtopic)                and after that rerun LaTeX.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
-(./MainFile.aux (./Design/introduction.aux) (./Design/idea.aux)
-(./Design/concepts.aux) (./Design/computer.aux) (./Design/guidelines.aux)
-(./Design/summary.aux) (./ResearchProposal/summary.aux)
-(./ResearchProposal/projectdescription.aux)
-(./ResearchProposal/researchdesignmethods.aux) (./ResearchProposal/planning.aux
-))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
-Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 10661AA3EC4557C1080F879AEA0B568C;2424.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...graphics[width=\textwidth]{img/conceptmap}
+                                                  
+? X
+ 
 Here is how much of TeX's memory you used:
- 10673 strings out of 493304
- 156786 string characters out of 6139871
- 280574 words of memory out of 5000000
- 13788 multiletter control sequences out of 15000+600000
- 14049 words of font info for 48 fonts, out of 8000000 for 9000
+ 10599 strings out of 493304
+ 155554 string characters out of 6139871
+ 280568 words of memory out of 5000000
+ 13754 multiletter control sequences out of 15000+600000
+ 13703 words of font info for 47 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,11n,43p,2246b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.tam} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.moore} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.tzeng} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.xue} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{cite.siegel} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.logan} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.verkoeijen} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.microlearning} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.karpicke2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.nesbit2} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.singh} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.canas} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.subramaniam} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.hwang2} has been referenced but does not exist
-, replaced by a fixed one
-
+ 37i,11n,43p,1344b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.ruiz1} has been referenced but does not exist,
  replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.glaserfield} has been referenced but does not 
-exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.kornell} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1254,7 +1142,55 @@ pdfTeX warning (dest): name{cite.joseph} has been referenced but does not exist
 pdfTeX warning (dest): name{cite.nakata} has been referenced but does not exist
 , replaced by a fixed one
 
+pdfTeX warning (dest): name{cite.glaserfield} has been referenced but does not 
+exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{cite.eppler} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.43} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.42} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.41} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.40} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.39} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.38} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.37} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.36} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.35} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.34} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.33} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.32} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.31} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.30} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.29} has been referenced but does not exist
 , replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
@@ -1266,13 +1202,12 @@ fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
-fb>
-Output written on MainFile.pdf (19 pages, 214446 bytes).
+s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti9.pfb>
+Output written on MainFile.pdf (14 pages, 189867 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
- 456 compressed objects within 5 object streams
- 99 named destinations out of 1000 (max. 500000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 355 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
