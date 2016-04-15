@@ -8,14 +8,7 @@ Research questions \ref{benefits}\ref{effectiveness}, \ref{efficiency}, \ref{per
 
 Furthermore, research question~\ref{howused} is a qualitative research question, and could be measured by observing participants or interviewing them afterwards. However, an observation would not be feasible, since the researcher would be required to follow the students around in their daily lives waiting for them to use the system requiring a high amount of effort with only a low benefit to the research. Furthermore, any involvement of the researcher would influence the participants and thereby create a bias in the results. Therefore, only an interview will trake place after the experiment in order to investigate how the students used the system.
 
-MIXED METHOD PURPOSE
-    TRIANGULATION
-    EXPANSION
-    POINT OF ADDITION
-    POINT OF INTEGRATION
-    CONCURRENT
-    PARTIALLY
-    QUAN DOMINANT
+The quantitative and qualitative results will be mixed for the purposes of triangulation and expansion. The interviews could provide evidence for the systems being used the intended way. Furthermore, by evaluating how the systems were used insight can be gained into why students had certain perceptions on using the systems. Both triangulation and expansion will be on a partial level of mixing, will take place concurrently, and the quantitative data will be dominant, since the qualitative data exists only to triangulate and expand the quantitative data. Expansion will be added within the research question and integrated within the conclusions whereas triangulation will be added within measurement and integrated within the results. 
 
 \section{Respondents}
 
@@ -23,17 +16,7 @@ MIXED METHOD PURPOSE
 
 %1.5.4
 
-10TH GRADE HIGHSCHOOL STUDENTS
-
-DUTCH, STEDELIJK LYCEUM ENSCHEDE
-
-VOLUNTARY PARTICIPATION
-
-RANDOM SAMPLING
-
-BONUS POINT
-
-INTRODUCTION USEFULNESS
+More than 100 tenth grade Dutch high school students from the Stedelijk Lyceum in Enschede will be asked to participate in the research. They are concurrent with the experiment, enrolled in a course about 17th century Dutch literature. For this course they already have to prepare themselves for an exam and thereby have incentive to rote memorise the content of the course. To increase the response rate and thereby reduce sampling bias, the students will be rewarded with a bonus point on the exam for participation. In alignment with true experimental design the participant will be assigned to either the flashcard or the flashmap system at random.
 
 \section{Instrumentation}
 
@@ -41,18 +24,9 @@ INTRODUCTION USEFULNESS
 
 %n1.5.6
 
-LEARNING GAIN
-    LEARNING GAIN CONTROLLED
-    PRE TEST
-    POST TEST
-    BASED ON CONCEPT MAP
-    TAXONOMY BLOOM
-    ITEM BANK
+The learning gain will be measured by the means of a pre- and post-test. Both tests will consist of random items from an item bank measuring both knowledge and comprehension levels of the students \cite{bloom}. This way the tests will be comparable and thereby the learning gain can be determined by subtracting the score on the pre-test from that on the post-test. Finally the controlled learning gain can be calculated by dividing the learning gain by the time spent on the system. The survey will be based on the Technology Acceptance Model by \citeA{tam}. 
 
-SURVEY
-    TAM
-
-INTERVIEW
+The interviews will be conducted using a topic list \cite{baarda}, including “frequency”, “usefulness”, “ease of use”, “external conditions”, and “attitudes”, also based on the Technology Acceptance Model. 
 
 \section{Procedure}
 
@@ -60,35 +34,30 @@ INTERVIEW
 
 %n1.6
 
-INFORMED CONSENT
+Before the experiment takes place the students and their parents will be briefed by means of a letter, and will be asked to fill in an informed consent form. Furthermore the experiment will be approved by the ethics committee from the University of Twente.
 
-Firstly, the students will be provided with a general introduction on flashcards by both the teacher and the researcher within the classroom. Then, when the students log into the system for the first time, the server assigns them randomly to either the flashcard or the flashmap condition. By making the introduction ambiguous enough, the students will not be able to recognise this condition in order to guarantee a double-blind experiment.
+After that, the students will be provided with a general introduction on flashcards by both the teacher and the researcher within the classroom. Then, when the students log into the system for the first time, the server assigns them randomly to either the flashcard or the flashmap condition. By making the introduction ambiguous enough, the students will not be able to recognise this condition in order to guarantee a double-blind experiment.
 
-PRE-TEST
+Before they start using the system they will be asked for general descriptive information such as date of birth and gender. They will not be asked for their names in order to ensure an anonymous identity. Instead a code will be assigned to them making it only able for the teacher to determine the identity. After that the pre-test follows. Then for the next week the students are asked to use the system daily for fifteen minutes. Finally the post-test and survey will be conducted. The students can also indicate whether they are willing to participate in the interview.
 
-SYSTEM USE
-    EXPERIMENT DURATION
-    DAILY WORKLOAD
-
-POST-TEST
-
-SURVEY
-
-INTERVIEW
-
-BONUS POINT
+If the student has used the system for 6 out of 7 days they will be awarded with a bonus point on the actual exam. The system will output a list of student codes of those who should be rewarded, which will given to the teacher after they already determined the original grade. That will be done to ensure that the bonus does not influence teachers behaviour in order to ensure that students will not experience drawbacks from not participating. The interviews will take place after the exam.
 
 \section{Data Analysis}
 
 %Describe the type of data you will generate (qualitative, quantitative, mixed-method) and the methods you intend to use to analyze your data. Make sure this fits with your research design and questions. Here you may also address reliability checks for your instrumentation.
 
-T-TEST
-    BENEFITS
-        LEARNING GAIN
-        LEARNING GAIN CONTROLLED
-    PERCEPTION
-        USEFULNESS
-        EASE
+Research questions~\ref{benefits}\ref{effectiveness}, \ref{efficiency}, \ref{perception}\ref{usefulness}, and \ref{ease} will be assessed by means of a t-test, using the following hypotheses: 
+\begin{tabular}{l l l}
+\ref{benefit}\ref{effectiveness} & H0: & $LG_{fc} \leq LG_{fm}$ \\
+                                 & Ha: & $LG_{fc} < LG_{fm}$ \\
+\ref{benefit}\ref{efficiency}    & H0: & $LGC(fg) \leq LG_{fm}$ \\
+                                 & Ha: & $ LGC_{fc} < LG_{fm}$ \\
+\ref{perception}\ref{usefulness} & H0: & $U_{fc} \leq U_{fm}$ \\
+                                 & Ha: & $U_{fc} < U_{fm}$ \\
+\ref{perception}\ref{ease}       & H0: & $E_{fc} \leq E_{fm}$ \\
+                                 & Ha: & $E_{fc} < E_{fm}$ \\
+\end{tabular}
+where LG = learning gain, LGC = controlled learning gain, U = perceived usefulness, E = perceived ease of use, fc = flashcard condition and fm = flashmap condition. Furthermore the reliability of test items will be assessed using Item Response Theory \cite{irt}.
 
-INTERVIEW
-    CODING
+The interviews will be transcribed and coded according to \citeA{baarda}. The results from this analysis will be checked to validate the results from the t-tests. 
+
