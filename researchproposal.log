@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  20 APR 2016 23:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  20 APR 2016 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MainFile
-(./MainFile.tex
+**researchproposal.tex
+(./researchproposal.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -808,13 +808,9 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforesubtabskip=\skip112
 \cftsubtabindent=\skip113
 \cftsubtabnumwidth=\skip114
-) (./MainFile.aux
-(./Design/introduction.aux) (./Design/idea.aux) (./Design/concepts.aux)
-(./Design/computer.aux) (./Design/guidelines.aux) (./Design/summary.aux)
-(./ResearchProposal/summary.aux) (./ResearchProposal/projectdescription.aux)
-(./ResearchProposal/researchdesignmethods.aux) (./ResearchProposal/planning.aux
-))
-\openout1 = `MainFile.aux'.
+)
+No file researchproposal.aux.
+\openout1 = `researchproposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
@@ -832,7 +828,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 94.
@@ -918,10 +914,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 94.
 LaTeX Info: Redefining \pageref on input line 94.
 LaTeX Info: Redefining \nameref on input line 94.
-
-(./MainFile.out) (./MainFile.out)
 \@outlinefile=\write5
-\openout5 = `MainFile.out'.
+\openout5 = `researchproposal.out'.
 
 \c@maskedRefs=\count132
 
@@ -930,7 +924,7 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=160, 225.60284pt x 45.2892pt>
+<logo.png, id=4, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 101.
@@ -947,251 +941,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
-(./MainFile.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1.
- [2
-
-])
 \tf@toc=\write6
-\openout6 = `MainFile.toc'.
+\openout6 = `researchproposal.toc'.
 
- [3] [4
 
-]
-\openout3 = `btaux.aux'.
-
-\openout3 = `MainFile1.aux'.
-
- (./Design/design.tex
-\openout2 = `Design/introduction.aux'.
-
- (./Design/introduction.tex)
-[5
-
+(./ResearchProposal/researchproposal.tex [2
 
 ]
-\openout2 = `Design/idea.aux'.
-
- (./Design/idea.tex) [6
-
-
-
-]
-\openout2 = `Design/concepts.aux'.
-
- (./Design/concepts.tex
-
-LaTeX Warning: Citation `eppler' undefined on input line 7.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 9.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\OT1/cmr/m/n/10 Conceptual di-a-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]|\OT1/cmr/m/n/10 A top-down di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 a-gram show-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 the re-la-tion-ships
- []
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 be-tween con-cepts,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 in-clud-ing cross
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]|\OT1/cmr/m/n/10 A mul-ti-coloured
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 ra-dial di-a-gram
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 that rep-re-sents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 con-nec-tions be-
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 tween por-tions of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 learned ma-te-rial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]|\OT1/cmr/m/n/10 A sys-tem-atic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 de-pic-tion of an
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 ab-stract con-cept
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 e-gory boxes with
- []
-
-
-Underfull \hbox (badness 6252) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 spec-i-fied re-la-tion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 ships, typ-i-cally
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 15--15
-[]|\OT1/cmr/m/n/10 Main func-tion or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]|\OT1/cmr/m/n/10 To show sys-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 tem-atic re-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 tion-ships among
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 ing to one main
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-[]|\OT1/cmr/m/n/10 To anal-yse a
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 topic or sit-u-a-tion
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 through a proven
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\OT1/cmr/m/n/10 Macro struc-ture
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 16--16
-[]|\OT1/cmr/m/n/10 Flexible, but al-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\OT1/cmr/m/n/10 Understandability
- []
-
-) [7
-
-
-
-] [8]
-\openout2 = `Design/computer.aux'.
-
- (./Design/computer.tex
-
-LaTeX Warning: Reference `sec:conc.vmtechs' on page 9 undefined on input line 7
-.
-
-
-LaTeX Warning: Reference `sec.conc.vmtechs' on page 9 undefined on input line 7
-.
-
-) [9
-
-
-
-]
-\openout2 = `Design/guidelines.aux'.
-
- (./Design/guidelines.tex) [10
-
-
-
-]
-\openout2 = `Design/summary.aux'.
-
- (./Design/summary.tex) [11
-
-
-
-])
-(./MainFile1.bbl) [12
-
-
-]
-\openout3 = `btaux.aux'.
-
-\openout3 = `MainFile2.aux'.
-
- (./ResearchProposal/researchproposal.tex
 \openout2 = `ResearchProposal/summary.aux'.
 
-
-(./ResearchProposal/summary.tex) [13
+ (./ResearchProposal/summary.tex)
+[3
 
 
 ]
 \openout2 = `ResearchProposal/projectdescription.aux'.
 
-
-(./ResearchProposal/projectdescription.tex
+ (./ResearchProposal/projectdescription.tex
 
 LaTeX Warning: Citation `bloom' undefined on input line 15.
 
@@ -1217,6 +983,10 @@ LaTeX Warning: Citation `karpicke2' undefined on input line 17.
 LaTeX Warning: Citation `ruiz1' undefined on input line 17.
 
 
+LaTeX Warning: Reference `fig:conceptmap' on page 4 undefined on input line 17.
+
+
+
 LaTeX Warning: Citation `hwang2' undefined on input line 17.
 
 
@@ -1231,10 +1001,9 @@ LaTeX Warning: Citation `singh' undefined on input line 17.
 
 LaTeX Warning: Citation `nesbit2' undefined on input line 17.
 
-<img/conceptmap.png, id=315, 415.5525pt x 353.82187pt>
+<img/conceptmap.png, id=57, 415.5525pt x 353.82187pt>
 File: img/conceptmap.png Graphic file (type png)
-
-<use img/conceptmap.png>
+ <use img/conceptmap.png>
 Package pdftex.def Info: img/conceptmap.png used on input line 21.
 (pdftex.def)             Requested size: 418.25368pt x 356.13712pt.
 
@@ -1250,11 +1019,11 @@ LaTeX Warning: Citation `burgess' undefined on input line 26.
 
 LaTeX Warning: Citation `golding' undefined on input line 26.
 
-[14
+[4
 
 
 
-] [15 <./img/conceptmap.png>]
+] [5 <./img/conceptmap.png>]
 
 LaTeX Warning: Citation `zirkle' undefined on input line 31.
 
@@ -1282,11 +1051,14 @@ LaTeX Warning: Citation `siegel' undefined on input line 66.
 
 LaTeX Warning: Citation `xue' undefined on input line 66.
 
-[16]
+[6]
 
 LaTeX Warning: Citation `eppler' undefined on input line 73.
 
-<img/flashmap.png, id=396, 633.11531pt x 271.76532pt>
+
+LaTeX Warning: Reference `fig:flashmap' on page 7 undefined on input line 80.
+
+<img/flashmap.png, id=144, 633.11531pt x 271.76532pt>
 File: img/flashmap.png Graphic file (type png)
  <use img/flashmap.png>
 Package pdftex.def Info: img/flashmap.png used on input line 84.
@@ -1301,16 +1073,38 @@ LaTeX Warning: Citation `moore' undefined on input line 89.
 \c@researchquestion=\count133
 \c@subquestion=\count134
 
-LaTeX Warning: Reference `benefits' on page 17 undefined on input line 100.
+LaTeX Warning: Reference `benefits' on page 7 undefined on input line 100.
+
+
+LaTeX Warning: Reference `effectiveness' on page 7 undefined on input line 100.
+
+
+
+LaTeX Warning: Reference `efficiency' on page 7 undefined on input line 100.
+
+
+LaTeX Warning: Reference `perception' on page 7 undefined on input line 100.
+
+
+LaTeX Warning: Reference `usefulness' on page 7 undefined on input line 100.
+
+
+LaTeX Warning: Reference `ease' on page 7 undefined on input line 100.
+
+
+LaTeX Warning: Reference `howused' on page 7 undefined on input line 100.
 
 
 Underfull \vbox (badness 5022) has occurred while \output is active []
 
- [17]
+ [7]
 
 LaTeX Warning: Citation `tam' undefined on input line 104.
 
-<img/tam.png, id=421, 666.99188pt x 189.70876pt>
+
+LaTeX Warning: Reference `fig:tam' on page 8 undefined on input line 104.
+
+<img/tam.png, id=166, 666.99188pt x 189.70876pt>
 File: img/tam.png Graphic file (type png)
  <use img/tam.png>
 Package pdftex.def Info: img/tam.png used on input line 110.
@@ -1318,11 +1112,32 @@ Package pdftex.def Info: img/tam.png used on input line 110.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./img/flashmap.png>]) [19 <./img/tam.png>]
+ [8 <./img/flashmap.png>]) [9 <./img/tam.png>]
 \openout2 = `ResearchProposal/researchdesignmethods.aux'.
 
 
 (./ResearchProposal/researchdesignmethods.tex
+
+LaTeX Warning: Reference `benefit' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Reference `effectiveness' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Reference `efficiency' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Reference `perception' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Reference `usefulness' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Reference `ease' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Reference `howused' on page 10 undefined on input line 9.
+
 
 LaTeX Warning: Citation `mixedmethods' undefined on input line 11.
 
@@ -1332,65 +1147,123 @@ LaTeX Warning: Citation `tamq' undefined on input line 27.
 
 LaTeX Warning: Citation `baarda' undefined on input line 29.
 
-[20
+[10
 
 
 
-] <img/procedure.png, id=474, 436.7517pt x 772.3254pt>
+]
+
+LaTeX Warning: Reference `fig:procedure' on page 11 undefined on input line 37.
+
+
+<img/procedure.png, id=216, 436.7517pt x 772.3254pt>
 File: img/procedure.png Graphic file (type png)
-
-<use img/procedure.png>
+ <use img/procedure.png>
 Package pdftex.def Info: img/procedure.png used on input line 47.
 (pdftex.def)             Requested size: 284.3384pt x 502.80428pt.
 
 
+LaTeX Warning: Reference `benefit' on page 11 undefined on input line 56.
+
+
+LaTeX Warning: Reference `effectiveness' on page 11 undefined on input line 56.
+
+
+
+LaTeX Warning: Reference `efficiency' on page 11 undefined on input line 56.
+
+
+LaTeX Warning: Reference `perception' on page 11 undefined on input line 56.
+
+
+LaTeX Warning: Reference `usefulness' on page 11 undefined on input line 56.
+
+
+LaTeX Warning: Reference `ease' on page 11 undefined on input line 56.
+
+
+LaTeX Warning: Reference `benefit' on page 11 undefined on input line 59.
+
+
+LaTeX Warning: Reference `effectiveness' on page 11 undefined on input line 59.
+
+
+
+LaTeX Warning: Reference `benefit' on page 11 undefined on input line 61.
+
+
+LaTeX Warning: Reference `efficiency' on page 11 undefined on input line 61.
+
+
+LaTeX Warning: Reference `perception' on page 11 undefined on input line 63.
+
+
+LaTeX Warning: Reference `usefulness' on page 11 undefined on input line 63.
+
+
+LaTeX Warning: Reference `perception' on page 11 undefined on input line 65.
+
+
+LaTeX Warning: Reference `ease' on page 11 undefined on input line 65.
+
+
 LaTeX Warning: Citation `irt' undefined on input line 69.
 
-) [21] [22 <./img/procedure.png>]
+) [11] [12 <./img/procedure.png>]
 \openout2 = `ResearchProposal/planning.aux'.
 
  (./ResearchProposal/planning.tex
+
+LaTeX Warning: Reference `tab:planning' on page 13 undefined on input line 7.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
 []|\OT1/cmr/m/n/10 Adapted Tech-nol-ogy Ac-cep-tance
  []
 
-) [23
+) [13
 
 
 
-] [24]) (./MainFile2.bbl)
+] [14])
 
-Package bibtopic Warning: Please (re)run BibTeX on the file(s):
-(bibtopic)                MainFile1
-(bibtopic)                MainFile2
-(bibtopic)                and after that rerun LaTeX.
+Package bibtopic Warning: Ignoring `\bibliography' command
+(bibtopic)                (not compatible with bibtopic.sty) on input line 107.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
-(./MainFile.aux (./Design/introduction.aux) (./Design/idea.aux)
-(./Design/concepts.aux) (./Design/computer.aux) (./Design/guidelines.aux)
-(./Design/summary.aux) (./ResearchProposal/summary.aux)
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+(./researchproposal.aux (./ResearchProposal/summary.aux)
 (./ResearchProposal/projectdescription.aux)
 (./ResearchProposal/researchdesignmethods.aux) (./ResearchProposal/planning.aux
 ))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
-Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 8B9139F1664BCB07FE18C71413FDD9A6;2424.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 
+
+Package rerunfilecheck Warning: File `researchproposal.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `researchproposal.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  248BC466183946AC82EC69FE3D81CB22;1103.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 11296 strings out of 493304
- 165720 string characters out of 6139871
- 286195 words of memory out of 5000000
- 14372 multiletter control sequences out of 15000+600000
- 14506 words of font info for 50 fonts, out of 8000000 for 9000
+ 11076 strings out of 493304
+ 162697 string characters out of 6139871
+ 280514 words of memory out of 5000000
+ 14266 multiletter control sequences out of 15000+600000
+ 10869 words of font info for 38 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,12n,43p,2246b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,43p,2258b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.irt} has been referenced but does not exist,
  replaced by a fixed one
 
@@ -1411,6 +1284,9 @@ pdfTeX warning (dest): name{cite.moore} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{cite.tzeng} has been referenced but does not exist,
  replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.eppler} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.xue} has been referenced but does not exist, r
 eplaced by a fixed one
@@ -1490,9 +1366,6 @@ ist, replaced by a fixed one
 pdfTeX warning (dest): name{cite.bloom} has been referenced but does not exist,
  replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.eppler} has been referenced but does not exist
-, replaced by a fixed one
-
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
@@ -1501,19 +1374,18 @@ fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts
 /public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfbx1000.pfb>
-Output written on MainFile.pdf (24 pages, 420137 bytes).
+mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1000.pfb>
+Output written on researchproposal.pdf (14 pages, 390473 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 116 named destinations out of 1000 (max. 500000)
- 338 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

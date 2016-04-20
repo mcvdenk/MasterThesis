@@ -1,18 +1,12 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: MainFile.aux
+The top-level auxiliary file: researchproposal.aux
 The style file: apacite.bst
-A level-1 auxiliary file: Design/introduction.aux
-A level-1 auxiliary file: Design/idea.aux
-A level-1 auxiliary file: Design/concepts.aux
-A level-1 auxiliary file: Design/computer.aux
-A level-1 auxiliary file: Design/guidelines.aux
-A level-1 auxiliary file: Design/summary.aux
 A level-1 auxiliary file: ResearchProposal/summary.aux
 A level-1 auxiliary file: ResearchProposal/projectdescription.aux
 A level-1 auxiliary file: ResearchProposal/researchdesignmethods.aux
 A level-1 auxiliary file: ResearchProposal/planning.aux
-I found no \bibdata command---while reading file MainFile.aux
+I found no \bibdata command---while reading file researchproposal.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -22,7 +16,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--I didn't find a database entry for "eppler"
 Warning--I didn't find a database entry for "bloom"
 Warning--I didn't find a database entry for "krathwohl"
 Warning--I didn't find a database entry for "skillacquisition"
@@ -49,6 +42,7 @@ Warning--I didn't find a database entry for "verkoeijen"
 Warning--I didn't find a database entry for "logan"
 Warning--I didn't find a database entry for "siegel"
 Warning--I didn't find a database entry for "xue"
+Warning--I didn't find a database entry for "eppler"
 Warning--I didn't find a database entry for "tzeng"
 Warning--I didn't find a database entry for "moore"
 Warning--I didn't find a database entry for "tam"
@@ -59,7 +53,7 @@ Warning--I didn't find a database entry for "irt"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 0 entries,
             6951 wiz_defined-function locations,
-            1311 strings with 11135 characters,
+            1305 strings with 11036 characters,
 and the built_in function-call counts, 43 in all, are:
 = -- 0
 > -- 0
