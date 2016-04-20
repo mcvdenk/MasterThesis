@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  20 APR 2016 11:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  20 APR 2016 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,7 +1156,7 @@ LaTeX Warning: Reference `benefits' on page 18 undefined on input line 104.
 
 LaTeX Warning: Citation `tam' undefined on input line 108.
 
-<img/tam.png, id=452, 666.99188pt x 189.70876pt>
+<img/tam.png, id=446, 666.99188pt x 189.70876pt>
 File: img/tam.png Graphic file (type png)
  <use img/tam.png>
 Package pdftex.def Info: img/tam.png used on input line 112.
@@ -1230,7 +1230,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
 Here is how much of TeX's memory you used:
  10806 strings out of 493304
  158577 string characters out of 6139871
- 281378 words of memory out of 5000000
+ 281380 words of memory out of 5000000
  13894 multiletter control sequences out of 15000+600000
  14166 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1355,7 +1355,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on MainFile.pdf (24 pages, 404330 bytes).
+Output written on MainFile.pdf (24 pages, 404865 bytes).
 PDF statistics:
  612 PDF objects out of 1000 (max. 8388607)
  554 compressed objects within 6 object streams

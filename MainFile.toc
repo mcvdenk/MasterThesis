@@ -29,8 +29,8 @@
 \contentsline {section}{Theoretical Conceptual Framework}{17}{section*.30}
 \contentsline {subsection}{Flashcards systems}{17}{section*.31}
 \contentsline {subsection}{Concept maps}{17}{section*.32}
-\contentsline {subsection}{Flashmaps}{17}{section*.33}
-\contentsline {section}{Research Question and Model}{18}{section*.35}
+\contentsline {subsection}{Flashmaps}{18}{section*.33}
+\contentsline {section}{Research Question and Model}{19}{section*.35}
 \contentsline {section}{Scientific and Practical Relevance}{19}{section*.37}
 \contentsline {chapter}{Research Design and Methods}{20}{chapter*.38}
 \contentsline {section}{Research design}{20}{section*.39}
