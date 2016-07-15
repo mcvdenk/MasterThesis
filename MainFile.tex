@@ -29,7 +29,7 @@
 \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
 \usepackage{pdfpages}
 \usepackage{hyperref}
-\usepackage{bibtopic}
+%\usepackage{bibtopic}
 \usepackage{wrapfig}
 \usepackage{titling}
 \usepackage{michatitle}
@@ -72,7 +72,7 @@
 
 %%% BIBLIOGRAPHY
 
-\usepackage[sectionbib]{apacite}                           %bibliography in apa-style
+\usepackage{apacite}                           %bibliography in apa-style
 
 %%% ToC (table of contents) APPEARANCE
 \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
@@ -103,16 +103,41 @@
 \thispagestyle{fancy}
 \bibliographystyle{apacite}
 
-\part{Design}
-\begin{btSect}{references}
-\input{Design/design.tex}
-\btPrintCited
-\end{btSect}
+%\part{Research Proposal}
+%\input{./ResearchProposal/researchproposal.tex}
+%\bibliography{references}
 
-\part{Research Proposal}
-\begin{btSect}{references}
-\input{ResearchProposal/researchproposal.tex}
-\btPrintCited
-\end{btSect}
+\input{./preface/acknowledgements.tex} %TODO
+\input{./preface/preamble.tex} %TODO
+\input{./preface/abstract.tex} %TODO
+
+\part{Introduction}
+    \input{./introduction/problem.tex} %TODO
+    \input{./introduction/history.tex} %TODO
+    \input{./introduction/theory.tex} %TODO
+
+\part{Design}
+    \input{./design/scheduling.tex} %TODO
+    \input{./design/visualisation.tex} %TODO
+    \input{./design/software.tex} %TODO
+
+\part{Research}
+    \input{./research/aimsgoals.tex} %TODO
+    \input{./research/methods.tex} %TODO
+    \input{./research/results.tex} %TODO
+    \input{./research/discussion.tex} %TODO
+
+\part{Recommendations}
+    \input{./recommendations/features.tex} %TODO
+    \input{./recommendations/research.tex} %TODO
+    \input{./recommendations/implementation.tex} %TODO
+
+\chapter{Epilogue}
+
+\input{./epilogue/epilogue.tex}
+
+\part{Appendices}
+
+\bibliography{references}
 
 \end{document}

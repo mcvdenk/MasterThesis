@@ -1,43 +1,21 @@
-\contentsline {part}{I\hspace {1em}Design}{4}{part.1}
-\contentsline {chapter}{Introduction}{5}{chapter*.2}
-\contentsline {chapter}{General Idea}{6}{chapter*.3}
-\contentsline {chapter}{Conceptual Framework}{7}{chapter*.4}
-\contentsline {section}{Concept maps}{7}{section*.5}
-\contentsline {subsection}{Comparison to other visual mapping techniques}{7}{section*.6}
-\contentsline {subsection}{Novakian concept map}{7}{section*.8}
-\contentsline {subsection}{Conditions}{7}{section*.9}
-\contentsline {subsection}{Research}{7}{section*.10}
-\contentsline {paragraph}{Effectiveness}{7}{section*.11}
-\contentsline {paragraph}{Attitudes}{7}{section*.12}
-\contentsline {section}{Paired-Associate Learning}{7}{section*.13}
-\contentsline {subsection}{Testing Effect}{7}{section*.14}
-\contentsline {subsection}{Flashcards}{7}{section*.15}
-\contentsline {subsection}{Research}{7}{section*.16}
-\contentsline {paragraph}{Effectiveness}{7}{section*.17}
-\contentsline {paragraph}{Student attitudes}{7}{section*.18}
-\contentsline {subsection}{Criticism}{7}{section*.19}
-\contentsline {chapter}{Design Choices}{9}{chapter*.20}
-\contentsline {section}{Display}{9}{section*.21}
-\contentsline {subsection}{Visual mapping technique}{9}{section*.22}
-\contentsline {section}{Paired-Associate Learning}{9}{section*.23}
-\contentsline {chapter}{Design Guidelines}{10}{chapter*.24}
-\contentsline {chapter}{Summary}{11}{chapter*.25}
-\contentsline {part}{II\hspace {1em}Research Proposal}{12}{part.2}
-\contentsline {chapter}{Summary}{13}{chapter*.26}
-\contentsline {chapter}{Project Description}{14}{chapter*.27}
-\contentsline {section}{Problem Statement}{14}{section*.28}
-\contentsline {section}{Theoretical Conceptual Framework}{16}{section*.30}
-\contentsline {subsection}{Flashcards systems}{16}{section*.31}
-\contentsline {subsection}{Concept maps}{17}{section*.32}
-\contentsline {subsection}{Flashmaps}{17}{section*.33}
-\contentsline {section}{Research Question and Model}{18}{section*.35}
-\contentsline {section}{Scientific and Practical Relevance}{19}{section*.37}
-\contentsline {chapter}{Research Design and Methods}{20}{chapter*.38}
-\contentsline {section}{Research design}{20}{section*.39}
-\contentsline {section}{Respondents}{20}{section*.40}
-\contentsline {section}{Instrumentation}{20}{section*.41}
-\contentsline {section}{Procedure}{21}{section*.42}
-\contentsline {section}{Data Analysis}{21}{section*.44}
-\contentsline {chapter}{Planning}{23}{chapter*.45}
-\contentsline {section}{Timeline}{23}{section*.46}
-\contentsline {section}{Outputs}{23}{section*.48}
+\contentsline {part}{I\hspace {1em}Design}{3}{part.1}
+\contentsline {part}{II\hspace {1em}Research Proposal}{4}{part.2}
+\contentsline {chapter}{Summary}{5}{chapter*.2}
+\contentsline {chapter}{Project Description}{6}{chapter*.3}
+\contentsline {section}{Problem Statement}{6}{section*.4}
+\contentsline {section}{Theoretical Conceptual Framework}{8}{section*.6}
+\contentsline {subsection}{Flashcards systems}{8}{section*.7}
+\contentsline {subsection}{Concept maps}{9}{section*.8}
+\contentsline {subsection}{Flashmaps}{9}{section*.9}
+\contentsline {section}{Research Question and Model}{10}{section*.11}
+\contentsline {section}{Scientific and Practical Relevance}{11}{section*.13}
+\contentsline {chapter}{Research Design and Methods}{12}{chapter*.14}
+\contentsline {section}{Research design}{12}{section*.15}
+\contentsline {section}{Respondents}{12}{section*.16}
+\contentsline {section}{Instrumentation}{12}{section*.17}
+\contentsline {section}{Procedure}{13}{section*.18}
+\contentsline {section}{Data Analysis}{13}{section*.20}
+\contentsline {chapter}{Planning}{15}{chapter*.21}
+\contentsline {section}{Timeline}{15}{section*.22}
+\contentsline {section}{Outputs}{15}{section*.24}
+\contentsline {chapter}{References}{17}{chapter*.25}

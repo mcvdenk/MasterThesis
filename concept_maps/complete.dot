@@ -1,0 +1,111 @@
+digraph G {
+    rankdir = LR
+    ranksep = 2
+    node[shape = box, width = 3]
+
+    relevance
+    complex_tasks
+    #1.9.2.1
+    socrates
+    onderwijs_2032
+    krathwohl
+
+    memory_tasks
+
+    flashcards
+    repetition
+    massed_items
+    spaced_items
+    absolute_spacing
+    relative_spacing
+    primacy_effect
+    recency_effect
+    zero_sum_game
+    spacing_effect
+    long_term_potentiation
+    power_law_learning
+    power_law_forgetting
+    review_schedule
+    traditional_schedule
+    interspersal_schedule
+    high_p_schedule
+    active_retrieval
+
+    block_size
+
+    own_flashcards
+    provided_flashcards
+
+    software
+    paper
+
+    overlearning
+
+    testing_effect
+
+    spaced_based_repetition
+    progressive
+    pimsleur_system
+    responsive
+    leitner_system
+    adaptive
+    supermemo
+    cap_system
+    irt
+    elo_rating_system
+    probabilistic
+    adjustment_per_bucket
+    adjustment_per_user
+    adjustment_per_user_group
+    age
+    country
+    context
+    adjustment_per_item
+
+    feedback
+    number_of_items_left
+    response_history
+    estimated_chance
+    estimated_number_of_items
+
+    practical_research
+
+    gamification
+
+
+    concept_map
+    knowledge_assembly_theory
+    conditions
+    map_shock
+    progressive_differentiation
+    active_encoding
+
+    assessment
+    
+    visualisation_tools
+    alternative_visual_mapping
+
+    practical_research
+
+
+    flashmap
+    
+    tutorial
+    size_of_map
+
+    results
+
+
+    technology_acceptance_model
+    perceived_usefulness
+    perceived_ease_of_use
+    learning_gain
+
+    PQ4R
+        Preview
+        Quesions
+        Read
+        Reflect
+        Recite
+        Review
+}

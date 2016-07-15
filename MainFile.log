@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  20 APR 2016 23:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  29 JUN 2016 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -536,19 +536,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip57
 )
-(/usr/share/texlive/texmf-dist/tex/latex/bibtopic/bibtopic.sty
-Package: bibtopic 2006/09/08 v1.1a Sectioned Bibliographies
-\c@btauxfile=\count118
-\bt@infilea=\read2
-\bt@infileb=\read3
-\bt@outfile=\write3
-\bt@tempboxa=\box28
-)
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen142
 \WF@size=\dimen143
-\c@WF@wrappedlines=\count119
-\WF@box=\box29
+\c@WF@wrappedlines=\count118
+\WF@box=\box28
 \WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
 )
@@ -567,15 +559,15 @@ Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count120
+\et@xins=\count119
 )
-\etb@tempcnta=\count121
+\etb@tempcnta=\count120
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write4
-\integerpart=\count122
-\decimalpart=\count123
+\@xs@message=\write3
+\integerpart=\count121
+\decimalpart=\count122
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
@@ -584,7 +576,7 @@ Package: gitexinfo 2015/11/22 v2.0.7 Auxiliary package for gitinfo2
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box30
+\@eurobox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -758,7 +750,7 @@ les
 )
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count124
+\c@BibCnt=\count123
 \bibleftmargin=\skip70
 \bibindent=\skip71
 \bibparsep=\skip72
@@ -808,12 +800,7 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforesubtabskip=\skip112
 \cftsubtabindent=\skip113
 \cftsubtabnumwidth=\skip114
-) (./MainFile.aux
-(./Design/introduction.aux) (./Design/idea.aux) (./Design/concepts.aux)
-(./Design/computer.aux) (./Design/guidelines.aux) (./Design/summary.aux)
-(./ResearchProposal/summary.aux) (./ResearchProposal/projectdescription.aux)
-(./ResearchProposal/researchdesignmethods.aux) (./ResearchProposal/planning.aux
-))
+) (./MainFile.aux)
 \openout1 = `MainFile.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -832,7 +819,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 94.
@@ -873,16 +861,16 @@ LaTeX Font Info:    ... okay on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count124
 \scratchdimen=\dimen144
-\scratchbox=\box31
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\scratchbox=\box30
+\nofMPsegments=\count125
+\nofMParguments=\count126
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count128
+\MPscratchCnt=\count127
 \MPscratchDim=\dimen145
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -904,7 +892,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box32
+\AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -913,24 +901,24 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count131
+\c@section@level=\count130
 )
 LaTeX Info: Redefining \ref on input line 94.
 LaTeX Info: Redefining \pageref on input line 94.
 LaTeX Info: Redefining \nameref on input line 94.
 
 (./MainFile.out) (./MainFile.out)
-\@outlinefile=\write5
-\openout5 = `MainFile.out'.
+\@outlinefile=\write4
+\openout4 = `MainFile.out'.
 
-\c@maskedRefs=\count132
+\c@maskedRefs=\count131
 
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=160, 225.60284pt x 45.2892pt>
+<logo.png, id=88, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 101.
@@ -954,389 +942,51 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
+)
+\tf@toc=\write5
+\openout5 = `MainFile.toc'.
+
  [2
 
-])
-\tf@toc=\write6
-\openout6 = `MainFile.toc'.
+] [3
 
- [3] [4
+] [4
 
-]
-\openout3 = `btaux.aux'.
-
-\openout3 = `MainFile1.aux'.
-
- (./Design/design.tex
-\openout2 = `Design/introduction.aux'.
-
- (./Design/introduction.tex)
+] (./ResearchProposal/researchproposal.tex
+(./ResearchProposal/summary.tex) (./ResearchProposal/projectdescription.tex
 [5
 
-
-]
-\openout2 = `Design/idea.aux'.
-
- (./Design/idea.tex) [6
-
-
-
-]
-\openout2 = `Design/concepts.aux'.
-
- (./Design/concepts.tex
-
-LaTeX Warning: Citation `eppler' undefined on input line 7.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 9.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-[]|\OT1/cmr/m/n/10 Conceptual di-a-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]|\OT1/cmr/m/n/10 A top-down di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 a-gram show-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 the re-la-tion-ships
- []
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 be-tween con-cepts,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 in-clud-ing cross
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]|\OT1/cmr/m/n/10 A mul-ti-coloured
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 ra-dial di-a-gram
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 that rep-re-sents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 con-nec-tions be-
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 tween por-tions of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-\OT1/cmr/m/n/10 learned ma-te-rial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[]|\OT1/cmr/m/n/10 A sys-tem-atic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 de-pic-tion of an
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 ab-stract con-cept
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 e-gory boxes with
- []
-
-
-Underfull \hbox (badness 6252) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 spec-i-fied re-la-tion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-\OT1/cmr/m/n/10 ships, typ-i-cally
- []
-
-
-Underfull \hbox (badness 2486) in paragraph at lines 15--15
-[]|\OT1/cmr/m/n/10 Main func-tion or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]|\OT1/cmr/m/n/10 To show sys-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 tem-atic re-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 tion-ships among
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 15--15
-\OT1/cmr/m/n/10 ing to one main
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-[]|\OT1/cmr/m/n/10 To anal-yse a
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 topic or sit-u-a-tion
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 through a proven
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\OT1/cmr/m/n/10 Macro struc-ture
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 16--16
-[]|\OT1/cmr/m/n/10 Flexible, but al-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]|\OT1/cmr/m/n/10 Understandability
- []
-
-) [7
-
-
-
-] [8]
-\openout2 = `Design/computer.aux'.
-
- (./Design/computer.tex
-
-LaTeX Warning: Reference `sec:conc.vmtechs' on page 9 undefined on input line 7
-.
-
-
-LaTeX Warning: Reference `sec.conc.vmtechs' on page 9 undefined on input line 7
-.
-
-) [9
-
-
-
-]
-\openout2 = `Design/guidelines.aux'.
-
- (./Design/guidelines.tex) [10
-
-
-
-]
-\openout2 = `Design/summary.aux'.
-
- (./Design/summary.tex) [11
-
-
-
-])
-(./MainFile1.bbl) [12
-
-
-]
-\openout3 = `btaux.aux'.
-
-\openout3 = `MainFile2.aux'.
-
- (./ResearchProposal/researchproposal.tex
-\openout2 = `ResearchProposal/summary.aux'.
-
-
-(./ResearchProposal/summary.tex) [13
-
-
-]
-\openout2 = `ResearchProposal/projectdescription.aux'.
-
-
-(./ResearchProposal/projectdescription.tex
-
-LaTeX Warning: Citation `bloom' undefined on input line 15.
-
-
-LaTeX Warning: Citation `krathwohl' undefined on input line 15.
-
-
-LaTeX Warning: Citation `skillacquisition' undefined on input line 15.
-
-
-LaTeX Warning: Citation `glaserfield' undefined on input line 15.
-
-
-LaTeX Warning: Citation `ltwm' undefined on input line 15.
-
-
-LaTeX Warning: Citation `karpicke4' undefined on input line 15.
-
-
-LaTeX Warning: Citation `karpicke2' undefined on input line 17.
-
-
-LaTeX Warning: Citation `ruiz1' undefined on input line 17.
-
-
-LaTeX Warning: Citation `hwang2' undefined on input line 17.
-
-
-LaTeX Warning: Citation `subramaniam' undefined on input line 17.
-
-
-LaTeX Warning: Citation `canas' undefined on input line 17.
-
-
-LaTeX Warning: Citation `singh' undefined on input line 17.
-
-
-LaTeX Warning: Citation `nesbit2' undefined on input line 17.
-
-<img/conceptmap.png, id=315, 415.5525pt x 353.82187pt>
+] <img/conceptmap.png, id=174, 415.5525pt x 353.82187pt>
 File: img/conceptmap.png Graphic file (type png)
 
 <use img/conceptmap.png>
 Package pdftex.def Info: img/conceptmap.png used on input line 21.
 (pdftex.def)             Requested size: 418.25368pt x 356.13712pt.
+ [6
 
-
-LaTeX Warning: Citation `nakata' undefined on input line 26.
-
-
-LaTeX Warning: Citation `joseph' undefined on input line 26.
-
-
-LaTeX Warning: Citation `burgess' undefined on input line 26.
-
-
-LaTeX Warning: Citation `golding' undefined on input line 26.
-
-[14
-
-
-
-] [15 <./img/conceptmap.png>]
-
-LaTeX Warning: Citation `zirkle' undefined on input line 31.
-
-
-LaTeX Warning: Citation `mccullough' undefined on input line 31.
-
-
-LaTeX Warning: Citation `hulstijn' undefined on input line 31.
-
-
-LaTeX Warning: Citation `kornell' undefined on input line 36.
-
-
-LaTeX Warning: Citation `microlearning' undefined on input line 64.
-
-
-LaTeX Warning: Citation `verkoeijen' undefined on input line 66.
-
-
-LaTeX Warning: Citation `logan' undefined on input line 66.
-
-
-LaTeX Warning: Citation `siegel' undefined on input line 66.
-
-
-LaTeX Warning: Citation `xue' undefined on input line 66.
-
-[16]
-
-LaTeX Warning: Citation `eppler' undefined on input line 73.
-
-<img/flashmap.png, id=396, 633.11531pt x 271.76532pt>
+] [7 <./img/conceptmap.png>] [8]
+<img/flashmap.png, id=276, 633.11531pt x 271.76532pt>
 File: img/flashmap.png Graphic file (type png)
  <use img/flashmap.png>
 Package pdftex.def Info: img/flashmap.png used on input line 84.
 (pdftex.def)             Requested size: 418.25368pt x 179.53983pt.
 
-
-LaTeX Warning: Citation `tzeng' undefined on input line 89.
-
-
-LaTeX Warning: Citation `moore' undefined on input line 89.
-
-\c@researchquestion=\count133
-\c@subquestion=\count134
-
-LaTeX Warning: Reference `benefits' on page 17 undefined on input line 100.
+[9]
+\c@researchquestion=\count132
+\c@subquestion=\count133
 
 
-Underfull \vbox (badness 5022) has occurred while \output is active []
+LaTeX Warning: Reference `benefits' on page 10 undefined on input line 100.
 
- [17]
-
-LaTeX Warning: Citation `tam' undefined on input line 104.
-
-<img/tam.png, id=421, 666.99188pt x 189.70876pt>
+<img/tam.png, id=305, 666.99188pt x 189.70876pt>
 File: img/tam.png Graphic file (type png)
  <use img/tam.png>
 Package pdftex.def Info: img/tam.png used on input line 110.
 (pdftex.def)             Requested size: 418.25368pt x 118.96425pt.
+ [10 <./img/flashmap.png>]) (./ResearchProposal/researchdesignmethods.tex [11 <
+./img/tam.png>] [12
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./img/flashmap.png>]) [19 <./img/tam.png>]
-\openout2 = `ResearchProposal/researchdesignmethods.aux'.
-
-
-(./ResearchProposal/researchdesignmethods.tex
-
-LaTeX Warning: Citation `mixedmethods' undefined on input line 11.
-
-
-LaTeX Warning: Citation `tamq' undefined on input line 27.
-
-
-LaTeX Warning: Citation `baarda' undefined on input line 29.
-
-[20
-
-
-
-] <img/procedure.png, id=474, 436.7517pt x 772.3254pt>
+] <img/procedure.png, id=359, 436.7517pt x 772.3254pt>
 File: img/procedure.png Graphic file (type png)
 
 <use img/procedure.png>
@@ -1346,152 +996,40 @@ Package pdftex.def Info: img/procedure.png used on input line 47.
 
 LaTeX Warning: Citation `irt' undefined on input line 69.
 
-) [21] [22 <./img/procedure.png>]
-\openout2 = `ResearchProposal/planning.aux'.
-
- (./ResearchProposal/planning.tex
+) (./ResearchProposal/planning.tex [13] [14 <./img/procedure.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
 []|\OT1/cmr/m/n/10 Adapted Tech-nol-ogy Ac-cep-tance
  []
 
-) [23
+)) (./MainFile.bbl [15
 
+] [16] [17
 
-
-] [24]) (./MainFile2.bbl)
-
-Package bibtopic Warning: Please (re)run BibTeX on the file(s):
-(bibtopic)                MainFile1
-(bibtopic)                MainFile2
-(bibtopic)                and after that rerun LaTeX.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
-(./MainFile.aux (./Design/introduction.aux) (./Design/idea.aux)
-(./Design/concepts.aux) (./Design/computer.aux) (./Design/guidelines.aux)
-(./Design/summary.aux) (./ResearchProposal/summary.aux)
-(./ResearchProposal/projectdescription.aux)
-(./ResearchProposal/researchdesignmethods.aux) (./ResearchProposal/planning.aux
-))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+ [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+ (./MainFile.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 8B9139F1664BCB07FE18C71413FDD9A6;2424.
+(rerunfilecheck)             Checksum: 5E1DE268DEB288EF31137DBEB4106F40;1277.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 11296 strings out of 493304
- 165720 string characters out of 6139871
- 286195 words of memory out of 5000000
- 14372 multiletter control sequences out of 15000+600000
- 14506 words of font info for 50 fonts, out of 8000000 for 9000
+ 10933 strings out of 493304
+ 160410 string characters out of 6139871
+ 276912 words of memory out of 5000000
+ 14109 multiletter control sequences out of 15000+600000
+ 13907 words of font info for 48 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,12n,43p,2246b,587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,2248b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{cite.irt} has been referenced but does not exist,
  replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.baarda} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.tamq} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.mixedmethods} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.tam} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{cite.moore} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.tzeng} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.xue} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{cite.siegel} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.logan} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.verkoeijen} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.microlearning} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.kornell} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.hulstijn} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.mccullough} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.zirkle} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.golding} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.burgess} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.joseph} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.nakata} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.nesbit2} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.singh} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.canas} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.subramaniam} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.hwang2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.ruiz1} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.karpicke2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.karpicke4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.ltwm} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.glaserfield} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.skillacquisition} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.krathwohl} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.bloom} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.eppler} has been referenced but does not exist
-, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
@@ -1501,19 +1039,18 @@ fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts
 /public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfbx1000.pfb>
-Output written on MainFile.pdf (24 pages, 420137 bytes).
+mr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1000.pfb>
+Output written on MainFile.pdf (18 pages, 422431 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 116 named destinations out of 1000 (max. 500000)
- 338 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 437 compressed objects within 5 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

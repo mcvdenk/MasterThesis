@@ -1,3 +1,928 @@
 \begin{thebibliography}{}
 
+\bibitem [\protect \citeauthoryear {%
+Anderson%
+}{%
+Anderson%
+}{%
+{\protect \APACyear {1982}}%
+}]{%
+skillacquisition}
+\APACinsertmetastar {%
+skillacquisition}%
+\begin{APACrefauthors}%
+Anderson, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Acquisition of cognitive skill} {Acquisition of
+  cognitive skill}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Review}{89}{4}{369--406}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0033-295X.89.4.369} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Baarda%
+, de Goede%
+\BCBL {}\ \BBA {} Teunissen%
+}{%
+Baarda%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+baarda}
+\APACinsertmetastar {%
+baarda}%
+\begin{APACrefauthors}%
+Baarda, D.%
+, de Goede, M.%
+\BCBL {}\ \BBA {} Teunissen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {Basisboek kwalitatief onderzoek: handleiding voor het opzetten
+  en uitvoeren van kwalitatief onderzoek} {Basisboek kwalitatief onderzoek:
+  handleiding voor het opzetten en uitvoeren van kwalitatief onderzoek}.
+\newblock
+\APACaddressPublisher{Groningen/Houten}{Noordhoff Uitgevers}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bloom%
+, Engelhart%
+, Furst%
+, Hill%
+\BCBL {}\ \BBA {} Krathwohl%
+}{%
+Bloom%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1956}}%
+}]{%
+bloom}
+\APACinsertmetastar {%
+bloom}%
+\begin{APACrefauthors}%
+Bloom, B.%
+, Engelhart, M.%
+, Furst, E.%
+, Hill, W.%
+\BCBL {}\ \BBA {} Krathwohl, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1956}.
+\newblock
+\APACrefbtitle {Taxonomy of educational objectives: The classification of
+  educational goals. Handbook I: Cognitive domain.} {Taxonomy of educational
+  objectives: The classification of educational goals. handbook i: Cognitive
+  domain.}
+\newblock
+\APACaddressPublisher{New York}{David McKay Company}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Burgess%
+\ \BBA {} Murray%
+}{%
+Burgess%
+\ \BBA {} Murray%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+burgess}
+\APACinsertmetastar {%
+burgess}%
+\begin{APACrefauthors}%
+Burgess, S.%
+\BCBT {}\ \BBA {} Murray, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Use of traditional and smartphone app flashcards in an
+  introductory psychology class} {Use of traditional and smartphone app
+  flashcards in an introductory psychology class}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Instructional Pedagogies}{13}{}{1--7}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Canas%
+\ \BBA {} Novak%
+}{%
+Canas%
+\ \BBA {} Novak%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+canas}
+\APACinsertmetastar {%
+canas}%
+\begin{APACrefauthors}%
+Canas, A.%
+\BCBT {}\ \BBA {} Novak, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {Freedom vs restriction of content and structure during concept
+  mapping: possibilities and limitations for construction and assessment.}
+  {Freedom vs restriction of content and structure during concept mapping:
+  possibilities and limitations for construction and assessment.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Davis%
+}{%
+Davis%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+tamq}
+\APACinsertmetastar {%
+tamq}%
+\begin{APACrefauthors}%
+Davis, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Perceived Usefulness, Perceived Ease of Use, and User
+  Acceptance of Information Technology} {Perceived usefulness, perceived ease
+  of use, and user acceptance of information technology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{MIS Quarterly}{13}{3}{319--340}.
+\newblock
+\begin{APACrefDOI} \doi{10.2307/249008} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Davis%
+, Bagozzi%
+\BCBL {}\ \BBA {} Warshaw%
+}{%
+Davis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1989}}%
+}]{%
+tam}
+\APACinsertmetastar {%
+tam}%
+\begin{APACrefauthors}%
+Davis, F.%
+, Bagozzi, R.%
+\BCBL {}\ \BBA {} Warshaw, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {User Acceptance of Computer Technology: A Comparison of
+  Two Theoretical Models} {User acceptance of computer technology: A comparison
+  of two theoretical models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Management Science}{35}{8}{982--1003}.
+\newblock
+\begin{APACrefDOI} \doi{10.1287/mnsc.35.8.982} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Edge%
+, Fitchett%
+, Whitney%
+\BCBL {}\ \BBA {} Landay%
+}{%
+Edge%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+microlearning}
+\APACinsertmetastar {%
+microlearning}%
+\begin{APACrefauthors}%
+Edge, D.%
+, Fitchett, S.%
+, Whitney, M.%
+\BCBL {}\ \BBA {} Landay, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {MemReflex: Adaptive Flashcards for Mobile Microlearning.}
+  {Memreflex: Adaptive flashcards for mobile microlearning.}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/2371574.2371641} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Eppler%
+}{%
+Eppler%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+eppler}
+\APACinsertmetastar {%
+eppler}%
+\begin{APACrefauthors}%
+Eppler, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A comparison between concept maps, mind maps, conceptual
+  diagrams, and visual metaphors as complementary tools for knowledge
+  construction and sharing} {A comparison between concept maps, mind maps,
+  conceptual diagrams, and visual metaphors as complementary tools for
+  knowledge construction and sharing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Visualization}{5}{}{202--210}.
+\newblock
+\begin{APACrefDOI} \doi{10.1057/palgrave.ivs.9500131} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ericsson%
+\ \BBA {} Kintsch%
+}{%
+Ericsson%
+\ \BBA {} Kintsch%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+ltwm}
+\APACinsertmetastar {%
+ltwm}%
+\begin{APACrefauthors}%
+Ericsson, K.%
+\BCBT {}\ \BBA {} Kintsch, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Long-Term Working Memory} {Long-term working
+  memory}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Review}{102}{2}{211--245}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0033-295X.102.2.211} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Golding%
+, Wasarhaley%
+\BCBL {}\ \BBA {} Fletcher%
+}{%
+Golding%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+golding}
+\APACinsertmetastar {%
+golding}%
+\begin{APACrefauthors}%
+Golding, J.%
+, Wasarhaley, N.%
+\BCBL {}\ \BBA {} Fletcher, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Use of Flashcards in an Introduction to Psychology
+  Class} {The use of flashcards in an introduction to psychology class}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Teaching of Psychology}{39}{3}{199--202}.
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0098628312450436} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hulstijn%
+}{%
+Hulstijn%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+hulstijn}
+\APACinsertmetastar {%
+hulstijn}%
+\begin{APACrefauthors}%
+Hulstijn, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+\APACrefbtitle {Intentional and incidental second-language vocabulary learning:
+  A reappraisal of elaboration, rehearsal and automaticity.} {Intentional and
+  incidental second-language vocabulary learning: A reappraisal of elaboration,
+  rehearsal and automaticity.}
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hwang%
+, Wu%
+\BCBL {}\ \BBA {} Ke%
+}{%
+Hwang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+hwang2}
+\APACinsertmetastar {%
+hwang2}%
+\begin{APACrefauthors}%
+Hwang, G.%
+, Wu, P.%
+\BCBL {}\ \BBA {} Ke, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An interactive concept map approach to supporting mobile
+  learning activities for natural science courses} {An interactive concept map
+  approach to supporting mobile learning activities for natural science
+  courses}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers and Education}{57}{}{2272--2280}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.compedu.2011.06.011} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+iMcCullough%
+}{%
+iMcCullough%
+}{%
+{\protect \APACyear {1955}}%
+}]{%
+mccullough}
+\APACinsertmetastar {%
+mccullough}%
+\begin{APACrefauthors}%
+iMcCullough, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1955}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Flash cards - The opiate of the reading program?} {Flash
+  cards - the opiate of the reading program?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Elementary English}{32}{6}{39--381}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Joseph%
+, Eveleigh%
+, Konrad%
+, Neef%
+\BCBL {}\ \BBA {} Volpe%
+}{%
+Joseph%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+joseph}
+\APACinsertmetastar {%
+joseph}%
+\begin{APACrefauthors}%
+Joseph, L.%
+, Eveleigh, E.%
+, Konrad, M.%
+, Neef, N.%
+\BCBL {}\ \BBA {} Volpe, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparison of the Efficiency of Two Flashcard Drill
+  Methods on Children's Reading Performance} {Comparison of the efficiency of
+  two flashcard drill methods on children's reading performance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Applied School Psychology}{28}{4}{317--337}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/15377903.2012.669742} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Karpicke%
+}{%
+Karpicke%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+karpicke4}
+\APACinsertmetastar {%
+karpicke4}%
+\begin{APACrefauthors}%
+Karpicke, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Retrieval-Based Learning: Active Retrieval Promotes
+  Meaningful Learning} {Retrieval-based learning: Active retrieval promotes
+  meaningful learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Directions in Psychological
+  Science}{21}{3}{157--163}.
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0963721412443552} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Karpicke%
+\ \BBA {} Blunt%
+}{%
+Karpicke%
+\ \BBA {} Blunt%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+karpicke2}
+\APACinsertmetastar {%
+karpicke2}%
+\begin{APACrefauthors}%
+Karpicke, J.%
+\BCBT {}\ \BBA {} Blunt, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Retrieval Practice Produces More Learning than
+  Elaborative Studying with Concept Mapping} {Retrieval practice produces more
+  learning than elaborative studying with concept mapping}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{331}{}{772--775}.
+\newblock
+\begin{APACrefDOI} \doi{10.1126/science.1199327} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kornell%
+\ \BBA {} Bjork%
+}{%
+Kornell%
+\ \BBA {} Bjork%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+kornell}
+\APACinsertmetastar {%
+kornell}%
+\begin{APACrefauthors}%
+Kornell, N.%
+\BCBT {}\ \BBA {} Bjork, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimising self-regulated study: The benefits - and
+  costs - of dropping flashcards} {Optimising self-regulated study: The
+  benefits - and costs - of dropping flashcards}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Memory}{16}{2}{125--136}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Krathwohl%
+}{%
+Krathwohl%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+krathwohl}
+\APACinsertmetastar {%
+krathwohl}%
+\begin{APACrefauthors}%
+Krathwohl, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A revision of Bloom's Taxonomy: an overview} {A revision
+  of bloom's taxonomy: an overview}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Theory into practice}{41}{4}{212--264}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Logan%
+, Castel%
+, Haber%
+\BCBL {}\ \BBA {} Viehman%
+}{%
+Logan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+logan}
+\APACinsertmetastar {%
+logan}%
+\begin{APACrefauthors}%
+Logan, J.%
+, Castel, A.%
+, Haber, S.%
+\BCBL {}\ \BBA {} Viehman, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Metacognition and the spacing effect: the role of
+  repetition, feedback, and instruction on judgments of learning for massed and
+  spaced rehearsal} {Metacognition and the spacing effect: the role of
+  repetition, feedback, and instruction on judgments of learning for massed and
+  spaced rehearsal}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Metacognition Learning}{7}{}{175--195}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11409-012-9090-3} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Moore%
+, North%
+, Johri%
+\BCBL {}\ \BBA {} Paretti%
+}{%
+Moore%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+moore}
+\APACinsertmetastar {%
+moore}%
+\begin{APACrefauthors}%
+Moore, J.%
+, North, C.%
+, Johri, A.%
+\BCBL {}\ \BBA {} Paretti, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effectiveness of Adaptive Concept Maps for Promoting
+  Conceptual Understanding: Findings from a Design-Based Case Study of a
+  Learner-Centered Tool} {Effectiveness of adaptive concept maps for promoting
+  conceptual understanding: Findings from a design-based case study of a
+  learner-centered tool}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in Engineering Education}{4}{4}{1--35}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nakata%
+}{%
+Nakata%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+nakata}
+\APACinsertmetastar {%
+nakata}%
+\begin{APACrefauthors}%
+Nakata, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Computer-assisted second language vocabulary learning in
+  a paired-associate paradigm: a critical investigation of flashcard software}
+  {Computer-assisted second language vocabulary learning in a paired-associate
+  paradigm: a critical investigation of flashcard software}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Assisted Language Learning}{24}{1}{17--38}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/09588221.2010.520675} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nesbit%
+\ \BBA {} Adesope%
+}{%
+Nesbit%
+\ \BBA {} Adesope%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+nesbit2}
+\APACinsertmetastar {%
+nesbit2}%
+\begin{APACrefauthors}%
+Nesbit, J.%
+\BCBT {}\ \BBA {} Adesope, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Learning With Concept and Knowledge Maps: A
+  Meta-Analysis} {Learning with concept and knowledge maps: A
+  meta-analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Review of Educational Research}{76}{3}{413--448}.
+\newblock
+\begin{APACrefDOI} \doi{10.3102/00346543076003413} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ruiz-Primo%
+\ \BBA {} Shavelson%
+}{%
+Ruiz-Primo%
+\ \BBA {} Shavelson%
+}{%
+{\protect \APACyear {1996}}%
+}]{%
+ruiz1}
+\APACinsertmetastar {%
+ruiz1}%
+\begin{APACrefauthors}%
+Ruiz-Primo, M.%
+\BCBT {}\ \BBA {} Shavelson, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Problems and Issues in the Use of Concept Maps in
+  Science Assessment} {Problems and issues in the use of concept maps in
+  science assessment}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Research in Science
+  Teaching}{33}{6}{569--600}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schoonenboom%
+}{%
+Schoonenboom%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+mixedmethods}
+\APACinsertmetastar {%
+mixedmethods}%
+\begin{APACrefauthors}%
+Schoonenboom, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Points of addition and points of integration: Why oine
+  point of interface is not enough} {Points of addition and points of
+  integration: Why oine point of interface is not enough}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{}{}{1--13}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Siegel%
+\ \BBA {} Kahana%
+}{%
+Siegel%
+\ \BBA {} Kahana%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+siegel}
+\APACinsertmetastar {%
+siegel}%
+\begin{APACrefauthors}%
+Siegel, L\BPBI L.%
+\BCBT {}\ \BBA {} Kahana, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Retrieved Context Account of Spacing and Repetition
+  Effects in Free Recall} {A retrieved context account of spacing and
+  repetition effects in free recall}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Experimental Psychology: Learning, Memory,
+  and Cognition}{40}{3}{755--764}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Singh%
+\ \BBA {} Moono%
+}{%
+Singh%
+\ \BBA {} Moono%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+singh}
+\APACinsertmetastar {%
+singh}%
+\begin{APACrefauthors}%
+Singh, I.%
+\BCBT {}\ \BBA {} Moono, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Effect of using Concept Maps on Student Achievement
+  in Selected Topics in Chemistry at Tertiary Level} {The effect of using
+  concept maps on student achievement in selected topics in chemistry at
+  tertiary level}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Education and Practice}{6}{15}{106--116}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Subramaniam%
+\ \BBA {} Esprivalo~Harrell%
+}{%
+Subramaniam%
+\ \BBA {} Esprivalo~Harrell%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+subramaniam}
+\APACinsertmetastar {%
+subramaniam}%
+\begin{APACrefauthors}%
+Subramaniam, K.%
+\BCBT {}\ \BBA {} Esprivalo~Harrell, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An analysis of Prospective Teachers' Knowledge for
+  constructing concept maps} {An analysis of prospective teachers' knowledge
+  for constructing concept maps}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Educational research}{57}{3}{217--236}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tzeng%
+}{%
+Tzeng%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+tzeng}
+\APACinsertmetastar {%
+tzeng}%
+\begin{APACrefauthors}%
+Tzeng, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Designs of concept maps and their impacts on readers'
+  perfomance in memory and reasoning while reading} {Designs of concept maps
+  and their impacts on readers' perfomance in memory and reasoning while
+  reading}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{JOurnal of Research in Reading}{33}{2}{128--147}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1467-9817.2009.01404.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Verkoeijen%
+\ \BBA {} Delaney%
+}{%
+Verkoeijen%
+\ \BBA {} Delaney%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+verkoeijen}
+\APACinsertmetastar {%
+verkoeijen}%
+\begin{APACrefauthors}%
+Verkoeijen, P.%
+\BCBT {}\ \BBA {} Delaney, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Rote rehearsal and spacing effects in the free recall of
+  pure and mixed lists} {Rote rehearsal and spacing effects in the free recall
+  of pure and mixed lists}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Memory and Language}{58}{}{35--47}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jml.2007.07.006} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+von Glaserfield%
+}{%
+von Glaserfield%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+glaserfield}
+\APACinsertmetastar {%
+glaserfield}%
+\begin{APACrefauthors}%
+von Glaserfield, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Radical constructivism and teaching} {Radical
+  constructivism and teaching}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Prospects}{31}{2}{161--173}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/BF03220058} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xue%
+\ \protect \BOthers {.}}{%
+Xue%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+xue}
+\APACinsertmetastar {%
+xue}%
+\begin{APACrefauthors}%
+Xue, G.%
+, Mei, L.%
+, Chen, C.%
+, Lu, Z\BHBI L.%
+, Poldrack, R.%
+\BCBL {}\ \BBA {} Dong, Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Spaced Learning Enhances Subsequent Recognition Memory
+  by Reducing Neural Repetition Suppression} {Spaced learning enhances
+  subsequent recognition memory by reducing neural repetition
+  suppression}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Cognitive Neuroscience}{23}{7}{1624--1633}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zirkle%
+\ \BBA {} Ellis%
+}{%
+Zirkle%
+\ \BBA {} Ellis%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+zirkle}
+\APACinsertmetastar {%
+zirkle}%
+\begin{APACrefauthors}%
+Zirkle, D.%
+\BCBT {}\ \BBA {} Ellis, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effects of Spaced Repteition on Long-Term Map Knowledge
+  Recall} {Effects of spaced repteition on long-term map knowledge
+  recall}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geography}{109}{5}{201--206}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/00221341.2010.504780} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
