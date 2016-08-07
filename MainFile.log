@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  4 AUG 2016 19:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  7 AUG 2016 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,30 +952,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [3
 
 ] (./introduction/problem.tex)
-(./introduction/context.tex
-Underfull \vbox (badness 6047) has occurred while \output is active []
+(./introduction/context.tex [4
 
- [4
-
-])
-(./introduction/theory.tex) [5] [6
-
-] (./design/scheduling.tex)
-(./design/visualisation.tex) (./design/software.tex) [7
+] [5]) (./introduction/theory.tex) [6] [7
 
 ]
-(./research/aimsgoals.tex) (./research/methods.tex) (./research/results.tex)
-(./research/discussion.tex) [8
+(./design/scheduling.tex) (./design/visualisation.tex) (./design/software.tex)
+[8
+
+] (./research/aimsgoals.tex) (./research/methods.tex) (./research/results.tex) 
+(./research/discussion.tex) [9
 
 ] (./recommendations/features.tex)
 (./recommendations/research.tex) (./recommendations/implementation.tex)
-(./epilogue/epilogue.tex) [9
+(./epilogue/epilogue.tex) [10
 
-] [10
+] [11
 
 ] (./MainFile.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
- [11
+ [12
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
@@ -983,17 +979,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 323ABB1F785A1F17801E7CC995C4FEDE;1080.
+(rerunfilecheck)             Checksum: 2CB501E460491400416DBBDCAEB99F34;1067.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 10753 strings out of 493304
- 158616 string characters out of 6139871
- 266094 words of memory out of 5000000
- 13947 multiletter control sequences out of 15000+600000
+ 10759 strings out of 493304
+ 158721 string characters out of 6139871
+ 267128 words of memory out of 5000000
+ 13951 multiletter control sequences out of 15000+600000
  12806 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,11n,43p,1018b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,12n,43p,1018b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1003,10 +999,10 @@ t/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb>
-Output written on MainFile.pdf (11 pages, 165414 bytes).
+Output written on MainFile.pdf (12 pages, 169197 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

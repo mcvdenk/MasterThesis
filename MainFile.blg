@@ -14,45 +14,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in educationalphilosophy2
-You've used 6 entries,
+You've used 7 entries,
             6951 wiz_defined-function locations,
-            1300 strings with 11537 characters,
-and the built_in function-call counts, 10160 in all, are:
-= -- 1256
-> -- 77
-< -- 468
-+ -- 452
-- -- 12
-* -- 629
-:= -- 1912
-add.period$ -- 25
-call.type$ -- 6
-change.case$ -- 102
+            1305 strings with 11612 characters,
+and the built_in function-call counts, 11330 in all, are:
+= -- 1406
+> -- 87
+< -- 497
++ -- 476
+- -- 14
+* -- 681
+:= -- 2081
+add.period$ -- 29
+call.type$ -- 7
+change.case$ -- 119
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 245
-empty$ -- 439
-format.name$ -- 122
-if$ -- 1967
+cite$ -- 15
+duplicate$ -- 279
+empty$ -- 509
+format.name$ -- 136
+if$ -- 2227
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 145
-num.names$ -- 48
-pop$ -- 249
+newline$ -- 167
+num.names$ -- 56
+pop$ -- 294
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 28
 quote$ -- 0
-skip$ -- 616
+skip$ -- 709
 stack$ -- 0
-substring$ -- 489
-swap$ -- 139
-text.length$ -- 12
+substring$ -- 518
+swap$ -- 156
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 480
+type$ -- 560
 warning$ -- 1
-while$ -- 41
+while$ -- 46
 width$ -- 0
-write$ -- 171
+write$ -- 195
 (There was 1 warning)

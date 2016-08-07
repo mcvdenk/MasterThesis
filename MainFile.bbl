@@ -98,6 +98,28 @@ Marsh, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Meno%
+}{%
+Meno%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+wisdomknowledge}
+\APACinsertmetastar {%
+wisdomknowledge}%
+\begin{APACrefauthors}%
+Meno, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {Stevenson, D.C.} {Stevenson, d.c.}
+\newblock
+\APACaddressPublisher{}{The Internet Classics Archive}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ozmon%
 \ \BBA {} Johnson%
 }{%
