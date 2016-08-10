@@ -147,6 +147,28 @@ Ozmon, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Renshaw%
+}{%
+Renshaw%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+searchgreeks}
+\APACinsertmetastar {%
+searchgreeks}%
+\begin{APACrefauthors}%
+Renshaw, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {In search of the Greeks} {In search of the greeks}.
+\newblock
+\APACaddressPublisher{}{A\&C Black}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Yilmaz%
 , Altinkurt%
 \BCBL {}\ \BBA {} Cokluk%
