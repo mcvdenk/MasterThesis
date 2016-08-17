@@ -169,6 +169,32 @@ Renshaw, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Stokes%
+}{%
+Stokes%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+honours}
+\APACinsertmetastar {%
+honours}%
+\begin{APACrefauthors}%
+Stokes, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\unskip\
+\newblock
+\APACrefbtitle {The Impact of the Factory Model of Education in Central Texas}
+  {The impact of the factory model of education in central texas}\
+  \APACtypeAddressSchool {\BUMTh}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Baylor University}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Yilmaz%
 , Altinkurt%
 \BCBL {}\ \BBA {} Cokluk%
