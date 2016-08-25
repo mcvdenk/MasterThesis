@@ -1,6 +1,29 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Anderson%
+}{%
+Anderson%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+cognitivepsychology}
+\APACinsertmetastar {%
+cognitivepsychology}%
+\begin{APACrefauthors}%
+Anderson, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Cognitive psychology and its implications} {Cognitive
+  psychology and its implications}\ (\PrintOrdinal{8}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Worth publishers}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Apps%
 }{%
 Apps%
@@ -21,6 +44,64 @@ Apps, J.%
   working philosophy of adult education}.
 \newblock
 \APACaddressPublisher{}{Publications in continuing education}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Atkinson%
+\ \BBA {} Shiffrin%
+}{%
+Atkinson%
+\ \BBA {} Shiffrin%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+modalmemory}
+\APACinsertmetastar {%
+modalmemory}%
+\begin{APACrefauthors}%
+Atkinson, R.%
+\BCBT {}\ \BBA {} Shiffrin, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1968}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Psychology of Learning and Motivation: Advances in
+  Research and Theory} {The psychology of learning and motivation: Advances in
+  research and theory}.{\BBCQ}
+\newblock
+\BIn{} K.~Spence\ (\BED), (\BPGS\ 89--195).
+\newblock
+\APACaddressPublisher{New York}{Academic Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bliss%
+\ \BBA {} Collingridge%
+}{%
+Bliss%
+\ \BBA {} Collingridge%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+longtermpotentiation}
+\APACinsertmetastar {%
+longtermpotentiation}%
+\begin{APACrefauthors}%
+Bliss, T.%
+\BCBT {}\ \BBA {} Collingridge, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A synaptic model of memory: long-term potentiation in
+  the hippocampus} {A synaptic model of memory: long-term potentiation in the
+  hippocampus}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature}{361}{}{31--39}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/361031a0} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -68,6 +149,96 @@ Howick, W\BPBI H.%
   education}.
 \newblock
 \APACaddressPublisher{}{Interstate Printers \& Publishers}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Karpicke%
+}{%
+Karpicke%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+karpicke4}
+\APACinsertmetastar {%
+karpicke4}%
+\begin{APACrefauthors}%
+Karpicke, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Retrieval-Based Learning: Active Retrieval Promotes
+  Meaningful Learning} {Retrieval-based learning: Active retrieval promotes
+  meaningful learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Directions in Psychological
+  Science}{21}{3}{157--163}.
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0963721412443552} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Karpicke%
+\ \BBA {} Blunt%
+}{%
+Karpicke%
+\ \BBA {} Blunt%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+karpicke2}
+\APACinsertmetastar {%
+karpicke2}%
+\begin{APACrefauthors}%
+Karpicke, J.%
+\BCBT {}\ \BBA {} Blunt, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Retrieval Practice Produces More Learning than
+  Elaborative Studying with Concept Mapping} {Retrieval practice produces more
+  learning than elaborative studying with concept mapping}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{331}{}{772--775}.
+\newblock
+\begin{APACrefDOI} \doi{10.1126/science.1199327} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Logan%
+, Castel%
+, Haber%
+\BCBL {}\ \BBA {} Viehman%
+}{%
+Logan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+logan}
+\APACinsertmetastar {%
+logan}%
+\begin{APACrefauthors}%
+Logan, J.%
+, Castel, A.%
+, Haber, S.%
+\BCBL {}\ \BBA {} Viehman, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Metacognition and the spacing effect: the role of
+  repetition, feedback, and instruction on judgments of learning for massed and
+  spaced rehearsal} {Metacognition and the spacing effect: the role of
+  repetition, feedback, and instruction on judgments of learning for massed and
+  spaced rehearsal}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Metacognition Learning}{7}{}{175--195}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11409-012-9090-3} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -120,6 +291,33 @@ Meno, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Nakata%
+}{%
+Nakata%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+nakata}
+\APACinsertmetastar {%
+nakata}%
+\begin{APACrefauthors}%
+Nakata, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Computer-assisted second language vocabulary learning in
+  a paired-associate paradigm: a critical investigation of flashcard software}
+  {Computer-assisted second language vocabulary learning in a paired-associate
+  paradigm: a critical investigation of flashcard software}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Assisted Language Learning}{24}{1}{17--38}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/09588221.2010.520675} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ozmon%
 \ \BBA {} Johnson%
 }{%
@@ -169,6 +367,34 @@ Renshaw, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Siegel%
+\ \BBA {} Kahana%
+}{%
+Siegel%
+\ \BBA {} Kahana%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+siegel}
+\APACinsertmetastar {%
+siegel}%
+\begin{APACrefauthors}%
+Siegel, L\BPBI L.%
+\BCBT {}\ \BBA {} Kahana, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Retrieved Context Account of Spacing and Repetition
+  Effects in Free Recall} {A retrieved context account of spacing and
+  repetition effects in free recall}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Experimental Psychology: Learning, Memory,
+  and Cognition}{40}{3}{755--764}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Stokes%
 }{%
 Stokes%
@@ -192,6 +418,90 @@ Stokes, K.%
 \unskip\
 \newblock
 \APACaddressSchool {}{Baylor University}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Verkoeijen%
+\ \BBA {} Delaney%
+}{%
+Verkoeijen%
+\ \BBA {} Delaney%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+verkoeijen}
+\APACinsertmetastar {%
+verkoeijen}%
+\begin{APACrefauthors}%
+Verkoeijen, P.%
+\BCBT {}\ \BBA {} Delaney, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Rote rehearsal and spacing effects in the free recall of
+  pure and mixed lists} {Rote rehearsal and spacing effects in the free recall
+  of pure and mixed lists}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Memory and Language}{58}{}{35--47}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jml.2007.07.006} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+White%
+}{%
+White%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+amnesia}
+\APACinsertmetastar {%
+amnesia}%
+\begin{APACrefauthors}%
+White, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {What happened? Alcohol, Memory Blackouts and the Brain}
+  {What happened? alcohol, memory blackouts and the brain}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Alcohol research and health}{27}{2}{186--196}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/ijerph6112783} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xue%
+\ \protect \BOthers {.}}{%
+Xue%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+xue}
+\APACinsertmetastar {%
+xue}%
+\begin{APACrefauthors}%
+Xue, G.%
+, Mei, L.%
+, Chen, C.%
+, Lu, Z\BHBI L.%
+, Poldrack, R.%
+\BCBL {}\ \BBA {} Dong, Q.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Spaced Learning Enhances Subsequent Recognition Memory
+  by Reducing Neural Repetition Suppression} {Spaced learning enhances
+  subsequent recognition memory by reducing neural repetition
+  suppression}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Cognitive Neuroscience}{23}{7}{1624--1633}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -12,47 +12,48 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "wahlheim"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in educationalphilosophy2
-You've used 9 entries,
+You've used 20 entries,
             6951 wiz_defined-function locations,
-            1315 strings with 11773 characters,
-and the built_in function-call counts, 14423 in all, are:
-= -- 1827
-> -- 107
-< -- 611
-+ -- 581
-- -- 18
-* -- 835
-:= -- 2574
-add.period$ -- 38
-call.type$ -- 9
-change.case$ -- 153
+            1395 strings with 13847 characters,
+and the built_in function-call counts, 36806 in all, are:
+= -- 4543
+> -- 273
+< -- 1809
++ -- 1756
+- -- 40
+* -- 2371
+:= -- 6936
+add.period$ -- 84
+call.type$ -- 20
+change.case$ -- 340
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 340
-empty$ -- 651
-format.name$ -- 164
-if$ -- 2874
+cite$ -- 41
+duplicate$ -- 890
+empty$ -- 1483
+format.name$ -- 438
+if$ -- 6990
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 60
 missing$ -- 0
-newline$ -- 213
-num.names$ -- 72
-pop$ -- 367
+newline$ -- 497
+num.names$ -- 162
+pop$ -- 675
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 80
 quote$ -- 0
-skip$ -- 975
+skip$ -- 2376
 stack$ -- 0
-substring$ -- 633
-swap$ -- 193
-text.length$ -- 18
+substring$ -- 1892
+swap$ -- 541
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 784
+type$ -- 1728
 warning$ -- 1
-while$ -- 56
+while$ -- 145
 width$ -- 0
-write$ -- 245
-(There was 1 warning)
+write$ -- 588
+(There were 2 warnings)
