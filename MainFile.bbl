@@ -180,6 +180,36 @@ Karpicke, J.%
 
 \bibitem [\protect \citeauthoryear {%
 Karpicke%
+\ \BBA {} Bauernschmidt%
+}{%
+Karpicke%
+\ \BBA {} Bauernschmidt%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+karpicke}
+\APACinsertmetastar {%
+karpicke}%
+\begin{APACrefauthors}%
+Karpicke, J.%
+\BCBT {}\ \BBA {} Bauernschmidt, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Spaced Retrieval: Absolute Spacing Enhances Learning
+  Regardless of Relative Spacing} {Spaced retrieval: Absolute spacing enhances
+  learning regardless of relative spacing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Experimental Psychology: Learning, Memory,
+  and Cognition}{37}{5}{1250--1257}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/a0023436} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Karpicke%
 \ \BBA {} Blunt%
 }{%
 Karpicke%
@@ -291,33 +321,6 @@ Meno, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Nakata%
-}{%
-Nakata%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-nakata}
-\APACinsertmetastar {%
-nakata}%
-\begin{APACrefauthors}%
-Nakata, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Computer-assisted second language vocabulary learning in
-  a paired-associate paradigm: a critical investigation of flashcard software}
-  {Computer-assisted second language vocabulary learning in a paired-associate
-  paradigm: a critical investigation of flashcard software}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Computer Assisted Language Learning}{24}{1}{17--38}.
-\newblock
-\begin{APACrefDOI} \doi{10.1080/09588221.2010.520675} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ozmon%
 \ \BBA {} Johnson%
 }{%
@@ -364,6 +367,31 @@ Renshaw, J.%
 \APACrefbtitle {In search of the Greeks} {In search of the greeks}.
 \newblock
 \APACaddressPublisher{}{A\&C Black}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roediger%
+}{%
+Roediger%
+}{%
+{\protect \APACyear {1980}}%
+}]{%
+roediger}
+\APACinsertmetastar {%
+roediger}%
+\begin{APACrefauthors}%
+Roediger, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1980}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Memory metaphors in cognitive psychology} {Memory
+  metaphors in cognitive psychology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Memory \& Cognition}{8}{3}{231--246}.
+\newblock
+\begin{APACrefDOI} \doi{10.3758/BF03197611} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -447,6 +475,38 @@ Verkoeijen, P.%
 \APACjournalVolNumPages{Journal of Memory and Language}{58}{}{35--47}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.jml.2007.07.006} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wahlheim%
+, Maddox%
+\BCBL {}\ \BBA {} Jacoby%
+}{%
+Wahlheim%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+wahlheim}
+\APACinsertmetastar {%
+wahlheim}%
+\begin{APACrefauthors}%
+Wahlheim, C.%
+, Maddox, G.%
+\BCBL {}\ \BBA {} Jacoby, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Role of Reminding in the Effects of Spaced
+  Repetitions on Cued Recall: Sufficient but not Necessary} {The role of
+  reminding in the effects of spaced repetitions on cued recall: Sufficient but
+  not necessary}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Experimental Psychology: Learning, Memory,
+  and Cognition}{40}{1}{94--105}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/a0034055} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
