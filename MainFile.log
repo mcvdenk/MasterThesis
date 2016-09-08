@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  2 SEP 2016 14:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  8 SEP 2016 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,42 +1100,40 @@ Package pdftex.def Info: img/modalmemory.png used on input line 22.
 
 [11
 
- <./img/brainareas.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <./img/brainareas.png>] [12 <./img/modalmemory.png>] [13] [14]) [15]
+[16
 
- [12 <./img/modalmemory.png>] [13]) [14] [15
+] (./design/scheduling.tex) (./design/visualisation.tex)
+(./design/software.tex) [17
 
-] (./design/scheduling.tex)
-(./design/visualisation.tex) (./design/software.tex) [16
+] (./research/aimsgoals.tex) (./research/methods.tex) (./research/results.tex) 
+(./research/discussion.tex) [18
 
 ]
-(./research/aimsgoals.tex) (./research/methods.tex) (./research/results.tex)
-(./research/discussion.tex) [17
+(./recommendations/features.tex) (./recommendations/research.tex)
+(./recommendations/implementation.tex) (./epilogue/epilogue.tex) [19
 
-] (./recommendations/features.tex)
-(./recommendations/research.tex) (./recommendations/implementation.tex)
-(./epilogue/epilogue.tex) [18
+] [20
 
-] [19
-
-] (./MainFile.bbl [20
+]
+(./MainFile.bbl [21
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
- [21]
+ [22]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (./MainFile.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: D1792E0A9606A2A7DF0D389733A8C4B1;2086.
+(rerunfilecheck)             Checksum: FE6F85C7685CAD42E0E76DE6AF755C3E;2122.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 10895 strings out of 493304
- 160593 string characters out of 6139871
- 275889 words of memory out of 5000000
- 14041 multiletter control sequences out of 15000+600000
+ 10916 strings out of 493304
+ 160817 string characters out of 6139871
+ 276311 words of memory out of 5000000
+ 14057 multiletter control sequences out of 15000+600000
  13450 words of font info for 46 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
  37i,11n,43p,1781b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1150,10 +1148,10 @@ public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti9.pfb>
-Output written on MainFile.pdf (21 pages, 286752 bytes).
+Output written on MainFile.pdf (22 pages, 294080 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 389 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 420 compressed objects within 5 object streams
+ 85 named destinations out of 1000 (max. 500000)
  272 words of extra memory for PDF output out of 10000 (max. 10000000)
 

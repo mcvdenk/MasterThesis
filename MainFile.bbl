@@ -129,6 +129,35 @@ Brameld, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Craik%
+\ \BBA {} Lockhart%
+}{%
+Craik%
+\ \BBA {} Lockhart%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+craik}
+\APACinsertmetastar {%
+craik}%
+\begin{APACrefauthors}%
+Craik, F\BPBI I.%
+\BCBT {}\ \BBA {} Lockhart, R\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Levels of processing: A framework for memory research}
+  {Levels of processing: A framework for memory research}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Verbal Learning \& Verbal
+  Behavior}{11}{6}{671--684}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0022-5371(72)80001-X} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Howick%
 }{%
 Howick%
@@ -238,6 +267,35 @@ Karpicke, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kintsch%
+, Welsch%
+, Schmalhofer%
+\BCBL {}\ \BBA {} Zimny%
+}{%
+Kintsch%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1990}}%
+}]{%
+kintsch}
+\APACinsertmetastar {%
+kintsch}%
+\begin{APACrefauthors}%
+Kintsch, W.%
+, Welsch, D.%
+, Schmalhofer, F.%
+\BCBL {}\ \BBA {} Zimny, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentence memory: A theoretical analysis} {Sentence
+  memory: A theoretical analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Memory and Language}{29}{}{133--159}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Logan%
 , Castel%
 , Haber%
@@ -318,6 +376,63 @@ Meno, P.%
 \APACrefbtitle {Stevenson, D.C.} {Stevenson, d.c.}
 \newblock
 \APACaddressPublisher{}{The Internet Classics Archive}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nelson%
+}{%
+Nelson%
+}{%
+{\protect \APACyear {1979}}%
+}]{%
+nelson}
+\APACinsertmetastar {%
+nelson}%
+\begin{APACrefauthors}%
+Nelson, D\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1979}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Remembering pictures and words: Appearance,
+  significance, and name} {Remembering pictures and words: Appearance,
+  significance, and name}.{\BBCQ}
+\newblock
+\BIn{} L\BPBI S.~Cermak\ \BBA {} F\BPBI I\BPBI M.~Craik\ (\BEDS),
+  \APACrefbtitle {Levels of Processing in Human Memory} {Levels of processing
+  in human memory}\ (\BPG~45-76).
+\newblock
+\APACaddressPublisher{Hillsdale, NJ}{Lawrence Erlbaum Associates}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nesbit%
+\ \BBA {} Adesope%
+}{%
+Nesbit%
+\ \BBA {} Adesope%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+nesbit2}
+\APACinsertmetastar {%
+nesbit2}%
+\begin{APACrefauthors}%
+Nesbit, J.%
+\BCBT {}\ \BBA {} Adesope, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Learning With Concept and Knowledge Maps: A
+  Meta-Analysis} {Learning with concept and knowledge maps: A
+  meta-analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Review of Educational Research}{76}{3}{413--448}.
+\newblock
+\begin{APACrefDOI} \doi{10.3102/00346543076003413} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
