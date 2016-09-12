@@ -20,13 +20,13 @@
 \contentsline {subsection}{Elaborative processing}{13}{section*.23}
 \contentsline {subsection}{Implications for concept mapping}{13}{section*.24}
 \contentsline {section}{Cognitive effects with regard to retrieval practices}{14}{section*.25}
-\contentsline {subsection}{Testing effect}{14}{section*.26}
-\contentsline {subsection}{Spacing effect}{14}{section*.27}
-\contentsline {subsection}{Power laws forgetting and learning}{15}{section*.28}
-\contentsline {subsection}{Implications for the flashcard system}{15}{section*.29}
-\contentsline {part}{II\hspace {1em}Design}{16}{part.2}
-\contentsline {part}{III\hspace {1em}Research}{17}{part.3}
-\contentsline {part}{IV\hspace {1em}Recommendations}{18}{part.4}
-\contentsline {chapter}{Epilogue}{19}{chapter*.30}
-\contentsline {part}{V\hspace {1em}Appendices}{20}{part.5}
-\contentsline {chapter}{References}{21}{chapter*.31}
+\contentsline {subsection}{Interference and Decay}{14}{section*.26}
+\contentsline {subsection}{Spacing effect}{15}{section*.28}
+\contentsline {subsection}{Power laws forgetting and learning}{16}{section*.29}
+\contentsline {subsection}{Implications for the flashcard system}{16}{section*.30}
+\contentsline {part}{II\hspace {1em}Design}{17}{part.2}
+\contentsline {part}{III\hspace {1em}Research}{18}{part.3}
+\contentsline {part}{IV\hspace {1em}Recommendations}{19}{part.4}
+\contentsline {chapter}{Epilogue}{20}{chapter*.31}
+\contentsline {part}{V\hspace {1em}Appendices}{21}{part.5}
+\contentsline {chapter}{References}{22}{chapter*.32}

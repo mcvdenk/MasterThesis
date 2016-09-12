@@ -5,6 +5,32 @@ Anderson%
 }{%
 Anderson%
 }{%
+{\protect \APACyear {1974}}%
+}]{%
+interference}
+\APACinsertmetastar {%
+interference}%
+\begin{APACrefauthors}%
+Anderson, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Retrieval of propositional information from long-term
+  memory} {Retrieval of propositional information from long-term
+  memory}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cognitive Psychology}{6}{4}{451--474}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/0010-0285(74)90021-8} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Anderson%
+}{%
+Anderson%
+}{%
 {\protect \APACyear {2015}}%
 }]{%
 cognitivepsychology}
@@ -155,6 +181,35 @@ Craik, F\BPBI I.%
   Behavior}{11}{6}{671--684}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/S0022-5371(72)80001-X} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Edge%
+, Fitchett%
+, Whitney%
+\BCBL {}\ \BBA {} Landay%
+}{%
+Edge%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+microlearning}
+\APACinsertmetastar {%
+microlearning}%
+\begin{APACrefauthors}%
+Edge, D.%
+, Fitchett, S.%
+, Whitney, M.%
+\BCBL {}\ \BBA {} Landay, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {MemReflex: Adaptive Flashcards for Mobile Microlearning.}
+  {Memreflex: Adaptive flashcards for mobile microlearning.}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/2371574.2371641} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -354,6 +409,34 @@ Marsh, C.%
   \BEd).
 \newblock
 \APACaddressPublisher{}{Prentice-Hall}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Matsaridis%
+}{%
+Matsaridis%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+website:neuron}
+\APACinsertmetastar {%
+website:neuron}%
+\begin{APACrefauthors}%
+Matsaridis, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{April}{}.
+\newblock
+\APACrefbtitle {Neuroscience for beginners v2.0: Lesson 2 - The materialistic
+  mind - your brain's ingredients.} {Neuroscience for beginners v2.0: Lesson 2
+  - the materialistic mind - your brain's ingredients.}
+\newblock
+\begin{APACrefURL}
+  \url{http://neuroscientist.weebly.com/blog/lesson-2-the-materialistic-mind-your-brains-ingredients}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Retrieved September 9, 2016}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
