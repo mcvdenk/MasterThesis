@@ -26,45 +26,45 @@ while executing---line 5079 of file apacite.bst
 Name 2 in "Kintsch, W. and Welsch, D.M., and Schmalhofer, F. and Zimny, S." has a comma at the end for entry kintsch
 while executing---line 5079 of file apacite.bst
 Warning--No address in educationalphilosophy2
-You've used 29 entries,
+You've used 38 entries,
             6951 wiz_defined-function locations,
-            1453 strings with 15400 characters,
-and the built_in function-call counts, 53572 in all, are:
-= -- 6625
-> -- 417
-< -- 2579
-+ -- 2529
-- -- 58
-* -- 3445
-:= -- 9903
-add.period$ -- 122
-call.type$ -- 29
-change.case$ -- 496
+            1510 strings with 16752 characters,
+and the built_in function-call counts, 70282 in all, are:
+= -- 8690
+> -- 535
+< -- 3387
++ -- 3313
+- -- 76
+* -- 4546
+:= -- 13021
+add.period$ -- 160
+call.type$ -- 38
+change.case$ -- 649
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 1353
-empty$ -- 2165
-format.name$ -- 672
-if$ -- 10232
+cite$ -- 77
+duplicate$ -- 1779
+empty$ -- 2828
+format.name$ -- 870
+if$ -- 13402
 int.to.chr$ -- 0
-int.to.str$ -- 87
+int.to.str$ -- 114
 missing$ -- 0
-newline$ -- 734
-num.names$ -- 236
-pop$ -- 1010
+newline$ -- 964
+num.names$ -- 308
+pop$ -- 1246
 preamble$ -- 1
-purify$ -- 118
+purify$ -- 154
 quote$ -- 0
-skip$ -- 3445
+skip$ -- 4575
 stack$ -- 0
-substring$ -- 2747
-swap$ -- 818
-text.length$ -- 70
+substring$ -- 3610
+swap$ -- 1096
+text.length$ -- 94
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2512
+type$ -- 3296
 warning$ -- 1
-while$ -- 228
+while$ -- 299
 width$ -- 0
-write$ -- 880
+write$ -- 1152
 (There were 6 error messages)

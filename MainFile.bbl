@@ -1,9 +1,9 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Anderson%
+J.~Anderson%
 }{%
-Anderson%
+J.~Anderson%
 }{%
 {\protect \APACyear {1974}}%
 }]{%
@@ -27,9 +27,9 @@ Anderson, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Anderson%
+J.~Anderson%
 }{%
-Anderson%
+J.~Anderson%
 }{%
 {\protect \APACyear {2015}}%
 }]{%
@@ -47,6 +47,31 @@ Anderson, J.%
   psychology and its implications}\ (\PrintOrdinal{8}\ \BEd).
 \newblock
 \APACaddressPublisher{}{Worth publishers}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R.~Anderson%
+}{%
+R.~Anderson%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+powerlaw2}
+\APACinsertmetastar {%
+powerlaw2}%
+\begin{APACrefauthors}%
+Anderson, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The power law as an emergent property} {The power law as
+  an emergent property}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Memory \& Cognition}{7}{}{1061--1068}.
+\newblock
+\begin{APACrefDOI} \doi{10.3758/BF03195767} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -99,6 +124,31 @@ Atkinson, R.%
 \BIn{} K.~Spence\ (\BED), (\BPGS\ 89--195).
 \newblock
 \APACaddressPublisher{New York}{Academic Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Barnes%
+}{%
+Barnes%
+}{%
+{\protect \APACyear {1979}}%
+}]{%
+barnes}
+\APACinsertmetastar {%
+barnes}%
+\begin{APACrefauthors}%
+Barnes, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1979}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Memory deficits associated with senescence: A
+  neurophysiological and behavioral study in the rat} {Memory deficits
+  associated with senescence: A neurophysiological and behavioral study in the
+  rat}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Comparative Physiology}{43}{}{74--104}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -462,6 +512,35 @@ Meno, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Murre%
+\ \BBA {} Chessa%
+}{%
+Murre%
+\ \BBA {} Chessa%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+murre}
+\APACinsertmetastar {%
+murre}%
+\begin{APACrefauthors}%
+Murre, J.%
+\BCBT {}\ \BBA {} Chessa, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Power laws from individual differences in learning and
+  forgetting: mathematical analyses} {Power laws from individual differences in
+  learning and forgetting: mathematical analyses}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychonomic bulletin \& review}{18}{3}{592--597}.
+\newblock
+\begin{APACrefDOI} \doi{10.3758/s13423-011-0076-y} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Nelson%
 }{%
 Nelson%
@@ -519,6 +598,32 @@ Nesbit, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Newell%
+\ \BBA {} Rosenbloom%
+}{%
+Newell%
+\ \BBA {} Rosenbloom%
+}{%
+{\protect \APACyear {1981}}%
+}]{%
+powerlaw1}
+\APACinsertmetastar {%
+powerlaw1}%
+\begin{APACrefauthors}%
+Newell, A.%
+\BCBT {}\ \BBA {} Rosenbloom, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1981}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mechanisms of skill acquisition and the law of practice}
+  {Mechanisms of skill acquisition and the law of practice}.{\BBCQ}
+\newblock
+\BIn{} (\BVOL~1, \BPGS\ 1--55).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ozmon%
 \ \BBA {} Johnson%
 }{%
@@ -543,6 +648,65 @@ Ozmon, H.%
 \newblock
 \APACaddressInstitution{}{U.S. Department of Health, Education, and Welfare:
   Office of Education; Bureau of Research}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pavlik%
+\ \BBA {} Anderson%
+}{%
+Pavlik%
+\ \BBA {} Anderson%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+activationbasedmodel}
+\APACinsertmetastar {%
+activationbasedmodel}%
+\begin{APACrefauthors}%
+Pavlik, I.%
+\BCBT {}\ \BBA {} Anderson, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Practice and forgetting effects on vocabulary memory: an
+  activation-based model of the spacing effect} {Practice and forgetting
+  effects on vocabulary memory: an activation-based model of the spacing
+  effect}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cognitive Science}{29}{4}{559--586}.
+\newblock
+\begin{APACrefDOI} \doi{10.1207/s15516709cog0000_14} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Raymond%
+\ \BBA {} Redman%
+}{%
+Raymond%
+\ \BBA {} Redman%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+raymond}
+\APACinsertmetastar {%
+raymond}%
+\begin{APACrefauthors}%
+Raymond, C.%
+\BCBT {}\ \BBA {} Redman, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Spatial segregation of neuronal calcium signals encodes
+  different forms of LTP in rat hippocampus} {Spatial segregation of neuronal
+  calcium signals encodes different forms of ltp in rat hippocampus}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Physiology}{570}{}{97--111}.
+\newblock
+\begin{APACrefDOI} \doi{10.1113/jphysiol.2005.098947} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -730,6 +894,88 @@ White, A.%
 \APACjournalVolNumPages{Alcohol research and health}{27}{2}{186--196}.
 \newblock
 \begin{APACrefDOI} \doi{10.3390/ijerph6112783} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wickelgren%
+}{%
+Wickelgren%
+}{%
+{\protect \APACyear {1974}}%
+}]{%
+wickelgren}
+\APACinsertmetastar {%
+wickelgren}%
+\begin{APACrefauthors}%
+Wickelgren, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Single-trace fragility theory of memory dynamics}
+  {Single-trace fragility theory of memory dynamics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Memory \& Cognition}{2}{}{775--780}.
+\newblock
+\begin{APACrefDOI} \doi{10.3758/BF03198154} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wixted%
+\ \BBA {} Carpenter%
+}{%
+Wixted%
+\ \BBA {} Carpenter%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+wixted}
+\APACinsertmetastar {%
+wixted}%
+\begin{APACrefauthors}%
+Wixted, J.%
+\BCBT {}\ \BBA {} Carpenter, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Wickelgren power law and the Ebbinghaus savings
+  function} {The wickelgren power law and the ebbinghaus savings
+  function}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Science}{18}{2}{133--134}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1467-9280.2007.01862.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wixted%
+\ \BBA {} Ebessen%
+}{%
+Wixted%
+\ \BBA {} Ebessen%
+}{%
+{\protect \APACyear {1991}}%
+}]{%
+powerlaw3}
+\APACinsertmetastar {%
+powerlaw3}%
+\begin{APACrefauthors}%
+Wixted, J.%
+\BCBT {}\ \BBA {} Ebessen, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1991}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On the form of forgetting} {On the form of
+  forgetting}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Science}{2}{6}{409--415}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1467-9280.1991.tb00175.x} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -50,16 +50,9 @@ Because information is retrieved in the brain via related nodes and edges in the
 
 \subsection{Implications for concept mapping}
 
-Reflecting on the previously described theory of associated networks, it appears that a semantic network is very similar in structure to concept maps, and thereby the maps provide an accurate representation of the way information is retrieved from the brain. Based on this, \citeA{nesbit2} speculate that because of this, more retrieval cues are created when learning from or generating a concept map. Furthermore, a concept map displays the relations between certain concepts, and thereby focuses more on the meaning behind the content than just the content itself. However, \citeA{karpicke4} also states that although it might seem to be an effectevie tool for elaborative processing, there has not been enough randomised and controlled experiments which examine the most effective ways to use is as a learning activity.
-
-%Spreading activation
-%Elaborative processing
-%Schemata
-%Constructionism
+Reflecting on the previously described theory of associated networks, it appears that a semantic network is very similar in structure to concept maps, and thereby the maps provide an accurate representation of the way information is retrieved from the brain. \citeA{nesbit2} speculate that because of this, more and better retrieval cues are created when learning from or generating a concept map. Furthermore, a concept map displays the relations between certain concepts, and thereby focuses more on the meaning behind the content than just the content itself. However, \citeA{karpicke4} also states that although it might seem to be an effectevie tool for elaborative processing, there has not been enough randomised and controlled experiments which examine the most effective ways to use is as a learning activity.
 
 \section{Cognitive effects with regard to retrieval practices}
-
-%Long term potentiation
 
 According to \citeA{karpicke4}, a lot of educational practices have placed an emphasis on finding optimal ways to encode knowledge and experiences, but that retrieval practices have received less attention, even so basic research has indicated that retrieval is still important to consider in any analysis of leraning. This is mainly due to the fact that information is not stored exactly and indefinitely, but rather that memories are forgotten over time. Two theories have been proposed and debated over explaining why forgetting occurs, namely by interference of other redundant memories and by decay of existing memories.
 
@@ -71,14 +64,36 @@ The effect of decaying memories takes place in the connections between neurons, 
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{img/neuron.png}
-    \caption{A schematic image of a neuron with a closeup of a synapse\protect\cite{website:neuron}}
+    \includegraphics[width=0.8\textwidth]{img/neuron.png}
+    \caption{A schematic image of a neuron with a closeup of a synapse \protect\cite{website:neuron}}
     \label{fig:neuron}
 \end{figure}
 
 One widely studied effect with regard to the increase and decrease of action potential and strength of memory traces is called long-term potentiation (LTP) \cite{cognitivepsychology}. Whenever a neurotransmitter is received by by a receptor, not only is the next nucleus activated to release its action potential, but also more receptors are activated, so that the postsynaptic membrane is able to receive more neurotransmitters at the next activation. Furthermore, another process is activated altering the dna in the neuron, causing it to create proteins for more stable increased sensitivity towards stimuli. It is also speculated that there might be a retrograde effect, causing presynaptci modifications such as the creation of more neurotransmitted in the presenaptic vessicles \cite{longtermpotentiation}. This all results in an increased sensitivity in the postsynaptic neuron towards action potential in the presynaptic neuron, which then again increases the stength of this particular memory trace. Over time, if a specific neural pathway is not used, the effects of LTP decrease again, causing its strength to decrease and thereby causing decay. This also explains the \emph{testing effect}, the effect of retrieval strengthening memory more than extra opportunities for further encoding, even when the retrieval is only carried out internally without any outward response \cite{microlearning}.
 
 Although both the effect of interference and decay have been proposed as separate theories and have been debated, they are still mutually inclusive, and \citeA{cognitivepsychology} therefore conludes that forgetting results both from decay and from interference.
+
+\subsection{Power laws forgetting and learning}
+
+Now that the relevant theories for learning and forgetting have been discussed, it is important to investigate with which rate people learn and forget. Already in 1885, Ebbinghaus discovered the power law of learning, referred to as the inversal exponential nature of forgetting \cite{microlearning, activationbasedmodel}. The implication of this model is that memory not only systematically deteriorates with delay, but also that this loss is negatively accelerated, meaning that the rate of change gets smaller with increasing delay \cite{cognitivepsychology}. \citeA{wickelgren} already proposed the formula $m = \lambda (1 + \beta t)^{-\psi}$, where $m$ is memory strength (the probability of recognition), $t$ is time, $\lambda$ is the state of long-term memory at $t = 0$, $\psi$ is the rate of forgetting, and $\beta$ is the scaling parameter (see figure~\ref{fig:powerlawforgetting}). This formula has also found to be accurate by \cite{wixted}. The effect also has been directly related to LTP in the rat hippocampus by stimulating neural pathways directly with electrical signals \cite{raymond}.
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.7\textwidth}
+        \includegraphics[width=\textwidth]{img/powerlawforgetting}
+        \caption{The power law of forgetting, with m as the probability of recognition and t as the time passed since learning}
+        \label{fig:powerlawforgetting}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}{0.7\textwidth}
+        \includegraphics[width=\textwidth]{img/powerlawlearning}
+        \caption{The power law of forgetting, with p(t) as the probability of recognition and t as the iterations of learning}
+        \label{fig:powerlawlearning}
+    \end{subfigure}
+    \caption{The power laws}
+\end{figure}
+
+A similar effect has been found for the effectiveness of repetition: \citeA{powerlaw1} have proposed a power law of learning, stating that a learning curve is similarly inversal exponantial (see also \citeA{powerlaw2} and \citeA{powerlaw3}). \citeA{murre} propose $P = p(t) = 1-e^{-\mu_{i}t}$ as a function describing this power law, where $P$ or $p$ is the probability of recognition after $t$ iterations and $\mu$ is the learning rate of student $i$ (see figure~\ref{fig:powerlawlearning}). This power law has the effect that repetitions have a positive effect on retrieval probability, however that this effect diminishes with more repetitions. Again, this effect has also been demonstrated in the context of LTP in rat hippocampi \cite{barnes}. The stronger memory trace from a higher repetition rate does not only result in a higher recall probability, but also in a more gradual retention curve, allowing memories to persist longer.
 
 \subsection{Spacing effect}
 
@@ -88,12 +103,10 @@ One can test the spacing effect either by using pure lists or mixed lists. When 
 
 Two theories have been presented explaining this phenomenon, namely the contextual variability theory and the study-phase retrieval theory \cite{siegel}. The first theory entails that because context is not static but continuous, and that therefore spaced items are studied in a greater variety of contexts and therefore easier to recall in yet other contexts than massed items due to the so-called encoding-specificity principle \cite{cognitivepsychology}. This principle entails that the probability of recalling an item depends on the similarity of the context during the encoding. The study-phase retrieval theory entails that additional retrieval cues for the repetition of an item are generated by earlier occurences and their associated contexts being associated with the repeated item. These theories are not mutually exclusive \cite{siegel}.
 
-\citeA{karpicke} conducted an experiment to test the effect of constant or varying lags between items have a significant effect on learning. They tested this by conducting a similar experiment to \citeA{verkoeijen}, however in this experiment they only tested pure lists with three different lag intervals to test for an absolute spacing effect, and for each lag interval category they tested for an expanding lag condition (where the lag would increase for the repetition of each next item), an equal lag condition (where the lag would remain constant) and a contracting lag condition (where the lag would decrease for the repetition of each next item) in order to test for a relative spacing effect. From their findings they confirmed the effect of absolute spacing, namely that longer gaps between items do have an effect on long-term retention, however they did not find a relative spacing effect. However, this has not been tested for spacing for longer intervals, such as intervals spanning multiple days or even weeks.
+Inspired by the power laws of learning and forgetting, \citeA{karpicke} conducted an experiment to test the effect of constant or varying lags between items have a significant effect on learning. They tested this by conducting a similar experiment to \citeA{verkoeijen}, however in this experiment they only tested pure lists with three different lag intervals to test for an absolute spacing effect, and for each lag interval category they tested for an expanding lag condition (where the lag would increase for the repetition of each next item), an equal lag condition (where the lag would remain constant) and a contracting lag condition (where the lag would decrease for the repetition of each next item) in order to test for a relative spacing effect. From their findings they confirmed the effect of absolute spacing, namely that longer gaps between items do have an effect on long-term retention, yet they did not find a relative spacing effect. However, this has not been tested for spacing for longer intervals, such as intervals spanning multiple days or weeks.
 
 Although researchers have found at least an absolute spacing effect throughout multiple studies, students do not judge their learning to be improved by it, even when they demonstrated a significantly higher recall rate \cite{logan}.
 
-\subsection{Power laws forgetting and learning}
-
 \subsection{Implications for the flashcard system}
-    %Pimsleur system
-    %Leitner system
+
+
