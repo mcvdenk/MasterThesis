@@ -757,6 +757,39 @@ Roediger, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rohrer%
+, Taylor%
+, Pashler%
+, Wixted%
+\BCBL {}\ \BBA {} Cepeda%
+}{%
+Rohrer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+rohrer}
+\APACinsertmetastar {%
+rohrer}%
+\begin{APACrefauthors}%
+Rohrer, D.%
+, Taylor, K.%
+, Pashler, H.%
+, Wixted, J.%
+\BCBL {}\ \BBA {} Cepeda, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The effect of overlearning on long-term retention} {The
+  effect of overlearning on long-term retention}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Cognitive Psychology}{19}{}{361--374}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/acp.1266} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Siegel%
 \ \BBA {} Kahana%
 }{%

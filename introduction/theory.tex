@@ -109,4 +109,11 @@ Although researchers have found at least an absolute spacing effect throughout m
 
 \subsection{Implications for the flashcard system}
 
+It can be concluded that the flashcard system derives its effects mainly from the testing effect by having students actively retrieve information instead of simply encoding it, and from the spacing effect by students going through the items interspersally instead of by immediate succession. The key question however is how often a single card has to be repeated. Herein one has to balance \emph{overlearning} -- the student repeating an item too often resulting only in diminished learning effects because of the power law of learning, and also only on the short term \cite{rohrer} -- because its inefficiency, and forgetting items in between intervals, since then the spacing effect does not apply anymore. In order to solve this problem, most modern digital flashcard systems apply a system called \emph{adaptive spaced-repetition learning} (e.g. the Pimsleur system, the Leitner system, Supermemo, and Anki \cite{microlearning}. In this system, exponentially expanding intervals are used, not because of a relative spacing effect which does not exist according to the previously mentioned literature, but rather to increase the average (absolute) spacing with each new repetition. This creates a stronger memory trace every time, but also takes into account the further decreasing risk of forgetting because of the slower declining retention curve (see figure~\ref{fig:spacedrepetition}).
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/spacedrepetition}
+    \caption{Adaptive spaced-repetition learning (taken from \protect\citeA{microlearning})}
+    \label{fig:spacedrepetition}
+\end{figure}
