@@ -46,7 +46,7 @@ Anderson, J.%
 \APACrefbtitle {Cognitive psychology and its implications} {Cognitive
   psychology and its implications}\ (\PrintOrdinal{8}\ \BEd).
 \newblock
-\APACaddressPublisher{}{Worth publishers}.
+\APACaddressPublisher{New York, NY}{Worth publishers}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -94,7 +94,7 @@ Apps, J.%
 \APACrefbtitle {Toward an working philosophy of adult education} {Toward an
   working philosophy of adult education}.
 \newblock
-\APACaddressPublisher{}{Publications in continuing education}.
+\APACaddressPublisher{New York, NY}{Publications in continuing education}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -201,7 +201,7 @@ Brameld, T.%
   in culturological perspective} {Patterns of educational philosophy.
   divergence and convergence in culturological perspective}.
 \newblock
-\APACaddressPublisher{}{Holt, Rinehart and Winston, Inc.}
+\APACaddressPublisher{New York, NY}{Holt, Rinehart and Winston, Inc.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -282,7 +282,7 @@ Howick, W\BPBI H.%
 \APACrefbtitle {Philosophies of Western Education} {Philosophies of western
   education}.
 \newblock
-\APACaddressPublisher{}{Interstate Printers \& Publishers}.
+\APACaddressPublisher{Danville, Ill}{Interstate Printers \& Publishers}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -458,7 +458,7 @@ Marsh, C.%
   {Curriculum. alternative approaches, ongoing issues}\ (\PrintOrdinal{2nd}\
   \BEd).
 \newblock
-\APACaddressPublisher{}{Prentice-Hall}.
+\APACaddressPublisher{Upper Saddle River, NJ}{Prentice-Hall}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -506,7 +506,7 @@ Meno, P.%
 \newblock
 \APACrefYear{2000}.
 \newblock
-\APACrefbtitle {Stevenson, D.C.} {Stevenson, d.c.}
+\APACrefbtitle {Stevenson, DC} {Stevenson, dc}.
 \newblock
 \APACaddressPublisher{}{The Internet Classics Archive}.
 \PrintBackRefs{\CurrentBib}
@@ -728,7 +728,7 @@ Renshaw, J.%
 \newblock
 \APACrefbtitle {In search of the Greeks} {In search of the greeks}.
 \newblock
-\APACaddressPublisher{}{A\&C Black}.
+\APACaddressPublisher{Columbia MD}{A\&C Black}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -818,6 +818,54 @@ Siegel, L\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Smith%
+\ \BBA {} Ragan%
+}{%
+Smith%
+\ \BBA {} Ragan%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+instructionaldesign}
+\APACinsertmetastar {%
+instructionaldesign}%
+\begin{APACrefauthors}%
+Smith, P.%
+\BCBT {}\ \BBA {} Ragan, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\newblock
+\APACrefbtitle {Instructional design} {Instructional design}\
+  (\PrintOrdinal{3rd}\ \BEd).
+\newblock
+\APACaddressPublisher{Westford, MA}{John Wiley \& Sons, Inc.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Squire%
+}{%
+Squire%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+squire}
+\APACinsertmetastar {%
+squire}%
+\begin{APACrefauthors}%
+Squire, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1987}.
+\newblock
+\APACrefbtitle {Memory and brain} {Memory and brain}.
+\newblock
+\APACaddressPublisher{New York, NY}{Oxford university press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Stokes%
 }{%
 Stokes%
@@ -870,6 +918,31 @@ Verkoeijen, P.%
 \APACjournalVolNumPages{Journal of Memory and Language}{58}{}{35--47}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.jml.2007.07.006} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+von Glaserfield%
+}{%
+von Glaserfield%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+glaserfield}
+\APACinsertmetastar {%
+glaserfield}%
+\begin{APACrefauthors}%
+von Glaserfield, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Radical constructivism and teaching} {Radical
+  constructivism and teaching}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Prospects}{31}{2}{161--173}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/BF03220058} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
