@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  20 SEP 2016 15:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  26 SEP 2016 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,32 +1089,39 @@ File: img/modalmemory.png Graphic file (type png)
 Package pdftex.def Info: img/modalmemory.png used on input line 26.
 (pdftex.def)             Requested size: 209.12683pt x 70.67732pt.
  [12 <./img/brainareas.png> <./img/modalmemory.png>]
-[13] [14] <img/neuron.png, id=363, 803.0pt x 602.25pt>
+[13]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 65.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 65.
+ [14]
+<img/neuron.png, id=364, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
 Package pdftex.def Info: img/neuron.png used on input line 71.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
-
-[15 <./img/neuron.png>]
-<img/powerlawforgetting.png, id=396, 521.95pt x 321.2pt>
+ [15 <./img/neuron.png>] <img/powerlawforgetting.png, id=397, 521.95pt x 321.2p
+t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
 <use img/powerlawforgetting.png>
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 87.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=397, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=398, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 93.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
  [16] [17 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [18]
-<img/spacedrepetition.png, id=495, 466.74374pt x 277.78781pt>
+<img/spacedrepetition.png, id=493, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
-Package pdftex.def Info: img/spacedrepetition.png used on input line 120.
+Package pdftex.def Info: img/spacedrepetition.png used on input line 118.
 (pdftex.def)             Requested size: 209.12683pt x 124.46503pt.
 ) [19 <./img/spacedrepetition.png>] [20
 
@@ -1146,10 +1153,10 @@ Package rerunfilecheck Info: File `MainFile.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 10944 strings out of 493304
- 161340 string characters out of 6139871
+ 10961 strings out of 493304
+ 161630 string characters out of 6139871
  275652 words of memory out of 5000000
- 14058 multiletter control sequences out of 15000+600000
+ 14072 multiletter control sequences out of 15000+600000
  13618 words of font info for 47 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
  37i,11n,43p,1785b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1169,10 +1176,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MainFile.pdf (27 pages, 460972 bytes).
+Output written on MainFile.pdf (27 pages, 461483 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
- 551 compressed objects within 6 object streams
+ 623 PDF objects out of 1000 (max. 8388607)
+ 549 compressed objects within 6 object streams
  110 named destinations out of 1000 (max. 500000)
  300 words of extra memory for PDF output out of 10000 (max. 10000000)
 
