@@ -85,6 +85,20 @@
                     \secdef\@chapter\@schapter}
 \makeatother
 
+%%% CUSTOM DEFINITION STYLING
+
+\newenvironment{definition} {
+    \vspace{2ex}
+    \begin{tabular}{p{0.8\textwidth}}
+        \centering
+        \large
+        \em
+}
+{
+    \end{tabular}
+    \vspace{2ex}
+}
+
 %%% END Article customizations
 
 %%% The "real" document content comes below...
@@ -112,7 +126,7 @@
 \input{./preface/abstract.tex} %Not started
 
 \part{Introduction}
-    \input{./introduction/problem.tex} %Outlined
+    \input{./introduction/problem.tex} %Outlined TODO: missing references to labels
     \input{./introduction/context.tex} %Reviewed by Tobias
     \input{./introduction/theory.tex} %Finished
 

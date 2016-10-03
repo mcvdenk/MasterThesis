@@ -541,6 +541,33 @@ Murre, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Nakata%
+}{%
+Nakata%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+nakata}
+\APACinsertmetastar {%
+nakata}%
+\begin{APACrefauthors}%
+Nakata, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Computer-assisted second language vocabulary learning in
+  a paired-associate paradigm: a critical investigation of flashcard software}
+  {Computer-assisted second language vocabulary learning in a paired-associate
+  paradigm: a critical investigation of flashcard software}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Assisted Language Learning}{24}{1}{17--38}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/09588221.2010.520675} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Nelson%
 }{%
 Nelson%
