@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  26 SEP 2016 15:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  7 OCT 2016 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,7 +907,7 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=136, 225.60284pt x 45.2892pt>
+<logo.png, id=152, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 115.
@@ -931,240 +931,245 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
-
-Underfull \vbox (badness 2753) has occurred while \output is active []
-
  [2
 
 ])
 \tf@toc=\write5
 \openout5 = `MainFile.toc'.
 
-
-(./preface/acknowledgements.tex) (./preface/preamble.tex)
+ (./preface/acknowledgements.tex) (./preface/preamble.tex)
 (./preface/abstract.tex) [3] [4
 
-] (./introduction/problem.tex)
-(./introduction/context.tex [5
+] (./introduction/problem.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [6
+ [5
 
-] [7] [8]
+]
+Underfull \vbox (badness 1540) has occurred while \output is active []
+
+ [6])
+(./introduction/context.tex [7] [8
+
+] [9] [10]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 57.
+               Default added (so using `tbp') on input line 59.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/bx/n/10 Educational
  []
 
 
-Overfull \hbox (2.08154pt too wide) in paragraph at lines 70--70
+Overfull \hbox (2.08154pt too wide) in paragraph at lines 72--72
 []|\OT1/cmr/bx/n/10 Reconstructivism| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/bx/n/10 Function of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Preserving
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Supplying
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/10 for dis-cov-er-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Encouraging
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/10 max-i-mum in-
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 70--70
+Underfull \hbox (badness 4967) in paragraph at lines 72--72
 \OT1/cmr/m/n/10 di-vid-ual choice
  []
 
 
-Underfull \hbox (badness 4699) in paragraph at lines 70--70
+Underfull \hbox (badness 4699) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Classical ide-al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Idealism, re-al-
  []
 
 
-Overfull \hbox (2.70163pt too wide) in paragraph at lines 70--70
+Overfull \hbox (2.70163pt too wide) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Experimentalism| 
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 70--70
+Underfull \hbox (badness 2547) in paragraph at lines 72--72
 []|\OT1/cmr/bx/n/10 Subject mat-
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 70--70
+Underfull \hbox (badness 1152) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Classical lit-er-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Scientific
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 70--70
+Underfull \hbox (badness 1953) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Personal re-flec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Memorisation,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/10 read-ing, writ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/10 ing, drill,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Reading, lec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/10 tures, mem-o-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/10 ri-sa-tion, rep-e-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/10 ti-tion, audio-
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 70--70
+Underfull \hbox (badness 2221) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Subjecting stu-
  []
 
-[9]) (./introduction/theory.tex [10]
-<img/brainareas.png, id=275, 401.5pt x 261.97874pt>
+[11]) (./introduction/theory.tex [12]
+<img/brainareas.png, id=398, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
  <use img/brainareas.png>
-Package pdftex.def Info: img/brainareas.png used on input line 15.
+Package pdftex.def Info: img/brainareas.png used on input line 13.
 (pdftex.def)             Requested size: 209.12683pt x 136.45758pt.
 
-[11
+[13
 
-] <img/modalmemory.png, id=298, 403.909pt x 136.51pt>
+] <img/modalmemory.png, id=421, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
 
 <use img/modalmemory.png>
-Package pdftex.def Info: img/modalmemory.png used on input line 26.
+Package pdftex.def Info: img/modalmemory.png used on input line 24.
 (pdftex.def)             Requested size: 209.12683pt x 70.67732pt.
- [12 <./img/brainareas.png> <./img/modalmemory.png>]
-[13]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 65.
+ [14 <./img/brainareas.png> <./img/modalmemory.png>]
+[15]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 65.
- [14]
-<img/neuron.png, id=367, 803.0pt x 602.25pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 63.
+ [16]
+<img/neuron.png, id=488, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
-Package pdftex.def Info: img/neuron.png used on input line 71.
+Package pdftex.def Info: img/neuron.png used on input line 69.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
- [15 <./img/neuron.png>] <img/powerlawforgetting.png, id=400, 521.95pt x 321.2p
+ [17 <./img/neuron.png>] <img/powerlawforgetting.png, id=529, 521.95pt x 321.2p
 t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
 <use img/powerlawforgetting.png>
-Package pdftex.def Info: img/powerlawforgetting.png used on input line 87.
+Package pdftex.def Info: img/powerlawforgetting.png used on input line 85.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=401, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=530, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
-Package pdftex.def Info: img/powerlawlearning.png used on input line 93.
+Package pdftex.def Info: img/powerlawlearning.png used on input line 91.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
- [16] [17 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [18]
-<img/spacedrepetition.png, id=496, 466.74374pt x 277.78781pt>
+ [18] [19 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [20]
+<img/spacedrepetition.png, id=625, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
-Package pdftex.def Info: img/spacedrepetition.png used on input line 118.
+Package pdftex.def Info: img/spacedrepetition.png used on input line 116.
 (pdftex.def)             Requested size: 209.12683pt x 124.46503pt.
-) [19 <./img/spacedrepetition.png>] [20
+) [21 <./img/spacedrepetition.png>] [22
 
 ]
 (./design/scheduling.tex) (./design/visualisation.tex) (./design/software.tex)
-[21
+[23
 
 ] (./research/aimsgoals.tex) (./research/methods.tex)
-(./research/results.tex) (./research/discussion.tex) [22
+(./research/results.tex) (./research/discussion.tex) [24
 
 ]
 (./recommendations/features.tex) (./recommendations/research.tex)
-(./recommendations/implementation.tex) (./epilogue/epilogue.tex) [23
+(./recommendations/implementation.tex) (./epilogue/epilogue.tex) [25
 
-] [24
-
-]
-(./MainFile.bbl [25
+] [26
 
 ]
-Underfull \vbox (badness 2903) has occurred while \output is active []
+(./MainFile.bbl
+Underfull \vbox (badness 1708) has occurred while \output is active []
 
- [26])
+ [27
+
+]
+Underfull \vbox (badness 3417) has occurred while \output is active []
+
+ [28])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
 
-[27]
+[29]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
  (./MainFile.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: CD9ABFDEB97C3AF48E2C97B2E05968B5;2186.
+(rerunfilecheck)             Checksum: 2F1EBCA8DEBE058E195BDF9C1DFED4FD;2451.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
- 10968 strings out of 493304
- 161706 string characters out of 6139871
- 275767 words of memory out of 5000000
- 14078 multiletter control sequences out of 15000+600000
+ 11056 strings out of 493304
+ 162821 string characters out of 6139871
+ 278414 words of memory out of 5000000
+ 14145 multiletter control sequences out of 15000+600000
  13618 words of font info for 47 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 37i,11n,43p,1785b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,1820b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1181,10 +1186,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MainFile.pdf (27 pages, 465120 bytes).
+Output written on MainFile.pdf (29 pages, 479992 bytes).
 PDF statistics:
- 626 PDF objects out of 1000 (max. 8388607)
- 552 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 680 compressed objects within 7 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 

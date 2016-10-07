@@ -1,6 +1,21 @@
 \chapter{Project Description}
 
-In this chapter, flashcard systems, concept mapping, and the flashmap will be explored on a practical level in order to establish their definitions together with a summary of arguments in favour or opposition of using them as tools for studying.
+\label{ch:problem}
+
+Over the centuries, knowledge has been fundamental to any learning process. Socrates already stated that knowledge is the only true virtue, and the tragedian Aeschylus regarded memory as the mother of all knowledge. Moreover, it was not only regarded as important by ancient thinkers, but is still regarded as such by modern scholars on education. Both the taxonomy of learning by \citeA{bloom} as a revision of this taxonomy by \citeA{krathwohl}, as well as the three stages of skill acquisition by \citeA{skillacquisition}, propose that all learning should start with memorising factual knowledge. Furthermore, \citeA{glaserfield}, one of the main founders for critical constructivism, expresses a need for training students so that they permanently possess facts and are able to repeat them flawlessly whenever they are needed, while also understanding what is placed into their memory. \citeA{ltwm} adds to this by stating that in order to perform complex tasks, people must maintain access to large amounts of information, and that solely encoding knowledge is not sufficient. Despite all of this, \citeA{karpicke4} argues that "[r]etrieval processes, the processes involved in using available cues to actively reconstruct knowledge, have received less attention" (p. 158), whereas basic research on learning and memory has emphasised that retrieval must be considered in any analysis of learning.
+
+Traditionally, when students have to gain complex and meaningful knowledge -- for example knowledge about a historical event or a chapter in a psychology textbook, they are asked to read the relevant chapter from a provided textbook. However, \citeA{learninginstruction} states that many students have difficulty gaining knowledge in this manner. He breaks reading for comprehension down into four separate skills, which are integrating, organising, elaborating, and monitoring. Integrating refers to relating a text to one's prior knowledge, for which exists evidence that rich background knowledge leads to better inferences about the text, and thereby better comprehension. After integration, the reader has to organise the text, so that the important ideas and the relatinoships among them are identified. This is mainly a problem for less experienced readers, which will spend too much time on reading the unimportant information. At the same time, the student has to make necessary inferences while reading, or has to elaborate, which is quite difficult for readers when not prompted. Finally, students have to monitor their comprehension, which refers to evaluating comprehension of the text and if necessary adjusting the reading strategy. This is again quite difficult for the average reader, however can be trained.
+
+While intergrating is something more dependent on the curriculum design, organising and elaborating can be facilitated by concept mapping, and monitoring by flashcard systems. Furthermore, this research aims to develop a tool which combines these tools, called the flashmap. In this chapter, concept mapping, flashcard systems, and the flashmap will be explored on a practical level in order to establish their definitions together with a summary of arguments in favour or opposition of using them as tools for studying textual material.
+
+\section{Concept mapping}
+
+%Definition
+
+%Summary of arguments in favour
+    %Reference to context chapter
+    %Reference to theoretical framework
+    %Practical studies
 
 \section{Flashcard system}
 
@@ -14,11 +29,15 @@ A flashcard system refers to any system in which a learner is presented by cues 
 
 The most simple form of a flashcard system is a system where the learner has a stack of cards, with each containing a retrieval cue on one side and the correct associated response on the other side. He can then study by going through the whole stack each day, trying to come up with the correct answer. He can then increase its efficiency by repeating difficult cards more often, or skipping reviewing certain easy cards for multiple days. This way he focuses only on the pairs which are more needy of retrieval. Finally, he can choose to not start with the whole stack on the first day, but increase the size of the stack over multiple days in order to improve the spreading of cognitive load. Next to these paper flashcards there is also a multitude of digital flashcard systems available \cite{hwang2, nakata, microlearning}, which allows for automating the rescheduling of flashcards, making it possible to create more advanced mechanisms.
 
-\citeA{nakata} also describe general design features of flashcard software, which are seperated in terms of creation and editing of flashcards, and learning of flashcards. These entail features whether learners are able to create their own flashcards or flashcard sets, whether learners merely have to recall an answer or have to produce an answer, how big a learning session is and how repetitions are scheduled. Partly, these features are also applicable on paper flashcards. The features will be elaborated on later on page INSERT REFERENCE TO DESIGN CHAPTER, but for now it is sufficient to state that there do not exist commonly accepted guidelines for how flaschard software should be designed. This mainly is due to the fact that not a lot of research is conducted on specific design-features, research reviewing mostly the same program, and there being discrepancies in the way they are designed, and further research is needed in order to establish these guidelines.
+\subsection{Effectiveness}
+
+Flashcard systems have not been completely free from criticism by other researchers. \citeA{hulstijn} for example describes flashcards as a relic of the old-fashioned behaviourist learning model, and \citeA{mccullough} states that the main emphasis of flashcards is memorisation, not comprehension. However, \citeA{zirkle} states that it is still important for teachers and students to understand and utilise memory in such a way that a store of knowledge is produced that remains flexibly retrievable in a variety of contexts over a period of time, even more so because even though it is deemed useless to learn without comprehension, students still should learn by heart many conventional facts \cite{glaserfield}. Flashcards have found to be both a time efficient tool for learning large numbers of facts and an effective tool for these facts to be more resistant to decay in comparison to traditional teaching methods \cite{nakata}. They have also been found to be effective accross studies in different contexts, for example that of language learning \cite{chien, nakata, macquarrie, mccullough}, word recognition \cite{joseph}, psychology courses \cite{burgess, golding}, and geography \cite{zirkle}. Therefore, many authors support pursuing research into flashcards and its effective application into classrooms.
+
+\subsection{Design features}
+
+\citeA{nakata} also describe general design features of flashcard software, which are seperated in terms of creation and editing of flashcards, and learning of flashcards. These entail features whether learners are able to create their own flashcards or flashcard sets, whether learners merely have to recall an answer or have to produce an answer, how big a learning session is and how repetitions are scheduled. Partly, these features are also applicable on paper flashcards. The features will be further elaborated later on page INSERT REFERENCE TO DESIGN CHAPTER, but for now it is sufficient to state that there do not exist commonly accepted guidelines for how flaschard software should be designed. This mainly is due to the fact that not a lot of research is conducted on specific design-features, research reviewing mostly the same program, and there being discrepancies in the way they are designed, and further research is needed in order to establish these guidelines.
 
 %TODO: add reference to design chapter
-
-The studies consulted within this research contain three different categories of results: how flashcard systems are integrated into current education, how effective they are, and what kind of reactions students have using the systems.
 
 \subsection{Application of flashcards}
 
@@ -26,25 +45,6 @@ Multiple sources describe an increase in the use of flashcards in education: \ci
 
 \citeA{chien} and \citeA{nakata} describe that multimedia and digital flashcards are used very widely, because they can be easily programmed to keep track of performance and better control the sequency, which is cumbersome if done manually, and that students might be more motivated using digital flashcards because of the enhanced presentation of materials due to their multimedia capabilities. However, \citeA{golding} still found the majority of students using written flashcards. These findings surprised \citeA{burgess}, since many students have their smart phones with them most of the time -- 75\% of students report using smartphones during breaks, meetings etc, 55\% while waiting, and 45\% for school related uses -- and phones are more portable than large stacks of traditional flashcards. However, when he pursued the study by providing students with either written or digital flashcards, students used the digital flashcards less frequently than the traditional flashcards, even when the students had to make their own flashcards. Reasons students provided were technical issues such as battery consumption, simply forgetting about it, using entertainment apps instead of studying, and preference for traditional flashcards.
 
-\subsection{Effectivity}
-
-
-
-\subsection{Reactions}
-
-%Summary of arguments in favour
-    %Reference to context chapter
-    %Reference to theoretical framework
-    %Practical studies
-
-\section{Concept mapping}
-
-%Definition
-
-%Summary of arguments in favour
-    %Reference to context chapter
-    %Reference to theoretical framework
-    %Practical studies
 
 \section{Comparison of the two tools}
 
