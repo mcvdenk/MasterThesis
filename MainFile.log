@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  7 OCT 2016 16:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  10 OCT 2016 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,7 +907,7 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=152, 225.60284pt x 45.2892pt>
+<logo.png, id=156, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 115.
@@ -946,12 +946,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [5
 
 ]
-Underfull \vbox (badness 1540) has occurred while \output is active []
+<img/conceptmap.png, id=279, 415.5525pt x 353.82187pt>
+File: img/conceptmap.png Graphic file (type png)
 
- [6])
-(./introduction/context.tex [7] [8
+<use img/conceptmap.png>
+Package pdftex.def Info: img/conceptmap.png used on input line 27.
+(pdftex.def)             Requested size: 209.12683pt x 178.06046pt.
+ [6] [7 <./img/conceptmap.png>])
+(./introduction/context.tex [8] [9] [10
 
-] [9] [10]
+] [11] [12]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 59.
@@ -1076,36 +1080,36 @@ Underfull \hbox (badness 2221) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Subjecting stu-
  []
 
-[11]) (./introduction/theory.tex [12]
-<img/brainareas.png, id=398, 401.5pt x 261.97874pt>
+[13]) (./introduction/theory.tex [14]
+<img/brainareas.png, id=455, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
  <use img/brainareas.png>
 Package pdftex.def Info: img/brainareas.png used on input line 13.
 (pdftex.def)             Requested size: 209.12683pt x 136.45758pt.
 
-[13
+[15
 
-] <img/modalmemory.png, id=421, 403.909pt x 136.51pt>
+] <img/modalmemory.png, id=477, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
 
 <use img/modalmemory.png>
 Package pdftex.def Info: img/modalmemory.png used on input line 24.
 (pdftex.def)             Requested size: 209.12683pt x 70.67732pt.
- [14 <./img/brainareas.png> <./img/modalmemory.png>]
-[15]
+ [16 <./img/brainareas.png> <./img/modalmemory.png>]
+[17]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 63.
- [16]
-<img/neuron.png, id=488, 803.0pt x 602.25pt>
+ [18]
+<img/neuron.png, id=542, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
 Package pdftex.def Info: img/neuron.png used on input line 69.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
- [17 <./img/neuron.png>] <img/powerlawforgetting.png, id=529, 521.95pt x 321.2p
+ [19 <./img/neuron.png>] <img/powerlawforgetting.png, id=585, 521.95pt x 321.2p
 t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
@@ -1113,63 +1117,63 @@ File: img/powerlawforgetting.png Graphic file (type png)
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 85.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=530, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=586, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 91.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
- [18] [19 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [20]
-<img/spacedrepetition.png, id=625, 466.74374pt x 277.78781pt>
+ [20] [21 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [22]
+<img/spacedrepetition.png, id=679, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
 Package pdftex.def Info: img/spacedrepetition.png used on input line 116.
 (pdftex.def)             Requested size: 209.12683pt x 124.46503pt.
-) [21 <./img/spacedrepetition.png>] [22
+) [23 <./img/spacedrepetition.png>] [24
 
 ]
 (./design/scheduling.tex) (./design/visualisation.tex) (./design/software.tex)
-[23
+[25
 
 ] (./research/aimsgoals.tex) (./research/methods.tex)
-(./research/results.tex) (./research/discussion.tex) [24
+(./research/results.tex) (./research/discussion.tex) [26
 
 ]
 (./recommendations/features.tex) (./recommendations/research.tex)
-(./recommendations/implementation.tex) (./epilogue/epilogue.tex) [25
+(./recommendations/implementation.tex) (./epilogue/epilogue.tex) [27
 
-] [26
-
-]
-(./MainFile.bbl
-Underfull \vbox (badness 1708) has occurred while \output is active []
-
- [27
+] [28
 
 ]
-Underfull \vbox (badness 3417) has occurred while \output is active []
+(./MainFile.bbl [29
 
- [28])
+]
+Underfull \vbox (badness 2903) has occurred while \output is active []
+
+ [30]
+Underfull \vbox (badness 2486) has occurred while \output is active []
+
+ [31])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
 
-[29]
+[32]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
  (./MainFile.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 2F1EBCA8DEBE058E195BDF9C1DFED4FD;2451.
+(rerunfilecheck)             Checksum: C973B1B7ABFF05DFE7BB86AB7F37CF40;2510.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
  ) 
 Here is how much of TeX's memory you used:
- 11056 strings out of 493304
- 162821 string characters out of 6139871
- 278414 words of memory out of 5000000
- 14145 multiletter control sequences out of 15000+600000
+ 11098 strings out of 493304
+ 163308 string characters out of 6139871
+ 279072 words of memory out of 5000000
+ 14175 multiletter control sequences out of 15000+600000
  13618 words of font info for 47 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 37i,11n,43p,1820b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,1820b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1186,10 +1190,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MainFile.pdf (29 pages, 479992 bytes).
+Output written on MainFile.pdf (32 pages, 521669 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 680 compressed objects within 7 object streams
- 132 named destinations out of 1000 (max. 500000)
- 332 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 818 PDF objects out of 1000 (max. 8388607)
+ 736 compressed objects within 8 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -152,6 +152,29 @@ Atkinson, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ausubel%
+}{%
+Ausubel%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+ausubel}
+\APACinsertmetastar {%
+ausubel}%
+\begin{APACrefauthors}%
+Ausubel, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1968}.
+\newblock
+\APACrefbtitle {Educational Psychology: A Cognitive View} {Educational
+  psychology: A cognitive view}.
+\newblock
+\APACaddressPublisher{New York, NY}{Holt, Rinehart \& Winston}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Barnes%
 }{%
 Barnes%
@@ -263,6 +286,36 @@ Brameld, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Burdo%
+\ \BBA {} O'Dwyer%
+}{%
+Burdo%
+\ \BBA {} O'Dwyer%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+burdo}
+\APACinsertmetastar {%
+burdo}%
+\begin{APACrefauthors}%
+Burdo, J.%
+\BCBT {}\ \BBA {} O'Dwyer, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The effectiveness of concept mapping and retrieval
+  practice as learning strategies in an undergraduate physiology course} {The
+  effectiveness of concept mapping and retrieval practice as learning
+  strategies in an undergraduate physiology course}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in Physiology Education}{39}{}{335--340}.
+\newblock
+\begin{APACrefDOI} \doi{10.1152/advan.00041.2015} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Burgess%
 \ \BBA {} Murray%
 }{%
@@ -290,6 +343,32 @@ Burgess, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Canas%
+\ \BBA {} Novak%
+}{%
+Canas%
+\ \BBA {} Novak%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+canas}
+\APACinsertmetastar {%
+canas}%
+\begin{APACrefauthors}%
+Canas, A.%
+\BCBT {}\ \BBA {} Novak, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {Freedom vs restriction of content and structure during concept
+  mapping: possibilities and limitations for construction and assessment.}
+  {Freedom vs restriction of content and structure during concept mapping:
+  possibilities and limitations for construction and assessment.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chien%
 }{%
 Chien%
@@ -314,6 +393,37 @@ Chien, C.%
 \APACjournalVolNumPages{English Language Teaching}{8}{5}{111--121}.
 \newblock
 \begin{APACrefDOI} \doi{10.5539/elt.v8n5p111} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chung%
+, O'Neil~Jr.%
+\BCBL {}\ \BBA {} Herl%
+}{%
+Chung%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1999}}%
+}]{%
+chung}
+\APACinsertmetastar {%
+chung}%
+\begin{APACrefauthors}%
+Chung, G.%
+, O'Neil~Jr., H.%
+\BCBL {}\ \BBA {} Herl, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The use of computer-based collaborative knowledge
+  mapping to measure team processes and team outcomes} {The use of
+  computer-based collaborative knowledge mapping to measure team processes and
+  team outcomes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers in Human Behaviour}{15}{3--4}{463--493}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/S0747-5632(99)00032-1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -372,6 +482,34 @@ Edge, D.%
   {Memreflex: Adaptive flashcards for mobile microlearning.}
 \newblock
 \begin{APACrefDOI} \doi{10.1145/2371574.2371641} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Eppler%
+}{%
+Eppler%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+eppler}
+\APACinsertmetastar {%
+eppler}%
+\begin{APACrefauthors}%
+Eppler, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A comparison between concept maps, mind maps, conceptual
+  diagrams, and visual metaphors as complementary tools for knowledge
+  construction and sharing} {A comparison between concept maps, mind maps,
+  conceptual diagrams, and visual metaphors as complementary tools for
+  knowledge construction and sharing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Visualization}{5}{}{202--210}.
+\newblock
+\begin{APACrefDOI} \doi{10.1057/palgrave.ivs.9500131} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1200,6 +1338,34 @@ Rohrer, D.%
 \APACjournalVolNumPages{Applied Cognitive Psychology}{19}{}{361--374}.
 \newblock
 \begin{APACrefDOI} \doi{10.1002/acp.1266} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ruiz-Primo%
+\ \BBA {} Shavelson%
+}{%
+Ruiz-Primo%
+\ \BBA {} Shavelson%
+}{%
+{\protect \APACyear {1996}}%
+}]{%
+ruiz1}
+\APACinsertmetastar {%
+ruiz1}%
+\begin{APACrefauthors}%
+Ruiz-Primo, M.%
+\BCBT {}\ \BBA {} Shavelson, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Problems and Issues in the Use of Concept Maps in
+  Science Assessment} {Problems and issues in the use of concept maps in
+  science assessment}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Research in Science
+  Teaching}{33}{6}{569--600}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
