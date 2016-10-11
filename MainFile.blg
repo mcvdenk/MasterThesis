@@ -38,45 +38,45 @@ Name 3 in "Rohrer, D. and Taylor, K. and Pashler, H., and Wixted, J.T. and Ceped
 while executing---line 5079 of file apacite.bst
 Name 3 in "Rohrer, D. and Taylor, K. and Pashler, H., and Wixted, J.T. and Cepeda, N.J." has a comma at the end for entry rohrer
 while executing---line 5079 of file apacite.bst
-You've used 69 entries,
+You've used 70 entries,
             6951 wiz_defined-function locations,
-            1702 strings with 21753 characters,
-and the built_in function-call counts, 129649 in all, are:
-= -- 15813
-> -- 993
-< -- 6535
-+ -- 6331
-- -- 138
-* -- 8610
-:= -- 24560
-add.period$ -- 285
-call.type$ -- 69
-change.case$ -- 1176
+            1708 strings with 21939 characters,
+and the built_in function-call counts, 131630 in all, are:
+= -- 16049
+> -- 1003
+< -- 6656
++ -- 6444
+- -- 140
+* -- 8753
+:= -- 24982
+add.period$ -- 289
+call.type$ -- 70
+change.case$ -- 1193
 chr.to.int$ -- 0
-cite$ -- 139
-duplicate$ -- 3245
-empty$ -- 5110
-format.name$ -- 1634
-if$ -- 24387
+cite$ -- 141
+duplicate$ -- 3282
+empty$ -- 5179
+format.name$ -- 1648
+if$ -- 24735
 int.to.chr$ -- 0
-int.to.str$ -- 207
+int.to.str$ -- 210
 missing$ -- 0
-newline$ -- 1755
-num.names$ -- 556
-pop$ -- 2222
+newline$ -- 1779
+num.names$ -- 564
+pop$ -- 2243
 preamble$ -- 1
-purify$ -- 278
+purify$ -- 282
 quote$ -- 0
-skip$ -- 8152
+skip$ -- 8276
 stack$ -- 0
-substring$ -- 6811
-swap$ -- 2035
-text.length$ -- 156
+substring$ -- 6929
+swap$ -- 2062
+text.length$ -- 158
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 5776
+type$ -- 5856
 warning$ -- 1
-while$ -- 552
+while$ -- 557
 width$ -- 0
-write$ -- 2121
+write$ -- 2147
 (There were 12 error messages)

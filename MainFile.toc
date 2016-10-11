@@ -10,7 +10,7 @@
 \contentsline {subsection}{Design features}{10}{section*.11}
 \contentsline {subsection}{Application of flashcards}{10}{section*.12}
 \contentsline {section}{Comparison of the two tools}{11}{section*.13}
-\contentsline {section}{Flashmap}{11}{section*.14}
+\contentsline {section}{Flashmap system}{11}{section*.14}
 \contentsline {chapter}{Context}{12}{chapter*.15}
 \contentsline {section}{Five educational philosophies}{12}{section*.16}
 \contentsline {section}{Perennialism}{12}{section*.17}

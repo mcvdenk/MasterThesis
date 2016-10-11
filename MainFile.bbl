@@ -1613,6 +1613,33 @@ Subramaniam, K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Tzeng%
+}{%
+Tzeng%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+tzeng}
+\APACinsertmetastar {%
+tzeng}%
+\begin{APACrefauthors}%
+Tzeng, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Designs of concept maps and their impacts on readers'
+  perfomance in memory and reasoning while reading} {Designs of concept maps
+  and their impacts on readers' perfomance in memory and reasoning while
+  reading}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{JOurnal of Research in Reading}{33}{2}{128--147}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1467-9817.2009.01404.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Verkoeijen%
 \ \BBA {} Delaney%
 }{%
