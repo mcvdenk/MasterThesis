@@ -200,6 +200,36 @@ Barnes, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Blankenship%
+\ \BBA {} Dansereau%
+}{%
+Blankenship%
+\ \BBA {} Dansereau%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+blankenship}
+\APACinsertmetastar {%
+blankenship}%
+\begin{APACrefauthors}%
+Blankenship, J.%
+\BCBT {}\ \BBA {} Dansereau, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Effect of Animated Node-Link Displays on Information
+  Recall} {The effect of animated node-link displays on information
+  recall}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of Experimental
+  Education}{68}{4}{293--308}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/00220970009600640} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Bliss%
 \ \BBA {} Collingridge%
 }{%
@@ -453,6 +483,31 @@ Craik, F\BPBI I.%
   Behavior}{11}{6}{671--684}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/S0022-5371(72)80001-X} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De~Simone%
+}{%
+De~Simone%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+desimone}
+\APACinsertmetastar {%
+desimone}%
+\begin{APACrefauthors}%
+De~Simone, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Applications of Concept Mapping} {Applications of
+  concept mapping}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{College Teaching}{55}{1}{33--36}.
+\newblock
+\begin{APACrefDOI} \doi{10.3200/CTCH.55.1.33-36} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1036,6 +1091,38 @@ Meno, P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Moore%
+, North%
+, Johri%
+\BCBL {}\ \BBA {} Paretti%
+}{%
+Moore%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+moore}
+\APACinsertmetastar {%
+moore}%
+\begin{APACrefauthors}%
+Moore, J.%
+, North, C.%
+, Johri, A.%
+\BCBL {}\ \BBA {} Paretti, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effectiveness of Adaptive Concept Maps for Promoting
+  Conceptual Understanding: Findings from a Design-Based Case Study of a
+  Learner-Centered Tool} {Effectiveness of adaptive concept maps for promoting
+  conceptual understanding: Findings from a design-based case study of a
+  learner-centered tool}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advances in Engineering Education}{4}{4}{1--35}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Murre%
 \ \BBA {} Chessa%
 }{%
@@ -1397,6 +1484,34 @@ Siegel, L\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Singh%
+\ \BBA {} Moono%
+}{%
+Singh%
+\ \BBA {} Moono%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+singh}
+\APACinsertmetastar {%
+singh}%
+\begin{APACrefauthors}%
+Singh, I.%
+\BCBT {}\ \BBA {} Moono, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Effect of using Concept Maps on Student Achievement
+  in Selected Topics in Chemistry at Tertiary Level} {The effect of using
+  concept maps on student achievement in selected topics in chemistry at
+  tertiary level}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Education and Practice}{6}{15}{106--116}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Smith%
 \ \BBA {} Ragan%
 }{%
@@ -1468,6 +1583,33 @@ Stokes, K.%
 \unskip\
 \newblock
 \APACaddressSchool {}{Baylor University}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Subramaniam%
+\ \BBA {} Esprivalo~Harrell%
+}{%
+Subramaniam%
+\ \BBA {} Esprivalo~Harrell%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+subramaniam}
+\APACinsertmetastar {%
+subramaniam}%
+\begin{APACrefauthors}%
+Subramaniam, K.%
+\BCBT {}\ \BBA {} Esprivalo~Harrell, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An analysis of Prospective Teachers' Knowledge for
+  constructing concept maps} {An analysis of prospective teachers' knowledge
+  for constructing concept maps}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Educational research}{57}{3}{217--236}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
