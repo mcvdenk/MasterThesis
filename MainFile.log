@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  11 OCT 2016 15:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  11 OCT 2016 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,12 +952,11 @@ File: img/conceptmap.png Graphic file (type png)
 <use img/conceptmap.png>
 Package pdftex.def Info: img/conceptmap.png used on input line 29.
 (pdftex.def)             Requested size: 418.25368pt x 356.13712pt.
- [6] [7 <./img/conceptmap.png>] [8] [9])
-(./introduction/context.tex
+ [6] [7 <./img/conceptmap.png>] [8] [9]
 Underfull \vbox (badness 5022) has occurred while \output is active []
 
- [10]
-[11] [12
+ [10])
+(./introduction/context.tex [11] [12
 
 ] [13] [14]
 
@@ -1085,7 +1084,7 @@ Underfull \hbox (badness 2221) in paragraph at lines 72--72
  []
 
 [15]) (./introduction/theory.tex [16]
-<img/brainareas.png, id=506, 401.5pt x 261.97874pt>
+<img/brainareas.png, id=513, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
  <use img/brainareas.png>
 Package pdftex.def Info: img/brainareas.png used on input line 13.
@@ -1093,7 +1092,7 @@ Package pdftex.def Info: img/brainareas.png used on input line 13.
 
 [17
 
-] <img/modalmemory.png, id=527, 403.909pt x 136.51pt>
+] <img/modalmemory.png, id=534, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
 
 <use img/modalmemory.png>
@@ -1108,12 +1107,12 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 63.
  [20]
-<img/neuron.png, id=594, 803.0pt x 602.25pt>
+<img/neuron.png, id=601, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
 Package pdftex.def Info: img/neuron.png used on input line 69.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
- [21 <./img/neuron.png>] <img/powerlawforgetting.png, id=635, 521.95pt x 321.2p
+ [21 <./img/neuron.png>] <img/powerlawforgetting.png, id=642, 521.95pt x 321.2p
 t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
@@ -1121,14 +1120,14 @@ File: img/powerlawforgetting.png Graphic file (type png)
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 85.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=636, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=643, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 91.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
  [22] [23 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [24]
-<img/spacedrepetition.png, id=729, 466.74374pt x 277.78781pt>
+<img/spacedrepetition.png, id=736, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
@@ -1170,7 +1169,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
 Here is how much of TeX's memory you used:
  11133 strings out of 493304
  163729 string characters out of 6139871
- 279689 words of memory out of 5000000
+ 279691 words of memory out of 5000000
  14200 multiletter control sequences out of 15000+600000
  13953 words of font info for 48 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
@@ -1193,10 +1192,10 @@ st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 frm1000.pfb>
-Output written on MainFile.pdf (34 pages, 534924 bytes).
+Output written on MainFile.pdf (34 pages, 536750 bytes).
 PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 790 compressed objects within 8 object streams
+ 882 PDF objects out of 1000 (max. 8388607)
+ 797 compressed objects within 8 object streams
  152 named destinations out of 1000 (max. 500000)
  361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
