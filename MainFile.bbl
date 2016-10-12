@@ -704,29 +704,6 @@ Hwang, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-iMcCullough%
-}{%
-iMcCullough%
-}{%
-{\protect \APACyear {1955}}%
-}]{%
-mccullough}
-\APACinsertmetastar {%
-mccullough}%
-\begin{APACrefauthors}%
-iMcCullough, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1955}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Flash cards - The opiate of the reading program?} {Flash
-  cards - the opiate of the reading program?}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Elementary English}{32}{6}{39--381}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Joseph%
 , Eveleigh%
 , Konrad%
@@ -1066,6 +1043,29 @@ Mayer, R.%
   (\PrintOrdinal{2nd}\ \BEd).
 \newblock
 \APACaddressPublisher{Upper Saddle River, NJ}{Pearson Education}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McCullough%
+}{%
+McCullough%
+}{%
+{\protect \APACyear {1955}}%
+}]{%
+mccullough}
+\APACinsertmetastar {%
+mccullough}%
+\begin{APACrefauthors}%
+McCullough, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1955}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Flash cards - The opiate of the reading program?} {Flash
+  cards - the opiate of the reading program?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Elementary English}{32}{6}{39--381}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

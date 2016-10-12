@@ -76,6 +76,7 @@
 \usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\setcounter{tocdepth}{1}
 
 \makeatletter
 \renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
@@ -126,9 +127,9 @@
 \input{./preface/abstract.tex} %Not started
 
 \part{Introduction}
-    \input{./introduction/problem.tex} %Outlined TODO: missing references to labels
+    \input{./introduction/problem.tex} %Finished, queued review by Tobias TODO: missing references to labels
     \input{./introduction/context.tex} %Reviewed by Tobias
-    \input{./introduction/theory.tex} %Finished
+    \input{./introduction/theory.tex} %Reviewed by Tobias
 
 \part{Design}
     \input{./design/scheduling.tex} %Not started

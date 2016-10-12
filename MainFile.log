@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  11 OCT 2016 17:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  12 OCT 2016 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,28 +792,28 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 ) (./MainFile.aux)
 \openout1 = `MainFile.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 107.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    ... okay on input line 107.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -882,7 +882,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -892,9 +892,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count125
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
 
 (./MainFile.out) (./MainFile.out)
 \@outlinefile=\write4
@@ -907,20 +907,20 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=164, 225.60284pt x 45.2892pt>
+<logo.png, id=104, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 115.
+Package pdftex.def Info: logo.png used on input line 116.
 (pdftex.def)             Requested size: 418.25368pt x 83.96613pt.
 
-Overfull \hbox (12.2784pt too wide) in paragraph at lines 115--115
+Overfull \hbox (12.2784pt too wide) in paragraph at lines 116--116
 []\OT1/cmr/m/n/12 m.c.vandenenk@student.utwente.nl|  
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 115.
+(Font)              <7> on input line 116.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 115.
+(Font)              <5> on input line 116.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
@@ -931,34 +931,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
- [2
-
-])
+)
 \tf@toc=\write5
 \openout5 = `MainFile.toc'.
 
  (./preface/acknowledgements.tex) (./preface/preamble.tex)
-(./preface/abstract.tex) [3] [4
+(./preface/abstract.tex) [2
 
-] (./introduction/problem.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [3
 
- [5
+] (./introduction/problem.tex [4
 
 ]
-<img/conceptmap.png, id=291, 415.5525pt x 353.82187pt>
+<img/conceptmap.png, id=215, 415.5525pt x 353.82187pt>
 File: img/conceptmap.png Graphic file (type png)
 
 <use img/conceptmap.png>
 Package pdftex.def Info: img/conceptmap.png used on input line 29.
 (pdftex.def)             Requested size: 418.25368pt x 356.13712pt.
- [6] [7 <./img/conceptmap.png>] [8] [9]
-Underfull \vbox (badness 5022) has occurred while \output is active []
 
- [10])
-(./introduction/context.tex [11] [12
+Underfull \vbox (badness 1221) has occurred while \output is active []
 
-] [13] [14]
+ [5]
+[6 <./img/conceptmap.png>] [7] [8] [9]) (./introduction/context.tex [10]
+[11
+
+] [12] [13]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 59.
@@ -1083,36 +1081,36 @@ Underfull \hbox (badness 2221) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Subjecting stu-
  []
 
-[15]) (./introduction/theory.tex [16]
-<img/brainareas.png, id=521, 401.5pt x 261.97874pt>
+[14]) (./introduction/theory.tex [15]
+<img/brainareas.png, id=452, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
  <use img/brainareas.png>
 Package pdftex.def Info: img/brainareas.png used on input line 13.
 (pdftex.def)             Requested size: 209.12683pt x 136.45758pt.
 
-[17
+[16
 
-] <img/modalmemory.png, id=542, 403.909pt x 136.51pt>
+] <img/modalmemory.png, id=473, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
 
 <use img/modalmemory.png>
 Package pdftex.def Info: img/modalmemory.png used on input line 24.
 (pdftex.def)             Requested size: 209.12683pt x 70.67732pt.
- [18 <./img/brainareas.png> <./img/modalmemory.png>]
-[19]
+ [17 <./img/brainareas.png> <./img/modalmemory.png>]
+[18]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 63.
- [20]
-<img/neuron.png, id=609, 803.0pt x 602.25pt>
+ [19]
+<img/neuron.png, id=545, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
 Package pdftex.def Info: img/neuron.png used on input line 69.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
- [21 <./img/neuron.png>] <img/powerlawforgetting.png, id=650, 521.95pt x 321.2p
+ [20 <./img/neuron.png>] <img/powerlawforgetting.png, id=586, 521.95pt x 321.2p
 t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
@@ -1120,82 +1118,80 @@ File: img/powerlawforgetting.png Graphic file (type png)
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 85.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=651, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=587, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 91.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
- [22] [23 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [24]
-<img/spacedrepetition.png, id=744, 466.74374pt x 277.78781pt>
+ [21] [22 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [23]
+<img/spacedrepetition.png, id=683, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
 Package pdftex.def Info: img/spacedrepetition.png used on input line 116.
 (pdftex.def)             Requested size: 209.12683pt x 124.46503pt.
-) [25 <./img/spacedrepetition.png>] [26
+) [24 <./img/spacedrepetition.png>] [25
 
 ]
 (./design/scheduling.tex) (./design/visualisation.tex) (./design/software.tex)
-[27
+[26
 
 ] (./research/aimsgoals.tex) (./research/methods.tex)
-(./research/results.tex) (./research/discussion.tex) [28
+(./research/results.tex) (./research/discussion.tex) [27
 
 ]
 (./recommendations/features.tex) (./recommendations/research.tex)
-(./recommendations/implementation.tex) (./epilogue/epilogue.tex) [29
+(./recommendations/implementation.tex) (./epilogue/epilogue.tex) [28
 
-] [30
+] [29
 
 ]
-(./MainFile.bbl [31
+(./MainFile.bbl [30
 
-] [32]
-Underfull \vbox (badness 2903) has occurred while \output is active []
+] [31]
+Underfull \vbox (badness 2486) has occurred while \output is active []
 
- [33])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+ [32])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
 
-[34]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+[33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
  (./MainFile.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 68E360068C54616A1DF3FB8679723953;2657.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+(rerunfilecheck)             Checksum: 6B8E770983B4F3E694C41F38CE1A8A6D;1588.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 11138 strings out of 493304
- 163777 string characters out of 6139871
- 279748 words of memory out of 5000000
- 14204 multiletter control sequences out of 15000+600000
- 13953 words of font info for 48 fonts, out of 8000000 for 9000
+ 11119 strings out of 493304
+ 163543 string characters out of 6139871
+ 279744 words of memory out of 5000000
+ 14187 multiletter control sequences out of 15000+600000
+ 13618 words of font info for 47 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 37i,11n,43p,2109b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1000.pfb>
-Output written on MainFile.pdf (34 pages, 538740 bytes).
+ 37i,11n,43p,2635b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on MainFile.pdf (33 pages, 531823 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 805 compressed objects within 9 object streams
- 153 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 829 PDF objects out of 1000 (max. 8388607)
+ 746 compressed objects within 8 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
