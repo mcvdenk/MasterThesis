@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  12 OCT 2016 17:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  13 OCT 2016 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,12 +949,8 @@ File: img/conceptmap.png Graphic file (type png)
 <use img/conceptmap.png>
 Package pdftex.def Info: img/conceptmap.png used on input line 29.
 (pdftex.def)             Requested size: 418.25368pt x 356.13712pt.
-
-Underfull \vbox (badness 1221) has occurred while \output is active []
-
- [5]
-[6 <./img/conceptmap.png>] [7] [8] [9]) (./introduction/context.tex [10]
-[11
+ [5] [6 <./img/conceptmap.png>] [7] [8] [9])
+(./introduction/context.tex [10] [11
 
 ] [12] [13]
 
@@ -1082,7 +1078,7 @@ Underfull \hbox (badness 2221) in paragraph at lines 72--72
  []
 
 [14]) (./introduction/theory.tex [15]
-<img/brainareas.png, id=454, 401.5pt x 261.97874pt>
+<img/brainareas.png, id=453, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
  <use img/brainareas.png>
 Package pdftex.def Info: img/brainareas.png used on input line 13.
@@ -1090,7 +1086,7 @@ Package pdftex.def Info: img/brainareas.png used on input line 13.
 
 [16
 
-] <img/modalmemory.png, id=475, 403.909pt x 136.51pt>
+] <img/modalmemory.png, id=474, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
 
 <use img/modalmemory.png>
@@ -1105,12 +1101,12 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 63.
  [19]
-<img/neuron.png, id=547, 803.0pt x 602.25pt>
+<img/neuron.png, id=546, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
 Package pdftex.def Info: img/neuron.png used on input line 69.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
- [20 <./img/neuron.png>] <img/powerlawforgetting.png, id=588, 521.95pt x 321.2p
+ [20 <./img/neuron.png>] <img/powerlawforgetting.png, id=587, 521.95pt x 321.2p
 t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
@@ -1118,14 +1114,14 @@ File: img/powerlawforgetting.png Graphic file (type png)
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 85.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=589, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=588, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 91.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
  [21] [22 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [23]
-<img/spacedrepetition.png, id=685, 466.74374pt x 277.78781pt>
+<img/spacedrepetition.png, id=684, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
@@ -1167,11 +1163,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
 Here is how much of TeX's memory you used:
  11119 strings out of 493304
  163543 string characters out of 6139871
- 279744 words of memory out of 5000000
+ 279742 words of memory out of 5000000
  14187 multiletter control sequences out of 15000+600000
  13618 words of font info for 47 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 37i,11n,43p,2682b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,2667b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1188,10 +1184,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MainFile.pdf (33 pages, 532032 bytes).
+Output written on MainFile.pdf (33 pages, 532592 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 748 compressed objects within 8 object streams
+ 830 PDF objects out of 1000 (max. 8388607)
+ 747 compressed objects within 8 object streams
  152 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
