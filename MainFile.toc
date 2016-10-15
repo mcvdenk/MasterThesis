@@ -11,30 +11,30 @@
 \contentsline {subsection}{Application of flashcards}{9}{section*.12}
 \contentsline {section}{Comparison of the two tools}{10}{section*.13}
 \contentsline {section}{Flashmap system}{10}{section*.14}
-\contentsline {chapter}{Context}{11}{chapter*.15}
-\contentsline {section}{Five educational philosophies}{11}{section*.16}
-\contentsline {section}{Perennialism}{11}{section*.17}
-\contentsline {section}{Essentialism}{12}{section*.18}
-\contentsline {section}{Progressivism}{12}{section*.19}
-\contentsline {section}{Reconstructivism}{13}{section*.20}
-\contentsline {section}{Existentionalism}{13}{section*.21}
-\contentsline {section}{Discussion of the five educational philosophies}{14}{section*.22}
-\contentsline {chapter}{Cognitive theories}{16}{chapter*.24}
-\contentsline {section}{Storage and retrieval}{16}{section*.25}
-\contentsline {section}{Cognitive effects with regard to encoding practices}{17}{section*.28}
-\contentsline {subsection}{Early metaphors for the brain}{18}{section*.29}
-\contentsline {subsection}{The brain as an associative network}{18}{section*.30}
-\contentsline {subsection}{Elaborative processing}{19}{section*.31}
-\contentsline {subsection}{Implications for concept mapping}{19}{section*.32}
-\contentsline {section}{Cognitive effects with regard to retrieval practices}{19}{section*.33}
-\contentsline {subsection}{Interference and Decay}{19}{section*.34}
-\contentsline {subsection}{Power laws of forgetting and learning}{21}{section*.36}
-\contentsline {subsection}{Spacing effect}{21}{section*.38}
-\contentsline {subsection}{Implications for the flashcard system}{23}{section*.39}
-\contentsline {section}{Conclusion}{24}{section*.41}
-\contentsline {part}{II\hspace {1em}Design}{25}{part.2}
-\contentsline {part}{III\hspace {1em}Research}{26}{part.3}
-\contentsline {part}{IV\hspace {1em}Recommendations}{27}{part.4}
-\contentsline {chapter}{Epilogue}{28}{chapter*.42}
-\contentsline {part}{V\hspace {1em}Appendices}{29}{part.5}
-\contentsline {chapter}{References}{30}{chapter*.43}
+\contentsline {chapter}{Context}{12}{chapter*.16}
+\contentsline {section}{Five educational philosophies}{12}{section*.17}
+\contentsline {section}{Perennialism}{12}{section*.18}
+\contentsline {section}{Essentialism}{13}{section*.19}
+\contentsline {section}{Progressivism}{13}{section*.20}
+\contentsline {section}{Reconstructivism}{14}{section*.21}
+\contentsline {section}{Existentionalism}{14}{section*.22}
+\contentsline {section}{Discussion of the five educational philosophies}{15}{section*.23}
+\contentsline {chapter}{Cognitive theories}{17}{chapter*.25}
+\contentsline {section}{Storage and retrieval}{17}{section*.26}
+\contentsline {section}{Cognitive effects with regard to encoding practices}{18}{section*.29}
+\contentsline {subsection}{Early metaphors for the brain}{19}{section*.30}
+\contentsline {subsection}{The brain as an associative network}{19}{section*.31}
+\contentsline {subsection}{Elaborative processing}{20}{section*.32}
+\contentsline {subsection}{Implications for concept mapping}{20}{section*.33}
+\contentsline {section}{Cognitive effects with regard to retrieval practices}{20}{section*.34}
+\contentsline {subsection}{Interference and Decay}{20}{section*.35}
+\contentsline {subsection}{Power laws of forgetting and learning}{22}{section*.37}
+\contentsline {subsection}{Spacing effect}{22}{section*.39}
+\contentsline {subsection}{Implications for the flashcard system}{24}{section*.40}
+\contentsline {section}{Conclusion}{25}{section*.42}
+\contentsline {part}{II\hspace {1em}Design}{26}{part.2}
+\contentsline {part}{III\hspace {1em}Research}{27}{part.3}
+\contentsline {part}{IV\hspace {1em}Recommendations}{28}{part.4}
+\contentsline {chapter}{Epilogue}{29}{chapter*.43}
+\contentsline {part}{V\hspace {1em}Appendices}{30}{part.5}
+\contentsline {chapter}{References}{31}{chapter*.44}
