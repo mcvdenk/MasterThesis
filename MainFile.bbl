@@ -1215,9 +1215,9 @@ Nesbit%
 }{%
 {\protect \APACyear {2006}}%
 }]{%
-nesbit2}
+nesbit}
 \APACinsertmetastar {%
-nesbit2}%
+nesbit}%
 \begin{APACrefauthors}%
 Nesbit, J.%
 \BCBT {}\ \BBA {} Adesope, O.%
@@ -1316,6 +1316,33 @@ Pavlik, I.%
 \APACjournalVolNumPages{Cognitive Science}{29}{4}{559--586}.
 \newblock
 \begin{APACrefDOI} \doi{10.1207/s15516709cog0000_14} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Plomp%
+, Feteris%
+\BCBL {}\ \BBA {} Pieters%
+}{%
+Plomp%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1992}}%
+}]{%
+genericmodel}
+\APACinsertmetastar {%
+genericmodel}%
+\begin{APACrefauthors}%
+Plomp, T.%
+, Feteris, A.%
+\BCBL {}\ \BBA {} Pieters, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1992}.
+\newblock
+\APACrefbtitle {Ontwerpen van onderwijs en trainingen} {Ontwerpen van onderwijs
+  en trainingen}\ (W.~Toic, \BED{}).
+\newblock
+\APACaddressPublisher{Utrecht}{LEMMA}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
