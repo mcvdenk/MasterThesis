@@ -35,15 +35,16 @@
 \contentsline {section}{Conclusion}{27}{section*.44}
 \contentsline {part}{II\hspace {1em}Design Report}{28}{part.2}
 \contentsline {chapter}{Analyses}{30}{chapter*.46}
-\contentsline {section}{Context analysis}{30}{section*.47}
-\contentsline {section}{Learner analysis}{30}{section*.48}
-\contentsline {section}{Task analysis}{30}{section*.49}
-\contentsline {chapter}{Defining the general use cases}{31}{chapter*.50}
-\contentsline {section}{Supplantive or generative}{31}{section*.51}
-\contentsline {section}{Choice of platform}{31}{section*.52}
-\contentsline {section}{Supported user actions and system reactions}{31}{section*.53}
-\contentsline {part}{III\hspace {1em}Research}{32}{part.3}
-\contentsline {part}{IV\hspace {1em}Recommendations}{33}{part.4}
-\contentsline {chapter}{Epilogue}{34}{chapter*.54}
-\contentsline {part}{V\hspace {1em}Appendices}{35}{part.5}
-\contentsline {chapter}{References}{36}{chapter*.55}
+\contentsline {section}{Analysis of the learning context}{30}{section*.47}
+\contentsline {subsection}{Needs assessment}{30}{section*.48}
+\contentsline {section}{Analysis of the learner}{31}{section*.50}
+\contentsline {section}{Analysis of the task}{31}{section*.51}
+\contentsline {chapter}{Defining the general use cases}{32}{chapter*.52}
+\contentsline {section}{Supplantive or generative}{32}{section*.53}
+\contentsline {section}{Choice of platform}{32}{section*.54}
+\contentsline {section}{Supported user actions and system reactions}{32}{section*.55}
+\contentsline {part}{III\hspace {1em}Research}{33}{part.3}
+\contentsline {part}{IV\hspace {1em}Recommendations}{34}{part.4}
+\contentsline {chapter}{Epilogue}{35}{chapter*.56}
+\contentsline {part}{V\hspace {1em}Appendices}{36}{part.5}
+\contentsline {chapter}{References}{37}{chapter*.57}
