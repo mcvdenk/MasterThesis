@@ -486,6 +486,36 @@ Craik, F\BPBI I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Davis%
+, Bagozzi%
+\BCBL {}\ \BBA {} Warshaw%
+}{%
+Davis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1989}}%
+}]{%
+tam}
+\APACinsertmetastar {%
+tam}%
+\begin{APACrefauthors}%
+Davis, F.%
+, Bagozzi, R.%
+\BCBL {}\ \BBA {} Warshaw, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {User Acceptance of Computer Technology: A Comparison of
+  Two Theoretical Models} {User acceptance of computer technology: A comparison
+  of two theoretical models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Management Science}{35}{8}{982--1003}.
+\newblock
+\begin{APACrefDOI} \doi{10.1287/mnsc.35.8.982} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 De~Simone%
 }{%
 De~Simone%

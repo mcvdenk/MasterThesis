@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  18 OCT 2016 17:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  19 OCT 2016 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,7 +907,7 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=136, 225.60284pt x 45.2892pt>
+<logo.png, id=140, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 116.
@@ -943,22 +943,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] (./introduction/problem.tex [5
 
 ]
-<img/conceptmap.png, id=259, 415.5525pt x 353.82187pt>
+<img/conceptmap.png, id=264, 415.5525pt x 353.82187pt>
 File: img/conceptmap.png Graphic file (type png)
 
 <use img/conceptmap.png>
 Package pdftex.def Info: img/conceptmap.png used on input line 29.
 (pdftex.def)             Requested size: 418.25368pt x 356.13712pt.
  [6] [7 <./img/conceptmap.png>] [8] [9] [10]
-<img/flashmap.png, id=421, 633.11531pt x 271.76532pt>
+<img/flashmap.png, id=426, 633.11531pt x 271.76532pt>
 File: img/flashmap.png Graphic file (type png)
  <use img/flashmap.png>
 Package pdftex.def Info: img/flashmap.png used on input line 85.
 (pdftex.def)             Requested size: 418.25368pt x 179.53983pt.
-)
-(./introduction/context.tex [11] [12 <./img/flashmap.png>] [13
 
-] [14] [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+\c@researchquestion=\count127
+\c@subquestion=\count128
+
+[12 <./img/flashmap.png>] <img/tam.png, id=459, 666.99188pt x 189.70876pt>
+File: img/tam.png Graphic file (type png)
+
+<use img/tam.png>
+Package pdftex.def Info: img/tam.png used on input line 128.
+(pdftex.def)             Requested size: 418.25368pt x 118.96425pt.
+) (./introduction/context.tex [13 <./img/tam.png>] [14
+
+]
+[15] [16]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 59.
@@ -1083,36 +1096,36 @@ Underfull \hbox (badness 2221) in paragraph at lines 72--72
 []|\OT1/cmr/m/n/10 Subjecting stu-
  []
 
-[16]) (./introduction/theory.tex [17]
-<img/brainareas.png, id=504, 401.5pt x 261.97874pt>
+[17]) (./introduction/theory.tex [18]
+<img/brainareas.png, id=547, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
  <use img/brainareas.png>
 Package pdftex.def Info: img/brainareas.png used on input line 13.
 (pdftex.def)             Requested size: 209.12683pt x 136.45758pt.
 
-[18
+[19
 
-] <img/modalmemory.png, id=525, 403.909pt x 136.51pt>
+] <img/modalmemory.png, id=570, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
 
 <use img/modalmemory.png>
 Package pdftex.def Info: img/modalmemory.png used on input line 24.
 (pdftex.def)             Requested size: 209.12683pt x 70.67732pt.
- [19 <./img/brainareas.png> <./img/modalmemory.png>]
-[20]
+ [20 <./img/brainareas.png> <./img/modalmemory.png>]
+[21]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 63.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 63.
- [21]
-<img/neuron.png, id=597, 803.0pt x 602.25pt>
+ [22]
+<img/neuron.png, id=640, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
 Package pdftex.def Info: img/neuron.png used on input line 69.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
- [22 <./img/neuron.png>] <img/powerlawforgetting.png, id=638, 521.95pt x 321.2p
+ [23 <./img/neuron.png>] <img/powerlawforgetting.png, id=681, 521.95pt x 321.2p
 t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
@@ -1120,68 +1133,74 @@ File: img/powerlawforgetting.png Graphic file (type png)
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 85.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=639, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=682, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 91.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
- [23] [24 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [25]
-<img/spacedrepetition.png, id=736, 466.74374pt x 277.78781pt>
+ [24] [25 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [26]
+<img/spacedrepetition.png, id=779, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
 Package pdftex.def Info: img/spacedrepetition.png used on input line 116.
 (pdftex.def)             Requested size: 209.12683pt x 124.46503pt.
-) [26 <./img/spacedrepetition.png>] [27
+) [27 <./img/spacedrepetition.png>] [28
 
 ]
-(./design/intro.tex <img/genericmodel.png, id=756, 249.18094pt x 248.42813pt>
+(./design/intro.tex <img/genericmodel.png, id=799, 249.18094pt x 248.42813pt>
 File: img/genericmodel.png Graphic file (type png)
 
 <use img/genericmodel.png>
 Package pdftex.def Info: img/genericmodel.png used on input line 5.
 (pdftex.def)             Requested size: 209.12683pt x 208.50003pt.
-) (./design/analysis.tex [28 <./img/genericmodel.png>]) (./design/usecases.tex 
-[29
+) (./design/analysis.tex [29 <./img/genericmodel.png>]) (./design/usecases.tex 
+[30
 
 ]) (./design/scheduling.tex)
-(./design/visualisation.tex) (./design/software.tex) [30
+(./design/visualisation.tex) (./design/software.tex) [31
 
-] [31
+] [32
 
 ]
 (./research/aimsgoals.tex) (./research/methods.tex) (./research/results.tex)
-(./research/discussion.tex) [32
+(./research/discussion.tex) [33
 
 ] (./recommendations/features.tex)
 (./recommendations/research.tex) (./recommendations/implementation.tex)
-(./epilogue/epilogue.tex) [33
+(./epilogue/epilogue.tex) [34
 
-] [34
+] [35
 
-] (./MainFile.bbl [35
+] (./MainFile.bbl [36
 
-] [36] [37])
+]
+Underfull \vbox (badness 2903) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 2903) has occurred while \output is active []
+
+ [38])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
- [38]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
 
-(./MainFile.aux)
+[39]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+ (./MainFile.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 82C9D9E32373B0379668FBEF5EAABBFF;2139.
+(rerunfilecheck)             Checksum: EFF960A5F2E290875FEAE6452653AA1F;2204.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 11169 strings out of 493304
- 164279 string characters out of 6139871
- 280177 words of memory out of 5000000
- 14210 multiletter control sequences out of 15000+600000
+ 11209 strings out of 493304
+ 164809 string characters out of 6139871
+ 280700 words of memory out of 5000000
+ 14238 multiletter control sequences out of 15000+600000
  13618 words of font info for 47 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 37i,11n,43p,2665b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,2665b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1198,10 +1217,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MainFile.pdf (38 pages, 587735 bytes).
+Output written on MainFile.pdf (39 pages, 603664 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
- 824 compressed objects within 9 object streams
- 168 named destinations out of 1000 (max. 500000)
- 315 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 960 PDF objects out of 1000 (max. 8388607)
+ 862 compressed objects within 9 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

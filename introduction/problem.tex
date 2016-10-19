@@ -87,6 +87,49 @@ It can be concluded that both of these tools are helpful for studying, since con
     \label{fig:flashmap}
 \end{figure}
 
-This project does not only aim to develop a flashmap system, but also to evaluate it by comparing it to a similarly functioning flashcard system.
+\section{Evaluation}
+
+This project does not only aim to develop a flashmap system, but also to evaluate it by comparing it to a similarly functioning flashcard system. For evaluating this flashmap system, a group of Dutch high school teachers of the Stedelijk Lyceum has been found willing to participate, with their students using either the flashmap or the flashcard system for self study parallel with classroom instruction. The content of the instruction will be the history of Dutch literature during the sixteenth and seventeenth century. For example, the students have to learn what the influence is of the Dutch War of Independence on the \emph{Spaanschen Brabander} by Bredero. Because of the content existing mainly of concepts with meaningful relations it fits to the concept map technique and thereby the flashmap system could be significantly beneficial over the flashcard system.
+
+\newcounter{researchquestion}
+\renewcommand{\theresearchquestion}{\Roman{researchquestion}}
+\newcounter{subquestion}[researchquestion]
+\renewcommand{\thesubquestion}{\alph{subquestion}}
+
+The research aims to investigate the following questions: Regarding high school students learning for Dutch literature using the flashmap system in comparison to them using the flashcard system...
+
+\refstepcounter{researchquestion}\label{benefit}
+\refstepcounter{subquestion}\label{effectiveness}
+\Roman{researchquestion}\alph{subquestion}. ...is the learning gain larger?
+
+\refstepcounter{subquestion}\label{efficiency}
+\Roman{researchquestion}\alph{subquestion}. ...is the learning gain larger controlled for the time spend with the system?
+
+\refstepcounter{researchquestion}\label{perception}
+\refstepcounter{subquestion}\label{usefulness}
+\Roman{researchquestion}\alph{subquestion}. ...do they perceive the system to be more useful?
+
+\refstepcounter{subquestion}\label{ease}
+\Roman{researchquestion}\alph{subquestion}. ...do they perceive the system to be easier to use?
+
+\refstepcounter{researchquestion}\label{howused}
+\Roman{researchquestion} How did the students use the flashmap or flashcard system?
+
+For researching the effects of the flashmap system relative to the effects of the flashcard system, it is important to consider two main factors: its actual benefits (research question~\ref{benefit}\ref{effectiveness} and~\ref{efficiency}), and its perceived benefits (research question~\ref{perception}\ref{usefulness} and~\ref{ease}). Furthermore, for the validity of the system and of the experiment it is important to investigate how the system was used by the students (research question~\ref{howused}).
+
+To research whether the flashmap system is more effective or efficient than the flashcard system, the learning gain of high school the students will be measured, referring to the knowledge obtained by a student over the course of an instruction. Sequentially, the efficiency of the system is determined by the learning gain controlled for time spend on the system.
+
+For measuring the affectiveness of the systems, the Technology Acceptance Model by \citeA{tam} will be used (see figure~\ref{fig:tam}). This model predicts the use of an information system by measuring the Perceived Usefulness and the Perceived Ease of Use of the user. These variables are mediators between External Variables and Attitude toward using, leading to Behavioural intention to use, which in turn leads to the Actual system use.
+
+Finally, for the answering the final question an interview will be conducted with a sample of the participants, and by the server logging usage information about the user.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{img/tam}
+    \caption{The Technology Acceptance Model by \protect\citeA{tam}}
+    \label{fig:tam}
+\end{figure}
+
+Answering the research questions has both practical and scientific relevance. From a practical perspective, it has potential to overcome the criticism from various authors about flashcard systems and answer the need for meaningful rote memorisation. From a scientific perspective, it could confirm the hypothesis by \citeA{tzeng} that an expanding concept map might mitigate map shock. It also makes way for new research opportunities, for example what the effect is of integrating the flashmap with the games condition formulated by \citeA{canas}. 
 
 The following two chapters within the introduction will elaborate further on the needs for memorisation on page~\pageref{ch:context} and the cognitive theories underlying concept mapping and flaschard systems on page~\pageref{ch:theory}, after which the design and development of the flashmap will be described in part II. After that, the research conducted within this project and its results will be described in part III, and finally part IV will be elaborating on additional features of the flashmap system and how these could be evaluated by further research.
