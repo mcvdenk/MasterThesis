@@ -541,6 +541,34 @@ De~Simone, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Dirksen%
+}{%
+Dirksen%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+opinion2}
+\APACinsertmetastar {%
+opinion2}%
+\begin{APACrefauthors}%
+Dirksen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Leerlingen, literatuur en literatuuronderwijs}
+  {Leerlingen, literatuur en literatuuronderwijs}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Forum of arena: opvattingen over literatuuronderwijs.
+  Een stand van zaken in 2007}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://taalunieversum.org/inhoud/von-cahier-1/leerlingen-literatuur-en-literatuuronderwijs}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Edge%
 , Fitchett%
 , Whitney%
@@ -652,6 +680,32 @@ Golding, J.%
 \APACjournalVolNumPages{Teaching of Psychology}{39}{3}{199--202}.
 \newblock
 \begin{APACrefDOI} \doi{10.1177/0098628312450436} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Heemskerk%
+}{%
+Heemskerk%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+heemskerk}
+\APACinsertmetastar {%
+heemskerk}%
+\begin{APACrefauthors}%
+Heemskerk, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\unskip\
+\newblock
+\APACrefbtitle {Vroeger was het oorlog. Geschiedeniskennis bij Nederlandse
+  jongeren} {Vroeger was het oorlog. geschiedeniskennis bij nederlandse
+  jongeren}\ \APACtypeAddressSchool {Unpublished master's thesis}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Erasmus Universiteit Rotterdam}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1569,6 +1623,34 @@ Singh, I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Slings%
+}{%
+Slings%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+opinion1}
+\APACinsertmetastar {%
+opinion1}%
+\begin{APACrefauthors}%
+Slings, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Het waarom en hoe van historisch literatuuronderwijs}
+  {Het waarom en hoe van historisch literatuuronderwijs}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Forum of arena: opvattingen over literatuuronderwijs.
+  Een stand van zaken in 2007}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://taalunieversum.org/inhoud/von-cahier-1/het-waarom-en-hoe-van-historisch-literatuuronderwijs}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Smith%
 \ \BBA {} Ragan%
 }{%
@@ -1694,6 +1776,62 @@ Tzeng, J.%
 \APACjournalVolNumPages{JOurnal of Research in Reading}{33}{2}{128--147}.
 \newblock
 \begin{APACrefDOI} \doi{10.1111/j.1467-9817.2009.01404.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+van~den Akker%
+}{%
+van~den Akker%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+curricularspiderweb}
+\APACinsertmetastar {%
+curricularspiderweb}%
+\begin{APACrefauthors}%
+van~den Akker, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Curriculum Perspectives: An Introduction} {Curriculum
+  perspectives: An introduction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Curriculum Landscapes and Trends} {Curriculum landscapes
+  and trends}\ (\BPGS\ 1--10).
+\newblock
+\APACaddressPublisher{Dordrecht}{Springer Netherlands}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1007/978-94-017-1205-7_1}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-94-017-1205-7_1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+van~der Meulen%
+\ \BBA {} Kraaijeveld%
+}{%
+van~der Meulen%
+\ \BBA {} Kraaijeveld%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+laagland}
+\APACinsertmetastar {%
+laagland}%
+\begin{APACrefauthors}%
+van~der Meulen, G.%
+\BCBT {}\ \BBA {} Kraaijeveld, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Laagland. Literatuur Nederlands voor de tweede fase.
+  Informatieboek VWO} {Laagland. literatuur nederlands voor de tweede fase.
+  informatieboek vwo}\ (\PrintOrdinal{2}\ \BEd).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

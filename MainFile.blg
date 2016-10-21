@@ -12,71 +12,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+I was expecting a `,' or a `}'---line 708 of file references.bib
+ :     
+ :     publisher = "ThiemeMeulenhoff",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Name 3 in "Rohrer, D. and Taylor, K. and Pashler, H., and Wixted, J.T. and Cepeda, N.J." has a comma at the end for entry rohrer
-while executing---line 5062 of file apacite.bst
-Name 2 in "Kintsch, W. and Welsch, D.M., and Schmalhofer, F. and Zimny, S." has a comma at the end for entry kintsch
-while executing---line 5062 of file apacite.bst
-Name 2 in "Kintsch, W. and Welsch, D.M., and Schmalhofer, F. and Zimny, S." has a comma at the end for entry kintsch
-while executing---line 5072 of file apacite.bst
-Name 3 in "Rohrer, D. and Taylor, K. and Pashler, H., and Wixted, J.T. and Cepeda, N.J." has a comma at the end for entry rohrer
-while executing---line 5072 of file apacite.bst
-Name 3 in "Rohrer, D. and Taylor, K. and Pashler, H., and Wixted, J.T. and Cepeda, N.J." has a comma at the end for entry rohrer
-while executing---line 5075 of file apacite.bst
-Name 2 in "Kintsch, W. and Welsch, D.M., and Schmalhofer, F. and Zimny, S." has a comma at the end for entry kintsch
-while executing---line 5075 of file apacite.bst
-Name 2 in "Kintsch, W. and Welsch, D.M., and Schmalhofer, F. and Zimny, S." has a comma at the end for entry kintsch
-while executing---line 5076 of file apacite.bst
-Name 3 in "Rohrer, D. and Taylor, K. and Pashler, H., and Wixted, J.T. and Cepeda, N.J." has a comma at the end for entry rohrer
-while executing---line 5076 of file apacite.bst
-Name 2 in "Kintsch, W. and Welsch, D.M., and Schmalhofer, F. and Zimny, S." has a comma at the end for entry kintsch
-while executing---line 5079 of file apacite.bst
-Name 2 in "Kintsch, W. and Welsch, D.M., and Schmalhofer, F. and Zimny, S." has a comma at the end for entry kintsch
-while executing---line 5079 of file apacite.bst
 Warning--No address in educationalphilosophy2
-Name 3 in "Rohrer, D. and Taylor, K. and Pashler, H., and Wixted, J.T. and Cepeda, N.J." has a comma at the end for entry rohrer
-while executing---line 5079 of file apacite.bst
-Name 3 in "Rohrer, D. and Taylor, K. and Pashler, H., and Wixted, J.T. and Cepeda, N.J." has a comma at the end for entry rohrer
-while executing---line 5079 of file apacite.bst
-You've used 72 entries,
+You've used 77 entries,
             6951 wiz_defined-function locations,
-            1723 strings with 22236 characters,
-and the built_in function-call counts, 135472 in all, are:
-= -- 16507
-> -- 1043
-< -- 6838
-+ -- 6622
-- -- 144
-* -- 9006
-:= -- 25670
-add.period$ -- 297
-call.type$ -- 72
-change.case$ -- 1227
+            1749 strings with 23115 characters,
+and the built_in function-call counts, 144097 in all, are:
+= -- 17621
+> -- 1100
+< -- 7216
++ -- 6959
+- -- 154
+* -- 9519
+:= -- 27149
+add.period$ -- 320
+call.type$ -- 77
+change.case$ -- 1313
 chr.to.int$ -- 0
-cite$ -- 145
-duplicate$ -- 3400
-empty$ -- 5338
-format.name$ -- 1715
-if$ -- 25468
+cite$ -- 155
+duplicate$ -- 3601
+empty$ -- 5718
+format.name$ -- 1795
+if$ -- 27201
 int.to.chr$ -- 0
-int.to.str$ -- 216
+int.to.str$ -- 231
 missing$ -- 0
-newline$ -- 1833
-num.names$ -- 582
-pop$ -- 2312
+newline$ -- 1956
+num.names$ -- 622
+pop$ -- 2508
 preamble$ -- 1
-purify$ -- 290
+purify$ -- 310
 quote$ -- 0
-skip$ -- 8506
+skip$ -- 9132
 stack$ -- 0
-substring$ -- 7122
-swap$ -- 2136
-text.length$ -- 162
+substring$ -- 7490
+swap$ -- 2260
+text.length$ -- 176
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 6016
+type$ -- 6544
 warning$ -- 1
-while$ -- 583
+while$ -- 611
 width$ -- 0
-write$ -- 2219
-(There were 12 error messages)
+write$ -- 2356
+(There was 1 error message)
