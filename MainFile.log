@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  26 OCT 2016 16:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  9 NOV 2016 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1171,20 +1171,20 @@ File: img/curricular_spiderweb.png Graphic file (type png)
 Package pdftex.def Info: img/curricular_spiderweb.png used on input line 38.
 (pdftex.def)             Requested size: 292.77629pt x 226.92049pt.
  [32] [33 <./img/curricular_spiderweb.png>])
-(./design/usecases.tex [34]) (./design/scheduling.tex)
-(./design/visualisation.tex) (./design/software.tex) [35
+(./design/usecases.tex [34] [35]) (./design/scheduling.tex)
+(./design/visualisation.tex) (./design/software.tex) [36
 
-] [36
+] [37
 
 ]
 (./research/aimsgoals.tex) (./research/methods.tex) (./research/results.tex)
-(./research/discussion.tex) [37
+(./research/discussion.tex) [38
 
 ] (./recommendations/features.tex)
 (./recommendations/research.tex) (./recommendations/implementation.tex)
-(./epilogue/epilogue.tex) (./MainFile.bbl [38
+(./epilogue/epilogue.tex) (./MainFile.bbl [39
 
-] [39
+] [40
 
 ]
 Underfull \hbox (badness 1303) in paragraph at lines 554--570
@@ -1201,8 +1201,8 @@ Underfull \hbox (badness 2762) in paragraph at lines 554--570
 
 Underfull \vbox (badness 2903) has occurred while \output is active []
 
- [40]
-[41]
+ [41]
+[42]
 Underfull \hbox (badness 1242) in paragraph at lines 1636--1652
 \OT1/cmr/m/it/10 arena: op-vat-tin-gen over lit-er-atu-uron-der-wijs. Een stand
  van za-ken in 2007\OT1/cmr/m/n/10 .  Re-
@@ -1211,10 +1211,10 @@ Underfull \hbox (badness 1242) in paragraph at lines 1636--1652
 
 Underfull \vbox (badness 2903) has occurred while \output is active []
 
- [42])
-[43] [44
+ [43])
+[44] [45
 
-] (./appendix/exampletest.tex [45
+] (./appendix/exampletest.tex [46
 
 ]
 Overfull \hbox (8.38599pt too wide) in paragraph at lines 38--40
@@ -1222,13 +1222,13 @@ Overfull \hbox (8.38599pt too wide) in paragraph at lines 38--40
 nds, he vis-ited dif-fer-ent provinces
  []
 
-<img/laura.jpg, id=985, 150.5625pt x 200.75pt>
+<img/laura.jpg, id=996, 150.5625pt x 200.75pt>
 File: img/laura.jpg Graphic file (type jpg)
  <use img/laura.jpg>
 Package pdftex.def Info: img/laura.jpg used on input line 65.
 (pdftex.def)             Requested size: 125.47737pt x 167.3086pt.
 
-<img/emblem.jpg, id=988, 301.125pt x 474.77374pt>
+<img/emblem.jpg, id=999, 301.125pt x 474.77374pt>
 File: img/emblem.jpg Graphic file (type jpg)
  <use img/emblem.jpg>
 Package pdftex.def Info: img/emblem.jpg used on input line 72.
@@ -1236,7 +1236,7 @@ Package pdftex.def Info: img/emblem.jpg used on input line 72.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
 
-[46] [47 <./img/laura.jpg> <./img/emblem.jpg>]
+[47] [48 <./img/laura.jpg> <./img/emblem.jpg>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./MainFile.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
@@ -1246,8 +1246,8 @@ Package rerunfilecheck Info: File `MainFile.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 11335 strings out of 493304
- 166432 string characters out of 6139871
+ 11336 strings out of 493304
+ 166439 string characters out of 6139871
  282378 words of memory out of 5000000
  14287 multiletter control sequences out of 15000+600000
  13618 words of font info for 47 fonts, out of 8000000 for 9000
@@ -1269,10 +1269,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MainFile.pdf (47 pages, 1126248 bytes).
+Output written on MainFile.pdf (48 pages, 1128299 bytes).
 PDF statistics:
- 1133 PDF objects out of 1200 (max. 8388607)
- 1011 compressed objects within 11 object streams
- 246 named destinations out of 1000 (max. 500000)
+ 1145 PDF objects out of 1200 (max. 8388607)
+ 1022 compressed objects within 11 object streams
+ 247 named destinations out of 1000 (max. 500000)
  356 words of extra memory for PDF output out of 10000 (max. 10000000)
 
