@@ -200,6 +200,35 @@ Barnes, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Blakemore%
+, Burnett%
+\BCBL {}\ \BBA {} Dahl%
+}{%
+Blakemore%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+blakemore}
+\APACinsertmetastar {%
+blakemore}%
+\begin{APACrefauthors}%
+Blakemore, S.%
+, Burnett, S.%
+\BCBL {}\ \BBA {} Dahl, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Role of Puberty in the Developing Adolescent Brain}
+  {The role of puberty in the developing adolescent brain}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Human Brain Mapping}{31}{}{926--933}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/hbm.21052} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Blankenship%
 \ \BBA {} Dansereau%
 }{%
@@ -651,6 +680,38 @@ Ericsson, K.%
 \APACjournalVolNumPages{Psychological Review}{102}{2}{211--245}.
 \newblock
 \begin{APACrefDOI} \doi{10.1037/0033-295X.102.2.211} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Giedd%
+\ \protect \BOthers {.}}{%
+Giedd%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1999}}%
+}]{%
+giedd}
+\APACinsertmetastar {%
+giedd}%
+\begin{APACrefauthors}%
+Giedd, J\BPBI N.%
+, Blumenthal, J.%
+, Jeffries, N\BPBI O.%
+, Castellanos, F\BPBI X.%
+, Liu, H.%
+, Zijdenbos, A.%
+\BDBL {}Rapoport, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Brain development during childhood and adolescence: a
+  longitudinal MRI study} {Brain development during childhood and adolescence:
+  a longitudinal mri study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature neuroscience}{2}{10}{861--863}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/13158} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1427,6 +1488,31 @@ Plomp, T.%
   en trainingen}\ (W.~Toic, \BED{}).
 \newblock
 \APACaddressPublisher{Utrecht}{LEMMA}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Powell%
+}{%
+Powell%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+powell}
+\APACinsertmetastar {%
+powell}%
+\begin{APACrefauthors}%
+Powell, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Neurodevelopment: How does the teenage brain work?}
+  {Neurodevelopment: How does the teenage brain work?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature}{442}{}{865--867}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/442865a} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
