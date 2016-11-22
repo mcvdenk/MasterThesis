@@ -683,6 +683,41 @@ Ericsson, K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Finn%
+, Sheridan%
+, Hudson~Kam%
+, hinshaw%
+\BCBL {}\ \BBA {} D'Esposito%
+}{%
+Finn%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+finn}
+\APACinsertmetastar {%
+finn}%
+\begin{APACrefauthors}%
+Finn, A.%
+, Sheridan, M.%
+, Hudson~Kam, C\BPBI L.%
+, hinshaw, S.%
+\BCBL {}\ \BBA {} D'Esposito, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Longitudinal evidence for functional specialization of
+  the neural circuit supporting working memory in the human brain}
+  {Longitudinal evidence for functional specialization of the neural circuit
+  supporting working memory in the human brain}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of NEuroscience}{30}{33}{11062--11067}.
+\newblock
+\begin{APACrefDOI} \doi{10.1523/JNEUROSCI.6266-09.2010} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Giedd%
 \ \protect \BOthers {.}}{%
 Giedd%
@@ -998,6 +1033,34 @@ Kintsch, W.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Knol%
+}{%
+Knol%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+knol}
+\APACinsertmetastar {%
+knol}%
+\begin{APACrefauthors}%
+Knol, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+\APACrefbtitle {Wijkkwaliteiten, De kwaliteit van de fysieke woonomgeving
+  1994-2002} {Wijkkwaliteiten, de kwaliteit van de fysieke woonomgeving
+  1994-2002}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{}{Sociaal en Cultureel Planbureau}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.scp.nl/Publicaties/Alle_publicaties/Publicaties_2005/Wijkkwaliteiten}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Kornell%
 \ \BBA {} Bjork%
 }{%
@@ -1045,6 +1108,77 @@ Krathwohl, D.%
   of bloom's taxonomy: an overview}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Theory into practice}{41}{4}{212--264}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Kwaliteitsonderzoek in het kader van het onderwijsverslag
+  2016, Het Stedelijk Lyceum - locatie Kottenpark, HAVO, VWO}}{%
+\APACcitebtitle {Kwaliteitsonderzoek in het kader van het onderwijsverslag
+  2016, Het Stedelijk Lyceum - locatie Kottenpark, HAVO, VWO}}{%
+{\protect \APACyear {2015}}%
+}]{%
+inspectierapport}
+\APACinsertmetastar {%
+inspectierapport}%
+\APACrefbtitle {Kwaliteitsonderzoek in het kader van het onderwijsverslag 2016,
+  Het Stedelijk Lyceum - locatie Kottenpark, HAVO, VWO} {Kwaliteitsonderzoek in
+  het kader van het onderwijsverslag 2016, het stedelijk lyceum - locatie
+  kottenpark, havo, vwo}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACaddressInstitution{}{Inspectie van het Onderwijs}.
+\newblock
+\begin{APACrefURL}
+  \url{https://zoekscholen.onderwijsinspectie.nl/pdf/arrangement.pdf?pdfId=A0000333800}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Leefbaarheidssituatie Buurten Enschede}}{%
+\APACcitebtitle {Leefbaarheidssituatie Buurten Enschede}}{%
+{\protect \APACyear {2015}}%
+}]{%
+bzk}
+\APACinsertmetastar {%
+bzk}%
+\APACrefbtitle {Leefbaarheidssituatie Buurten Enschede} {Leefbaarheidssituatie
+  buurten enschede}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACaddressInstitution{}{BZK}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.leefbaarometer.nl/tabel.php?indicator=Leefbaarheidssituatie&schaal=Buurt&gemeente=GM0153}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Data set]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Leerlingen, deelnemers en studenten; onderwijssoort,
+  woonregio}}{%
+\APACcitebtitle {Leerlingen, deelnemers en studenten; onderwijssoort,
+  woonregio}}{%
+{\protect \APACyear {2016}}%
+}]{%
+cbs}
+\APACinsertmetastar {%
+cbs}%
+\APACrefbtitle {Leerlingen, deelnemers en studenten; onderwijssoort, woonregio}
+  {Leerlingen, deelnemers en studenten; onderwijssoort, woonregio}\
+  \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACaddressInstitution{}{CBS}.
+\newblock
+\begin{APACrefURL}
+  \url{http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=71450ned&D1=0&D2=a&D3=8-9&D4=0,2&D5=a&D6=251&D7=l&HDR=T,G4,G6,G5&STB=G3,G1,G2&CHARTTYPE=1&VW=T}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Data set]}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1785,6 +1919,52 @@ Squire, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Statusscores}}{%
+\APACcitebtitle {Statusscores}}{%
+{\protect \APACyear {2015}}%
+}]{%
+scp}
+\APACinsertmetastar {%
+scp}%
+\APACrefbtitle {Statusscores} {Statusscores}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACaddressInstitution{}{SCP}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.scp.nl/Onderzoek/Lopend_onderzoek/A_Z_alle_lopende_onderzoeken/Statusscores}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Data set]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Steinberg%
+}{%
+Steinberg%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+steinberg}
+\APACinsertmetastar {%
+steinberg}%
+\begin{APACrefauthors}%
+Steinberg, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cognitive and affective development in adolescence}
+  {Cognitive and affective development in adolescence}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Trends in cognitive sciences}{9}{2}{69--74}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.tics.2004.12.005} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Stokes%
 }{%
 Stokes%
@@ -2007,9 +2187,9 @@ Wahlheim, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-White%
+A.~White%
 }{%
-White%
+A.~White%
 }{%
 {\protect \APACyear {2003}}%
 }]{%
@@ -2029,6 +2209,32 @@ White, A.%
 \APACjournalVolNumPages{Alcohol research and health}{27}{2}{186--196}.
 \newblock
 \begin{APACrefDOI} \doi{10.3390/ijerph6112783} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+K.~White%
+}{%
+K.~White%
+}{%
+{\protect \APACyear {1982}}%
+}]{%
+academicsocioeconomic}
+\APACinsertmetastar {%
+academicsocioeconomic}%
+\begin{APACrefauthors}%
+White, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The relation between socioeconomic status and academic
+  achievement} {The relation between socioeconomic status and academic
+  achievement}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Bulletin}{91}{3}{461--481}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/0033-2909.91.3.461} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
