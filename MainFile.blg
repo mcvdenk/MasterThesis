@@ -19,45 +19,45 @@ I was expecting a `,' or a `}'---line 708 of file references.bib
 I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in educationalphilosophy2
-You've used 88 entries,
+You've used 90 entries,
             6951 wiz_defined-function locations,
-            1812 strings with 25163 characters,
-and the built_in function-call counts, 163998 in all, are:
-= -- 20073
+            1819 strings with 25489 characters,
+and the built_in function-call counts, 166780 in all, are:
+= -- 20442
 > -- 1213
-< -- 8182
-+ -- 7928
+< -- 8291
++ -- 8025
 - -- 168
-* -- 10867
-:= -- 30741
-add.period$ -- 364
-call.type$ -- 88
-change.case$ -- 1496
+* -- 11045
+:= -- 31171
+add.period$ -- 372
+call.type$ -- 90
+change.case$ -- 1528
 chr.to.int$ -- 0
-cite$ -- 177
-duplicate$ -- 4130
-empty$ -- 6603
+cite$ -- 181
+duplicate$ -- 4192
+empty$ -- 6775
 format.name$ -- 1999
-if$ -- 31020
+if$ -- 31619
 int.to.chr$ -- 0
-int.to.str$ -- 264
+int.to.str$ -- 270
 missing$ -- 0
-newline$ -- 2216
+newline$ -- 2254
 num.names$ -- 678
-pop$ -- 2891
+pop$ -- 2981
 preamble$ -- 1
-purify$ -- 350
+purify$ -- 356
 quote$ -- 0
-skip$ -- 10372
+skip$ -- 10557
 stack$ -- 0
-substring$ -- 8528
-swap$ -- 2563
-text.length$ -- 198
+substring$ -- 8629
+swap$ -- 2595
+text.length$ -- 202
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 7520
+type$ -- 7728
 warning$ -- 1
-while$ -- 694
+while$ -- 698
 width$ -- 0
-write$ -- 2672
+write$ -- 2718
 (There was 1 error message)

@@ -1163,9 +1163,9 @@ bzk}%
   woonregio}}{%
 {\protect \APACyear {2016}}%
 }]{%
-cbs}
+cbsethn}
 \APACinsertmetastar {%
-cbs}%
+cbsethn}%
 \APACrefbtitle {Leerlingen, deelnemers en studenten; onderwijssoort, woonregio}
   {Leerlingen, deelnemers en studenten; onderwijssoort, woonregio}\
   \APACbVolEdTR{}{\BTR{}}.
@@ -1676,6 +1676,51 @@ Raymond, C.%
 \APACjournalVolNumPages{Journal of Physiology}{570}{}{97--111}.
 \newblock
 \begin{APACrefDOI} \doi{10.1113/jphysiol.2005.098947} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Religie; naar regio; 2000/2002 of 2003}}{%
+\APACcitebtitle {Religie; naar regio; 2000/2002 of 2003}}{%
+{\protect \APACyear {2004}}%
+}]{%
+cbsdenomold}
+\APACinsertmetastar {%
+cbsdenomold}%
+\APACrefbtitle {Religie; naar regio; 2000/2002 of 2003} {Religie; naar regio;
+  2000/2002 of 2003}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+\APACaddressInstitution{}{CBS}.
+\newblock
+\begin{APACrefURL}
+  \url{http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=70794NED&D1=a&D2=0,8,28&D3=a&VW=T}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Data set]}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Religieuze betrokkenheid; kerkelijke gezindte; regio}}{%
+\APACcitebtitle {Religieuze betrokkenheid; kerkelijke gezindte; regio}}{%
+{\protect \APACyear {2015}}%
+}]{%
+cbsdenom}
+\APACinsertmetastar {%
+cbsdenom}%
+\APACrefbtitle {Religieuze betrokkenheid; kerkelijke gezindte; regio}
+  {Religieuze betrokkenheid; kerkelijke gezindte; regio}\
+  \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACaddressInstitution{}{CBS}.
+\newblock
+\begin{APACrefURL}
+  \url{http://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=83288NED&D1=a&D2=0%2c2%2c8&D3=l&HDR=T&STB=G1%2cG2&CHARTTYPE=2&VW=T}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{[Data set]}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
