@@ -45,16 +45,23 @@
 \contentsline {subsection}{Cognitive characteristics}{36}{section*.58}
 \contentsline {subsection}{Social characteristics}{37}{section*.59}
 \contentsline {subsection}{Affective characteristics}{40}{section*.63}
-\contentsline {subsection}{Implications for Design}{40}{section*.64}
-\contentsline {section}{Analysis of the task}{41}{section*.65}
-\contentsline {subsection}{Learning goals}{41}{section*.66}
-\contentsline {chapter}{Defining the general use cases}{42}{chapter*.67}
-\contentsline {section}{Supplantive or generative}{42}{section*.68}
-\contentsline {section}{Choice of platform}{42}{section*.69}
-\contentsline {section}{Supported user actions and system reactions}{42}{section*.70}
-\contentsline {part}{III\hspace {1em}Research}{43}{part.3}
-\contentsline {part}{IV\hspace {1em}Recommendations}{44}{part.4}
-\contentsline {chapter}{Epilogue}{45}{chapter*.71}
-\contentsline {chapter}{References}{46}{chapter*.72}
-\contentsline {part}{V\hspace {1em}Appendices}{51}{part.5}
-\contentsline {chapter}{Test literature history 16th and 17th century}{52}{chapter*.73}
+\contentsline {section}{Analysis of the task}{40}{section*.64}
+\contentsline {subsection}{Learning goals}{41}{section*.65}
+\contentsline {subsection}{Types of learning}{41}{section*.66}
+\contentsline {subsection}{Concept map}{41}{section*.67}
+\contentsline {subsection}{Flashcards}{41}{section*.68}
+\contentsline {subsection}{Test specifications}{42}{section*.69}
+\contentsline {section}{Implications for design}{42}{section*.70}
+\contentsline {chapter}{Defining the general use cases}{43}{chapter*.71}
+\contentsline {section}{Supplantive or generative}{43}{section*.72}
+\contentsline {section}{Choice of platform}{43}{section*.73}
+\contentsline {section}{Supported user actions and system reactions}{43}{section*.74}
+\contentsline {part}{III\hspace {1em}Research}{44}{part.3}
+\contentsline {part}{IV\hspace {1em}Recommendations}{45}{part.4}
+\contentsline {chapter}{Epilogue}{46}{chapter*.75}
+\contentsline {chapter}{References}{47}{chapter*.76}
+\contentsline {part}{V\hspace {1em}Appendices}{52}{part.5}
+\contentsline {chapter}{Test literature history 16th and 17th century}{53}{chapter*.77}
+\contentsline {chapter}{Concept map}{56}{chapter*.80}
+\contentsline {chapter}{Flashcards}{90}{chapter*.81}
+\contentsline {chapter}{Questions measuring comprehension levels}{105}{chapter*.82}

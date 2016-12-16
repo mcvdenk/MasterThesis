@@ -37,6 +37,16 @@
 \usepackage{gitinfo2}
 \usepackage[gen]{eurosym}
 \usepackage{textcomp}
+\usepackage{listings}
+
+\lstset{
+    breaklines=true,
+    numbers=left,
+    basicstyle=\footnotesize,
+    frame=single,
+    showspaces=false,
+    title=\lstname
+}
 
 %%% HEADERS & FOOTERS
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
@@ -158,5 +168,8 @@
 
 \part{Appendices}
     \input{./appendix/exampletest.tex}
+    \input{./appendix/concept_map.tex}
+    \input{./appendix/flashcards.tex}
+    \input{./appendix/test.tex}
 
 \end{document}
