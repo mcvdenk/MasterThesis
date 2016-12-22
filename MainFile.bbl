@@ -175,6 +175,45 @@ Ausubel, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Barclay%
+, Bransford%
+, Franks%
+, McCarrell%
+\BCBL {}\ \BBA {} Nitsch%
+}{%
+Barclay%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1974}}%
+}]{%
+barclay}
+\APACinsertmetastar {%
+barclay}%
+\begin{APACrefauthors}%
+Barclay, J.%
+, Bransford, J\BPBI D.%
+, Franks, J\BPBI J.%
+, McCarrell, N\BPBI S.%
+\BCBL {}\ \BBA {} Nitsch, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comprehension and semantic flexibility} {Comprehension
+  and semantic flexibility}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Verbal Learning and Verbal
+  Behavior}{13}{4}{471 - 481}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0022537174800241}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/S0022-5371(74)80024-1}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Barnes%
 }{%
 Barnes%
