@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  22 DEC 2016 16:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  22 DEC 2016 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1222,28 +1222,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\OT1/cmr/m/n/10 Number of
  []
 
-[37] <img/ethnicitychart.png, id=981, 455.90324pt x 255.95625pt>
+[37] <img/ethnicitychart.png, id=984, 455.90324pt x 255.95625pt>
 File: img/ethnicitychart.png Graphic file (type png)
 
 <use img/ethnicitychart.png>
 Package pdftex.def Info: img/ethnicitychart.png used on input line 129.
 (pdftex.def)             Requested size: 292.77629pt x 164.38164pt.
 
-<img/denominations.png, id=992, 455.301pt x 255.95625pt>
+<img/denominations.png, id=995, 455.301pt x 255.95625pt>
 File: img/denominations.png Graphic file (type png)
 
 <use img/denominations.png>
 Package pdftex.def Info: img/denominations.png used on input line 139.
 (pdftex.def)             Requested size: 292.77629pt x 164.59645pt.
 
-<img/churchvisits.png, id=993, 455.301pt x 255.95625pt>
+<img/churchvisits.png, id=996, 455.301pt x 255.95625pt>
 File: img/churchvisits.png Graphic file (type png)
 
 <use img/churchvisits.png>
 Package pdftex.def Info: img/churchvisits.png used on input line 146.
 (pdftex.def)             Requested size: 292.77629pt x 164.59645pt.
  [38 <./img/ethnicitychart.png (PNG copy)>] [39 <./img/denominations.png (PNG c
-opy)> <./img/churchvisits.png (PNG copy)>] [40]
+opy)> <./img/churchvisits.png (PNG copy)>]
+Underfull \vbox (badness 2103) has occurred while \output is active []
+
+ [40]
 
 LaTeX Warning: Reference `ch:concept_map' on page 41 undefined on input line 17
 8.
@@ -1324,13 +1327,13 @@ Overfull \hbox (8.38599pt too wide) in paragraph at lines 38--40
 nds, he vis-ited dif-fer-ent provinces
  []
 
-<img/laura.jpg, id=1160, 150.5625pt x 200.75pt>
+<img/laura.jpg, id=1171, 150.5625pt x 200.75pt>
 File: img/laura.jpg Graphic file (type jpg)
  <use img/laura.jpg>
 Package pdftex.def Info: img/laura.jpg used on input line 65.
 (pdftex.def)             Requested size: 125.47737pt x 167.3086pt.
 
-<img/emblem.jpg, id=1163, 301.125pt x 474.77374pt>
+<img/emblem.jpg, id=1174, 301.125pt x 474.77374pt>
 File: img/emblem.jpg Graphic file (type jpg)
  <use img/emblem.jpg>
 Package pdftex.def Info: img/emblem.jpg used on input line 72.
@@ -1352,11 +1355,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 12790 strings out of 493304
- 187136 string characters out of 6139871
- 305423 words of memory out of 5000000
- 15688 multiletter control sequences out of 15000+600000
- 14217 words of font info for 49 fonts, out of 8000000 for 9000
+ 12796 strings out of 493304
+ 187199 string characters out of 6139871
+ 304423 words of memory out of 5000000
+ 15689 multiletter control sequences out of 15000+600000
+ 14385 words of font info for 50 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
  37i,14n,43p,2665b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1367,19 +1370,22 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MainFile.pdf (55 pages, 1403281 bytes).
+/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt8.pfb>
+Output written on MainFile.pdf (55 pages, 1425565 bytes).
 PDF statistics:
- 1320 PDF objects out of 1440 (max. 8388607)
- 1176 compressed objects within 12 object streams
- 283 named destinations out of 1000 (max. 500000)
+ 1340 PDF objects out of 1440 (max. 8388607)
+ 1193 compressed objects within 12 object streams
+ 287 named destinations out of 1000 (max. 500000)
  384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
