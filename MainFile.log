@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  22 DEC 2016 15:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  22 DEC 2016 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,46 +1210,43 @@ Package pdftex.def Info: img/braindevelopment.png used on input line 80.
  [35] [36 <./img/braindevelopment.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 111.
+               Default added (so using `tbp') on input line 109.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\OT1/cmr/m/n/10 Number of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\OT1/cmr/m/n/10 Number of
  []
 
-[37] <img/ethnicitychart.png, id=982, 455.90324pt x 255.95625pt>
+[37] <img/ethnicitychart.png, id=981, 455.90324pt x 255.95625pt>
 File: img/ethnicitychart.png Graphic file (type png)
 
 <use img/ethnicitychart.png>
-Package pdftex.def Info: img/ethnicitychart.png used on input line 131.
+Package pdftex.def Info: img/ethnicitychart.png used on input line 129.
 (pdftex.def)             Requested size: 292.77629pt x 164.38164pt.
 
-<img/denominations.png, id=993, 455.301pt x 255.95625pt>
+<img/denominations.png, id=992, 455.301pt x 255.95625pt>
 File: img/denominations.png Graphic file (type png)
 
 <use img/denominations.png>
-Package pdftex.def Info: img/denominations.png used on input line 141.
+Package pdftex.def Info: img/denominations.png used on input line 139.
 (pdftex.def)             Requested size: 292.77629pt x 164.59645pt.
 
-<img/churchvisits.png, id=994, 455.301pt x 255.95625pt>
+<img/churchvisits.png, id=993, 455.301pt x 255.95625pt>
 File: img/churchvisits.png Graphic file (type png)
 
 <use img/churchvisits.png>
-Package pdftex.def Info: img/churchvisits.png used on input line 148.
+Package pdftex.def Info: img/churchvisits.png used on input line 146.
 (pdftex.def)             Requested size: 292.77629pt x 164.59645pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [38 <./img/ethnicitychart.png (PNG copy)>] [39 <./img/denominations.png (PNG c
 opy)> <./img/churchvisits.png (PNG copy)>] [40]
 
-LaTeX Warning: Reference `ch:concept_map' on page 41 undefined on input line 18
-0.
+LaTeX Warning: Reference `ch:concept_map' on page 41 undefined on input line 17
+8.
 
 [41]) (./design/usecases.tex [42]) (./design/scheduling.tex)
 (./design/visualisation.tex) (./design/software.tex) [43
@@ -1327,13 +1324,13 @@ Overfull \hbox (8.38599pt too wide) in paragraph at lines 38--40
 nds, he vis-ited dif-fer-ent provinces
  []
 
-<img/laura.jpg, id=1161, 150.5625pt x 200.75pt>
+<img/laura.jpg, id=1160, 150.5625pt x 200.75pt>
 File: img/laura.jpg Graphic file (type jpg)
  <use img/laura.jpg>
 Package pdftex.def Info: img/laura.jpg used on input line 65.
 (pdftex.def)             Requested size: 125.47737pt x 167.3086pt.
 
-<img/emblem.jpg, id=1164, 301.125pt x 474.77374pt>
+<img/emblem.jpg, id=1163, 301.125pt x 474.77374pt>
 File: img/emblem.jpg Graphic file (type jpg)
  <use img/emblem.jpg>
 Package pdftex.def Info: img/emblem.jpg used on input line 72.
@@ -1357,7 +1354,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
 Here is how much of TeX's memory you used:
  12790 strings out of 493304
  187136 string characters out of 6139871
- 305421 words of memory out of 5000000
+ 305423 words of memory out of 5000000
  15688 multiletter control sequences out of 15000+600000
  14217 words of font info for 49 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
@@ -1379,10 +1376,10 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MainFile.pdf (55 pages, 1403234 bytes).
+Output written on MainFile.pdf (55 pages, 1403281 bytes).
 PDF statistics:
- 1321 PDF objects out of 1440 (max. 8388607)
- 1177 compressed objects within 12 object streams
+ 1320 PDF objects out of 1440 (max. 8388607)
+ 1176 compressed objects within 12 object streams
  283 named destinations out of 1000 (max. 500000)
  384 words of extra memory for PDF output out of 10000 (max. 10000000)
 

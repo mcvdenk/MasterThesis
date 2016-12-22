@@ -44,7 +44,7 @@
 \contentsline {subsection}{Physiological characteristics}{35}{section*.56}
 \contentsline {subsection}{Cognitive characteristics}{36}{section*.58}
 \contentsline {subsection}{Social characteristics}{37}{section*.59}
-\contentsline {subsection}{Affective characteristics}{40}{section*.63}
+\contentsline {subsection}{Affective characteristics}{38}{section*.63}
 \contentsline {section}{Analysis of the task}{40}{section*.64}
 \contentsline {subsection}{Learning goals}{41}{section*.65}
 \contentsline {subsection}{Types of learning}{41}{section*.66}
