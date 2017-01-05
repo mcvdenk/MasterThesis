@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  5 JAN 2017 14:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  5 JAN 2017 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,7 +980,7 @@ Package pdftex.def Info: img/conceptmap.png used on input line 29.
 <img/flashmap.png, id=436, 633.11531pt x 271.76532pt>
 File: img/flashmap.png Graphic file (type png)
  <use img/flashmap.png>
-Package pdftex.def Info: img/flashmap.png used on input line 85.
+Package pdftex.def Info: img/flashmap.png used on input line 87.
 (pdftex.def)             Requested size: 418.25368pt x 179.53983pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -993,7 +993,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: img/tam.png Graphic file (type png)
 
 <use img/tam.png>
-Package pdftex.def Info: img/tam.png used on input line 130.
+Package pdftex.def Info: img/tam.png used on input line 132.
 (pdftex.def)             Requested size: 418.25368pt x 118.96425pt.
 ) (./introduction/context.tex [13 <./img/tam.png>] [14
 
@@ -1251,23 +1251,23 @@ Underfull \vbox (badness 2103) has occurred while \output is active []
 LaTeX Warning: Reference `ch:concept_map' on page 41 undefined on input line 17
 8.
 
-[41]) (./design/usecases.tex [42]) (./design/scheduling.tex)
-(./design/visualisation.tex) (./design/software.tex) [43
+[41]) (./design/usecases.tex [42] [43
 
-] [44
+]) (./design/scheduling.tex)
+(./design/visualisation.tex) (./design/software.tex) [44] [45
 
 ]
 (./research/aimsgoals.tex) (./research/methods.tex) (./research/results.tex)
-(./research/discussion.tex) [45
+(./research/discussion.tex) [46
 
 ] (./recommendations/features.tex)
 (./recommendations/research.tex) (./recommendations/implementation.tex)
-(./epilogue/epilogue.tex) (./MainFile.bbl [46
+(./epilogue/epilogue.tex) (./MainFile.bbl [47
 
 ]
 Underfull \vbox (badness 1953) has occurred while \output is active []
 
- [47
+ [48
 
 ]
 Underfull \hbox (badness 1303) in paragraph at lines 622--638
@@ -1281,7 +1281,7 @@ Underfull \hbox (badness 2762) in paragraph at lines 622--638
 -ken in 2007\OT1/cmr/m/n/10 .  Re-trieved
  []
 
-[48]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 1214--1226
 \OT1/cmtt/m/n/10 www [] .leefbaarometer [] .nl / tabel [] .php [] ?indicator = 
 Leefbaarheidssituatie&schaal =
@@ -1299,7 +1299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1238--1251
 51&D7 = l&HDR = T [] ,G4 [] ,G6 [] ,G5&STB = G3 [] ,G1 []
  []
 
-[49]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 1758--1770
 []$\OT1/cmtt/m/n/10 http :// statline [] .cbs [] .nl / Statweb / publication / 
 []?DM = SLNL&PA = 70794NED&D1 = a&D2 = 0 []
@@ -1317,9 +1317,9 @@ Underfull \hbox (badness 1242) in paragraph at lines 1969--1985
  van za-ken in 2007\OT1/cmr/m/n/10 .  Re-
  []
 
-[50]) [51] [52
+[51]) [52] [53
 
-] (./appendix/exampletest.tex [53
+] (./appendix/exampletest.tex [54
 
 ]
 Overfull \hbox (8.38599pt too wide) in paragraph at lines 38--40
@@ -1327,13 +1327,13 @@ Overfull \hbox (8.38599pt too wide) in paragraph at lines 38--40
 nds, he vis-ited dif-fer-ent provinces
  []
 
-<img/laura.jpg, id=1172, 150.5625pt x 200.75pt>
+<img/laura.jpg, id=1181, 150.5625pt x 200.75pt>
 File: img/laura.jpg Graphic file (type jpg)
  <use img/laura.jpg>
 Package pdftex.def Info: img/laura.jpg used on input line 65.
 (pdftex.def)             Requested size: 125.47737pt x 167.3086pt.
 
-<img/emblem.jpg, id=1175, 301.125pt x 474.77374pt>
+<img/emblem.jpg, id=1184, 301.125pt x 474.77374pt>
 File: img/emblem.jpg Graphic file (type jpg)
  <use img/emblem.jpg>
 Package pdftex.def Info: img/emblem.jpg used on input line 72.
@@ -1341,7 +1341,7 @@ Package pdftex.def Info: img/emblem.jpg used on input line 72.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 
-[54] [55 <./img/laura.jpg> <./img/emblem.jpg>]
+[55] [56 <./img/laura.jpg> <./img/emblem.jpg>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./MainFile.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
@@ -1355,10 +1355,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 12796 strings out of 493304
- 187199 string characters out of 6139871
- 304423 words of memory out of 5000000
- 15689 multiletter control sequences out of 15000+600000
+ 12799 strings out of 493304
+ 187239 string characters out of 6139871
+ 305472 words of memory out of 5000000
+ 15690 multiletter control sequences out of 15000+600000
  14385 words of font info for 50 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
  37i,14n,43p,2665b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1382,10 +1382,10 @@ fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt8.pfb>
-Output written on MainFile.pdf (55 pages, 1426514 bytes).
+Output written on MainFile.pdf (56 pages, 1430060 bytes).
 PDF statistics:
- 1341 PDF objects out of 1440 (max. 8388607)
- 1194 compressed objects within 12 object streams
- 287 named destinations out of 1000 (max. 500000)
+ 1353 PDF objects out of 1440 (max. 8388607)
+ 1204 compressed objects within 13 object streams
+ 289 named destinations out of 1000 (max. 500000)
  384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
