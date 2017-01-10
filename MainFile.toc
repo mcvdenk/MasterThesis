@@ -62,3 +62,4 @@
 \contentsline {chapter}{References}{48}{chapter*.76}
 \contentsline {part}{V\hspace {1em}Appendices}{53}{part.5}
 \contentsline {chapter}{Test literature history 16th and 17th century}{54}{chapter*.77}
+\contentsline {chapter}{Use case diagram for logging in and storing user information}{57}{chapter*.80}
