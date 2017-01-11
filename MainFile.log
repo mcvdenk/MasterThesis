@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  10 JAN 2017 17:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  11 JAN 2017 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,7 +934,7 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=152, 225.60284pt x 45.2892pt>
+<logo.png, id=156, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 126.
@@ -970,14 +970,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] (./introduction/problem.tex [5
 
 ]
-<img/conceptmap.png, id=279, 415.5525pt x 353.82187pt>
+<img/conceptmap.png, id=284, 415.5525pt x 353.82187pt>
 File: img/conceptmap.png Graphic file (type png)
 
 <use img/conceptmap.png>
 Package pdftex.def Info: img/conceptmap.png used on input line 29.
 (pdftex.def)             Requested size: 418.25368pt x 356.13712pt.
  [6] [7 <./img/conceptmap.png>] [8] [9] [10]
-<img/flashmap.png, id=441, 633.11531pt x 271.76532pt>
+<img/flashmap.png, id=446, 633.11531pt x 271.76532pt>
 File: img/flashmap.png Graphic file (type png)
  <use img/flashmap.png>
 Package pdftex.def Info: img/flashmap.png used on input line 87.
@@ -989,7 +989,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \c@researchquestion=\count136
 \c@subquestion=\count137
 
-[12 <./img/flashmap.png>] <img/tam.png, id=474, 666.99188pt x 189.70876pt>
+[12 <./img/flashmap.png>] <img/tam.png, id=479, 666.99188pt x 189.70876pt>
 File: img/tam.png Graphic file (type png)
 
 <use img/tam.png>
@@ -1124,7 +1124,7 @@ Underfull \hbox (badness 2221) in paragraph at lines 72--72
  []
 
 [17]) (./introduction/theory.tex [18]
-<img/brainareas.png, id=563, 401.5pt x 261.97874pt>
+<img/brainareas.png, id=568, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
  <use img/brainareas.png>
 Package pdftex.def Info: img/brainareas.png used on input line 13.
@@ -1132,7 +1132,7 @@ Package pdftex.def Info: img/brainareas.png used on input line 13.
 
 [19
 
-] <img/modalmemory.png, id=585, 403.909pt x 136.51pt>
+] <img/modalmemory.png, id=590, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
 
 <use img/modalmemory.png>
@@ -1150,12 +1150,12 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 66.
  [22]
-<img/neuron.png, id=658, 803.0pt x 602.25pt>
+<img/neuron.png, id=663, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
 Package pdftex.def Info: img/neuron.png used on input line 72.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
- [23 <./img/neuron.png>] <img/powerlawforgetting.png, id=700, 521.95pt x 321.2p
+ [23 <./img/neuron.png>] <img/powerlawforgetting.png, id=705, 521.95pt x 321.2p
 t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
@@ -1163,14 +1163,14 @@ File: img/powerlawforgetting.png Graphic file (type png)
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 88.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=701, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=706, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 94.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
  [24] [25 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [26]
-<img/spacedrepetition.png, id=796, 466.74374pt x 277.78781pt>
+<img/spacedrepetition.png, id=801, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
@@ -1179,7 +1179,7 @@ Package pdftex.def Info: img/spacedrepetition.png used on input line 119.
 ) [27 <./img/spacedrepetition.png>] [28
 
 ]
-(./design/intro.tex <img/genericmodel.png, id=817, 249.18094pt x 248.42813pt>
+(./design/intro.tex <img/genericmodel.png, id=822, 249.18094pt x 248.42813pt>
 File: img/genericmodel.png Graphic file (type png)
 
 <use img/genericmodel.png>
@@ -1187,21 +1187,21 @@ Package pdftex.def Info: img/genericmodel.png used on input line 5.
 (pdftex.def)             Requested size: 209.12683pt x 208.50003pt.
 ) (./design/analysis.tex [29 <./img/genericmodel.png>] [30
 
-] <img/needsassessment.png, id=847, 618.1494pt x 414.5889pt>
+] <img/needsassessment.png, id=852, 618.1494pt x 414.5889pt>
 File: img/needsassessment.png Graphic file (type png)
 
 <use img/needsassessment.png>
 Package pdftex.def Info: img/needsassessment.png used on input line 17.
 (pdftex.def)             Requested size: 418.25368pt x 280.52496pt.
  [31 <./img/needsassessment.png>] [32]
-<img/curricular_spiderweb.png, id=882, 776.4207pt x 601.7682pt>
+<img/curricular_spiderweb.png, id=887, 776.4207pt x 601.7682pt>
 File: img/curricular_spiderweb.png Graphic file (type png)
 
 <use img/curricular_spiderweb.png>
 Package pdftex.def Info: img/curricular_spiderweb.png used on input line 44.
 (pdftex.def)             Requested size: 292.77629pt x 226.92049pt.
  [33 <./img/curricular_spiderweb.png>]
-[34] <img/braindevelopment.png, id=923, 428.60126pt x 250.9375pt>
+[34] <img/braindevelopment.png, id=928, 428.60126pt x 250.9375pt>
 File: img/braindevelopment.png Graphic file (type png)
 
 <use img/braindevelopment.png>
@@ -1222,21 +1222,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--113
 []|\OT1/cmr/m/n/10 Number of
  []
 
-[37] <img/ethnicitychart.png, id=990, 455.90324pt x 255.95625pt>
+[37] <img/ethnicitychart.png, id=995, 455.90324pt x 255.95625pt>
 File: img/ethnicitychart.png Graphic file (type png)
 
 <use img/ethnicitychart.png>
 Package pdftex.def Info: img/ethnicitychart.png used on input line 129.
 (pdftex.def)             Requested size: 292.77629pt x 164.38164pt.
 
-<img/denominations.png, id=1001, 455.301pt x 255.95625pt>
+<img/denominations.png, id=1006, 455.301pt x 255.95625pt>
 File: img/denominations.png Graphic file (type png)
 
 <use img/denominations.png>
 Package pdftex.def Info: img/denominations.png used on input line 139.
 (pdftex.def)             Requested size: 292.77629pt x 164.59645pt.
 
-<img/churchvisits.png, id=1002, 455.301pt x 255.95625pt>
+<img/churchvisits.png, id=1007, 455.301pt x 255.95625pt>
 File: img/churchvisits.png Graphic file (type png)
 
 <use img/churchvisits.png>
@@ -1340,48 +1340,57 @@ Overfull \hbox (8.38599pt too wide) in paragraph at lines 38--40
 nds, he vis-ited dif-fer-ent provinces
  []
 
-<img/laura.jpg, id=1186, 150.5625pt x 200.75pt>
+<img/laura.jpg, id=1192, 150.5625pt x 200.75pt>
 File: img/laura.jpg Graphic file (type jpg)
  <use img/laura.jpg>
 Package pdftex.def Info: img/laura.jpg used on input line 65.
 (pdftex.def)             Requested size: 125.47737pt x 167.3086pt.
 
-<img/emblem.jpg, id=1189, 301.125pt x 474.77374pt>
+<img/emblem.jpg, id=1195, 301.125pt x 474.77374pt>
 File: img/emblem.jpg Graphic file (type jpg)
  <use img/emblem.jpg>
 Package pdftex.def Info: img/emblem.jpg used on input line 72.
 (pdftex.def)             Requested size: 125.47737pt x 197.8388pt.
 )
 (./appendix/loginusecase.tex [55] [56 <./img/laura.jpg> <./img/emblem.jpg>]
-<img/loginusecase.png, id=1225, 832.10875pt x 502.87875pt>
+<img/loginusecase.png, id=1230, 832.10875pt x 502.87875pt>
 File: img/loginusecase.png Graphic file (type png)
 
 <use img/loginusecase.png>
 Package pdftex.def Info: img/loginusecase.png used on input line 5.
 (pdftex.def)             Requested size: 418.25368pt x 252.76624pt.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
- [57
+) (./appendix/mainusecase.tex [57
 
- <./img/loginusecase.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+ <./img/loginusecase.png (PNG copy)>] <img/mainusecase.png, id=1236, 804.00375p
+t x 491.8375pt>
+File: img/mainusecase.png Graphic file (type png)
+
+<use img/mainusecase.png>
+Package pdftex.def Info: img/mainusecase.png used on input line 5.
+(pdftex.def)             Requested size: 418.25368pt x 255.85452pt.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+ [58
+
+ <./img/mainusecase.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
 
 (./MainFile.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 3E40E3AAD5902237E53C4F40AB2E2E96;2499.
+(rerunfilecheck)             Checksum: 859FEDCBF9605BAE7B4BF52EAF26FF8C;2577.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 12813 strings out of 493304
- 187496 string characters out of 6139871
- 304560 words of memory out of 5000000
- 15698 multiletter control sequences out of 15000+600000
+ 12825 strings out of 493304
+ 187723 string characters out of 6139871
+ 304618 words of memory out of 5000000
+ 15704 multiletter control sequences out of 15000+600000
  14385 words of font info for 50 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
  37i,14n,43p,2665b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1405,10 +1414,10 @@ fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt8.pfb>
-Output written on MainFile.pdf (57 pages, 1496360 bytes).
+Output written on MainFile.pdf (58 pages, 1550940 bytes).
 PDF statistics:
- 1364 PDF objects out of 1440 (max. 8388607)
- 1213 compressed objects within 13 object streams
- 292 named destinations out of 1000 (max. 500000)
- 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1376 PDF objects out of 1440 (max. 8388607)
+ 1223 compressed objects within 13 object streams
+ 295 named destinations out of 1000 (max. 500000)
+ 410 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,10 @@
+@startuml
+start
+:User login;
+if (Exists already?) then (yes)
+:Show main menu;
+else (no)
+:create new user;
+endif
+stop
+@enduml

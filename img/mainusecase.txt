@@ -1,0 +1,42 @@
+@startuml
+
+left to right direction
+
+:Ready user: as readyuser
+:MongoDB server: as db
+
+skinparam packageStyle rect
+rectangle Client {
+    (Request learning progress) as requestpr
+    (Request items) as requestitems
+    (Logout) as clientlogout
+}
+
+rectangle Server {
+    (Supply flashcard progress) as supplyfcpr
+    (Supply flashmap progress) as supplyfmpr
+    (Request read source) as source
+    (Supply flashcard) as supplyfc
+    (Supply flashmap) as supplyfm
+    (Logout) as servlogout
+}
+
+readyuser -- requestpr
+readyuser -- requestitems
+readyuser -- clientlogout
+
+supplyfcpr -- db
+supplyfmpr -- db
+source -- db
+supplyfc -- db
+supplyfm -- db
+servlogout -- db
+
+requestpr -> supplyfcpr
+requestpr -> supplyfmpr
+requestitems -> source
+requestitems -> supplyfc
+requestitems -> supplyfm
+clientlogout -> servlogout
+
+@enduml
