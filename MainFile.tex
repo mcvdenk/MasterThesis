@@ -38,6 +38,7 @@
 \usepackage[gen]{eurosym}
 \usepackage{textcomp}
 \usepackage{listings}
+\usepackage[toc,page]{appendix}
 
 \lstset{
     breaklines=true,
@@ -166,13 +167,19 @@
 
 \bibliography{references}
 
-\part{Appendices}
+\begin{appendices}
     \input{./appendix/exampletest.tex}
 %    \input{./appendix/concept_map.tex}
 %    \input{./appendix/flashcards.tex}
 %    \input{./appendix/test.tex}
+    \clearpage
     \input{./appendix/loginusecase.tex}
+    \clearpage
     \input{./appendix/mainusecase.tex}
+    \clearpage
     \input{./appendix/loginactivity.tex}
+    \clearpage
+    \input{./appendix/learningactivity.tex}
+\end{appendices}
 
 \end{document}

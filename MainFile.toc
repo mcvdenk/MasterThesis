@@ -60,8 +60,9 @@
 \contentsline {part}{IV\hspace {1em}Recommendations}{46}{part.4}
 \contentsline {chapter}{Epilogue}{47}{chapter*.75}
 \contentsline {chapter}{References}{48}{chapter*.76}
-\contentsline {part}{V\hspace {1em}Appendices}{53}{part.5}
-\contentsline {chapter}{Test literature history 16th and 17th century}{54}{chapter*.77}
-\contentsline {chapter}{Use case diagram for logging in and storing user information}{57}{chapter*.80}
-\contentsline {chapter}{Use case diagram for main purposes}{58}{chapter*.82}
-\contentsline {chapter}{Activity diagram displaying the login process}{59}{chapter*.84}
+\contentsline {chapter}{Appendices}{53}{section*.77}
+\contentsline {section}{Test literature history 16th and 17th century}{54}{section*.78}
+\contentsline {section}{Use case diagram for logging in and storing user information}{57}{section*.81}
+\contentsline {section}{Use case diagram for main purposes}{58}{section*.83}
+\contentsline {section}{Activity diagram for logging in}{59}{section*.85}
+\contentsline {section}{Activity diagram learning functionality}{60}{section*.87}

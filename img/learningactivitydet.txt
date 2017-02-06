@@ -1,0 +1,29 @@
+@startuml
+|#AntiqueWhite|Client|
+start
+:Show answer/
+if (Which condition?) then (flashcard)
+if (Answers correspond?) then (correct)
+:Correct/
+else (incorrect)
+:Incorrect/
+endif
+else (flashmap)
+:Show answer/
+:Indicate which nodes
+are correct/incorrect;
+endif
+|Server|
+while (All answers saved?) is (no)
+:Add answer to item;
+partition Rescheduling {
+:interval := 5s]
+while (Answer value?) is (correct)
+floating note right: In descending order of date
+:interval := 5 * interval]
+endwhile (incorrect)
+:due_date = current_date + interval]
+}
+endwhile (yes)
+stop
+@enduml

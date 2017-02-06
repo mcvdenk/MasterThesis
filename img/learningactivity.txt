@@ -1,0 +1,62 @@
+@startuml
+|#AntiqueWhite|Client|
+:Start learning/
+repeat
+fork
+:Close client;
+stop
+fork again
+|Server|
+if (Learned for 15 minutes today?) then (yes)
+|Client|
+:Display done_for_today message;
+|Server|
+else (no)
+endif
+if (Any due items?) then (no)
+if (New item available?) then (no)
+|Client|
+:Display no_more_items message;
+stop
+endif
+|Server|
+:Provide next new item;
+else (yes)
+:Provide item with
+oldest repetition date;
+endif
+|Client|
+if (Undo previous answer?) then (yes)
+:Undo/
+|Server|
+:Remove previous answer for item;
+stop
+endif
+|Client|
+:Show answer/
+if (Which condition?) then (flashcard)
+if (Answers correspond?) then (correct)
+:Correct/
+else (incorrect)
+:Incorrect/
+endif
+else (flashmap)
+:Show answer/
+:Indicate which nodes
+are correct/incorrect;
+endif
+|Server|
+while (All answers saved?) is (no)
+:Add answer to item;
+partition Rescheduling {
+:interval := 5s]
+while (Answer value?) is (correct)
+floating note right: In descending order of date
+:interval := 5 * interval]
+endwhile (incorrect)
+:due_date = current_date + interval]
+}
+endwhile (yes)
+end fork
+repeat while ()
+@enduml

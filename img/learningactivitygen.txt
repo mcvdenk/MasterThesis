@@ -1,0 +1,42 @@
+@startuml
+|#AntiqueWhite|Client|
+:Start learning/
+repeat
+fork
+:Close client;
+stop
+fork again
+|Server|
+if (Learned for 15 minutes today?) then (yes)
+|Client|
+:Display done_for_today message;
+|Server|
+else (no)
+endif
+if (Any due items?) then (no)
+if (New item available?) then (no)
+|Client|
+:Display no_more_items message;
+stop
+endif
+|Server|
+:Provide next new item;
+else (yes)
+:Provide item with
+oldest repetition date;
+endif
+|Client|
+if (Undo previous answer?) then (yes)
+:Undo/
+|Server|
+:Remove previous answer for item;
+stop
+endif
+|Client|
+:Provide answers|
+|Server|
+:Store answers|
+:Reschedule|
+end fork
+repeat while ()
+@enduml
