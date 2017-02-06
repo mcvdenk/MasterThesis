@@ -1,0 +1,46 @@
+@startuml
+|#AntiqueWhite|User|
+start
+:User login;
+|Server|
+if (Exists already?) then (no)
+:Create new user;
+else (yes)
+endif
+if (Has descriptives?) then (no)
+:Provide descriptives form;
+|User|
+:Fill in descriptives form;
+|Server|
+else (yes)
+endif
+if (Has pretest?) then (no)
+:Provide pretest;
+|User|
+:Fill in pretest;
+|Server|
+else (yes)
+endif
+if (Active for\n (more than) 6 days?) then (no)
+else (yes)
+if (Has posttest?) then (no)
+:Provide posttest;
+|User|
+:Fill in posttest;
+|Server|
+else (yes)
+endif
+if (Has questionnaire?) then (no)
+:Provide questionnaire;
+|User|
+:Fill in questionnaire;
+|Server|
+else (yes)
+endif
+if (Has debriefed?) then (no)
+:Debriefing;
+else (yes)
+endif
+endif
+:Show main menu;
+@enduml
