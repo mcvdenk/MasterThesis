@@ -2,9 +2,17 @@
 start
 :User login;
 if (Exists already?) then (yes)
-:Show main menu;
+if (Active for 6 days?) then (yes)
+:Provide posttest;
+:Provide questionnaire;
+:Debriefing;
 else (no)
-:create new user;
 endif
+else (no)
+:Create new user;
+:Provide descriptives form;
+:Provide pretest;
+endif
+:Show main menu;
 stop
 @enduml

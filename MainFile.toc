@@ -64,3 +64,4 @@
 \contentsline {chapter}{Test literature history 16th and 17th century}{54}{chapter*.77}
 \contentsline {chapter}{Use case diagram for logging in and storing user information}{57}{chapter*.80}
 \contentsline {chapter}{Use case diagram for main purposes}{58}{chapter*.82}
+\contentsline {chapter}{State diagram displaying the registering process}{59}{chapter*.84}
