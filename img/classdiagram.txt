@@ -1,0 +1,119 @@
+@startuml
+hide empty members
+hide circle
+hide methods
+
+package MongoDB {
+    class flashmap
+}
+
+class logentry {
+    timestamp : int
+    data : list
+    keyword : string
+}
+
+class concept_map
+
+class flashcard {
+    source : string
+    question : string
+    answer : string
+    response_model : string[]
+}
+
+class test_item {
+    question : string
+    source : string
+    response_model : string[]
+}
+
+class questionnaire
+
+class user {
+    name : string
+    birthdate : int
+    flashmap_condition : boolean
+    read_sources : string[]
+    gender : string
+    code : string
+}
+
+flashmap "1" o-- "1..*" logentry
+flashmap "1" o-- "1" concept_map
+flashmap "1" o-- "1..*" flashcard
+flashmap "1" o-- "1..*" test_item
+flashmap "1" o-- "1..*" questionnaire
+flashmap "1" o-- "1..*" user
+
+user "1" o-- "0..*" logentry
+
+class node {
+    label
+}
+
+class edge {
+    label
+    source
+}
+
+flashcard "0..1" *-- "1..*" edge
+
+node "2" o-- "0..*" edge
+concept_map "1" o-- "0..*" node
+concept_map "1" o-- "0..*" edge
+
+class perceived_usefulness_item {
+    positive_phrasing : string
+    negative_phrasing : string
+}
+
+class perceived_ease_of_use_item {
+    positive_phrasing : string
+    negative_phrasing : string
+}
+
+questionnaire "1" o-- "1..*" perceived_usefulness_item
+questionnaire "1" o-- "1..*" perceived_ease_of_use_item
+
+class test_response
+
+class flashcard_response {
+    answer : string
+}
+
+class item_response {
+    answer : string
+}
+
+test_response "1" o-- "5" flashcard_response
+flashcard "1" o-- "0..*" flashcard_response
+test_response "1" o-- "5" item_response
+test_item "1" o-- "0..*" item_response
+user "1" o-- "0..2" test_response
+
+class flashedge {
+    due_date : int
+}
+
+class flashedge_response {
+    start : int
+    end : int
+    correct : boolean
+}
+
+flashedge "1" o-- "0..*" flashedge_response
+flashcard "0..1" o-- "0..*" flashedge_response
+edge "0..1" o-- "0..*" flashedge_response
+user "1" o-- "0..*" flashedge
+
+class session {
+    start : int
+    end : int
+    source_prompted : boolean
+    browser : string
+}
+
+user "1" *-- "0..*" session
+
+@enduml

@@ -64,5 +64,6 @@
 \contentsline {section}{Test literature history 16th and 17th century}{54}{section*.78}
 \contentsline {section}{Use case diagram for logging in and storing user information}{57}{section*.81}
 \contentsline {section}{Use case diagram for main purposes}{58}{section*.83}
-\contentsline {section}{Activity diagram for logging in}{59}{section*.85}
-\contentsline {section}{Activity diagram learning functionality}{60}{section*.87}
+\contentsline {section}{Class diagram for the datamodel}{59}{section*.85}
+\contentsline {section}{Activity diagram for logging in}{60}{section*.87}
+\contentsline {section}{Activity diagram learning functionality}{61}{section*.89}
