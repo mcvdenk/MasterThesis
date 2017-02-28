@@ -1,13 +1,20 @@
 @startuml
 hide empty members
 hide circle
+skinparam linetype ortho
 
 class Consumer {
+    concept_map: ConceptMap
+    SOURCES: list[string]
     provide_map(): ConceptMap
     handler(): void
+    authenticate(): User
+    generate_response(): dict
 }
 
-class ConceptMap
+class ConceptMap {
+    get_partial_map(edge): ConceptMap
+}
 
 class Node {
     label : StringField
@@ -27,7 +34,7 @@ class Flashcard {
     source : StringField
     question : StringField
     answer : StringField
-    response_model : ListField(StringField)
+    response_model : ListField[StringField]
 }
 
 Edge "0..*" o-- "0..*" Flashcard : edge
@@ -36,24 +43,31 @@ class User {
     name : StringField
     birthdate : IntField
     flashmap_condition : BooleanField
-    read_sources : ListField(StringField)
+    read_sources : ListField[StringField]
     gender : StringField
     code : StringField
-    add_test(flashcards, items): void
+    set_descriptives(gender, birthdate, code)
+    create_test(flashcards, items): Test
+    append_test(flashcard_responses, item_responses): void
+    create_questionnaire(items): Questionnaire
+    append_questionnaire(item_responses, good, could_be_improved, email): void
+    get_due_instance(): FlashInstance
 }
 
 Consumer "1" o-- "1" User : user
 
 class Logentry {
     timestamp : IntField
-    data : DictField
     keyword : StringField
+    data : DictField
 }
 
 Logentry "0..*" o-- "1" User : user
 
 class Test {
-    generate_test(items, prev_items): list(items)
+    generate_test(items, prev_items) : list(items)
+    append_flashcard(flashcard, answer) : void
+    append_item(item, answer) : void
 }
 
 User "1" *-- "0..2" Test : tests
@@ -61,23 +75,23 @@ User "1" *-- "0..2" Test : tests
 class TestItem {
     question : StringField
     source : StringField
-    response_model : ListField(StringField)
+    response_model : ListField[StringField]
 }
 
-Test "1" *-- "5" Flashcard : flashcards
-Test "1" *-- "5" TestItem : items
 
-class ItemResponse {
+class TestItemResponse {
     answer : StringField
 }
 
-TestItem "1" o-- "0..*" ItemResponse : item
+Test "1" *-- "5" TestItemResponse : item_responses
+TestItem "1" o-- "0..*" TestItemResponse : item
 
-class FlashcardResponse {
+class TestFlashcardResponse {
     answer : StringField
 }
 
-Flashcard "1" o-- "0..*" FlashcardResponse : flashcard
+Test "1" *-- "5" TestFlashcardResponse: flashcard_responses
+Flashcard "1" o-- "0..*" TestFlashcardResponse : flashcard
 
 class QuestionnaireItem {
     usefulness : BooleanField
@@ -88,7 +102,7 @@ class QuestionnaireItem {
 class Questionnaire {
     good : StringField
     can_be_improved : StringField
-    email : EmailField
+    append_item(item, answer): void
 }
     
 User "1" *-- "0..1" Questionnaire : questionnaire
@@ -101,8 +115,9 @@ class QuestionnaireResponse {
 Questionnaire "1" *-- "0..*" QuestionnaireResponse : responses
 QuestionnaireItem "1" o-- "0..*" QuestionnaireResponse : item
 
-class FlashInstance {
+abstract class FlashInstance {
     due_date : IntField
+    schedule() : void
 }
 
 class FlashcardInstance
@@ -117,7 +132,7 @@ FlashInstance <|.. FlashmapInstance
 Edge "1" o-- "0..*" FlashmapInstance : edge
 User "1" *-- "0..*" FlashmapInstance : instances
 
-class Response {
+abstract class Response {
     start : DateField
     end : DateField
     correct : BooleanField
@@ -138,6 +153,7 @@ class Session {
     end : DateField
     source_prompted : BooleanField
     browser : StringField
+    end_session(): void
 }
 
 User "1" *-- "0..*" Session : sessions
