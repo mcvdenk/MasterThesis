@@ -10,11 +10,17 @@
 \newcommand*{\studentemail}[1]{\gdef\@studentemail{#1}}
 \newcommand*{\@studentemail}{m.c.vandenenk@student.utwente.nl}
 
-\newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}}
-\newcommand*{\@supervisor}{\texttt{\string\supervisor} currently not set. Please fix this.}
+\newcommand*{\supervisora}[1]{\gdef\@supervisora{#1}}
+\newcommand*{\@supervisora}{\texttt{\string\supervisora} currently not set. Please fix this.}
 
-\newcommand*{\supervisoremail}[1]{\gdef\@supervisoremail{#1}}
-\newcommand*{\@supervisoremail}{\texttt{\string\supervisoremail} currently not set. Please fix this.}
+\newcommand*{\supervisoremaila}[1]{\gdef\@supervisoremaila{#1}}
+\newcommand*{\@supervisoremaila}{\texttt{\string\supervisoremaila} currently not set. Please fix this.}
+
+\newcommand*{\supervisorb}[1]{\gdef\@supervisorb{#1}}
+\newcommand*{\@supervisorb}{\texttt{\string\supervisorb} currently not set. Please fix this.}
+
+\newcommand*{\supervisoremailb}[1]{\gdef\@supervisoremailb{#1}}
+\newcommand*{\@supervisoremailb}{\texttt{\string\supervisoremailb} currently not set. Please fix this.}
 
 \newcommand*{\coursename}[1]{\gdef\@coursename{#1}}
 \newcommand*{\@coursename}{\texttt{\string\coursename} currently not set. Please fix this.}
@@ -46,9 +52,11 @@
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
-\emph{Supervisor:} \\
-\@supervisor\unskip\strut \\
-\@supervisoremail\unskip\strut \\
+\emph{Supervisors:} \\
+\@supervisora\unskip\strut \\
+\@supervisoremaila\unskip\strut \\
+\@supervisorb\unskip\strut \\
+\@supervisoremailb\unskip\strut \\
 \end{flushright}
 \end{minipage}
 

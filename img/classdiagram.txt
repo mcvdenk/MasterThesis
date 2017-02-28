@@ -1,119 +1,145 @@
 @startuml
 hide empty members
 hide circle
-hide methods
 
-package MongoDB {
-    class flashmap
+class Consumer {
+    provide_map(): ConceptMap
+    handler(): void
 }
 
-class logentry {
-    timestamp : int
-    data : list
-    keyword : string
+class ConceptMap
+
+class Node {
+    label : StringField
 }
 
-class concept_map
+ConceptMap "1" *-- "0..*" Node : nodes
 
-class flashcard {
-    source : string
-    question : string
-    answer : string
-    response_model : string[]
+class Edge {
+    label : StringField
+    source : StringField
 }
 
-class test_item {
-    question : string
-    source : string
-    response_model : string[]
+ConceptMap "1" *-- "0..*" Edge : edges
+Node "2" o-- "0..*" Edge : from, to
+
+class Flashcard {
+    source : StringField
+    question : StringField
+    answer : StringField
+    response_model : ListField(StringField)
 }
 
-class questionnaire
+Edge "0..*" o-- "0..*" Flashcard : edge
 
-class user {
-    name : string
-    birthdate : int
-    flashmap_condition : boolean
-    read_sources : string[]
-    gender : string
-    code : string
+class User {
+    name : StringField
+    birthdate : IntField
+    flashmap_condition : BooleanField
+    read_sources : ListField(StringField)
+    gender : StringField
+    code : StringField
+    add_test(flashcards, items): void
 }
 
-flashmap "1" o-- "1..*" logentry
-flashmap "1" o-- "1" concept_map
-flashmap "1" o-- "1..*" flashcard
-flashmap "1" o-- "1..*" test_item
-flashmap "1" o-- "1..*" questionnaire
-flashmap "1" o-- "1..*" user
+Consumer "1" o-- "1" User : user
 
-user "1" o-- "0..*" logentry
-
-class node {
-    label
+class Logentry {
+    timestamp : IntField
+    data : DictField
+    keyword : StringField
 }
 
-class edge {
-    label
-    source
+Logentry "0..*" o-- "1" User : user
+
+class Test {
+    generate_test(items, prev_items): list(items)
 }
 
-flashcard "0..1" *-- "1..*" edge
+User "1" *-- "0..2" Test : tests
 
-node "2" o-- "0..*" edge
-concept_map "1" o-- "0..*" node
-concept_map "1" o-- "0..*" edge
-
-class perceived_usefulness_item {
-    positive_phrasing : string
-    negative_phrasing : string
+class TestItem {
+    question : StringField
+    source : StringField
+    response_model : ListField(StringField)
 }
 
-class perceived_ease_of_use_item {
-    positive_phrasing : string
-    negative_phrasing : string
+Test "1" *-- "5" Flashcard : flashcards
+Test "1" *-- "5" TestItem : items
+
+class ItemResponse {
+    answer : StringField
 }
 
-questionnaire "1" o-- "1..*" perceived_usefulness_item
-questionnaire "1" o-- "1..*" perceived_ease_of_use_item
+TestItem "1" o-- "0..*" ItemResponse : item
 
-class test_response
-
-class flashcard_response {
-    answer : string
+class FlashcardResponse {
+    answer : StringField
 }
 
-class item_response {
-    answer : string
+Flashcard "1" o-- "0..*" FlashcardResponse : flashcard
+
+class QuestionnaireItem {
+    usefulness : BooleanField
+    positive_phrasing : StringField
+    negative_phrasing : StringField
 }
 
-test_response "1" o-- "5" flashcard_response
-flashcard "1" o-- "0..*" flashcard_response
-test_response "1" o-- "5" item_response
-test_item "1" o-- "0..*" item_response
-user "1" o-- "0..2" test_response
+class Questionnaire {
+    good : StringField
+    can_be_improved : StringField
+    email : EmailField
+}
+    
+User "1" *-- "0..1" Questionnaire : questionnaire
 
-class flashedge {
-    due_date : int
+class QuestionnaireResponse {
+    answer : IntField
+    phrasing : BooleanField
 }
 
-class flashedge_response {
-    start : int
-    end : int
-    correct : boolean
+Questionnaire "1" *-- "0..*" QuestionnaireResponse : responses
+QuestionnaireItem "1" o-- "0..*" QuestionnaireResponse : item
+
+class FlashInstance {
+    due_date : IntField
 }
 
-flashedge "1" o-- "0..*" flashedge_response
-flashcard "0..1" o-- "0..*" flashedge_response
-edge "0..1" o-- "0..*" flashedge_response
-user "1" o-- "0..*" flashedge
+class FlashcardInstance
 
-class session {
-    start : int
-    end : int
-    source_prompted : boolean
-    browser : string
+FlashInstance <|.. FlashcardInstance
+Flashcard "1" o-- "0..*" FlashcardInstance : flashcard
+User "1" *-- "0..*" FlashcardInstance : instances
+
+class FlashmapInstance
+
+FlashInstance <|.. FlashmapInstance
+Edge "1" o-- "0..*" FlashmapInstance : edge
+User "1" *-- "0..*" FlashmapInstance : instances
+
+class Response {
+    start : DateField
+    end : DateField
+    correct : BooleanField
 }
 
-user "1" *-- "0..*" session
+class FlashcardResponse
+
+Response <|.. FlashcardResponse
+FlashcardInstance "1" *-- "0..*" FlashcardResponse : responses
+
+class FlashmapResponse
+
+Response <|.. FlashmapResponse
+FlashmapInstance "1" *-- "0..*" FlashmapResponse : responses
+
+class Session {
+    start : DateField
+    end : DateField
+    source_prompted : BooleanField
+    browser : StringField
+}
+
+User "1" *-- "0..*" Session : sessions
 
 @enduml
