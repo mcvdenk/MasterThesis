@@ -1,0 +1,62 @@
+\ProvidesPackage{michatitle}
+\RequirePackage{graphicx}
+
+\newcommand*{\name}[1]{\gdef\@name{#1}}
+\newcommand*{\@name}{M.C. \textsc{van den Enk}}
+
+\newcommand*{\studentnumber}[1]{\gdef\@studentnumber{#1}}
+\newcommand*{\@studentnumber}{s1004654}
+
+\newcommand*{\studentemail}[1]{\gdef\@studentemail{#1}}
+\newcommand*{\@studentemail}{m.c.vandenenk@student.utwente.nl}
+
+\newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}}
+\newcommand*{\@supervisor}{\texttt{\string\supervisor} currently not set. Please fix this.}
+
+\newcommand*{\supervisoremail}[1]{\gdef\@supervisoremail{#1}}
+\newcommand*{\@supervisoremail}{\texttt{\string\supervisoremail} currently not set. Please fix this.}
+
+\newcommand*{\coursename}[1]{\gdef\@coursename{#1}}
+\newcommand*{\@coursename}{\texttt{\string\coursename} currently not set. Please fix this.}
+
+\renewcommand*{\maketitle}{%
+\begin{titlepage}
+
+\begin{center}
+
+% Upper part of the page
+\includegraphics[width=1\textwidth]{logo.png}\\[1cm]
+
+\textsc{\Large \@coursename\unskip\strut}\\[0.5cm]
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries \@title\unskip\strut}\\[0.4cm]
+
+\HRule \\[1.5cm]
+
+% Author and supervisor
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+\@name\unskip\strut \\
+{[}\@studentnumber\unskip\strut{]} \\
+\@studentemail\unskip\strut \\
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+\@supervisor\unskip\strut \\
+\@supervisoremail\unskip\strut \\
+\end{flushright}
+\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+\end{titlepage}}
+\endinput

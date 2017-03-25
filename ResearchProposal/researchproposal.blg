@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Cygwin)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: researchproposal.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in mixedmethods
+You've used 33 entries,
+            6951 wiz_defined-function locations,
+            1484 strings with 16532 characters,
+and the built_in function-call counts, 66243 in all, are:
+= -- 7931
+> -- 504
+< -- 3645
++ -- 3548
+- -- 66
+* -- 4611
+:= -- 13207
+add.period$ -- 133
+call.type$ -- 33
+change.case$ -- 561
+chr.to.int$ -- 0
+cite$ -- 67
+duplicate$ -- 1558
+empty$ -- 2427
+format.name$ -- 847
+if$ -- 12042
+int.to.chr$ -- 0
+int.to.str$ -- 99
+missing$ -- 0
+newline$ -- 852
+num.names$ -- 264
+pop$ -- 1046
+preamble$ -- 1
+purify$ -- 132
+quote$ -- 0
+skip$ -- 3895
+stack$ -- 0
+substring$ -- 3748
+swap$ -- 990
+text.length$ -- 66
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 2640
+warning$ -- 1
+while$ -- 278
+width$ -- 0
+write$ -- 1050
+(There was 1 warning)
