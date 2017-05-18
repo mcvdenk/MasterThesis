@@ -2211,6 +2211,8 @@ van~der Meulen, G.%
 \APACrefbtitle {Laagland. Literatuur Nederlands voor de tweede fase.
   Informatieboek VWO} {Laagland. literatuur nederlands voor de tweede fase.
   informatieboek vwo}\ (\PrintOrdinal{2}\ \BEd).
+\newblock
+\APACaddressPublisher{Amersfoort}{ThiemeMeulenhoff}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

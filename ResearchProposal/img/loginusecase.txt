@@ -1,0 +1,50 @@
+@startuml
+
+left to right direction
+
+:New user: as newuser
+:Registered user: as reguser
+:Ready user: as readyuser
+:Finished user: as finisheduser
+:MongoDB server: as db
+
+skinparam packageStyle rect
+rectangle Client {
+    (Register) as register
+    (Login) as login
+    (Provide descriptive information) as answerdescr
+    (Answer pretest questions) as answerpretest
+    (Answer posttest questions) as answerposttest
+    (Fill in questionnaire) as answerquestionnaire
+}
+
+rectangle Server {
+    (Create new account) as createaccount
+    (Descriptive form) as supplydescr 
+    (Pretest) as supplypretest
+    (Supply posttest) as supplyposttest
+    (Supply questionnaire) as supplyquestionnaire
+    (Go to the main page) as mainpage
+}
+
+newuser -- register
+reguser -- answerdescr
+reguser -- answerpretest
+readyuser -- login
+finisheduser -- answerposttest
+finisheduser -- answerquestionnaire
+
+createaccount -- db
+supplydescr -- db
+supplypretest -- db
+supplyposttest -- db
+supplyquestionnaire -- db
+
+register -> createaccount
+answerdescr <- supplydescr
+answerpretest <- supplypretest
+answerposttest <- supplyposttest
+answerquestionnaire <- supplyquestionnaire
+login -> mainpage
+
+@enduml

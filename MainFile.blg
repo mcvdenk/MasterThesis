@@ -12,46 +12,41 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 708 of file references.bib
- :     
- :     publisher = "ThiemeMeulenhoff",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in educationalphilosophy2
 You've used 92 entries,
             6951 wiz_defined-function locations,
-            1832 strings with 25946 characters,
-and the built_in function-call counts, 170631 in all, are:
-= -- 20898
+            1834 strings with 25972 characters,
+and the built_in function-call counts, 170675 in all, are:
+= -- 20901
 > -- 1259
 < -- 8450
 + -- 8202
 - -- 172
-* -- 11300
-:= -- 31787
+* -- 11306
+:= -- 31789
 add.period$ -- 380
 call.type$ -- 92
 change.case$ -- 1562
 chr.to.int$ -- 0
 cite$ -- 185
-duplicate$ -- 4331
-empty$ -- 6942
+duplicate$ -- 4336
+empty$ -- 6949
 format.name$ -- 2081
-if$ -- 32368
+if$ -- 32378
 int.to.chr$ -- 0
 int.to.str$ -- 276
 missing$ -- 0
-newline$ -- 2316
+newline$ -- 2318
 num.names$ -- 694
-pop$ -- 3038
+pop$ -- 3039
 preamble$ -- 1
 purify$ -- 364
 quote$ -- 0
-skip$ -- 10811
+skip$ -- 10812
 stack$ -- 0
 substring$ -- 8822
-swap$ -- 2676
+swap$ -- 2681
 text.length$ -- 206
 text.prefix$ -- 0
 top$ -- 1
@@ -59,5 +54,5 @@ type$ -- 7888
 warning$ -- 1
 while$ -- 726
 width$ -- 0
-write$ -- 2802
-(There was 1 error message)
+write$ -- 2804
+(There was 1 warning)
