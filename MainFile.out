@@ -27,15 +27,32 @@
 \BOOKMARK [0][-]{chapter*.71}{Defining the general use cases}{part.2}% 27
 \BOOKMARK [1][-]{section*.72}{Supplantive or generative}{chapter*.71}% 28
 \BOOKMARK [1][-]{section*.73}{Choice of platform}{chapter*.71}% 29
-\BOOKMARK [1][-]{section*.74}{Supported user actions and system reactions}{chapter*.71}% 30
-\BOOKMARK [-1][-]{part.3}{III Research}{}% 31
-\BOOKMARK [-1][-]{part.4}{IV Recommendations}{}% 32
-\BOOKMARK [0][-]{chapter*.75}{Epilogue}{part.4}% 33
-\BOOKMARK [0][-]{chapter*.76}{References}{part.4}% 34
-\BOOKMARK [0][-]{section*.77}{Appendices}{part.4}% 35
-\BOOKMARK [1][-]{section*.78}{Test literature history 16th and 17th century}{section*.77}% 36
-\BOOKMARK [1][-]{section*.81}{Use case diagram for logging in and storing user information}{section*.77}% 37
-\BOOKMARK [1][-]{section*.83}{Use case diagram for main purposes}{section*.77}% 38
-\BOOKMARK [1][-]{section*.85}{Class diagram for the datamodel}{section*.77}% 39
-\BOOKMARK [1][-]{section*.87}{Activity diagram for logging in}{section*.77}% 40
-\BOOKMARK [1][-]{section*.89}{Activity diagram learning functionality}{section*.77}% 41
+\BOOKMARK [1][-]{section*.74}{Supported user actions}{chapter*.71}% 30
+\BOOKMARK [1][-]{section*.75}{Description of the client server interaction}{chapter*.71}% 31
+\BOOKMARK [-1][-]{part.3}{III Research}{}% 32
+\BOOKMARK [-1][-]{part.4}{IV Recommendations}{}% 33
+\BOOKMARK [-1][-]{part.5}{V }{}% 34
+\BOOKMARK [0][-]{chapter*.76}{Epilogue}{part.5}% 35
+\BOOKMARK [0][-]{chapter*.77}{References}{part.5}% 36
+\BOOKMARK [0][-]{section*.78}{Appendices}{part.5}% 37
+\BOOKMARK [1][-]{section*.79}{Test literature history 16th and 17th century}{section*.78}% 38
+\BOOKMARK [1][-]{section*.82}{Use case diagram for registering and logging in}{section*.78}% 39
+\BOOKMARK [1][-]{section*.84}{Use case diagram for main purposes}{section*.78}% 40
+\BOOKMARK [1][-]{section*.86}{Activity diagram for logging in}{section*.78}% 41
+\BOOKMARK [1][-]{section*.88}{Activity diagram learning functionality}{section*.78}% 42
+\BOOKMARK [0][-]{chapter*.91}{Pretest and posttest statistics}{part.5}% 43
+\BOOKMARK [1][-]{section*.92}{Descriptives of the knowledge questions}{chapter*.91}% 44
+\BOOKMARK [1][-]{section*.93}{Descriptives of the comprehension questions}{chapter*.91}% 45
+\BOOKMARK [1][-]{section*.94}{Comparisons of the knowledge questions}{chapter*.91}% 46
+\BOOKMARK [1][-]{section*.97}{Comparisons of the comprehension questions}{chapter*.91}% 47
+\BOOKMARK [0][-]{chapter*.99}{Questionnaire statistics}{part.5}% 48
+\BOOKMARK [1][-]{section*.100}{Descriptives of Perceived Usefulness questions}{chapter*.99}% 49
+\BOOKMARK [1][-]{section*.101}{Descriptives of Perceived Ease of Use questions}{chapter*.99}% 50
+\BOOKMARK [1][-]{section*.102}{Comparisons of the Perceived Usefulness questions}{chapter*.99}% 51
+\BOOKMARK [1][-]{section*.103}{Comparisons of the Perceived Usefulness questions}{chapter*.99}% 52
+\BOOKMARK [0][-]{chapter*.104}{Instance statistics}{part.5}% 53
+\BOOKMARK [1][-]{section*.105}{Descriptives of the number of responses}{chapter*.104}% 54
+\BOOKMARK [1][-]{section*.106}{Descriptives of percentage of responses marked as correct}{chapter*.104}% 55
+\BOOKMARK [1][-]{section*.108}{Comparisons of the number of responses}{chapter*.104}% 56
+\BOOKMARK [1][-]{section*.109}{Comparisons of the percentage of responses marked as correct}{chapter*.104}% 57
+\BOOKMARK [1][-]{section*.110}{Comparisons of the amount of time spent on the application}{chapter*.104}% 58

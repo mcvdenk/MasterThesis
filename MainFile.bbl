@@ -1609,6 +1609,30 @@ Newell, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+(OMG)%
+}{%
+(OMG)%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+uml}
+\APACinsertmetastar {%
+uml}%
+\begin{APACrefauthors}%
+(OMG), O\BPBI M\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {OMG Unified Modeling Language Reference Manual} {Omg unified
+  modeling language reference manual}\ (\PrintOrdinal{2.5}\ \BEd).
+\newblock
+\APAChowpublished {OMG Document Number formal/2015-03-01
+  (\url{http://www.omg.org/spec/UML/2.5/PDF})}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ozmon%
 \ \BBA {} Johnson%
 }{%

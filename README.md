@@ -12,7 +12,7 @@ Design
 * General use cases:
   * Supported user actions and system reactions
     * ~~Use case diagrams~~
-    * Elaborate use case diagrams in text
+    * ~~Elaborate use case diagrams in text~~
     * ~~Activity diagrams~~
     * Elaborate activity diagrams in text
 * Server implementation:

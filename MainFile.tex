@@ -19,6 +19,15 @@
 \usepackage{graphicx} % support the \includegraphics command and options
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{longtable}
+\usepackage[section]{placeins}
+\makeatletter
+\AtBeginDocument{%
+  \expandafter\renewcommand\expandafter\subsection\expandafter{%
+    \expandafter\@fb@secFB\subsection
+  }%
+}
+\makeatother
 
 % \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 
@@ -163,6 +172,8 @@
     \input{./recommendations/research.tex} %Not started
     \input{./recommendations/implementation.tex} %Not started
 
+\part{}
+
 \chapter{Epilogue}
 
 \input{./epilogue/epilogue.tex} %Not started
@@ -179,13 +190,16 @@
     \clearpage
     \input{./appendix/mainusecase.tex}
     \clearpage
-    \input{./appendix/classdiagram.tex}
-    \clearpage
+%    \input{./appendix/classdiagram.tex}
+%    \clearpage
     \input{./appendix/loginactivity.tex}
     \clearpage
     \input{./appendix/learningactivity.tex}
     \clearpage
     \includepdf[pages={1-}]{../software/server/doc/build/latex/Flashmapserver.pdf}
 \end{appendices}
+    \input{./appendix/learning_gain.tex}
+    \input{./appendix/questionnaire.tex}
+    \input{./appendix/instance_stats.tex}
 
 \end{document}
