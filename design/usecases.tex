@@ -52,4 +52,13 @@ The exact reasoning behind the different activities can be found in the \nameref
 
 \subsection{Learning activities}
 
-\subsection{Learning progress}
+In the main application view, the user can either review items or view his learning progress. If he chooses the latter, a message will be sent to the server with the "LEARNED\_ITEMS-REQUEST" keyword, to which the server will respond with a "LEARNED\_ITEMS-RESPONSE" message containing information on the learning progress (see the \nameref{sec:learningprogress} section on page~\pageref{sec:progress}). If the user wants to review items, the client will send a "LEARN-REQUEST" message to the server and the process described below is performed.
+
+\paragraph{Aimed time reached} First, the server checks whether the user already spent 15 minutes learning today. If this is the case, the client will display a message that the user has spent an sufficient amount of time on learning for today. This will not be directly be displayed as the activity diagram suggests, but rather it will show this message together with the next item.
+
+\paragraph{Selecting an item} After this, the server will check whether there is any item already due for review. If this is the case, the server will sent the item which is due for the longest time to the client with the keyword "LEARN-RESPONSE". If not, the server selects a new item from the database. It is then checked whether the user already read the section in the book related to this item. If not, the server sends a "READ\_SOURCE-REQUEST" to the client, which prompts the user whether he has read the source supplied in the source field of the message. If so, the client sends a "READ\_SOURCE-RESPONSE" message back to the server, which adds the supplied source to the list of read sources for the user. When the user has read the section , the server will sent a "LEARN-RESPONSE" message with a new item from the database. If there is no new item left, the server sends a message to the client with the keyword "NO\_MORE\_INSTANCES".
+
+
+\paragraph{Validating the item} When the user has reviewed the item, the client sents a "VALIDATE" message to the server with an 'id' field with the item id and a 'correct' field with information whether the user was able to think of the correct response for the item. This response will then be stored in the database by the server, and the item will be rescheduled for when it is due for the next review. After this, the server will repeat the learning cycle as if the client just sent a "LEARN-REQUEST" message.
+
+\paragraph{Undo previous response} When the supplied item is not the first item within the current learning section, the user can choose to undo the response of the previous item. The client will then send back a "UNDO" message to the server, which will then remove the previous response and also go back to the beginning of the learning cycle.
