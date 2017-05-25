@@ -1,0 +1,16 @@
+@startuml
+|Server|
+start
+while (All answers saved?) is (no)
+:Add answer to item;
+partition Rescheduling {
+:interval := 5s]
+while (Answer value?) is (correct)
+floating note right: In descending order of date
+:interval := 5 * interval]
+endwhile (incorrect)
+:due_date = current_date + interval]
+}
+endwhile (yes)
+stop
+@enduml

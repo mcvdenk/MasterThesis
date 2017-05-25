@@ -1,0 +1,17 @@
+@startuml
+|#AntiqueWhite|Client|
+start
+:Show answer/
+if (Which condition?) then (flashcard)
+if (Answers correspond?) then (correct)
+:Correct/
+else (incorrect)
+:Incorrect/
+endif
+else (flashmap)
+:Show answer/
+:Indicate which nodes
+are correct/incorrect;
+endif
+stop
+@enduml

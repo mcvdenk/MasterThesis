@@ -61,7 +61,7 @@ norm-p & $\alpha$
 \bottomrule
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/know_fc_diff.png} \includegraphics[width=\textwidth]{img/know_fc_abil.png}
+\includegraphics[width=\textwidth]]{img/know_fc_diff.png} \includegraphics[width=\textwidth]{img/know_fc_abil.png}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Flashmap condition}
@@ -486,8 +486,8 @@ norm-p & $\alpha$
 \bottomrule
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/know_gain_diff.png}
-\includegraphics[width=\textwidth]{img/know_gain_abil.png}
+\includegraphics[width=\textwidth]]{img/know_gain_diff.png}
+\includegraphics[width=\textwidth]]{img/know_gain_abil.png}
 
 \section{Comparisons of the comprehension questions}
 
@@ -613,5 +613,5 @@ norm-p & $\alpha$
 \bottomrule
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/comp_gain_diff.png}
-\includegraphics[width=\textwidth]{img/comp_gain_abil.png}
+\includegraphics[width=\textwidth]]{img/comp_gain_diff.png}
+\includegraphics[width=\textwidth]]{img/comp_gain_abil.png}
