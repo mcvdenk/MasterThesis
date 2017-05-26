@@ -100,29 +100,6 @@ Anderson, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Apps%
-}{%
-Apps%
-}{%
-{\protect \APACyear {1973}}%
-}]{%
-educationalphilosophy5}
-\APACinsertmetastar {%
-educationalphilosophy5}%
-\begin{APACrefauthors}%
-Apps, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1973}.
-\newblock
-\APACrefbtitle {Toward an working philosophy of adult education} {Toward an
-  working philosophy of adult education}.
-\newblock
-\APACaddressPublisher{New York, NY}{Publications in continuing education}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Atkinson%
 \ \BBA {} Shiffrin%
 }{%
@@ -357,30 +334,6 @@ Bloom, B.%
   domain.}
 \newblock
 \APACaddressPublisher{New York, NY}{David McKay Company}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Brameld%
-}{%
-Brameld%
-}{%
-{\protect \APACyear {1971}}%
-}]{%
-educationalphilosophy}
-\APACinsertmetastar {%
-educationalphilosophy}%
-\begin{APACrefauthors}%
-Brameld, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1971}.
-\newblock
-\APACrefbtitle {Patterns of educational philosophy. Divergence and convergence
-  in culturological perspective} {Patterns of educational philosophy.
-  divergence and convergence in culturological perspective}.
-\newblock
-\APACaddressPublisher{New York, NY}{Holt, Rinehart and Winston, Inc.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -873,29 +826,6 @@ Heemskerk, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Howick%
-}{%
-Howick%
-}{%
-{\protect \APACyear {1971}}%
-}]{%
-educationalphilosophy4}
-\APACinsertmetastar {%
-educationalphilosophy4}%
-\begin{APACrefauthors}%
-Howick, W\BPBI H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1971}.
-\newblock
-\APACrefbtitle {Philosophies of Western Education} {Philosophies of western
-  education}.
-\newblock
-\APACaddressPublisher{Danville, Ill}{Interstate Printers \& Publishers}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Hulstijn%
 }{%
 Hulstijn%
@@ -1315,33 +1245,6 @@ Macquarrie, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Marsh%
-\ \BBA {} Willis%
-}{%
-Marsh%
-\ \BBA {} Willis%
-}{%
-{\protect \APACyear {1999}}%
-}]{%
-curriculumtheory}
-\APACinsertmetastar {%
-curriculumtheory}%
-\begin{APACrefauthors}%
-Marsh, C.%
-\BCBT {}\ \BBA {} Willis, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1999}.
-\newblock
-\APACrefbtitle {Curriculum. Alternative Approaches, Ongoing Issues}
-  {Curriculum. alternative approaches, ongoing issues}\ (\PrintOrdinal{2nd}\
-  \BEd).
-\newblock
-\APACaddressPublisher{Upper Saddle River, NJ}{Prentice-Hall}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Matsaridis%
 }{%
 Matsaridis%
@@ -1413,28 +1316,6 @@ McCullough, C.%
   cards - the opiate of the reading program?}{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Elementary English}{32}{6}{39--381}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Meno%
-}{%
-Meno%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-wisdomknowledge}
-\APACinsertmetastar {%
-wisdomknowledge}%
-\begin{APACrefauthors}%
-Meno, P.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2000}.
-\newblock
-\APACrefbtitle {Stevenson, DC} {Stevenson, dc}.
-\newblock
-\APACaddressPublisher{}{The Internet Classics Archive}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1633,33 +1514,6 @@ uml}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Ozmon%
-\ \BBA {} Johnson%
-}{%
-Ozmon%
-\ \BBA {} Johnson%
-}{%
-{\protect \APACyear {1967}}%
-}]{%
-educationalphilosophy2}
-\APACinsertmetastar {%
-educationalphilosophy2}%
-\begin{APACrefauthors}%
-Ozmon, H.%
-\BCBT {}\ \BBA {} Johnson, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1967}{}{}.
-\newblock
-\APACrefbtitle {Value implications in children's reading material} {Value
-  implications in children's reading material}\ \APACbVolEdTR{}{\BTR{}}.
-\newblock
-\APACaddressInstitution{}{U.S. Department of Health, Education, and Welfare:
-  Office of Education; Bureau of Research}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Pavlik%
 \ \BBA {} Anderson%
 }{%
@@ -1813,28 +1667,6 @@ cbsdenom}%
   \end{APACrefURL}
 \newblock
 \APACrefnote{[Data set]}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Renshaw%
-}{%
-Renshaw%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-searchgreeks}
-\APACinsertmetastar {%
-searchgreeks}%
-\begin{APACrefauthors}%
-Renshaw, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2008}.
-\newblock
-\APACrefbtitle {In search of the Greeks} {In search of the greeks}.
-\newblock
-\APACaddressPublisher{Columbia MD}{A\&C Black}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -2099,32 +1931,6 @@ Steinberg, L.%
 \APACjournalVolNumPages{Trends in cognitive sciences}{9}{2}{69--74}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.tics.2004.12.005} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Stokes%
-}{%
-Stokes%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-honours}
-\APACinsertmetastar {%
-honours}%
-\begin{APACrefauthors}%
-Stokes, K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2013}.
-\unskip\
-\newblock
-\APACrefbtitle {The Impact of the Factory Model of Education in Central Texas}
-  {The impact of the factory model of education in central texas}\
-  \APACtypeAddressSchool {\BUMTh}{}{}.
-\unskip\
-\newblock
-\APACaddressSchool {}{Baylor University}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -2486,35 +2292,6 @@ Xue, G.%
   suppression}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Cognitive Neuroscience}{23}{7}{1624--1633}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Yilmaz%
-, Altinkurt%
-\BCBL {}\ \BBA {} Cokluk%
-}{%
-Yilmaz%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2011}}%
-}]{%
-educationalphilosophy3}
-\APACinsertmetastar {%
-educationalphilosophy3}%
-\begin{APACrefauthors}%
-Yilmaz, K.%
-, Altinkurt, Y.%
-\BCBL {}\ \BBA {} Cokluk, O.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Developing the Educational Belief Scale: The Validity
-  and Reliability Study} {Developing the educational belief scale: The validity
-  and reliability study}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Educational Sciences: Theory and
-  Practice}{11}{1}{343--350}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

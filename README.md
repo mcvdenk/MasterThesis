@@ -9,12 +9,12 @@ Introduction
 Design
 ------
 
-* General use cases:
-  * Supported user actions and system reactions
+* ~~General use cases:~~
+  * ~~Supported user actions and system reactions~~
     * ~~Use case diagrams~~
     * ~~Elaborate use case diagrams in text~~
     * ~~Activity diagrams~~
-    * Elaborate activity diagrams in text
+    * ~~Elaborate activity diagrams in text~~
 * Server implementation:
   * ~~Class diagram~~
   * Elaborate class diagram in text

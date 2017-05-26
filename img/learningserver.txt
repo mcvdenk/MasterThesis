@@ -1,8 +1,8 @@
 @startuml
 |Server|
 start
-while (All answers saved?) is (no)
-:Add answer to item;
+while (All responses saved?) is (no)
+:Add response to instance;
 partition Rescheduling {
 :interval := 5s]
 while (Answer value?) is (correct)
@@ -11,6 +11,7 @@ floating note right: In descending order of date
 endwhile (incorrect)
 :due_date = current_date + interval]
 }
+:Save the instance to the database;
 endwhile (yes)
 stop
 @enduml

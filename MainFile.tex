@@ -150,16 +150,16 @@
 \input{./preface/abstract.tex} %Not started
 
 \part{Introduction}
-    \input{./introduction/problem.tex} %Reviewed by Tobias TODO: missing references to labels
-    \input{./introduction/context.tex} %Reviewed by Tobias
+    \input{./introduction/problem.tex} %Reviewed by Tobias 
+%    \input{./introduction/context.tex} %Reviewed by Tobias
     \input{./introduction/theory.tex} %Reviewed by Tobias, Paulina
 
 \part{Design Report}
     \input{./design/intro.tex} %Reviewed by Tobias TODO: Enlist separate aspects of the product
-    \input{./design/analysis.tex} %Reviewed by Tobias, Paulina TODO: comments about social characteristics by Tobias
-    \input{./design/usecases.tex} %Outlined
-    \input{./design/server.tex} %Not started
-    \input{./design/client.tex} %Not started
+    \input{./design/analysis.tex} %Reviewed by Tobias, Paulina
+    \input{./design/usecases.tex} %Done, to be reviewed by Tobias
+    \input{./design/server.tex} %Outlined
+    \input{./design/client.tex} %Outlined
 
 \part{Research}
     \input{./research/aimsgoals.tex} %Not started
@@ -196,10 +196,14 @@
 %    \clearpage
 %    \input{./appendix/learningactivity.tex}
 %    \clearpage
+    \cleardoublepage
+    \phantomsection
+    \addcontentsline{toc}{chapter}{Flashmap server Documentation}
     \includepdf[pages={1-}]{../software/server/doc/build/latex/Flashmapserver.pdf}
-\end{appendices}
+    \input{./appendix/clientsource.tex}
     \input{./appendix/learning_gain.tex}
     \input{./appendix/questionnaire.tex}
     \input{./appendix/instance_stats.tex}
+\end{appendices}
 
 \end{document}

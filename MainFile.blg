@@ -13,46 +13,44 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--No address in educationalphilosophy2
-You've used 93 entries,
+You've used 84 entries,
             6951 wiz_defined-function locations,
-            1839 strings with 26134 characters,
-and the built_in function-call counts, 172262 in all, are:
-= -- 21104
-> -- 1269
-< -- 8520
-+ -- 8276
-- -- 174
-* -- 11400
-:= -- 32069
-add.period$ -- 385
-call.type$ -- 93
-change.case$ -- 1579
+            1797 strings with 25016 characters,
+and the built_in function-call counts, 157787 in all, are:
+= -- 19275
+> -- 1162
+< -- 7882
++ -- 7695
+- -- 156
+* -- 10556
+:= -- 29527
+add.period$ -- 347
+call.type$ -- 84
+change.case$ -- 1426
 chr.to.int$ -- 0
-cite$ -- 187
-duplicate$ -- 4377
-empty$ -- 7016
-format.name$ -- 2095
-if$ -- 32692
+cite$ -- 168
+duplicate$ -- 4010
+empty$ -- 6366
+format.name$ -- 1931
+if$ -- 29790
 int.to.chr$ -- 0
-int.to.str$ -- 279
+int.to.str$ -- 252
 missing$ -- 0
-newline$ -- 2340
-num.names$ -- 702
-pop$ -- 3102
+newline$ -- 2130
+num.names$ -- 630
+pop$ -- 2737
 preamble$ -- 1
-purify$ -- 368
+purify$ -- 332
 quote$ -- 0
-skip$ -- 10888
+skip$ -- 9922
 stack$ -- 0
-substring$ -- 8905
-swap$ -- 2704
-text.length$ -- 208
+substring$ -- 8272
+swap$ -- 2501
+text.length$ -- 190
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 7968
-warning$ -- 1
-while$ -- 731
+type$ -- 7184
+warning$ -- 0
+while$ -- 675
 width$ -- 0
-write$ -- 2828
-(There was 1 warning)
+write$ -- 2585
