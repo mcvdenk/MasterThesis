@@ -508,6 +508,32 @@ Craik, F\BPBI I.%
 
 \bibitem [\protect \citeauthoryear {%
 Davis%
+}{%
+Davis%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+tamq}
+\APACinsertmetastar {%
+tamq}%
+\begin{APACrefauthors}%
+Davis, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Perceived Usefulness, Perceived Ease of Use, and User
+  Acceptance of Information Technology} {Perceived usefulness, perceived ease
+  of use, and user acceptance of information technology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{MIS Quarterly}{13}{3}{319--340}.
+\newblock
+\begin{APACrefDOI} \doi{10.2307/249008} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Davis%
 , Bagozzi%
 \BCBL {}\ \BBA {} Warshaw%
 }{%

@@ -1,0 +1,19 @@
+digraph { 
+    a [label="label=Node A"];
+    b [label="label=Node B"];
+    c [label="label=Node C"];
+    d [label="label=Node D"];
+    e [label="label=Node E"];
+    f [label="label=Node F"];
+    g [label="label=Node G"];
+    h [label="label=Node H"];
+
+    a -> b [label="from_node=Node A,\nto_node=Node B,\nlabel=Edge 1"];
+    b -> c [label="from_node=Node B,\nto_node=Node C,\nlabel=Edge 2"];
+    c -> d [label="from_node=Node C,\nto_node=Node D,\nlabel=Edge 3"];
+    c -> e [label="from_node=Node C,\nto_node=Node E,\nlabel=Edge 4"];
+    e -> f [label="from_node=Node E,\nto_node=Node F,\nlabel=Edge 5"];
+    d -> g [label="from_node=Node D,\nto_node=Node G,\nlabel=Edge 6"];
+    f -> g [label="from_node=Node F,\nto_node=Node G,\nlabel=Edge 7"];
+    g -> h [label="from_node=Node G,\nto_node=Node H,\nlabel=Edge 8"];
+}

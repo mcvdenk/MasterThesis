@@ -1,0 +1,17 @@
+digraph { 
+    a [label="Node A\nPARENT"];
+    b [label="Node B\nPARENT"];
+    c [label="Node C\nPARENT"];
+    d [label="Node D\nDIRECT PARENT"];
+    e [label="Node E\nPARENT"];
+    f [label="Node F\nDIRECT PARENT"];
+    g [label="Node G\nTARGET"];
+
+    a -> b [label="Edge 1\nPARENT"];
+    b -> c [label="Edge 2\nPARENT"];
+    c -> d [label="Edge 3\nPARENT"];
+    c -> e [label="Edge 4\nPARENT"];
+    e -> f [label="Edge 5\nPARENT"];
+    d -> g [label="Edge 6\nDIRECT PARENT"];
+    f -> g [label="Edge 7\nDIRECT PARENT"];
+}

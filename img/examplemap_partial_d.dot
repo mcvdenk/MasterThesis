@@ -1,0 +1,12 @@
+digraph { 
+    a [label="Node A\nPARENT"];
+    b [label="Node B\nPARENT"];
+    c [label="Node C\nDIRECT PARENT"];
+    d [label="Node D\nTARGET"];
+    e [label="Node E\nSIBLING"];
+
+    a -> b [label="Edge 1\nPARENT"];
+    b -> c [label="Edge 2\nPARENT"];
+    c -> d [label="Edge 3\nDIRECT PARENT"];
+    c -> e [label="Edge 4\nSIBLING"];
+}
