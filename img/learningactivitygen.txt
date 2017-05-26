@@ -20,6 +20,13 @@ if (New item available?) then (no)
 stop
 endif
 |Server|
+if (Source read?) then (no)
+|Client|
+:Prompt source read;
+|Server|
+:Add source;
+else (yes)
+endif
 :Provide next new item;
 else (yes)
 :Provide item with

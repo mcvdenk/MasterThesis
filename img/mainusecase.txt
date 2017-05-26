@@ -8,7 +8,8 @@ left to right direction
 skinparam packageStyle rect
 rectangle Client {
     (Request learning progress) as requestpr
-    (Request items) as requestitems
+    (Request item) as requestitem
+    (Undo previous response) as undo
     (Logout) as clientlogout
 }
 
@@ -18,11 +19,13 @@ rectangle Server {
     (Request read source) as source
     (Supply flashcard) as supplyfc
     (Supply flashmap) as supplyfm
+    (Remove previous response) as remove
     (Logout) as servlogout
 }
 
 readyuser -- requestpr
-readyuser -- requestitems
+readyuser -- requestitem
+readyuser -- undo
 readyuser -- clientlogout
 
 supplyfcpr -- db
@@ -30,13 +33,15 @@ supplyfmpr -- db
 source -- db
 supplyfc -- db
 supplyfm -- db
+remove -- db
 servlogout -- db
 
 requestpr -> supplyfcpr
 requestpr -> supplyfmpr
-requestitems -> source
-requestitems -> supplyfc
-requestitems -> supplyfm
+requestitem -> source
+requestitem -> supplyfc
+requestitem -> supplyfm
+undo -> remove
 clientlogout -> servlogout
 
 @enduml

@@ -1,4 +1,5 @@
 \chapter{Defining the general use cases}
+\label{ch:usecases}
 
 \section{Supplantive or generative}
 
@@ -22,17 +23,42 @@ The server implementation will be further elaborated in the \nameref{ch:server} 
 
 \section{Supported user actions}
 
-The final design decision related to the general ideation of software is deciding which use cases should be supported, which are generally displayed within a UML use case diagram \cite{uml}. For the flashmap software, the use cases are divided in cases related to the registering and login process (see the \nameref{app:loginusecase} appendix on page~\pageref{app:loginusecase}), and the cases related to the main use of the software (see the \nameref{app:mainusecase} appendix on page~\pageref{app:mainusecase}).
+The final design decision related to the general ideation of software is deciding which use cases should be supported, which are generally displayed within a UML use case diagram \cite{uml}. For the flashmap software, the use cases are divided in cases related to the registering and login process (see figure~\ref{fig:loginusecase}), and the cases related to the main use of the software (see figure~\ref{fig:mainusecase}).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{img/loginusecase.png}
+\caption{Use case diagram for registering and logging in}
+\label{fig:loginusecase}
+\end{figure}
 
 \paragraph{Login use cases} When opening the webapplication, the user is first prompted with a login screen. Here, th e user can either enter an already existing username to continue this session, or he can enter a new name in order to register as a new user. When the user is registering as a new user, a form is presented asking for information on gender and birthdate as descriptive information, and asking for the specific code the user received on the informed consent form in order to validate that the user indeed signed this form before partaking in the research (see section \nameref{sec:procedure} on page~\pageref{sec:procedure}). After that, another form will be prompted for the pretest (section \nameref{sec:instrumentation} on page~\pageref{sec:instrumentation}). When the user has met certain criteria, a posttest similar to the pretest will be prompted, followed by a questionnaire and a debriefing text. When none of these criteria are met, the user can access he main use cases.
 
-\paragraph{Main use cases} The main use cases entail requesting items for review, requesting the learning progress, or logging out. When requesting items for review, the user can receive a due or new flashcard or flashmap, depending whether there are any old items due for review and the experimental group the user is in. Alternatively, the user can also be prompted whether a certain section of the instruction material has been read. These prompts take often place at the beginning of a session so that the user does not have to interrupt a session. Furthermore, they prompt two sections ahead of the material currently being learned or reviewed by the user from the flashmap or flashcards in order to guarantee that the user is familiar with the material before learning the items. Finally, the user is prompted to read a section at most once per day. When requesting the learning progress, the user is presented of an overview of what has already been learned and what is still left as either unseen items or items due for review. This provides an indication for the user so that he can estimate how much time he still needs to invest into the software, but also could stimulate the user by seeing the number of new or due items lowering and learned items increasing. Finally, the user can return to the login screen by logging out.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{img/mainusecase.png}
+\caption{Use case diagram for main purposes}
+\label{fig:mainusecase}
+\end{figure}
+
+\paragraph{Learning use cases} The main use cases entail requesting items for review, requesting the learning progress, or logging out. When requesting items for review, the user can receive a due or new flashcard or flashmap, depending whether there are any old items due for review and the experimental group the user is in. Alternatively, the user can also be prompted whether a certain section of the instruction material has been read, since the rehearsal of items cannot be meaningful when the user is not familiar with the content. These prompts take often place at the beginning of a session so that the user does not have to interrupt a session. Furthermore, they prompt two sections ahead of the material currently being learned or reviewed by the user from the flashmap or flashcards in order to guarantee that the user is familiar with the material before learning the items. The user is prompted to read a section at most once per day. After the user has submitted a response, he can undo this response if he is not content with it. For example, the user could after seeing the correct response decide that he thought of a similar enough answer, but after deeper reflection still decide that his answer was not sufficient. In this case, he could use the undo option in order to be presented with the previous response again and select the 'incorrect' option.
+
+\paragraph{Learning progress} When requesting the learning progress, the user is presented of an overview of what has already been learned and what is still left as either unseen items or items due for review. This provides an indication for the user so that he can estimate how much time he still needs to invest into the software, but also could stimulate the user by seeing the number of new or due items lowering and learned items increasing.
+
+Finally, the user can return to the login screen by logging out.
 
 \section{Detailed description of the client server interaction}
 
-Based on the previous description of use cases, there are two sets of complex interaction between the client and server, which are again the interaction for the login and registering process, and the interaction for the learning process. These are described as activity diagrams in the \nameref{app:loginactivity} and he \nameref{app:learningactivity} appendices on page~\pageref{app:loginactivity} and page~\pageref{app:learningactivity}. These diagrams are described below together with the specific network messages belonging to the interaction step. Each network message is a simple JSON message consisting of a \emph{keyword} field --- containing the main function which has to be performed by the other party --- and a \emph{data} field containing a dictionary with necessary supplementary data.
+Based on the previous description of use cases, there are two sets of complex interaction between the client and server, which are again the interaction for the login and registering process, and the interaction for the learning process. These are described as activity diagrams in figure~\ref{fig:loginactivity} and figure~\ref{fig:learningactivitygen}. These diagrams are elaborated on below together with the specific network messages belonging to the interaction step. Each network message is a simple JSON message consisting of a \emph{keyword} field --- containing the main function which has to be performed by the other party --- and a \emph{data} field containing a dictionary with necessary supplementary data.
 
 \subsection{Login activities}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[height=\textheight-10ex]{img/loginactivity.png}
+\caption{An activity diagram displaying the server-client interactions when a user logs in}
+\label{fig:loginactivity}
+\end{figure}
 
 The exact reasoning behind the different activities can be found in the \nameref{sec:procedure} and \nameref{sec:instrumentation} sections of the \nameref{ch:methods} chapter on pages~\pageref{sec:procedure} and \pageref{sec:instrumentation}.
 
@@ -52,7 +78,14 @@ The exact reasoning behind the different activities can be found in the \nameref
 
 \subsection{Learning activities}
 
-In the main application view, the user can either review items or view his learning progress. If he chooses the latter, a message will be sent to the server with the "LEARNED\_ITEMS-REQUEST" keyword, to which the server will respond with a "LEARNED\_ITEMS-RESPONSE" message containing information on the learning progress (see the \nameref{sec:learningprogress} section on page~\pageref{sec:progress}). If the user wants to review items, the client will send a "LEARN-REQUEST" message to the server and the process described below is performed.
+\begin{figure}
+\centering
+\includegraphics[width=.9\textwidth]{img/learningactivitygen.png}
+    \caption{An activity diagram describing the general server-client interactions related to reviewing items. The \protect\emph{Provide answers} activity is described more detailed in figure~\protect\ref{fig:learningclient} on page~\protect\pageref{fig:learningclient}, and the \protect\emph{Store answers} and \protect\emph{Reschedule} activities in figure~\protect\ref{fig:learningserver} on page~\protect\pageref{fig:learningserver}}
+\label{fig:learningactivitygen}
+\end{figure}
+
+In the main application view, the user can either review items or view his learning progress. If he chooses the latter, a message will be sent to the server with the "LEARNED\_ITEMS-REQUEST" keyword, to which the server will respond with a "LEARNED\_ITEMS-RESPONSE" message containing information on the learning progress (see the \nameref{sec:learningprogress} section on page~\pageref{sec:learningprogress}). If the user wants to review items, the client will send a "LEARN-REQUEST" message to the server and the process described below is performed.
 
 \paragraph{Aimed time reached} First, the server checks whether the user already spent 15 minutes learning today. If this is the case, the client will display a message that the user has spent an sufficient amount of time on learning for today. This will not be directly be displayed as the activity diagram suggests, but rather it will show this message together with the next item.
 
