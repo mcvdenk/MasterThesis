@@ -5,7 +5,14 @@ In this chapter, the general model behind the server will be elaborated. The for
 
 \section{Generic data entries}
 
-There are four classes of generic data: the concept map (containing nodes and edges), the flashcards, the test items and the questionnaire items.
+There are four classes of generic data: the concept map (containing nodes and edges), the flashcards, the test items and the questionnaire items. The concept map and flashcard model is illustrated in figure~\ref{fig:classdiagram_concept_map}.
+
+\begin{figure}
+    \centering
+    \includegraphics[height=0.4\textheight]{img/classdiagram_concept_map.png}
+    \caption{A UML class diagram illustrating the ConceptMap, Node, Edge, and Flashcard classes}
+    \label{fig:classdiagram_concept_map}
+\end{figure}
 
 \subsection{Concept map}
 
@@ -15,14 +22,14 @@ The ConceptMap class is mainly a container class consisting of nodes and edges, 
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=.5\textheight]{img/examplemap.png}
+        \includegraphics[height=.6\textheight]{img/examplemap.png}
         \caption{An abstract example of a concept map}
         \label{fig:examplemap}
     \end{subfigure}
     \qquad
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=.5\textheight]{img/examplemap_objects.png}
+        \includegraphics[height=.6\textheight]{img/examplemap_objects.png}
         \caption{The different attributes demonstrated within the example map from figure~\protect\ref{fig:examplemap}}
         \label{fig:examplemap_objects}
     \end{subfigure}
@@ -32,7 +39,7 @@ The ConceptMap class is mainly a container class consisting of nodes and edges, 
 
 \paragraph{Nodes} The concepts represented by the nodes are not only an abstract ideas (such as Renaissance Literature), but also more concrete concepts such as a time period (e.g. the Golden Age), a person (e.g. P.C. Hooft) or objects or inventions (e.g. the printing press). Nodes are simple classes only containing a label describing what it should represent and a unique identifyer string.
 
-\paragraph{Edges} An Edge also contains a label describing the specific relation between two concepts and an id, but also contains the references to the id's of the nodes it refers to, one being the `from' node and the other the `to' node, and a list of sources (usually only containing one source), which are the sections of the instructional material the edge is derived from. The model does not make any destinction between a hierarchical and cross-link, since they are the same from a graph rendering perspective. However, this destinction might still be considered for more sophisticated hierarchical rendering or searching algorithms.
+\paragraph{Edges} An Edge also contains a label describing the specific relation between two concepts and an id, but also contains the references to the id's of the nodes it refers to, one being the `from' node and the other the `to' node, and a list of sources (usually only containing one source), which are the sections of the instructional material the edge is derived from. The model does not make any destinction between a hierarchical and cross-link, since they are the same from a graph rendering perspective. However, this destinction might still be considered for more sophisticated hierarchical rendering or searching algorithms. The Edge class is chosen as the equivalent to the Flashcard in the Flashmap system rather than the Node, since a relation between concepts is more specific when teaching about concepts. Furthermore, within an Edge object there is already a clear question (the from\_node) and answer (the to\_node).
 
 Figure~\ref{fig:examplemap_objects} demonstrates how the different classes and attributes represent the concept map from figure~\ref{fig:examplemap}.
 
@@ -42,14 +49,14 @@ Figure~\ref{fig:examplemap_objects} demonstrates how the different classes and a
     \centering
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=.4\textheight]{img/examplemap_partial_d.png}
+        \includegraphics[height=.6\textheight]{img/examplemap_partial_d.png}
         \caption{The result of get\_partial\_map() function with Node D from the example map from figure~\protect\ref{fig:examplemap}}
         \label{fig:examplemap_partial_d}
     \end{subfigure}
     \qquad
     \begin{subfigure}{0.4\textwidth}
         \centering
-        \includegraphics[height=.4\textheight]{img/examplemap_partial_g.png}
+        \includegraphics[height=.6\textheight]{img/examplemap_partial_g.png}
         \caption{The result of get\_partial\_map() function with Node G from the example map from figure~\protect\ref{fig:examplemap}}
         \label{fig:examplemap_partial_g}
     \end{subfigure}
@@ -71,7 +78,14 @@ The QuestionnaireItem class represents items from the Technology Acceptance Mode
 
 \section{User attributes, objects and methods}
 
-The main user attributes are mainly based on the aforementioned generic data entries, namely the FlashcardInstance or FlashmapInstance objects --- storing the learning progression of certain Flashcards or Edges from the ConceptMap ---, the Test objects --- representing a pre- or posttest and containing the responses to sets of TestItems ---, and the Questionnaire object --- containing the responses to the QuestionnaireItems. Next to these objects, the user also has certain descriptive attributes, and objects related to logged in sessions.
+The main user attributes are mainly based on the aforementioned generic data entries, namely the FlashcardInstance or FlashmapInstance objects --- storing the learning progression of certain Flashcards or Edges from the ConceptMap ---, the Test objects --- representing a pre- or posttest and containing the responses to sets of TestItems ---, and the Questionnaire object --- containing the responses to the QuestionnaireItems. Next to these objects, the user also has certain descriptive attributes, and objects related to logged in sessions. The User class and its attributes and embedded classes are illustrated in figure~\ref{fig:classdiagram_user}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{img/classdiagram_user.png}
+    \caption{A UML class diagram illustrating the User class and its embedded classes. For readability, the TestItem, QuestionnaireItem, Flashcard and Edge classes are referred to inline within the attributes instead of as separate classes with aggregation links.}
+    \label{fig:classdiagram_user}
+\end{figure}
 
 \subsection{Descriptive attributes}
 
@@ -89,11 +103,29 @@ The descriptive attributes are either used for the program to function, or for g
 
 \paragraph{Email} At the end of the questionnaire, the user was prompted whether he wanted to participate in an interview. If this was the case, he could fill in his email address here in order to be contacted at a later date. This variable is also ommitted in the published data.
 
-\paragraph{Desbriefed} This field is a simple boolean value indicating whether the user has been debriefed. It initiated with a False value, and was set to True when the server received a "DEBRIEFING-RESPONSE" message from the client (see figure~\ref{fig:loginactivity} on page~\pageref{fig:loginactivity}).
+\paragraph{Debriefed} This field is a simple boolean value indicating whether the user has been debriefed. It initiated with a False value, and was set to True when the server received a "DEBRIEFING-RESPONSE" message from the client (see figure~\ref{fig:loginactivity} on page~\pageref{fig:loginactivity}).
 
 \subsection{Sessions}
 
+A Session object represents the time between the user logs in and out. This is represented by a \emph{start} and \emph{end} value, indicating the time interval and the moment that the user was active. Additionally, the Session object has a variable \emph{source\_prompted}, indicating whether the user was prompted to read a section within the instructional material. The object finally contains a string \emph{browser}, which is the string retrieved from navigator.platform in the client window.
+
 \subsection{Instances}
+
+The instances class is the most relevant class for the functioning of the flashcard system, containing a record of responses and the scheduling function. The name instance is used in order to distinguish between an abstract Flashcard or Edge, which is the same for each user, and the specific instance of this idea within the memory of a user. An Instance object can be either a FlashcardInstance or a FlashmapInstance, depending of the experimental condition of the user.
+
+\paragraph{Attributes} Each Instance object has a \emph{due\_date} and \emph{reference} attribute. The \emph{due\_date} attribute indicates when this instance is due for review by the user, and initiates at the current date and time. This date is set by the scheduling function, which is elaborated below. The reference attribute contains either a Flashcard or an Edge object. As already indicated in the previous chapter, each time the user has no more due instances a new instance is created referring to a new item. The \emph{reference} field refers to either a Flashcard or an Edge, depending on the specific subclass of Instance.
+
+\paragraph{Responses} The Response class represents each individual time the user reviews an instance, containing a \emph{start} field for when the Flashcard or Edge was prompted, an \emph{end} field for when the server received the response from the user, and a \emph{correct} field for whether the user was able to think of the correct answer or to\_node when being prompted.
+
+\paragraph{Schedule} The scheduling algorithm uses two different methods from Instances, namely get\_exponent() and schedule(), and is illustrated in figure~\ref{fig:learningserver}. In the~\nameref{ch:frameworks} chapter on page~\pageref{ch:frameworks}, it is described that to calculate the interval until the next review, one needs the number of correct responses since the last incorrect response. This is done by the get\_exponent() function, which loops through the responses in descending order of \emph{end} date, increasing a counter (exp, initiated with value 1), until a response with a False \emph{correct} value is found. The schedule() function then takes $5^(exp)$ seconds as the interval until the next review of the instance. Examples:
+%
+\begin{itemize}
+        \item When there are no responses, the interval is $5^1=5$ seconds;
+        \item When there are three correct responses, the interval is $5^3=125$ seconds;
+        \item When there are two correct responses, followed by one incorrect response and then 4 correct responses, the interval is $5^4=625$ seconds.
+\end{itemize}
+%
+This interval is then added together with the \emph{end} value of the last response and sets this as the new \emph{due\_date} value.
 
 \begin{figure}
 \centering

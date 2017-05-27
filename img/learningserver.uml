@@ -3,14 +3,12 @@
 start
 while (All responses saved?) is (no)
 :Add response to instance;
-partition Rescheduling {
-:interval := 5s]
+:Create variable exp with value 1;
 while (Answer value?) is (correct)
 floating note right: In descending order of date
-:interval := 5 * interval]
+:Increment exp with 1;
 endwhile (incorrect)
-:due_date = current_date + interval]
-}
+:Set due_date to last_response_end + <math>5^exp</math>;
 :Save the instance to the database;
 endwhile (yes)
 stop

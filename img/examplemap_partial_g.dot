@@ -1,17 +1,19 @@
 digraph { 
-    a [label="Node A\nPARENT"];
-    b [label="Node B\nPARENT"];
-    c [label="Node C\nPARENT"];
-    d [label="Node D\nDIRECT PARENT"];
-    e [label="Node E\nPARENT"];
-    f [label="Node F\nDIRECT PARENT"];
-    g [label="Node G\nTARGET"];
+    a [label=<Node A<br /><i>PARENT</i>>];
+    b [label=<Node B<br /><i>PARENT</i>>];
+    c [label=<Node C<br /><i>PARENT</i>>];
+    d [label=<Node D<br /><i>DIRECT PARENT</i>>];
+    e [label=<Node E<br /><i>PARENT</i>>];
+    f [label=<Node F<br /><i>DIRECT PARENT</i>>];
+    g [label=<Node G<br /><i>TARGET</i>>];
+    h [label=<Node H<br /><i>CHILD</i>>, fontcolor=grey, color=grey];
 
-    a -> b [label="Edge 1\nPARENT"];
-    b -> c [label="Edge 2\nPARENT"];
-    c -> d [label="Edge 3\nPARENT"];
-    c -> e [label="Edge 4\nPARENT"];
-    e -> f [label="Edge 5\nPARENT"];
-    d -> g [label="Edge 6\nDIRECT PARENT"];
-    f -> g [label="Edge 7\nDIRECT PARENT"];
+    a -> b [label=<Edge 1<br /><i>PARENT</i>>];
+    b -> c [label=<Edge 2<br /><i>PARENT</i>>];
+    c -> d [label=<Edge 3<br /><i>PARENT</i>>];
+    c -> e [label=<Edge 4<br /><i>PARENT</i>>];
+    e -> f [label=<Edge 5<br /><i>PARENT</i>>];
+    d -> g [label=<Edge 6<br /><i>DIRECT PARENT</i>>];
+    f -> g [label=<Edge 7<br /><i>DIRECT PARENT</i>>];
+    g -> h [label=<Edge 8<br /><i>CHILD</i>>, fontcolor=grey, color=grey];
 }

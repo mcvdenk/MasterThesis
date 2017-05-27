@@ -1,0 +1,186 @@
+@startuml
+hide empty members
+hide circle
+skinparam linetype ortho
+
+class Controller {
+    database: str
+    SOURCES: list(str)
+    check_prerequisites(): dict
+    controller(keyword, data): dict
+    create_test: dict
+    append_test(flashcard_responses, item_responses) : void
+    create_questionnaire(): dict
+    append_questionnaire(responses, good, could_be_improved, email) : void
+    learning_message(item): dict
+    provide_learned_items(): dict
+    provide_learning(): dict
+    authenticate(name): User
+    validate(responses) 
+}
+
+class ConceptMap {
+    get_partial_map(edge, sources): ConceptMap
+    find_prerequisites(postreq, prereqs, sources): list(Edge)
+    find_siblings(edge, sources, partial_edges): list(Edge)
+    find_nodes(edges): list(Node)
+    to_dict(): dict
+}
+
+Controller "0..*" o-- "1" ConceptMap : concept_map
+
+class Node {
+    label : str
+    to_dict(): dict
+}
+
+ConceptMap "1" o-- "0..*" Node : nodes
+
+class Edge {
+    label : str
+    sources : list(str)
+    to_dict(): str
+}
+
+ConceptMap "1" o-- "0..*" Edge : edges
+Node "2" o-- "0..*" Edge : from, to
+
+class Flashcard {
+    question : str
+    answer : str
+    response_model : list(str)
+    to_dict() : dict
+}
+
+Edge "0..*" o-- "0..*" Flashcard : sources 
+
+class User {
+    name : str
+    condition : str
+    birthdate : int
+    read_sources : list(str)
+    gender : str
+    code : str
+    email : str
+    source_requests : list(str)
+    successful_days : list(datetime)
+    briefed : bool
+    add_new_instance(references) : Flashcard, Edge
+    add_source(source) : void
+    check_due(item) : bool
+    set_descriptives(gender, birthdate, code) : void
+    create_test(flashcards, items): dict(str, Response)
+    create_questionnaire(pu_items, peou_items): list(QuestionnaireItem)
+    get_due_instance(): Instance
+    get_instance_by_id(instance_id): Instance
+    start_response(instance) : void
+    validate(instance_id, correct) : void
+    retrieve_recent_instance(): Instance
+    undo(): Flashcard, Edge
+    time_spend_today(): int
+}
+
+Controller "1" o-- "1" User : user
+
+class LogEntry {
+    time : datetime
+    keyword : str
+    data : dict
+}
+
+LogEntry "0..*" o-- "1" User : user
+
+class Test {
+    generate_test(flashcards,\nitems, prev_items) : void
+    randomise(items, prev_items) : list(items)
+    append_flashcard(flashcard, answer) : void
+    append_item(item, answer) : void
+}
+
+User "1" *-- "0..2" Test : Tests
+
+class TestItem {
+    question : str
+    sources : list(str)
+    response_model : list(str)
+    to_dict() : dict
+}
+
+
+class TestItemResponse {
+    answer : str
+}
+
+Test "1" *-- "5" TestItemResponse : test_item_responses
+TestItem "1" o-- "0..*" TestItemResponse : item
+
+class TestFlashcardResponse {
+    answer : str
+}
+
+Test "1" *-- "5" TestFlashcardResponse: test_flashcard_responses
+Flashcard "1" o-- "0..*" TestFlashcardResponse : flashcard
+
+class QuestionnaireItem {
+    usefulness : bool
+    positive_phrasing : str
+    negative_phrasing : str
+    to_dict(): dict
+}
+
+class Questionnaire {
+    good : str
+    can_be_improved : str
+    append_answer(item, phrasing, answer): void
+}
+    
+User "1" *-- "0..1" Questionnaire : questionnaire
+
+class QuestionnaireResponse {
+    answer : int
+    phrasing : bool
+}
+
+Questionnaire "1" *-- "0..*" QuestionnaireResponse : perceived_usefulness_items, \nperceived_ease_of_use_items
+QuestionnaireItem "1" o-- "0..*" QuestionnaireResponse : questionnaire_item
+
+abstract class Instance {
+    due_date : datetime
+    check_due(): bool
+    finalise_response(correct): void
+    get_exponent(): int
+    schedule() : void
+    start_response() : void
+}
+
+User "1" *-- "0..*" Instance : instances
+
+class FlashcardInstance
+
+Instance <|.. FlashcardInstance
+Flashcard "1" o-- "0..*" FlashcardInstance : flashcard
+
+class FlashmapInstance
+
+Instance <|.. FlashmapInstance
+Edge "1" o-- "0..*" FlashmapInstance : edge
+
+class Response {
+    start : DateTime
+    end : DateTime
+    correct : bool
+}
+
+Instance "1" *-- "0..*" Response : responses
+
+class Session {
+    start : DateTime
+    end : DateTime
+    source_prompted : bool
+    browser : str
+    end_session(): void
+}
+
+User "1" *-- "0..*" Session : sessions
+
+@enduml

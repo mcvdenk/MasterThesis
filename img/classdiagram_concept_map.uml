@@ -1,0 +1,38 @@
+@startuml
+hide empty members
+hide circle
+skinparam linetype ortho
+
+class ConceptMap {
+    get_partial_map(edge, sources): ConceptMap
+    find_prerequisites(postreq, prereqs, sources): list(Edge)
+    find_siblings(edge, sources, partial_edges): list(Edge)
+    find_nodes(edges): list(Node)
+    to_dict(): dict
+}
+
+class Node {
+    label : str
+    to_dict(): dict
+}
+
+ConceptMap "1" o-- "0..*" Node : nodes
+
+class Edge {
+    label : str
+    sources : list(str)
+    to_dict(): str
+}
+
+ConceptMap "1" o-- "0..*" Edge : edges
+Node "2" o-- "0..*" Edge : from, to
+
+class Flashcard {
+    question : str
+    answer : str
+    response_model : list(str)
+    to_dict() : dict
+}
+
+Edge "0..*" o-- "0..*" Flashcard : sources 
+@enduml

@@ -1,0 +1,112 @@
+@startuml
+hide empty members
+hide circle
+skinparam linetype ortho
+
+class User {
+    name : str
+    condition : str
+    birthdate : int
+    read_sources : list(str)
+    gender : str
+    code : str
+    email : str
+    source_requests : list(str)
+    successful_days : list(datetime)
+    briefed : bool
+    add_new_instance(references) : Flashcard, Edge
+    add_source(source) : void
+    check_due(item) : bool
+    set_descriptives(gender, birthdate, code) : void
+    create_test(flashcards, items): dict(str, Response)
+    create_questionnaire(pu_items, peou_items): list(QuestionnaireItem)
+    get_due_instance(): Instance
+    get_instance_by_id(instance_id): Instance
+    start_response(instance) : void
+    validate(instance_id, correct) : void
+    retrieve_recent_instance(): Instance
+    undo(): Flashcard, Edge
+    time_spend_today(): int
+}
+
+class Test {
+    generate_test(flashcards,\nitems, prev_items) : void
+    randomise(items, prev_items) : list(items)
+    append_flashcard(flashcard, answer) : void
+    append_item(item, answer) : void
+}
+
+User "1" *-- "0..2" Test : Tests
+
+class TestItemResponse {
+    answer : str
+    item : TestItem
+}
+
+Test "1" *-- "5" TestItemResponse : test_item_responses
+
+class TestFlashcardResponse {
+    answer : str
+    flashcard : Flashcard
+}
+
+Test "1" *-- "5" TestFlashcardResponse: test_flashcard_responses
+
+class Questionnaire {
+    good : str
+    can_be_improved : str
+    append_answer(item, phrasing, answer): void
+}
+    
+User "1" *-- "0..1" Questionnaire : questionnaire
+
+class QuestionnaireResponse {
+    answer : int
+    phrasing : bool
+    questionnaire_item : QuestionnaireItem
+}
+
+Questionnaire "1" *-- "0..*" QuestionnaireResponse : perceived_usefulness_items, \nperceived_ease_of_use_items
+
+abstract class Instance {
+    due_date : datetime
+    check_due(): bool
+    finalise_response(correct): void
+    get_exponent(): int
+    schedule() : void
+    start_response() : void
+}
+
+User "1" *-- "0..*" Instance : instances
+
+class FlashcardInstance {
+    reference: Flashcard
+}
+
+Instance <|.. FlashcardInstance
+
+class FlashmapInstance {
+    reference : Edge
+}
+
+Instance <|.. FlashmapInstance
+
+class Response {
+    start : DateTime
+    end : DateTime
+    correct : bool
+}
+
+Instance "1" *-- "0..*" Response : responses
+
+class Session {
+    start : DateTime
+    end : DateTime
+    source_prompted : bool
+    browser : str
+    end_session(): void
+}
+
+User "1" *-- "0..*" Session : sessions
+
+@enduml
