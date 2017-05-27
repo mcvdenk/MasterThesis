@@ -20,16 +20,14 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{longtable}
-\usepackage[section]{placeins}
-\makeatletter
-\AtBeginDocument{%
-  \expandafter\renewcommand\expandafter\subsection\expandafter{%
-    \expandafter\@fb@secFB\subsection
-  }%
-}
-\makeatother
-
-% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{placeins}
+%\makeatletter
+%\AtBeginDocument{%
+%  \expandafter\renewcommand\expandafter\subsection\expandafter{%
+%    \expandafter\@fb@secFB\subsection
+%  }%
+%}
+%\makeatother
 
 %%% PACKAGES
 \usepackage{booktabs} % for much better looking tables
@@ -157,9 +155,11 @@
 \part{Design Report}
     \input{./design/intro.tex} %Reviewed by Tobias TODO: Enlist separate aspects of the product
     \input{./design/analysis.tex} %Reviewed by Tobias, Paulina
+    \input{./design/frameworks.tex} %To be initiated
     \input{./design/usecases.tex} %Done, to be reviewed by Tobias
-    \input{./design/server.tex} %Outlined
+    \input{./design/server.tex} %Outlined, first section complete
     \input{./design/client.tex} %Outlined
+    \input{./design/evaluation.tex} %To be initiated
 
 \part{Research}
     \input{./research/aimsgoals.tex} %Not started

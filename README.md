@@ -50,11 +50,19 @@ Research
       * ANOVA on IRT theta's of learning gain
       * Learning gain relative and absolute
       * Measures for comparing the groups
-        * Times spent with tool
         * Amount of flashcards/edges processed
         * Comparison of learning progress
         * IRT thetas in pretest
       * Questionnaire
+      * Instance stats
+        * Amount of responses
+        * Exponents
+        * Scores
+        * Time spent 
+      * Session stats
+        * Browser
+        * Time spent
+      * Dropout rates
     * Qualitative
       * Interviews (steps of Baarda)
       * Questionnaire open questions

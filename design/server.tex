@@ -1,7 +1,7 @@
 \chapter{Server design and development}
 \label{ch:server}
 
-In this chapter, the general model behind the server will be elaborated. The formal documentation with descriptions of the server classes and their methods can be found on page~\pageref{app:documentation}, which also includes an UML class diagram \cite{uml}. An HTML version is also available on \url{mvdenk.com/thesis/doc/}. The description of the model is divided in generic data entries --- entailing the supplanted data by the developer such as the concept map or test items --- and the user attributes, objects and methods --- entailing user specific data such as birthdate or how often a user responded correctly or incorrectly to a certain instance. Only the conceptually relevant methods will be described below, since this keeps the thesis more accessible for readers not familiar with programming paradigms, and these methods are already described within the documentation. For example, the to\_dict() method is prevalent in a large amount of classes, but merely serves the purpose of converting the class into an object that can be sent over the network connection to and rendered within the client and therefore is not conceptually relevant and is not elaborated.
+In this chapter, the general model behind the server will be elaborated. The formal documentation with descriptions of the server classes and their methods can be found on page~\pageref{app:documentation}, which also includes an UML class diagram \cite{uml}. An HTML version is also available on \url{mvdenk.com/thesis/doc/}. The description of the model is divided in generic data entries --- entailing the supplanted data by the developer such as the concept map or test items --- and the user attributes, objects and methods --- entailing user specific data such as birthdate or how often a user responded correctly or incorrectly to a certain instance. Only the conceptually relevant methods will be described below, since this keeps the thesis more accessible for readers not familiar with programming paradigms, and these methods are already described within the documentation. For example, the to\_dict() method is prevalent in a large amount of classes, but merely serves the purpose of converting the class into an object that can be sent over the network connection to and rendered within the client and therefore is not conceptually relevant and is not elaborated. The two classes left out of the description are the Controller class, which parses client messages, operates the server and translates the server output to a new network message, and the LogEntry, which represents a single incoming or outgoing network message. These classes are also not conceptually relevant, and their functionality can already be derived from the previously described UML Activity Diagrams in figure~\ref{fig:loginactivity} on page~\pageref{fig:loginactivity} and figure~\ref{fig:learningactivitygen} on page~\pageref{fig:learningactivitygen}.
 
 \section{Generic data entries}
 
@@ -12,10 +12,22 @@ There are four classes of generic data: the concept map (containing nodes and ed
 The ConceptMap class is mainly a container class consisting of nodes and edges, and certain useful methods for performing standard queries on the concept map. As described in the general definition of the concept map by \citeA{canas}, a Node object represents a concept, and an Edge object represents a relation between two concepts. The Node and Edge were originally intended to be embedded within the ConceptMap class, however this makes them impossible to refer to by other classes in MongoEngine (used for interacting with the MongoDB database). Furthermore, it could theoretically be possible for certain Nodes to exist in different concept maps. Therefore, they are implemented as separate classes in this server model. The example concept map in figure~\ref{fig:examplemap} is used to demonstrate the different functions in of the class.
 
 \begin{figure}
-\centering
-    \includegraphics[height=.6\textheight]{img/examplemap.png}
-    \caption{An abstract example of a concept map}
-    \label{fig:examplemap}
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=.5\textheight]{img/examplemap.png}
+        \caption{An abstract example of a concept map}
+        \label{fig:examplemap}
+    \end{subfigure}
+    \qquad
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=.5\textheight]{img/examplemap_objects.png}
+        \caption{The different attributes demonstrated within the example map from figure~\protect\ref{fig:examplemap}}
+        \label{fig:examplemap_objects}
+    \end{subfigure}
+    \caption{An example illustrating the ConceptMap class}
+    \label{fig:examplemaps}
 \end{figure}
 
 \paragraph{Nodes} The concepts represented by the nodes are not only an abstract ideas (such as Renaissance Literature), but also more concrete concepts such as a time period (e.g. the Golden Age), a person (e.g. P.C. Hooft) or objects or inventions (e.g. the printing press). Nodes are simple classes only containing a label describing what it should represent and a unique identifyer string.
@@ -24,27 +36,25 @@ The ConceptMap class is mainly a container class consisting of nodes and edges, 
 
 Figure~\ref{fig:examplemap_objects} demonstrates how the different classes and attributes represent the concept map from figure~\ref{fig:examplemap}.
 
-\begin{figure}
-\centering
-    \includegraphics[height=.6\textheight]{img/examplemap_objects.png}
-    \caption{The different attributes demonstrated within the example map from figure~\protect\ref{fig:examplemap}}
-    \label{fig:examplemap_objects}
-\end{figure}
-
 \paragraph{Methods} The most important method of the ConceptMap class is the get\_partial\_map() function, which will provide a new ConceptMap object containing all the parent nodes and edges which directly or indirectly link to a given Node (the parent nodes and edges), plus the nodes and edges linked to by the direct parent nodes (the sibling nodes and edges). This concept map can then be displayed to the user when showing a specific flashmap instance for review. The reason why the parent nodes are returned rather than the child nodes is that in the instructional material the concepts are introduced top-down rather than bottom up, so building up the concept map from parent to child alligns better with the order in which the students read about the concepts. Additionally, the sibling nodes are also returned so that they can be prompted at the same time, and that the user has more context for deciding which concept should be filled in the missing node. Figure~\ref{fig:examplemap_partial_d} and figure~\ref{fig:examplemap_partial_g} demonstrate the get\_partial\_map() function with Node D and Node G from the example map in figure~\ref{fig:examplemap}.
 
 \begin{figure}
-\centering
-    \includegraphics[height=.4\textheight]{img/examplemap_partial_d.png}
-    \caption{The result of get\_partial\_map() function with Node D from the example map from figure~\protect\ref{fig:examplemap}}
-    \label{fig:examplemap_partial_d}
-\end{figure}
-
-\begin{figure}
-\centering
-    \includegraphics[height=.5\textheight]{img/examplemap_partial_g.png}
-    \caption{The result of get\_partial\_map() function with Node G from the example map from figure~\protect\ref{fig:examplemap}}
-    \label{fig:examplemap_partial_d}
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=.4\textheight]{img/examplemap_partial_d.png}
+        \caption{The result of get\_partial\_map() function with Node D from the example map from figure~\protect\ref{fig:examplemap}}
+        \label{fig:examplemap_partial_d}
+    \end{subfigure}
+    \qquad
+    \begin{subfigure}{0.4\textwidth}
+        \centering
+        \includegraphics[height=.4\textheight]{img/examplemap_partial_g.png}
+        \caption{The result of get\_partial\_map() function with Node G from the example map from figure~\protect\ref{fig:examplemap}}
+        \label{fig:examplemap_partial_g}
+    \end{subfigure}
+    \caption{Example for using the get\_partial\_map() function of the ConceptMap class}
+    \label{fig:examplemap_partial}
 \end{figure}
 
 \subsection{Flashcards}
@@ -61,7 +71,25 @@ The QuestionnaireItem class represents items from the Technology Acceptance Mode
 
 \section{User attributes, objects and methods}
 
+The main user attributes are mainly based on the aforementioned generic data entries, namely the FlashcardInstance or FlashmapInstance objects --- storing the learning progression of certain Flashcards or Edges from the ConceptMap ---, the Test objects --- representing a pre- or posttest and containing the responses to sets of TestItems ---, and the Questionnaire object --- containing the responses to the QuestionnaireItems. Next to these objects, the user also has certain descriptive attributes, and objects related to logged in sessions.
+
 \subsection{Descriptive attributes}
+
+The descriptive attributes are either used for the program to function, or for generating descriptive statistics as controll variables in the results section. They contain the username, the condition, the gender and birthdate of the user, the code he received on his informed consent form, an email address, and a debriefed field.
+
+\paragraph{Username} First and foremost, every user has a unique username which can be used to log in to the application. This name is chosen by the user himself, so he can decide to use his proper name or use an alias to remain anonymous. Even so, within the released data this field is removed in order to safeguard the identities of the user.
+
+\paragraph{Condition} This field determines whether the user is partaking in the "FLASHCARD" group (the control group) or the "FLASHMAP" group (the experimental group). This field is set when the user registers a new account by the formula $len(users) \bmod 2$, which entails that every new user is assigned to the opposite group relative to the user before. This is in order to ensure that the initial users are equally divided over both groups.
+
+\paragraph{Gender} The gender field of the user is included in order to check after the experiment whether the distribution of genders is equal within both experimental conditions. This variable is prompted before the pretest.
+
+\paragraph{Birthdate} The birthdate field of the user is included in order to check after the experiment whether the age distributions of both experimental conditions are the same. This variable is prompted before the pretest.
+
+\paragraph{Code} Before the start of the experiment, every student participating had to sign an informed consent form together with a parent or caretaker in accordance with the Ethics Committee at the University of Twente. To ensure that every user in the system corresponded with students who handed in a double signed form without the user having to enter his own name into the system, every form contained a code which was prompted towards the user before the pretest.
+
+\paragraph{Email} At the end of the questionnaire, the user was prompted whether he wanted to participate in an interview. If this was the case, he could fill in his email address here in order to be contacted at a later date. This variable is also ommitted in the published data.
+
+\paragraph{Desbriefed} This field is a simple boolean value indicating whether the user has been debriefed. It initiated with a False value, and was set to True when the server received a "DEBRIEFING-RESPONSE" message from the client (see figure~\ref{fig:loginactivity} on page~\pageref{fig:loginactivity}).
 
 \subsection{Sessions}
 
