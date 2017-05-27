@@ -89,7 +89,7 @@ The main user attributes are mainly based on the aforementioned generic data ent
 
 \subsection{Descriptive attributes}
 
-The descriptive attributes are either used for the program to function, or for generating descriptive statistics as controll variables in the results section. They contain the username, the condition, the gender and birthdate of the user, the code he received on his informed consent form, an email address, and a debriefed field.
+The descriptive attributes are either used for the program to function, or for generating descriptive statistics as controll variables in the results section. They contain the username, the condition, the gender and birthdate of the user, the code he received on his informed consent form, an email address, and a debriefed field. The methods defined within the User class are mainly used for communication with the Controller class, with the exception of the undo() function which removes the last entered response.
 
 \paragraph{Username} First and foremost, every user has a unique username which can be used to log in to the application. This name is chosen by the user himself, so he can decide to use his proper name or use an alias to remain anonymous. Even so, within the released data this field is removed in order to safeguard the identities of the user.
 
@@ -117,12 +117,12 @@ The instances class is the most relevant class for the functioning of the flashc
 
 \paragraph{Responses} The Response class represents each individual time the user reviews an instance, containing a \emph{start} field for when the Flashcard or Edge was prompted, an \emph{end} field for when the server received the response from the user, and a \emph{correct} field for whether the user was able to think of the correct answer or to\_node when being prompted.
 
-\paragraph{Schedule} The scheduling algorithm uses two different methods from Instances, namely get\_exponent() and schedule(), and is illustrated in figure~\ref{fig:learningserver}. In the~\nameref{ch:frameworks} chapter on page~\pageref{ch:frameworks}, it is described that to calculate the interval until the next review, one needs the number of correct responses since the last incorrect response. This is done by the get\_exponent() function, which loops through the responses in descending order of \emph{end} date, increasing a counter (exp, initiated with value 1), until a response with a False \emph{correct} value is found. The schedule() function then takes $5^(exp)$ seconds as the interval until the next review of the instance. Examples:
+\paragraph{Schedule} The scheduling algorithm uses two different methods from Instances, namely get\_exponent() and schedule(), and is illustrated in figure~\ref{fig:learningserver}. In the~\nameref{ch:frameworks} chapter on page~\pageref{ch:frameworks}, it is described that to calculate the interval until the next review, one needs the number of correct responses since the last incorrect response. This is done by the get\_exponent() function, which loops through the responses in descending order of \emph{end} date, increasing a counter (exp, initiated with value 1), until a response with a False \emph{correct} value is found. The schedule() function then takes $5^{exp}$ seconds as the interval until the next review of the instance. Examples:
 %
 \begin{itemize}
-        \item When there are no responses, the interval is $5^1=5$ seconds;
-        \item When there are three correct responses, the interval is $5^3=125$ seconds;
-        \item When there are two correct responses, followed by one incorrect response and then 4 correct responses, the interval is $5^4=625$ seconds.
+    \item When there are no responses, the interval is $5^{1+0}=5$ seconds;
+        \item When there are two correct responses, the interval is $5^{1+2}=125$ seconds;
+        \item When there are two correct responses, followed by one incorrect response and then three correct responses, the interval is $5^{1+3}=625$ seconds.
 \end{itemize}
 %
 This interval is then added together with the \emph{end} value of the last response and sets this as the new \emph{due\_date} value.
@@ -134,6 +134,10 @@ This interval is then added together with the \emph{end} value of the last respo
 \label{fig:learningserver}
 \end{figure}
 
-\subsection{Tests}
+\subsection{Tests and Questionnaire}
 
-\subsection{Questionnaire}
+Finally, each User also contains Test entries and a Questionnaire entry, which involve response entries and constructor functions.
+
+\paragraph{Responses} The responses consist either of FlashcardItemResponses and TestItemResponses, or QuestionnaireResponses, which all refer to a database item (a Flashcard, TestItem or QuestionnaireItem) and contain an answer string or likert-scale value. Each QuestionnaireItem also contains an entry indicating which \emph{phrasing} was used when prompting the item, and a Questionnaire also contains string entries for what the user thought was good about the application, and what could be improved.
+
+\paragraph{Constructors} are used to create randomly generated Test and Questionnaire objects based on the items in the database. The Test constructor creates a random set of 5 to be filled in FlashcardResponses and a random set of 5 TestItemResponses, which are used as the Knowledge and Comprehension questions. The constructor can also be given a list of Flashcards and TestItems to be excluded from the selection. This makes it possible to generate posttest which do not contain any items present within the pretest. The Questionnaire constructor creates a shuffled set of Perceived Usefulness items with randomly assigned phrasings, a shuffled set with the same Perceived Usefulness items but with opposite phrasings, and similar two sets containing Perceived Ease of Use items.
