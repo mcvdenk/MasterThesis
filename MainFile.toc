@@ -44,122 +44,172 @@
 \contentsline {subsection}{Flashcards}{37}{section*.59}
 \contentsline {subsection}{Test specifications}{38}{section*.60}
 \contentsline {section}{Implications for design}{38}{section*.61}
-\contentsline {chapter}{Design frameworks}{39}{chapter*.62}
-\contentsline {chapter}{Defining the general use cases}{40}{chapter*.63}
-\contentsline {section}{Supplantive or generative}{40}{section*.64}
-\contentsline {section}{Choice of platform}{40}{section*.65}
-\contentsline {section}{Supported user actions}{41}{section*.66}
-\contentsline {paragraph}{Login use cases}{41}{section*.68}
-\contentsline {paragraph}{Learning use cases}{41}{section*.70}
-\contentsline {paragraph}{Learning progress}{42}{section*.71}
-\contentsline {section}{Detailed description of the client server interaction}{42}{section*.72}
-\contentsline {subsection}{Login activities}{43}{section*.73}
-\contentsline {paragraph}{Authenticate}{43}{section*.75}
-\contentsline {paragraph}{Descriptives}{43}{section*.76}
-\contentsline {paragraph}{Pretest}{43}{section*.77}
-\contentsline {paragraph}{After the experiment}{45}{section*.78}
-\contentsline {paragraph}{Posttest}{45}{section*.79}
-\contentsline {paragraph}{Questionnaire}{45}{section*.80}
-\contentsline {paragraph}{Debriefing}{45}{section*.81}
-\contentsline {subsection}{Learning activities}{45}{section*.82}
-\contentsline {paragraph}{Aimed time reached}{45}{section*.84}
-\contentsline {paragraph}{Selecting an item}{45}{section*.85}
-\contentsline {paragraph}{Validating the item}{47}{section*.86}
-\contentsline {paragraph}{Undo previous response}{47}{section*.87}
-\contentsline {chapter}{Server design and development}{48}{chapter*.88}
-\contentsline {section}{Generic data entries}{48}{section*.89}
-\contentsline {subsection}{Concept map}{48}{section*.91}
-\contentsline {paragraph}{Nodes}{48}{section*.93}
-\contentsline {paragraph}{Edges}{49}{section*.94}
-\contentsline {paragraph}{Methods}{49}{section*.95}
-\contentsline {subsection}{Flashcards}{51}{section*.97}
-\contentsline {subsection}{Test items}{51}{section*.98}
-\contentsline {subsection}{Questionnaire items}{51}{section*.99}
-\contentsline {section}{User attributes, objects and methods}{51}{section*.100}
-\contentsline {subsection}{Descriptive attributes}{51}{section*.102}
-\contentsline {paragraph}{Username}{54}{section*.103}
-\contentsline {paragraph}{Condition}{54}{section*.104}
-\contentsline {paragraph}{Gender}{54}{section*.105}
-\contentsline {paragraph}{Birthdate}{54}{section*.106}
-\contentsline {paragraph}{Code}{54}{section*.107}
-\contentsline {paragraph}{Email}{54}{section*.108}
-\contentsline {paragraph}{Debriefed}{54}{section*.109}
-\contentsline {subsection}{Sessions}{54}{section*.110}
-\contentsline {subsection}{Instances}{54}{section*.111}
-\contentsline {paragraph}{Attributes}{55}{section*.112}
-\contentsline {paragraph}{Responses}{55}{section*.113}
-\contentsline {paragraph}{Schedule}{55}{section*.114}
-\contentsline {subsection}{Tests and Questionnaire}{55}{section*.116}
-\contentsline {paragraph}{Responses}{55}{section*.117}
-\contentsline {paragraph}{Constructors}{55}{section*.118}
-\contentsline {chapter}{Client design and development}{58}{chapter*.119}
-\contentsline {section}{Page layout and styling}{59}{section*.120}
-\contentsline {subsection}{Navigation menu}{59}{section*.121}
-\contentsline {subsection}{Instructions panel}{59}{section*.122}
-\contentsline {subsection}{Main viewer}{59}{section*.123}
-\contentsline {subsection}{Button panel}{59}{section*.124}
-\contentsline {section}{Visjs variables}{59}{section*.125}
-\contentsline {subsection}{Nodes}{59}{section*.126}
-\contentsline {subsection}{Edges}{59}{section*.127}
-\contentsline {subsection}{Interaction}{59}{section*.128}
-\contentsline {subsection}{Layout}{59}{section*.129}
-\contentsline {section}{Learning process}{59}{section*.130}
-\contentsline {subsection}{Read source}{59}{section*.132}
-\contentsline {subsection}{Flashcard prompt}{59}{section*.133}
-\contentsline {subsection}{Flashcard response}{59}{section*.134}
-\contentsline {subsection}{Flashmap prompt}{59}{section*.135}
-\contentsline {subsection}{Flashmap response}{59}{section*.136}
-\contentsline {subsection}{Finished learning}{59}{section*.137}
-\contentsline {subsection}{No more instances}{59}{section*.138}
-\contentsline {section}{Other views}{59}{section*.139}
-\contentsline {subsection}{Login screen}{59}{section*.140}
-\contentsline {subsection}{Test}{59}{section*.141}
-\contentsline {subsection}{Questionnaire}{59}{section*.142}
-\contentsline {subsection}{Debriefing}{59}{section*.143}
-\contentsline {subsection}{Main window}{59}{section*.144}
-\contentsline {subsection}{Help}{59}{section*.145}
-\contentsline {subsection}{Learning progress}{59}{section*.146}
-\contentsline {chapter}{Formative evaluation}{60}{chapter*.147}
-\contentsline {section}{Technical tests}{60}{section*.148}
-\contentsline {subsection}{White-box testing}{60}{section*.149}
-\contentsline {subsection}{Black-box testing}{60}{section*.150}
-\contentsline {section}{Screening}{60}{section*.151}
-\contentsline {part}{III\hspace {1em}Research}{61}{part.3}
-\contentsline {chapter}{Aims and goals for the research}{62}{chapter*.152}
-\contentsline {chapter}{Methods}{63}{chapter*.153}
-\contentsline {section}{Research design}{63}{section*.154}
-\contentsline {section}{Respondents}{63}{section*.155}
-\contentsline {section}{Procedure}{63}{section*.156}
-\contentsline {section}{Instrumentation}{63}{section*.157}
-\contentsline {section}{Analysis}{63}{section*.158}
-\contentsline {chapter}{Results}{64}{chapter*.159}
-\contentsline {section}{Quantitative results}{64}{section*.160}
-\contentsline {section}{Qualitative results}{64}{section*.161}
-\contentsline {part}{IV\hspace {1em}Recommendations}{65}{part.4}
-\contentsline {part}{V\hspace {1em}}{66}{part.5}
-\contentsline {chapter}{Epilogue}{67}{chapter*.162}
-\contentsline {chapter}{References}{68}{chapter*.163}
-\contentsline {chapter}{Appendices}{73}{section*.164}
-\contentsline {chapter}{Test literature history 16th and 17th century}{74}{Appendix*.165}
-\contentsline {chapter}{Flashmap server Documentation}{77}{section*.168}
-\contentsline {chapter}{Source files of the client}{98}{Appendix*.169}
-\contentsline {chapter}{Pretest and posttest statistics}{111}{Appendix*.170}
-\contentsline {section}{Descriptives of the knowledge questions}{111}{section*.171}
-\contentsline {section}{Descriptives of the comprehension questions}{117}{section*.172}
-\contentsline {section}{Comparisons of the knowledge questions}{123}{section*.173}
-\contentsline {subsection}{Pre- and posttest comparisons}{123}{section*.174}
-\contentsline {subsection}{Between conditions}{123}{section*.175}
-\contentsline {section}{Comparisons of the comprehension questions}{126}{section*.176}
-\contentsline {subsection}{Between conditions}{126}{section*.177}
-\contentsline {chapter}{Questionnaire statistics}{130}{Appendix*.178}
-\contentsline {section}{Descriptives of Perceived Usefulness questions}{130}{section*.179}
-\contentsline {section}{Descriptives of Perceived Ease of Use questions}{136}{section*.180}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{142}{section*.181}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{144}{section*.182}
-\contentsline {chapter}{Instance statistics}{147}{Appendix*.183}
-\contentsline {section}{Descriptives of the number of responses}{147}{section*.184}
-\contentsline {section}{Descriptives of percentage of responses marked as correct}{153}{section*.185}
-\contentsline {subsubsection}{Descriptives of the amount of time spent on the application}{159}{section*.186}
-\contentsline {section}{Comparisons of the number of responses}{165}{section*.187}
-\contentsline {section}{Comparisons of the percentage of responses marked as correct}{167}{section*.188}
-\contentsline {section}{Comparisons of the amount of time spent on the application}{169}{section*.189}
+\contentsline {chapter}{Defining the general use cases}{39}{chapter*.62}
+\contentsline {section}{Supplantive or generative}{39}{section*.63}
+\contentsline {section}{Choice of platform}{39}{section*.64}
+\contentsline {section}{Supported user actions}{40}{section*.65}
+\contentsline {paragraph}{Login use cases}{40}{section*.67}
+\contentsline {paragraph}{Learning use cases}{40}{section*.69}
+\contentsline {paragraph}{Learning progress}{41}{section*.70}
+\contentsline {section}{Detailed description of the client server interaction}{41}{section*.71}
+\contentsline {subsection}{Login activities}{42}{section*.72}
+\contentsline {paragraph}{Authenticate}{42}{section*.74}
+\contentsline {paragraph}{Descriptives}{42}{section*.75}
+\contentsline {paragraph}{Pretest}{42}{section*.76}
+\contentsline {paragraph}{After the experiment}{44}{section*.77}
+\contentsline {paragraph}{Posttest}{44}{section*.78}
+\contentsline {paragraph}{Questionnaire}{44}{section*.79}
+\contentsline {paragraph}{Debriefing}{44}{section*.80}
+\contentsline {subsection}{Learning activities}{44}{section*.81}
+\contentsline {paragraph}{Aimed time reached}{44}{section*.83}
+\contentsline {paragraph}{Selecting an item}{44}{section*.84}
+\contentsline {paragraph}{Validating the item}{46}{section*.85}
+\contentsline {paragraph}{Undo previous response}{46}{section*.86}
+\contentsline {chapter}{Design frameworks}{47}{chapter*.87}
+\contentsline {section}{Concept map construction design features}{47}{section*.88}
+\contentsline {section}{Flashcard learning design features}{47}{section*.89}
+\contentsline {subsection}{Presentation and retrieval modes}{47}{section*.90}
+\contentsline {subsection}{Retrieval practices}{48}{section*.91}
+\contentsline {subsection}{Increasing retrieval effort}{48}{section*.92}
+\contentsline {subsection}{Generative use}{48}{section*.93}
+\contentsline {subsection}{Block size and Adaptive sequencing}{48}{section*.94}
+\contentsline {paragraph}{Pimsleur system}{48}{section*.95}
+\contentsline {paragraph}{Leitner system}{48}{section*.96}
+\contentsline {subsection}{Expanded rehearsal}{49}{section*.97}
+\contentsline {section}{Cognitive load theory}{49}{section*.98}
+\contentsline {subsection}{Modality effect}{49}{section*.99}
+\contentsline {subsection}{Segmentation effect}{49}{section*.100}
+\contentsline {subsection}{Pretraining effect}{49}{section*.101}
+\contentsline {subsection}{Coherence effect}{49}{section*.102}
+\contentsline {subsection}{Signaling effect}{49}{section*.103}
+\contentsline {subsection}{Spatial contiguity effect}{49}{section*.104}
+\contentsline {subsection}{Redundancy effect}{49}{section*.105}
+\contentsline {subsection}{Temporal contiguity effect}{49}{section*.106}
+\contentsline {subsection}{Spatial ability effect}{49}{section*.107}
+\contentsline {section}{Two factor theory for website design}{49}{section*.108}
+\contentsline {subsection}{Authorised use of the user's data for unanticipated purposes}{49}{section*.109}
+\contentsline {subsection}{Authorised collection of user data}{49}{section*.110}
+\contentsline {subsection}{Sharp displays}{49}{section*.111}
+\contentsline {subsection}{Support for different browsers}{49}{section*.112}
+\contentsline {subsection}{Stability of the website availability}{49}{section*.113}
+\contentsline {subsection}{Effective navigation aids}{49}{section*.114}
+\contentsline {subsection}{Clear directions for navigating the website}{49}{section*.115}
+\contentsline {subsection}{Structure of information presentation is logical}{49}{section*.116}
+\contentsline {subsection}{Presence of improper materials}{49}{section*.117}
+\contentsline {subsection}{Accurate information}{49}{section*.118}
+\contentsline {subsection}{Up-to-date information}{49}{section*.119}
+\contentsline {subsection}{Content that supports the website's intended purpose}{49}{section*.120}
+\contentsline {subsection}{Importance of the surfing activity to the user}{49}{section*.121}
+\contentsline {subsection}{High level of learned new knowledge and/or skills by doing the surfing activity on the website}{49}{section*.122}
+\contentsline {subsection}{Presence of the use of humor}{49}{section*.123}
+\contentsline {subsection}{Presence of multimedia}{49}{section*.124}
+\contentsline {subsection}{Fun to explore}{49}{section*.125}
+\contentsline {subsection}{Presence of assurance that user entered data is encrypted}{49}{section*.126}
+\contentsline {subsection}{Users can control how fast to go through the website}{49}{section*.127}
+\contentsline {subsection}{Users can control complexity of mechanisms for accessing information}{49}{section*.128}
+\contentsline {subsection}{Visually attractive screen layout}{49}{section*.129}
+\contentsline {subsection}{Attractive screen background and pattern}{49}{section*.130}
+\contentsline {subsection}{High reputation of the website owner}{49}{section*.131}
+\contentsline {subsection}{Presence of external recognition of the website}{49}{section*.132}
+\contentsline {subsection}{Presence of controversial material}{49}{section*.133}
+\contentsline {subsection}{Presence of novel information}{49}{section*.134}
+\contentsline {chapter}{Server design and development}{50}{chapter*.135}
+\contentsline {section}{Generic data entries}{50}{section*.136}
+\contentsline {subsection}{Concept map}{50}{section*.138}
+\contentsline {paragraph}{Nodes}{50}{section*.140}
+\contentsline {paragraph}{Edges}{51}{section*.141}
+\contentsline {paragraph}{Methods}{51}{section*.142}
+\contentsline {subsection}{Flashcards}{53}{section*.144}
+\contentsline {subsection}{Test items}{53}{section*.145}
+\contentsline {subsection}{Questionnaire items}{53}{section*.146}
+\contentsline {section}{User attributes, objects and methods}{53}{section*.147}
+\contentsline {subsection}{Descriptive attributes}{53}{section*.149}
+\contentsline {paragraph}{Username}{56}{section*.150}
+\contentsline {paragraph}{Condition}{56}{section*.151}
+\contentsline {paragraph}{Gender}{56}{section*.152}
+\contentsline {paragraph}{Birthdate}{56}{section*.153}
+\contentsline {paragraph}{Code}{56}{section*.154}
+\contentsline {paragraph}{Email}{56}{section*.155}
+\contentsline {paragraph}{Debriefed}{56}{section*.156}
+\contentsline {subsection}{Sessions}{56}{section*.157}
+\contentsline {subsection}{Instances}{56}{section*.158}
+\contentsline {paragraph}{Attributes}{57}{section*.159}
+\contentsline {paragraph}{Responses}{57}{section*.160}
+\contentsline {paragraph}{Schedule}{57}{section*.161}
+\contentsline {subsection}{Tests and Questionnaire}{57}{section*.163}
+\contentsline {paragraph}{Responses}{57}{section*.164}
+\contentsline {paragraph}{Constructors}{57}{section*.165}
+\contentsline {chapter}{Client design and development}{60}{chapter*.166}
+\contentsline {section}{Page elements}{60}{section*.167}
+\contentsline {subsection}{Navigation menu}{60}{section*.168}
+\contentsline {subsection}{Instructions panel}{60}{section*.170}
+\contentsline {subsection}{Main viewer}{60}{section*.171}
+\contentsline {paragraph}{Visjs}{61}{section*.172}
+\contentsline {paragraph}{Nodes}{61}{section*.173}
+\contentsline {paragraph}{Edges}{61}{section*.174}
+\contentsline {paragraph}{Interaction}{61}{section*.175}
+\contentsline {paragraph}{Layout}{61}{section*.176}
+\contentsline {subsection}{Button panel}{62}{section*.177}
+\contentsline {section}{Learning process}{62}{section*.178}
+\contentsline {subsection}{Read source}{62}{section*.180}
+\contentsline {subsection}{Flashcard prompt}{62}{section*.181}
+\contentsline {subsection}{Flashcard response}{62}{section*.182}
+\contentsline {subsection}{Flashmap prompt}{62}{section*.183}
+\contentsline {subsection}{Flashmap response}{62}{section*.184}
+\contentsline {subsection}{Finished learning}{62}{section*.185}
+\contentsline {subsection}{No more instances}{62}{section*.186}
+\contentsline {section}{Other views}{62}{section*.187}
+\contentsline {subsection}{Login screen}{62}{section*.188}
+\contentsline {subsection}{Test}{62}{section*.189}
+\contentsline {subsection}{Questionnaire}{62}{section*.190}
+\contentsline {subsection}{Debriefing}{62}{section*.191}
+\contentsline {subsection}{Main window}{62}{section*.192}
+\contentsline {subsection}{Help}{62}{section*.193}
+\contentsline {subsection}{Learning progress}{62}{section*.194}
+\contentsline {chapter}{Formative evaluation}{63}{chapter*.195}
+\contentsline {section}{Technical tests}{63}{section*.196}
+\contentsline {subsection}{White-box testing}{63}{section*.197}
+\contentsline {subsection}{Black-box testing}{63}{section*.198}
+\contentsline {section}{Screening}{63}{section*.199}
+\contentsline {part}{III\hspace {1em}Research}{64}{part.3}
+\contentsline {chapter}{Aims and goals for the research}{65}{chapter*.200}
+\contentsline {chapter}{Methods}{66}{chapter*.201}
+\contentsline {section}{Research design}{66}{section*.202}
+\contentsline {section}{Respondents}{66}{section*.203}
+\contentsline {section}{Procedure}{66}{section*.204}
+\contentsline {section}{Instrumentation}{66}{section*.205}
+\contentsline {section}{Analysis}{66}{section*.206}
+\contentsline {chapter}{Results}{67}{chapter*.207}
+\contentsline {section}{Quantitative results}{67}{section*.208}
+\contentsline {section}{Qualitative results}{67}{section*.209}
+\contentsline {part}{IV\hspace {1em}Recommendations}{68}{part.4}
+\contentsline {part}{V\hspace {1em}}{69}{part.5}
+\contentsline {chapter}{Epilogue}{70}{chapter*.210}
+\contentsline {chapter}{References}{71}{chapter*.211}
+\contentsline {chapter}{Appendices}{76}{section*.212}
+\contentsline {chapter}{Test literature history 16th and 17th century}{77}{Appendix*.213}
+\contentsline {chapter}{Flashmap server Documentation}{81}{section*.216}
+\contentsline {chapter}{Source files of the client}{102}{Appendix*.217}
+\contentsline {section}{index.html}{102}{section*.218}
+\contentsline {section}{style.css}{102}{section*.219}
+\contentsline {section}{client.js}{104}{section*.220}
+\contentsline {chapter}{Pretest and posttest statistics}{115}{Appendix*.221}
+\contentsline {section}{Descriptives of the knowledge questions}{115}{section*.222}
+\contentsline {section}{Descriptives of the comprehension questions}{121}{section*.223}
+\contentsline {section}{Comparisons of the knowledge questions}{127}{section*.224}
+\contentsline {subsection}{Pre- and posttest comparisons}{127}{section*.225}
+\contentsline {subsection}{Between conditions}{127}{section*.226}
+\contentsline {section}{Comparisons of the comprehension questions}{130}{section*.227}
+\contentsline {subsection}{Between conditions}{130}{section*.228}
+\contentsline {chapter}{Questionnaire statistics}{134}{Appendix*.229}
+\contentsline {section}{Descriptives of Perceived Usefulness questions}{134}{section*.230}
+\contentsline {section}{Descriptives of Perceived Ease of Use questions}{140}{section*.231}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{146}{section*.232}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{148}{section*.233}
+\contentsline {chapter}{Instance statistics}{151}{Appendix*.234}
+\contentsline {section}{Descriptives of the number of responses}{151}{section*.235}
+\contentsline {section}{Descriptives of percentage of responses marked as correct}{157}{section*.236}
+\contentsline {subsubsection}{Descriptives of the amount of time spent on the application}{163}{section*.237}
+\contentsline {section}{Comparisons of the number of responses}{169}{section*.238}
+\contentsline {section}{Comparisons of the percentage of responses marked as correct}{171}{section*.239}
+\contentsline {section}{Comparisons of the amount of time spent on the application}{173}{section*.240}

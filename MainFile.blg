@@ -13,44 +13,68 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 85 entries,
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5062 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5066 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5066 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5068 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5068 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5072 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5075 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5076 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5079 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5079 of file apacite.bst
+Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
+while executing---line 5079 of file apacite.bst
+Warning--No address in constructcmaps
+You've used 88 entries,
             6951 wiz_defined-function locations,
-            1803 strings with 25156 characters,
-and the built_in function-call counts, 159671 in all, are:
-= -- 19503
-> -- 1172
-< -- 7994
-+ -- 7795
-- -- 158
-* -- 10690
-:= -- 29910
-add.period$ -- 351
-call.type$ -- 85
-change.case$ -- 1443
+            1819 strings with 25678 characters,
+and the built_in function-call counts, 164985 in all, are:
+= -- 20149
+> -- 1223
+< -- 8236
++ -- 8031
+- -- 164
+* -- 11030
+:= -- 30850
+add.period$ -- 364
+call.type$ -- 88
+change.case$ -- 1494
 chr.to.int$ -- 0
-cite$ -- 170
-duplicate$ -- 4047
-empty$ -- 6435
-format.name$ -- 1945
-if$ -- 30134
+cite$ -- 177
+duplicate$ -- 4197
+empty$ -- 6658
+format.name$ -- 2034
+if$ -- 31167
 int.to.chr$ -- 0
-int.to.str$ -- 255
+int.to.str$ -- 264
 missing$ -- 0
-newline$ -- 2154
-num.names$ -- 638
-pop$ -- 2759
+newline$ -- 2234
+num.names$ -- 662
+pop$ -- 2926
 preamble$ -- 1
-purify$ -- 336
+purify$ -- 348
 quote$ -- 0
-skip$ -- 10043
+skip$ -- 10320
 stack$ -- 0
-substring$ -- 8377
-swap$ -- 2528
-text.length$ -- 192
+substring$ -- 8632
+swap$ -- 2610
+text.length$ -- 198
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 7264
-warning$ -- 0
-while$ -- 680
+type$ -- 7504
+warning$ -- 1
+while$ -- 708
 width$ -- 0
-write$ -- 2611
+write$ -- 2714
+(There were 11 error messages)

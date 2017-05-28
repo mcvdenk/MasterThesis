@@ -394,10 +394,10 @@ Burgess, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Canas%
+Ca{\~n}as%
 \ \BBA {} Novak%
 }{%
-Canas%
+Ca{\~n}as%
 \ \BBA {} Novak%
 }{%
 {\protect \APACyear {2012}}%
@@ -406,7 +406,7 @@ canas}
 \APACinsertmetastar {%
 canas}%
 \begin{APACrefauthors}%
-Canas, A.%
+Ca{\~n}as, A.%
 \BCBT {}\ \BBA {} Novak, J.%
 \end{APACrefauthors}%
 \unskip\
@@ -1322,6 +1322,34 @@ Mayer, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mayer%
+\ \BBA {} Moreno%
+}{%
+Mayer%
+\ \BBA {} Moreno%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+cognitiveload}
+\APACinsertmetastar {%
+cognitiveload}%
+\begin{APACrefauthors}%
+Mayer, R.%
+\BCBT {}\ \BBA {} Moreno, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Nine Ways to Reduce Cognitive Load in Multimedia
+  Learning} {Nine ways to reduce cognitive load in multimedia learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Educational Psychologist}{38}{1}{43--52}.
+\newblock
+\begin{APACrefDOI} \doi{10.1207/S15326985EP3801_6} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 McCullough%
 }{%
 McCullough%
@@ -1513,6 +1541,33 @@ Newell, A.%
   {Mechanisms of skill acquisition and the law of practice}.{\BBCQ}
 \newblock
 \BIn{} (\BVOL~1, \BPGS\ 1--55).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Novak%
+\ \BBA {} Ca{\~n}as%
+}{%
+Novak%
+\ \BBA {} Ca{\~n}as%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+constructcmaps}
+\APACinsertmetastar {%
+constructcmaps}%
+\begin{APACrefauthors}%
+Novak, D.%
+\BCBT {}\ \BBA {} Ca{\~n}as, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {The Theory Underlying Concept Maps and How to Construct and Use
+  Them} {The theory underlying concept maps and how to construct and use them}\
+  \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{}{Institute for Human and Machine Cognition}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -2318,6 +2373,35 @@ Xue, G.%
   suppression}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Cognitive Neuroscience}{23}{7}{1624--1633}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, von Dran%
+, Small%
+\BCBL {}\ \BBA {} Barcellos%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+websitedesign}
+\APACinsertmetastar {%
+websitedesign}%
+\begin{APACrefauthors}%
+Zhang, P.%
+, von Dran, G.%
+, Small, R.%
+\BCBL {}\ \BBA {} Barcellos, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+\APACrefbtitle {A two factor theory for website design.} {A two factor theory
+  for website design.}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/HICSS.2000.926847} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
