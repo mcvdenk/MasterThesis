@@ -8,18 +8,19 @@ This chapter describes the general design frameworks used for the implementation
 Unfortunately, little is written about the design of clear concept maps for supplantive use. Only one technical report by \cite{constructcmaps} is written on how students should construct concept maps, however the main focus of this document is on how this process can be scaffolded rather than discussing good design features of concept maps. The only two features mentioned are:
 
 \begin{itemize}
-    \item Cross-links are important in order to show relationships between sub-domains in the map
+    \item Cross-links are important in order to show relationships between subdomains in the map (also mentioned by \citeA{eppler})
     \item One should avoid ``String maps'', which are maps mainly consisting of large sentences within the nodes
 \end{itemize}
 
 The developed concept map therefore focuses on meaningful relations between concepts rather than hierarchical structure, and divides nodes into smaller nodes whenever one node becomes to large.
 
+Finally, \citeA{eppler} describes that concept maps are top-down diagrams rather than radial diagrams, therefore the graph layout will be hierarchical with top-down orientation.
 
     \section{Flashcard learning design features}
 
-\citeA{nakata} describes a framework for developing flashcard applications based on several design features generally present in all major flashcard systems, and findings of earlier studies. The framework is split up in features aimed at creation and editing of flashcards, and at learning of flashcards. However, the creation and editing features are not relevant to the design of the flashmap system, since the content is already developed for the students.
+\citeA{nakata} describes a framework for developing flashcard applications based on several design features generally present in all major flashcard systems, and findings of earlier studies. The framework is split up in features aimed at creation and editing of flashcards, and at learning of flashcards. However, the creation and editing features are not relevant to the design of the flashmap system, since the content is already developed for the students. Furthermore, the Flashcard systems reviewed by \citeA{nakata} are aimed at vocabulary learning, so not all of the guidelines mentioned in the review can be fully generalised to the flashmap system. That being said, there is still quite some overlap between the functionality of these reviewed systems and the flashmap system, and even if a principle is not (completely) applicable it is still relevant to know why this is not the case and what should be the guideline instead.
 
-The flashcard learning features are expounded in the following subsections.
+The flashcard learning features can be split up in two subcategories, which are features related to how the cards are presented (Presentation and retrieval modes, Retrieval practices, Increasing retrieval effort, and Generative use), and features related to the rescheduling of cards for review (Block size, Adaptive sequencing, and Expanded rehearsal). All features are expounded in the following subsections.
 
         \subsection{Presentation and retrieval modes}
 
@@ -27,20 +28,65 @@ It is recommended to use two different modes, namely the presentation mode --- w
 
         \subsection{Retrieval practices}
 
+Retrieval practices relate to the ways the system prompts the user to recall a target from memory. Within vocabulary learning, there are four different categories of retrieval practices divided into 2 axes: reception versus production, and recall versus recognition. 
 
+\paragraph{Reception and production} The first axis of reception and production relates to which part of the associated pair should be retrieved. Reception means that the meaning of the word should be retrieved, whereas production refers to retrieving the target word. For example, when having the pair "Goedenmiddag" and "Good afternoon" while learnig Dutch vocabulary, with reception "Good afternoon" would have to be retrieve when being shown "Goedenmiddag", whereas in productive recall "Goedenmiddag" would have to be retrieved when being shown "Good afternoon".
+
+\paragraph{Recall and recognition} The second axis refers to how the retrieval takes place, namely whether the student tries to recall the cue from memory (recall), or whether he chooses the correct answer from a list of possibilities (recognition). For example, when presented with "Goedenmiddag", when using recall the student should think of the correct answer on his own, where when using recognition the student should choose the correct answer from a list, e.g. "Good morning", "Good afternoon", or "Good evening".
+
+According to \citeA{nakata}, it is difficult for students to aquire both the word form-meaning connection and the word form of a word simultaneously, mainly because of limited cognitive resources (see also the next section). Therefore, good vocabulary learning software should split these tasks into separate exercises: one using reception or recognition (or both), and one using specifically productive recall.
+
+In the case of using flashcards for learning texts, reception and production could be interpreted as prompting the question versus prompting the answer. Recall and recognition still work in the same way, namely as an open prompt or a multiple-choice prompt. In flashmaps however there are not 2 elements but 3 elements per prompt --- the parent node, the edge, and the child node --- and this makes way for 6 options rather than 2 options for the reception-production axis, which are displayed in table~\ref{tab:retrievalmaps}. Within the table they are ordered from leaning towards reception to learning towards production, with the underlying hypothesis that retrieving the child node is more in allignment with reception whereas retrieving the parent node is more in allignment with production. This of course also depends on the concept map. The recall and recognition axis still stays the same, where in the latter case the possible options could be displayed next to the flashmap.
+
+\begin{table}
+    \centering
+    \begin{tabular}{lccc}
+        \hline
+         & Parent node & Edge & Child node \\
+        \hline
+        1 & X & X & \\
+        2 & X & & X \\
+        3 &  & X & X \\
+        4 & X & & \\
+        5 &  & X & \\
+        6 &  & & X \\
+        \hline
+    \end{tabular}
+    \caption{The different possibilies for the reception-production axis in the flashmap system, with an hypothesised ordering from more leaning towards reception to more towards production. The shown elements for each retrieval mode are indicated by an X, whereas the other elements would be the targets for retrieval.}
+    \label{tab:retrievalmaps}
+\end{table}
+
+Only one retrieval practice was chosen for this experiment in order to keep the amount of variables to a minimum and thereby make a better comparison between the conditions. For the flashcard condition, the receptive recall was chosen, since this was the skill most relevant to the test itself. The flashmap equivalent was retrieval practice 1 from table~\ref{tab:retrievalmaps} combined with recall (in contrast to recognition). Other retrieval practices are however still worth investigating in further research.
+
+Another consideration here not mentioned by \citeA{nakata} how the answer retrieved by the student should be compared with the actual answer. In the case of recognition, the user could simply click on the answer he thinks to be the correct answer, which can then be compared to the correct answer. Within the case of recall however, the student either has to merely indicate whether his response was in allignment with the correct response, or he has to type his answer which is then compared to the correct response by the software. The latter option was chosen, since this is easier for students using a mobile plattform to only press a button in comparison to typing on the screen keyboard. Furthermore, typing out an answer can lead to unintended rigidity of the system, such as an answer being marked as incorrect with spelling errors or omitted articles, or a highly increased complexity when trying to take into account these alternative correct responses. The only downside to this decision is that within the results there is an increased unreliability in how leniant the students were with their response being correct or incorrect.
 
         \subsection{Increasing retrieval effort}
 
+The design feature of increasing retrieval effort is strongly related to the choices made with regards to the previous design features. It entails that over the course of multiple presentations of one associated pair, the challenge of retrieval should be increasing. \citeA{nakata} describes that this can be achieved by starting with the presentation mode before introducing the retrieval mode, and by gradually shifting from recognition modes to recall modes and from receptive modes to production modes. However, since the presentation mode is omitted and only one retrieval practice is chosen within this project, increasing retrieval effort is not feasible in this way. This again could be incorporated in later prototypes where other retrieval practices are incorporated.
+
         \subsection{Generative use}
 
-        \subsection{Block size and Adaptive sequencing}
+Generative use of words refers to presenting words in novel contexts. In the case of vocabulary learning, one can use specific words in different sentences which underly the different meanings of the words. Generative use also enhances the elaborative processing of certain concepts. Within the flashmap system, this is incorporated by presenting the concepts together with different edges, sometimes because a concept switches from child node to parent node, but in other cases because multiple unique edges direct from or to a concept. Within the flashcard system, this is also the case but more implicit, because every edge (or group of similar edges) being translated to flaschards, and thereby incorporating the concepts in multiple questions and answers. The only concepts appearing in one instance would be the concepts with only one outgoing edge (root node, K=1), since they only appear in one question, or only one incoming edge (leaf node, K=1), since they only appear in one answer. Of these, the root node promblems can be eliminated by creating more direct subconcepts in the hierarchy or omitting the direct subconcept and linking its subconcept direct to the root node. The leaf node problems are more difficult to eliminate, but still can be linked to other concepts by creating more cross-links generating more incoming or outgoing edges on the lower levels. However, this is not always possible, since some leaf nodes cannot be meaningfully connected to other nodes. In this case it is also worth considering whether this node could be eliminated altogether.
 
-            \paragraph{Pimsleur system}
+        \subsection{Block size}
 
-            \paragraph{Leitner system}
-
+Within the \nameref{subsec:spacingeffect} section on page~\pageref{subsec:spacingeffect} it is described how repetition of an item is more effective when interleaved by other items (spaced items) than when repeated in immediate succession (massed items). The block size is therein defined as the length of items after which items are repeated again. When using massed items, one would have a block size of one, whereas when interleaving each repetition by 8 other items, the block size would be 9. The \nameref{subsec:implicationsflashcards} section however describes why it is better to use adaptive spaced-repetion learning instead of fixed block sizes, which is also recommended by \citeA{nakata}. Therefore, no specific fixed block size will be used within the scheduling algorithm.
+        
         \subsection{Expanded rehearsal}
 
+According to \citeA{nakata}, expanded rehearsal is widely believed to be the most effective. The first system which implemented this system is the Pimsleur system, where over the course of a 30-minute audio lessons words would be presented in a progressive series of exponentially expanding intervals with a base value of 5 seconds \cite{microlearning}. This means that the first repetition would take place after $5^1=5$ s, the second after $5^2=25$, the third after $5^3=125$ s, etc. This system thereby already took into account the decreasing slope of the forgetting curve because of the power law of learning (see figure~\ref{fig:spacedrepetition} on page~\ref{fig:spacedrepetition}), preserving a steady retrieval chance with a decreasing amount of repetitions. This expanded rehearsal is also chosen as the basis for the flashmap scheduling algorithm.
+
+        \subsection{Adaptive sequencing}
+
+An adaptive sequencing algorithm takes into account the learners' previous performance on individual items when rescheduling an item for the next review. Within the original Pimsleur system, one would always increase the time interval for the next review independent of whether the student could correctly recall the item or not. However, this does not account for the flashcards which are more difficult or forgotten at the time of the new review, resulting in the user not being able to keep up with those cards.
+
+The first system to implement an adaptive sequencing element is the Leitner system, which is also the most basic adaptive sequencing system. The user has a number of piles, each representative of a expanded time interval, and a stack of physical flashcards. Each time a flashcard is answered correctly, it moves to the next pile, resulting in a larger time interval before the next repetition, and when answered incorrectly it would be moved back to the first pile. The rationale behind this system is that when an item cannot be retrieved it is forgotten, and the expanded rehearsal should therefore be reset to the lowest value.
+
+The main problem with the Leitner system is that when it was introduced, managing the flashcards and different piles was quite a hassle. This problem was resolved with the introduction of digital flashcards, since the computer could take care of the scheduling and bookkeeping of the flashcards and their reviews. The Leitner system is therefore still prevalent in most digital flashcard systems (e.g. superMemo, Anki, and FaCT).
+
+When combining the Pimsleur and Leitner system as one system, one gets the formula $i = 5^c$ for scheduling the flashcards, where $i$ is the time interval in seconds, and $c$ the amount of times the flashcard was correctly retrieved for this item since the last incorrect retrieval (or the total amount of retrievals when there were no incorrect retrieval).
+
+\citeA{microlearning} introduced an even more sophisticated system, namely the adaptive spaced repetition system. On top of the Pimsleur intervals and Leitner adaptive sequencing, it also adapts the time intervals based on the amount of answers correctly and incorrectly answered by the student for each time interval. This results in specific time intervals better catered towards the user's ability. This is not included within the scheduling algorithm used within this project, because it adds another variable to the experiment. It can still be included however when aiming to improve the prototype.
 
     \section{Cognitive load theory}
 
@@ -61,7 +107,6 @@ It is recommended to use two different modes, namely the presentation mode --- w
         \subsection{Temporal contiguity effect}
 
         \subsection{Spatial ability effect}
-
 
     \section{Two factor theory for website design}
 
