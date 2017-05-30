@@ -1,7 +1,7 @@
 \chapter{Design frameworks}
 \label{ch:frameworks}
 
-This chapter describes the general design frameworks used for the implementation of the use cases defined in the previous chapter. These frameworks are Concept map construction design features \cite{constructcmaps}, flashcard learning design features \cite{nakata}, the cognitive load theory \cite{cognitiveload} for multimedia design, and the two factor theory for website design \cite{websitedesign}. The aim is to implement these features from the next sections within the flashmap software in order to enhance the quality of the tool. In the \nameref{sec:screening} section of the \nameref{ch:evaluation} chapter on page~\pageref{sec:screening}, it is evaluated how the sofware adheres to the design features.
+This chapter describes the general design frameworks used for the implementation of the use cases defined in the previous chapter. These frameworks are Concept map construction design features \cite{constructcmaps}, flashcard learning design features \cite{nakata}, and the two factor theory for website design \cite{websitedesign}. The aim is to implement these features from the next sections within the flashmap software in order to enhance the quality of the tool. In the \nameref{sec:screening} section of the \nameref{ch:evaluation} chapter on page~\pageref{sec:screening}, it is evaluated how the sofware adheres to the design features.
 
     \section{Concept map construction design features}
 
@@ -34,7 +34,7 @@ Retrieval practices relate to the ways the system prompts the user to recall a t
 
 \paragraph{Recall and recognition} The second axis refers to how the retrieval takes place, namely whether the student tries to recall the cue from memory (recall), or whether he chooses the correct answer from a list of possibilities (recognition). For example, when presented with "Goedenmiddag", when using recall the student should think of the correct answer on his own, where when using recognition the student should choose the correct answer from a list, e.g. "Good morning", "Good afternoon", or "Good evening".
 
-According to \citeA{nakata}, it is difficult for students to aquire both the word form-meaning connection and the word form of a word simultaneously, mainly because of limited cognitive resources (see also the next section). Therefore, good vocabulary learning software should split these tasks into separate exercises: one using reception or recognition (or both), and one using specifically productive recall.
+According to \citeA{nakata}, it is difficult for students to aquire both the word form-meaning connection and the word form of a word simultaneously, mainly because of limited cognitive resources. Therefore, good vocabulary learning software should split these tasks into separate exercises: one using reception or recognition (or both), and one using specifically productive recall.
 
 In the case of using flashcards for learning texts, reception and production could be interpreted as prompting the question versus prompting the answer. Recall and recognition still work in the same way, namely as an open prompt or a multiple-choice prompt. In flashmaps however there are not 2 elements but 3 elements per prompt --- the parent node, the edge, and the child node --- and this makes way for 6 options rather than 2 options for the reception-production axis, which are displayed in table~\ref{tab:retrievalmaps}. Within the table they are ordered from leaning towards reception to learning towards production, with the underlying hypothesis that retrieving the child node is more in allignment with reception whereas retrieving the parent node is more in allignment with production. This of course also depends on the concept map. The recall and recognition axis still stays the same, where in the latter case the possible options could be displayed next to the flashmap.
 
@@ -74,9 +74,12 @@ Within the \nameref{subsec:spacingeffect} section on page~\pageref{subsec:spacin
         
         \subsection{Expanded rehearsal}
 
-According to \citeA{nakata}, expanded rehearsal is widely believed to be the most effective. The first system which implemented this system is the Pimsleur system, where over the course of a 30-minute audio lessons words would be presented in a progressive series of exponentially expanding intervals with a base value of 5 seconds \cite{microlearning}. This means that the first repetition would take place after $5^1=5$ s, the second after $5^2=25$, the third after $5^3=125$ s, etc. This system thereby already took into account the decreasing slope of the forgetting curve because of the power law of learning (see figure~\ref{fig:spacedrepetition} on page~\ref{fig:spacedrepetition}), preserving a steady retrieval chance with a decreasing amount of repetitions. This expanded rehearsal is also chosen as the basis for the flashmap scheduling algorithm.
+According to \citeA{nakata}, expanded rehearsal is widely believed to be the most effective. The main difficulty for choosing the right slope for the expanded rehearsal is to balance between overlearning --- repeating items too often, reducing the effectiveness of each repetition --- and the forgetting curve --- repeating items too little, leading to the students forgetting the card and thereby frustrating the user and even ineffective studying.
+
+The first system which implemented this system is the Pimsleur system, where over the course of a 30-minute audio lessons words would be presented in a progressive series of exponentially expanding intervals with a base value of 5 seconds \cite{microlearning}. This means that the first repetition would take place after $5^1=5$ s, the second after $5^2=25$, the third after $5^3=125$ s, etc. This system thereby already took into account the decreasing slope of the forgetting curve because of the power law of learning (see figure~\ref{fig:spacedrepetition} on page~\ref{fig:spacedrepetition}), preserving a steady retrieval chance with a decreasing amount of repetitions. This curve is possibly too flat and leads to increased overlearning, however overlearning can also lead to a benefitial confidence within the user because of the higher percentage in correct retrievals. The Pimsleur system is also rather simple, reducing the amount of variables in the research. Because of these reasons, it is chosen as the basis for the flashmap scheduling algorithm.
 
         \subsection{Adaptive sequencing}
+        \label{subsec:adaptivesequencing}
 
 An adaptive sequencing algorithm takes into account the learners' previous performance on individual items when rescheduling an item for the next review. Within the original Pimsleur system, one would always increase the time interval for the next review independent of whether the student could correctly recall the item or not. However, this does not account for the flashcards which are more difficult or forgotten at the time of the new review, resulting in the user not being able to keep up with those cards.
 
@@ -88,76 +91,47 @@ When combining the Pimsleur and Leitner system as one system, one gets the formu
 
 \citeA{microlearning} introduced an even more sophisticated system, namely the adaptive spaced repetition system. On top of the Pimsleur intervals and Leitner adaptive sequencing, it also adapts the time intervals based on the amount of answers correctly and incorrectly answered by the student for each time interval. This results in specific time intervals better catered towards the user's ability. This is not included within the scheduling algorithm used within this project, because it adds another variable to the experiment. It can still be included however when aiming to improve the prototype.
 
-    \section{Cognitive load theory}
+    \section{The ARCS model}
 
-        \subsection{Modality effect}
+In the \nameref{sec:learneranalysis} section, it was already found that it is likely for the students to have a low intrinsic motivation for engaging into the subject matter. Therefore, it is also important to include a framework within the motivational domain next to the previous framework focusing mainly on the cognitive domain. A commonly used and well researched model for incorporating motivational features is the ARCS model \cite{arcs}, which is an acronym for Attention, Relevance, Confidence, and Satisfaction. The factors were applied within the application where possible, however many are also applied within the context outside of the application. They all can be expressed in three subcategories, described in the following sections.
 
-        \subsection{Segmentation effect}
+        \subsection{Attention}
 
-        \subsection{Pretraining effect}
+In this instance, the category of attention mainly refers to gaining attention at the beginning of an instruction, whereas keeping the attention is covered by the other categories. It can be gained by simple unexpected events, or mentally stimulating problems engaging the learner. Furthermore, variety is important for the effect not wearing down.
 
-        \subsection{Coherence effect}
+\paragraph{Perceptual arousal} This mainly refers to the simple events --- such as whistles or strange imagery --- in order to capture the interest from the learner. In order to achieve this for drawing the user towards using the system, the researcher went to the classroom in the last lesson where the subject material was taught, where the attention was mainly gained from the effect of having someone else than the teacher appearing in the classroom. Within the system itself it was harder to achieve, since the content of the instruction was dynamically generated and therefore it is more difficult to find fitting content for each study session. It would then also add extraneous cognitive load, which is undesirable both for the learning achievement as well as the experimental setting.
 
-        \subsection{Signaling effect}
+\paragraph{Inquiry arousal} This relates to the deeper, mentally stimulating problems which can be offered to the student in order to activate engagement with the topic. Related to the content itself, this is mainly done by the teacher within the lessons and by the instructional material. The researcher also tried to stimulate inquiry by stating that this was an early opportunity for the students to experience what research on a university looks like. Finally, by continuously asking questions users are also stimulated to actively participate in the instruction.
 
-        \subsection{Spatial contiguity effect}
+\paragraph{Variability} Finally, if the setup for every instruction is the same, learners will eventually get disengaged because of the predictability. Using this system instead of the usual chapter reading in preparation of an exam might be an example of breaking such a predictable pattern. On the other hand, one of the downsides of drill and practice is its repetitive nature, so this could demotivate or disengage the students.
 
-        \subsection{Redundancy effect}
+        \subsection{Relevance}
 
-        \subsection{Temporal contiguity effect}
+Gaining arousal is not enought to keep the learner engaged over a long period of time. One method therefore to keep the attention is for the user to understand why it is relevant to engage in the learning activity. The subject matter however is not that interesting towards the average high school student. Therefore, the presentation of the system by the researcher will mainly focus on how it can help students to effectively and efficiently prepare them for the exam, since this is likely to be their direct goal.
 
-        \subsection{Spatial ability effect}
+\paragraph{Goal orientation} The first step in establishing relevance is to relate to the needs and goals of the learner. In order to achieve this, the introduction by the researcher mainly delves into how a general flashcard system works and how it benefits learning, making the process more effective and efficient than purely reading through the book. Added to this, it is mentioned that some of the flashcard and test questions will be repeated on the actual test used for grading the students, making it extra attractive because of the sneak preview.
 
-    \section{Two factor theory for website design}
+\paragraph{Motive matching} This relates more to provide learners with appropriate choices, responsibilities, and influences. One way to do this is by modeling, derived from the theory of planned behaviour \cite{theoryplannedbehaviour}. In order to convince the students that the software is reliable, the researcher adds an anecdote from his own experience of using the system, and that by using it he had a guarantee of being well prepared for exams because of how the algorithm works.
 
-        \subsection{Authorised use of the user's data for unanticipated purposes}
+\paragraph{Familiarity} This subcategory mainly refers to tying the content to the learners' experiences. Unfortunately, the content of the instruction does not lend itself well for this subcategory, hence it is also not used in the instructional material and thereby in the flashmap and flashcards. However, the teachers made great effort within the lessons itself to explain how the renaissance genres and techniques are still prevalent in todays writing, with examples known to the learner.
 
-        \subsection{Authorised collection of user data}
+        \subsection{Confidence}
 
-        \subsection{Sharp displays}
+The learner must, next to feeling the subject matter is relevant, also be confident that he is able to learn the subject and to perform the learning activities successfully. This confindence can be boosted by creating the right expectations and providing positive feedback related to the learning activity.
+        
+\paragraph{Learning requirements} One way the confidence can be boosted on beforehand is by assisting in building a positive expectation for success within the learner. In this case this is done by the researcher first acknowledging that learning and comprehending the core message of a text can be difficult, but that the system can assist this process greatly and makes it easy to do. This is also done within the initial presentation of the software. Furthermore, within the presentation as well as within the software it is made clear that the researcher could support individual learners at any moment if they would get stuck using the application. Within the software this was achieved by including a separate help page with explanations on how to use the software, by including a small text above the main content explaining what the user should do within the current step, and an email address in the navigation menu for contacting the researcher himself.
 
-        \subsection{Support for different browsers}
+\paragraph{Learning activities} Additionally, the learning activities themselves can also support or even enhance the students' beliefs in their competence. Within the flashcard system this is done by having the relatively flat expanded rehearsal slope from the Pimsleur system, which generates more overlearning and thereby increases the amount of correct retrievals. A more steep slope would result in more failed retrieval attempts, increasing the frustration within the user and thereby requiring a more stoic attitude.
 
-        \subsection{Stability of the website availability}
+\paragraph{Success attributions} Finally, the learner also has to attribute his success to the use of the system in order to be motivated to use it. However, according to \citeA{logan}, judgement of learning of students using spaced items does not appear to be higher than when using massed items. Therefore, a separate overview is included within the system displaying the progress the learner has made and how much items are still left.
 
-        \subsection{Effective navigation aids}
+        
+        \subsection{Satisfaction}
 
-        \subsection{Clear directions for navigating the website}
+Finally, in order to sustain motivation after the student is attentive towards, understands the relevance of, and is confident about performing the learning activities, satisfaction is required. This is mainly related to positive feelings stemming from the reward system, and are generally categorised in intrinsic and extrinsic motivation.
 
-        \subsection{Structure of information presentation is logical}
+\paragraph{Self-reinforcement} Intrinsic satisfaction is probably the most powerfull satisfaction, since it works directly on the short-term. This feeling can be instigated for example when the learner is intrigued by the subject, but also when he experiences some form of achievement. It is already stated within the \nameref{sec:learneranalysis} that most students will most likely not be highly interested within the subject matter, and therefore the first category of intrinsic satisfaction will only be met in rare cases. However, successful retrieval does lead to a sense of achievement, next to it being a confidence boost and effective learning tool. Therefore, the flashcard system itself might already facilitate self-reinforcement.
 
-        \subsection{Presence of improper materials}
+\paragraph{Extrinsic rewards} An important extrinsic motivator for the student is to pass the test at the end of the course, for which this system is an effective aid. However, as the teacher already stated before the experiment, this motivator is probably not enough motivation for the students to spend extra free time in such a tool. This is mainly because students often overestimate their own abilities and thereby deeming the extra preparation as not necessary, and them being less able to oversee long-term consequences because of their prefrontal cortex still being in development. In order to create an extra reward, the students are rewarded with a coupon for icecream if they successfully committed to he whole experiment. This entailed filling in the pre- and posttest and questionnaire, and spending 15 minutes every day over the course of 6 days on the system. This reward of icecream seemed to be what the students were most excited about during the initial presentation by the researcher.
 
-        \subsection{Accurate information}
-
-        \subsection{Up-to-date information}
-
-        \subsection{Content that supports the website's intended purpose}
-
-        \subsection{Importance of the surfing activity to the user}
-
-        \subsection{High level of learned new knowledge and/or skills by doing the surfing activity on the website}
-
-        \subsection{Presence of the use of humor}
-
-        \subsection{Presence of multimedia}
-
-        \subsection{Fun to explore}
-
-        \subsection{Presence of assurance that user entered data is encrypted}
-
-        \subsection{Users can control how fast to go through the website}
-
-        \subsection{Users can control complexity of mechanisms for accessing information}
-
-        \subsection{Visually attractive screen layout}
-
-        \subsection{Attractive screen background and pattern}
-
-        \subsection{High reputation of the website owner}
-
-        \subsection{Presence of external recognition of the website}
-
-        \subsection{Presence of controversial material}
-
-        \subsection{Presence of novel information}
+\paragraph{Equity} Finally, it is imporant that each learner has a feeling of fair treatment. This entails that there was an appropriate amount of work, that the work they did is related to the final test, and that there is no favouritism among students. Using the system might feel as extra work to the students in comparison to just reading the textbook, even if it attributes to a higher chance of passing the test. This is an extra reason to emphasise the added value of using the software during the presentation. Furthermore, the consistency of the learning content and objectives and the test is guaranteed by deriving the concept map directly from the instructional material, by including flashcards and pre- or posttest question on the school test, and by letting the teacher confirm that the flashcards cover what the students have to know for the test and that there are no extraneous flashcards. Finally, equity is guaranteed by the fact that all students have anonymous accounts and thereby exactly the same general treatment during the learning procedure. The only contingency is that some students are using the flashcard system while others using the flashmap system, which might provide one group with advantages over the other group.

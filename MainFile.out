@@ -24,53 +24,52 @@
 \BOOKMARK [0][-]{chapter*.87}{Design frameworks}{part.2}% 24
 \BOOKMARK [1][-]{section*.88}{Concept map construction design features}{chapter*.87}% 25
 \BOOKMARK [1][-]{section*.89}{Flashcard learning design features}{chapter*.87}% 26
-\BOOKMARK [1][-]{section*.100}{Cognitive load theory}{chapter*.87}% 27
-\BOOKMARK [1][-]{section*.110}{Two factor theory for website design}{chapter*.87}% 28
-\BOOKMARK [0][-]{chapter*.137}{Server design and development}{part.2}% 29
-\BOOKMARK [1][-]{section*.138}{Generic data entries}{chapter*.137}% 30
-\BOOKMARK [1][-]{section*.149}{User attributes, objects and methods}{chapter*.137}% 31
-\BOOKMARK [0][-]{chapter*.168}{Client design and development}{part.2}% 32
-\BOOKMARK [1][-]{section*.169}{Page elements}{chapter*.168}% 33
-\BOOKMARK [1][-]{section*.180}{Learning process}{chapter*.168}% 34
-\BOOKMARK [1][-]{section*.189}{Other views}{chapter*.168}% 35
-\BOOKMARK [0][-]{chapter*.197}{Formative evaluation}{part.2}% 36
-\BOOKMARK [1][-]{section*.198}{Technical tests}{chapter*.197}% 37
-\BOOKMARK [1][-]{section*.201}{Screening}{chapter*.197}% 38
-\BOOKMARK [-1][-]{part.3}{III Research}{}% 39
-\BOOKMARK [0][-]{chapter*.202}{Aims and goals for the research}{part.3}% 40
-\BOOKMARK [0][-]{chapter*.203}{Methods}{part.3}% 41
-\BOOKMARK [1][-]{section*.204}{Research design}{chapter*.203}% 42
-\BOOKMARK [1][-]{section*.205}{Respondents}{chapter*.203}% 43
-\BOOKMARK [1][-]{section*.206}{Procedure}{chapter*.203}% 44
-\BOOKMARK [1][-]{section*.207}{Instrumentation}{chapter*.203}% 45
-\BOOKMARK [1][-]{section*.208}{Analysis}{chapter*.203}% 46
-\BOOKMARK [0][-]{chapter*.209}{Results}{part.3}% 47
-\BOOKMARK [1][-]{section*.210}{Quantitative results}{chapter*.209}% 48
-\BOOKMARK [1][-]{section*.211}{Qualitative results}{chapter*.209}% 49
-\BOOKMARK [-1][-]{part.4}{IV Recommendations}{}% 50
-\BOOKMARK [-1][-]{part.5}{V }{}% 51
-\BOOKMARK [0][-]{chapter*.212}{Epilogue}{part.5}% 52
-\BOOKMARK [0][-]{chapter*.213}{References}{part.5}% 53
-\BOOKMARK [0][-]{section*.214}{Appendices}{part.5}% 54
-\BOOKMARK [0][-]{Appendix*.215}{Test literature history 16th and 17th century}{part.5}% 55
-\BOOKMARK [0][-]{section*.218}{Flashmap server Documentation}{part.5}% 56
-\BOOKMARK [0][-]{Appendix*.219}{Source files of the client}{part.5}% 57
-\BOOKMARK [1][-]{section*.220}{index.html}{Appendix*.219}% 58
-\BOOKMARK [1][-]{section*.221}{style.css}{Appendix*.219}% 59
-\BOOKMARK [1][-]{section*.222}{client.js}{Appendix*.219}% 60
-\BOOKMARK [0][-]{Appendix*.223}{Pretest and posttest statistics}{part.5}% 61
-\BOOKMARK [1][-]{section*.224}{Descriptives of the knowledge questions}{Appendix*.223}% 62
-\BOOKMARK [1][-]{section*.225}{Descriptives of the comprehension questions}{Appendix*.223}% 63
-\BOOKMARK [1][-]{section*.226}{Comparisons of the knowledge questions}{Appendix*.223}% 64
-\BOOKMARK [1][-]{section*.229}{Comparisons of the comprehension questions}{Appendix*.223}% 65
-\BOOKMARK [0][-]{Appendix*.231}{Questionnaire statistics}{part.5}% 66
-\BOOKMARK [1][-]{section*.232}{Descriptives of Perceived Usefulness questions}{Appendix*.231}% 67
-\BOOKMARK [1][-]{section*.233}{Descriptives of Perceived Ease of Use questions}{Appendix*.231}% 68
-\BOOKMARK [1][-]{section*.234}{Comparisons of the Perceived Usefulness questions}{Appendix*.231}% 69
-\BOOKMARK [1][-]{section*.235}{Comparisons of the Perceived Usefulness questions}{Appendix*.231}% 70
-\BOOKMARK [0][-]{Appendix*.236}{Instance statistics}{part.5}% 71
-\BOOKMARK [1][-]{section*.237}{Descriptives of the number of responses}{Appendix*.236}% 72
-\BOOKMARK [1][-]{section*.238}{Descriptives of percentage of responses marked as correct}{Appendix*.236}% 73
-\BOOKMARK [1][-]{section*.240}{Comparisons of the number of responses}{Appendix*.236}% 74
-\BOOKMARK [1][-]{section*.241}{Comparisons of the percentage of responses marked as correct}{Appendix*.236}% 75
-\BOOKMARK [1][-]{section*.242}{Comparisons of the amount of time spent on the application}{Appendix*.236}% 76
+\BOOKMARK [1][-]{section*.100}{The ARCS model}{chapter*.87}% 27
+\BOOKMARK [0][-]{chapter*.117}{Server design and development}{part.2}% 28
+\BOOKMARK [1][-]{section*.118}{Generic data entries}{chapter*.117}% 29
+\BOOKMARK [1][-]{section*.129}{User attributes, objects and methods}{chapter*.117}% 30
+\BOOKMARK [0][-]{chapter*.148}{Client design and development}{part.2}% 31
+\BOOKMARK [1][-]{section*.149}{Page elements}{chapter*.148}% 32
+\BOOKMARK [1][-]{section*.161}{Learning process}{chapter*.148}% 33
+\BOOKMARK [1][-]{section*.170}{Other views}{chapter*.148}% 34
+\BOOKMARK [0][-]{chapter*.178}{Formative evaluation}{part.2}% 35
+\BOOKMARK [1][-]{section*.179}{Technical tests}{chapter*.178}% 36
+\BOOKMARK [1][-]{section*.182}{Screening}{chapter*.178}% 37
+\BOOKMARK [-1][-]{part.3}{III Research}{}% 38
+\BOOKMARK [0][-]{chapter*.183}{Aims and goals for the research}{part.3}% 39
+\BOOKMARK [0][-]{chapter*.184}{Methods}{part.3}% 40
+\BOOKMARK [1][-]{section*.185}{Research design}{chapter*.184}% 41
+\BOOKMARK [1][-]{section*.186}{Respondents}{chapter*.184}% 42
+\BOOKMARK [1][-]{section*.187}{Procedure}{chapter*.184}% 43
+\BOOKMARK [1][-]{section*.188}{Instrumentation}{chapter*.184}% 44
+\BOOKMARK [1][-]{section*.189}{Analysis}{chapter*.184}% 45
+\BOOKMARK [0][-]{chapter*.190}{Results}{part.3}% 46
+\BOOKMARK [1][-]{section*.191}{Quantitative results}{chapter*.190}% 47
+\BOOKMARK [1][-]{section*.192}{Qualitative results}{chapter*.190}% 48
+\BOOKMARK [-1][-]{part.4}{IV Recommendations}{}% 49
+\BOOKMARK [-1][-]{part.5}{V }{}% 50
+\BOOKMARK [0][-]{chapter*.193}{Epilogue}{part.5}% 51
+\BOOKMARK [0][-]{chapter*.194}{References}{part.5}% 52
+\BOOKMARK [0][-]{section*.195}{Appendices}{part.5}% 53
+\BOOKMARK [0][-]{Appendix*.196}{Test literature history 16th and 17th century}{part.5}% 54
+\BOOKMARK [0][-]{section*.199}{Flashmap server Documentation}{part.5}% 55
+\BOOKMARK [0][-]{Appendix*.200}{Source files of the client}{part.5}% 56
+\BOOKMARK [1][-]{section*.201}{index.html}{Appendix*.200}% 57
+\BOOKMARK [1][-]{section*.202}{style.css}{Appendix*.200}% 58
+\BOOKMARK [1][-]{section*.203}{client.js}{Appendix*.200}% 59
+\BOOKMARK [0][-]{Appendix*.204}{Pretest and posttest statistics}{part.5}% 60
+\BOOKMARK [1][-]{section*.205}{Descriptives of the knowledge questions}{Appendix*.204}% 61
+\BOOKMARK [1][-]{section*.206}{Descriptives of the comprehension questions}{Appendix*.204}% 62
+\BOOKMARK [1][-]{section*.207}{Comparisons of the knowledge questions}{Appendix*.204}% 63
+\BOOKMARK [1][-]{section*.210}{Comparisons of the comprehension questions}{Appendix*.204}% 64
+\BOOKMARK [0][-]{Appendix*.212}{Questionnaire statistics}{part.5}% 65
+\BOOKMARK [1][-]{section*.213}{Descriptives of Perceived Usefulness questions}{Appendix*.212}% 66
+\BOOKMARK [1][-]{section*.214}{Descriptives of Perceived Ease of Use questions}{Appendix*.212}% 67
+\BOOKMARK [1][-]{section*.215}{Comparisons of the Perceived Usefulness questions}{Appendix*.212}% 68
+\BOOKMARK [1][-]{section*.216}{Comparisons of the Perceived Usefulness questions}{Appendix*.212}% 69
+\BOOKMARK [0][-]{Appendix*.217}{Instance statistics}{part.5}% 70
+\BOOKMARK [1][-]{section*.218}{Descriptives of the number of responses}{Appendix*.217}% 71
+\BOOKMARK [1][-]{section*.219}{Descriptives of percentage of responses marked as correct}{Appendix*.217}% 72
+\BOOKMARK [1][-]{section*.221}{Comparisons of the number of responses}{Appendix*.217}% 73
+\BOOKMARK [1][-]{section*.222}{Comparisons of the percentage of responses marked as correct}{Appendix*.217}% 74
+\BOOKMARK [1][-]{section*.223}{Comparisons of the amount of time spent on the application}{Appendix*.217}% 75

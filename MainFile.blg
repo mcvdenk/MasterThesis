@@ -36,45 +36,45 @@ while executing---line 5079 of file apacite.bst
 Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry constructcmaps
 while executing---line 5079 of file apacite.bst
 Warning--No address in constructcmaps
-You've used 88 entries,
+You've used 89 entries,
             6951 wiz_defined-function locations,
-            1819 strings with 25678 characters,
-and the built_in function-call counts, 164985 in all, are:
-= -- 20149
-> -- 1223
-< -- 8236
-+ -- 8031
-- -- 164
-* -- 11030
-:= -- 30850
-add.period$ -- 364
-call.type$ -- 88
-change.case$ -- 1494
+            1827 strings with 25971 characters,
+and the built_in function-call counts, 166606 in all, are:
+= -- 20352
+> -- 1220
+< -- 8341
++ -- 8120
+- -- 166
+* -- 11146
+:= -- 31232
+add.period$ -- 368
+call.type$ -- 89
+change.case$ -- 1511
 chr.to.int$ -- 0
-cite$ -- 177
-duplicate$ -- 4197
-empty$ -- 6658
-format.name$ -- 2034
-if$ -- 31167
+cite$ -- 179
+duplicate$ -- 4208
+empty$ -- 6719
+format.name$ -- 2021
+if$ -- 31454
 int.to.chr$ -- 0
-int.to.str$ -- 264
+int.to.str$ -- 267
 missing$ -- 0
-newline$ -- 2234
-num.names$ -- 662
-pop$ -- 2926
+newline$ -- 2252
+num.names$ -- 670
+pop$ -- 2941
 preamble$ -- 1
-purify$ -- 348
+purify$ -- 352
 quote$ -- 0
-skip$ -- 10320
+skip$ -- 10432
 stack$ -- 0
-substring$ -- 8632
-swap$ -- 2610
-text.length$ -- 198
+substring$ -- 8726
+swap$ -- 2624
+text.length$ -- 200
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 7504
+type$ -- 7584
 warning$ -- 1
-while$ -- 708
+while$ -- 704
 width$ -- 0
-write$ -- 2714
+write$ -- 2725
 (There were 11 error messages)
