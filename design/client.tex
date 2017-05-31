@@ -1,7 +1,7 @@
 \chapter{Client design and development}
 \label{ch:client}
 
-Within this chapter, the front end of the webapplication and its design choices are expounded. Firstly, the general page elements are explained, which are mainly defined within the HTML and CSS of the application (see the \nameref{sec:html} and \nameref{sec:css} within the \nameref{app:clientsource} appendix on page~\pageref{app:clientsource}. Sequentially, the learning process interface is elaborated in a separate section, since this encompasses the main functionality of the application. This process is mainly defined within client.js (see the \nameref{sec:js} section, also within the \nameref{app:clientsource} appendix). The complete source code for the client is also available on \url{https://github.com/mcvdenk/MasterThesis-Software/tree/master/client}. Finally, the other views are described, such as the login screen or the learning progress overview. All full screenshots refered to within this chapter are included in the \nameref{app:screenshot} appendix on page~\pageref{app:screenshot}.
+Within this chapter, the front end of the webapplication and its design choices are expounded. Firstly, the general page elements are explained, which are mainly defined within the HTML and CSS of the application (see the \nameref{sec:html} and \nameref{sec:css} within the \nameref{app:clientsource} appendix on page~\pageref{app:clientsource}. Sequentially, the learning process interface is elaborated in a separate section, since this encompasses the main functionality of the application. This process is mainly defined within client.js (see the \nameref{sec:js} section, also within the \nameref{app:clientsource} appendix). The complete source code for the client is also available on \url{https://github.com/mcvdenk/MasterThesis-Software/tree/master/client}. Finally, the other views are described, such as the login screen or the learning progress overview. All full screenshots referred to within this chapter are included in the \nameref{app:clientscreenshots} appendix on page~\pageref{app:clientscreenshots}.
 
 \section{Page elements}
 
@@ -47,21 +47,39 @@ When a new user starts learning, he will first be asked whether he has read sect
 
 \subsection{Prompt}
 
-The prompt of an instance is dependent on the experimental condition of the user. If the user is a flashcard user, he will see the prompt such as in figure~\ref{fig:ui_fc_prompt}. The main viewer contains the specific flashcard question, and the button panel contains a button with the label "Show answer". The flashmap users get to see a partial incomplete flashmap within the main viewer (figure~\ref{fig:ui_fm_prompt}), which they can drag around and zoom in and out on. The cues which have to be retrieved are indicated by orange empty nodes. The button panel is the same for both conditions. After the user has at least responded to one instance, an "Undo" button appears left to the "Show answer" button (see figure~\ref{ifg:ui_undo}), with which the user can reanswer his previous response. The instructions element also shows instructions on what the user should achieve (to retrieve the correct answer from memory).
+The prompt of an instance is dependent on the experimental condition of the user. If the user is a flashcard user, he will see the prompt such as in figure~\ref{fig:ui_fc_prompt}. The main viewer contains the specific flashcard question, and the button panel contains a button with the label "Show answer". The flashmap users get to see a partial incomplete flashmap within the main viewer (figure~\ref{fig:ui_fm_prompt}), which they can drag around and zoom in and out on. The cues which have to be retrieved are indicated by orange empty nodes. The button panel is the same for both conditions. After the user has at least responded to one instance, an "Undo" button appears left to the "Show answer" button (see figure~\ref{fig:ui_undo}), with which the user can reanswer his previous response. The instructions element also shows instructions on what the user should achieve (to retrieve the correct answer from memory).
 
 \subsection{Show answer}
 
-After the user has pressed the "Show answer" button, the show answer prompt will be shown. Flashcard users get to see the correct answer in the main viewer below the question, with "Incorrect" and "Correct" buttons in the button panel to indicate whether the correct answer could be retrieved (figure~\ref{ui_fc_answer}. Flashmap users get to see the correct answers within the previously empty nodes, which will also turn green indicating that the user retrieved them correctly. When the user did not retrieve an answer correctly, he can click on that node which turns it red. After the user indicated the correct and incorrect retrievals, he can click on a "Next" button in the button panel. The instructions element again contains instructions on what to do within this screen.
+After the user has pressed the "Show answer" button, the show answer prompt will be shown. Flashcard users get to see the correct answer in the main viewer below the question, with "Incorrect" and "Correct" buttons in the button panel to indicate whether the correct answer could be retrieved (figure~\ref{fig:ui_fc_answer}. Flashmap users get to see the correct answers within the previously empty nodes, which will also turn green indicating that the user retrieved them correctly (figure~\ref{fig:ui_fm_answer_correct}). When the user did not retrieve an answer correctly, he can click on that node, turning it red (figure~\ref{fig:ui_fm_answer_incorrect}). After the user indicated the correct and incorrect retrievals, he can click on a "Next" button in the button panel. The instructions element again contains instructions on what to do within this screen.
 
 \subsection{Finished learning and No more instances}
 
 Finally, when the user has spent 15 minutes on the system or when there are no instances left to review, the user gets to see a screen such as in figure~\ref{fig:ui_no_more_instances}. The main viewer contains information on why the user is finished. When the user is finished because there are no more instances left in the sections he already read but there are still instances available in following sections, it also shows which section the user could read for the next instance, and presents a button to continue. Finally, if the user spent 6 days on the system, this prompt will also inform him that the next day he can take the posttest and fill in the questionnaire.
 
 \section{Other views}
+
+Next to the main functionality described in the previous section there are also other views for accommodating the other use cases. For new users, these are the login screen, the descriptives screen, and the pretest, for regular users there are the help screen and the learning progress screen, and for the users which are finished there are the posttest, questionnaire, and debriefing screens.
+
 \subsection{Login screen}
-\subsection{Descriptives screen}
-\subsection{Test and Questionnaire}
+
+The main viewer in the login screen containing a simple form with a textfield for the username, and a submit button for logging in (figure~\ref{fig:ui_login}). Furthermore, a text within the instructions panel refers the users to the researcher's email adress for when they require further instructions or when the logging in does not function.
+
+\subsection{Descriptives, Test and Questionnaire forms}
+
+These screens also contain basic forms, all containing questions or items and either textfields or radiobutton selection panels, depending on whether the question or item is open or closed, and a submit button at the bottom. (figures~\ref{fig:ui_descriptives}, \ref{fig:ui_test_top}~and~\ref{fig:ui_test_bottom}, and~\ref{fig:ui_questionnaire_top}~and~\ref{fig:ui_questionnaire_bottom}). The date field within the descriptives form is checked to be a valid date before the user can submit. Furthermore, the questionnaire item contains an email field for when the user wants to sign up for a later interview, which is a voluntary field and can be left empty. The instructions element again provide instructions for how to fill in the forms.
+
 \subsection{Debriefing}
+
+Finally, when the user is finished using the system and filling in the posttest and questionnaire, the application presents the debriefing information (figure~\ref{fig:ui_debriefing}). This entails a thank you message, that the user will receive the coupon for ice cream soon, that he is able to keep using the system, that he can request his personal data gathered during the experiment from the researcher at any time, that he will receive an email for making an appointment for the interview when he filled in his email address, and that for further questions he can always send an email to the researcher's email address. When the user has read this information he can click the "Read" button.
+
 \subsection{Help}
+
+The help screen (figure~\ref{fig:ui_help}) contains some global information about the experiment and on what conditions the user can receive the icecream coupon. It also states that the system will notify the user as soon as he is ready for today.
+
 \subsection{Learning progress}
 \label{sec:learningprogress}
+
+Finally, the user can request information about how much progress he made. Flashcard users are presented with how many cards are ready to be learned right now, how many are never reviewed, how many are new (less than exponent 2), how many are in the learning stage (less than exponent 6) and finally how many cards have been learned for the long term (more than exponent 6). Figure~\ref{fig:ui_fc_learningprogress_1} shows a learning progress screen of a new flashcard user, and figure~\ref{fig:ui_fc_learningprogress_2} an shows this overview for a user having correctly reviewed one flashcard but incorrectly reviewed another flashcard. The flashmap user is shown with a different overview, namely the part of the concept map containing the edges already reviewed by the user (figure~\ref{fig:ui_fm_learningprogress}), which will expand during the use of the system.
+
+These views can still be improved in order to better convey the progress towards a user, which would contribute to a higher self-reinforcement. However, this has not yet been implemented due to time constraints.
