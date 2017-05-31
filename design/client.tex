@@ -1,13 +1,11 @@
 \chapter{Client design and development}
 \label{ch:client}
 
-Within this chapter, the front end of the webapplication and its design choices are expounded. Firstly, the general page elements are explained, which are mainly defined within the HTML and CSS of the application (see the \nameref{sec:html} and \nameref{sec:css} within the \nameref{app:clientsource} appendix on page~\pageref{app:clientsource}. Sequentially, the learning process interface is elaborated in a separate section, since this encompasses the main functionality of the application. This process is mainly defined within client.js (see the \nameref{sec:js} section, also within the \nameref{app:clientsource} appendix). Finally, the other views are described, such as the login screen or the learning progress overview.
+Within this chapter, the front end of the webapplication and its design choices are expounded. Firstly, the general page elements are explained, which are mainly defined within the HTML and CSS of the application (see the \nameref{sec:html} and \nameref{sec:css} within the \nameref{app:clientsource} appendix on page~\pageref{app:clientsource}. Sequentially, the learning process interface is elaborated in a separate section, since this encompasses the main functionality of the application. This process is mainly defined within client.js (see the \nameref{sec:js} section, also within the \nameref{app:clientsource} appendix). The complete source code for the client is also available on \url{https://github.com/mcvdenk/MasterThesis-Software/tree/master/client}. Finally, the other views are described, such as the login screen or the learning progress overview. All full screenshots refered to within this chapter are included in the \nameref{app:screenshot} appendix on page~\pageref{app:screenshot}.
 
 \section{Page elements}
 
 Each page is represented by the same HTML file defining 4 different page elements, which are the navigation menu, the instructions panel, the main viewer, and a button panel. Within the different views of the application, they generally preserve the same functionality and layout, and will be explained below after the description of the colour scheme.
-
-\subsection{Colour scheme}
 
 \subsection{Navigation menu}
 
@@ -28,55 +26,42 @@ The instructions panel is the next element is placed below the navigation menu, 
 
 The main viewer is the center element, and expands from the instruction panel to the button panel. Within this container, the main content of the specific view is displayed, such as the flashcard or concept map, the questionnaire, or the login form. In order to stand out from the rest of the page, it has a separate background with rounded corners. The background colour is somewhat lighter in comparison to the general background colour in order for the text to be better readable. The main viewer is also the container for visjs, which is a javascript library for rendering graphs in browsers.
 
-\paragraph{Visjs} Since the content contained within the graph is dynamic because of the partial maps returned from the server, generated automatic layouts of graphs are necessary. Visjs is capable of two models for automatic layout, namely hierarchical and force-directed. The initial idea was to render the graphs as hierarchical, however upon trying this with different subgraphs it was found that automatic assignment for the different nodes on different hierarchical levels was not correctly done by visjs. %TODO: hubcentered-directed, force-directed explanation, interaction variable, etc
+\paragraph{Visjs} Since the content contained within the graph is dynamic because of the partial maps returned from the server, generated automatic layouts of graphs are necessary. Visjs is capable of two models for automatic layout, namely hierarchical and force-directed. As described in the \nameref{sec:cmapframework} section on page~\pageref{sec:cmapframework}, the initial idea was to render the graphs as hierarchical. Upon trying this with different subgraphs however it was found that automatic assignment for the different nodes on different hierarchical levels was not correctly done by visjs. This is mainly due to the two options for hierarchical layouts, namely hubcentered and directed. The idea of a hubcentered hierarchy is that the levels of the nodes within the hierarchy are based on the amount of other nodes directly or indirectly linked to this node. This works especially well for tree graphs, but because of the cross-links a concept map is not a tree graph. The other option, directed hierarchy, should make advantage of the directed edges by determining the levels of the nodes based on the direction of the edges. Unfortunately, this is implemented within visjs as only the root and the leaves being determined whether there are only incoming or outgoing edges, whereas the rest of the nodes are still placed based on the hubcentered layout, unlike in other graph layout engines such as DOT. 
 
-\paragraph{Nodes}
+Because this rendering leads to more confusing graphs, the force-directed layout was chosen instead, despite this resulting in a more cyclical graphs common in other visualisation techniques such as mind maps. This layout engine attempts to position the nodes in such a way that all edges are about equally long and there are as few crossing edges as possible. This is done by assigning forces among the set of edges and the set of nodes, for example for having all nodes an inverse gravity force and all edges a spring force.
 
-\paragraph{Edges}
-
-\paragraph{Interaction}
-
-\paragraph{Layout}
+The other options include options for assigning colours fitting within the existing colour scheme, and for the user being able to reposition nodes if for example the edge labels are not readable because of overlapping with other edges.
 
 \subsection{Button panel}
 
-\section{Learning process}
+Finally, within the footer of the page, a button panel is included. Here the user can choose to for example show the correct answer to a flashcard, or confirm that he has read a certain section within the instructional material. The layout of this panel is exactly the same as that of the navigation menu.
 
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\textwidth]{img/learningclient.png}
-    \caption{An activity diagram displaying the prompting of an instance to the user}
-    \label{fig:learningclient}
-\end{figure}
+\section{Learning process}
+\label{sec:client_learning}
+
+The core functionality of the client is reviewing the user instances. In general, every time an instance is reviewed, first the question or incomplete flashmap is prompted, the user thinks of the correct answer, the client shows the correct answer, and finally the user indicates whether his answer was correct or incorrect. Furthermore, the client can prompt whether the user has read a certain section from the textbook, indicate that the user is finished with learning for today, or state that there are no more instances left to review. Finally, the user can also undo his last submitted response. These use cases are elaborated below.
 
 \subsection{Read source}
 
-\subsection{Flashcard prompt}
+When a new user starts learning, he will first be asked whether he has read section 13.1 from the instructional material (see figure~\ref{fig:ui_read_request}). Within the main viewer the question "Did you read section 13.1 already? If no, read this now." is displayed in Dutch. The user can then press the "Read" button in the button panel, which will lead to prompting the first instance. This screen is simular for each subsequent section prompt.
 
-\subsection{Flashcard response}
+\subsection{Prompt}
 
-\subsection{Flashmap prompt}
+The prompt of an instance is dependent on the experimental condition of the user. If the user is a flashcard user, he will see the prompt such as in figure~\ref{fig:ui_fc_prompt}. The main viewer contains the specific flashcard question, and the button panel contains a button with the label "Show answer". The flashmap users get to see a partial incomplete flashmap within the main viewer (figure~\ref{fig:ui_fm_prompt}), which they can drag around and zoom in and out on. The cues which have to be retrieved are indicated by orange empty nodes. The button panel is the same for both conditions. After the user has at least responded to one instance, an "Undo" button appears left to the "Show answer" button (see figure~\ref{ifg:ui_undo}), with which the user can reanswer his previous response. The instructions element also shows instructions on what the user should achieve (to retrieve the correct answer from memory).
 
-\subsection{Flashmap response}
+\subsection{Show answer}
 
-\subsection{Finished learning}
+After the user has pressed the "Show answer" button, the show answer prompt will be shown. Flashcard users get to see the correct answer in the main viewer below the question, with "Incorrect" and "Correct" buttons in the button panel to indicate whether the correct answer could be retrieved (figure~\ref{ui_fc_answer}. Flashmap users get to see the correct answers within the previously empty nodes, which will also turn green indicating that the user retrieved them correctly. When the user did not retrieve an answer correctly, he can click on that node which turns it red. After the user indicated the correct and incorrect retrievals, he can click on a "Next" button in the button panel. The instructions element again contains instructions on what to do within this screen.
 
-\subsection{No more instances}
+\subsection{Finished learning and No more instances}
+
+Finally, when the user has spent 15 minutes on the system or when there are no instances left to review, the user gets to see a screen such as in figure~\ref{fig:ui_no_more_instances}. The main viewer contains information on why the user is finished. When the user is finished because there are no more instances left in the sections he already read but there are still instances available in following sections, it also shows which section the user could read for the next instance, and presents a button to continue. Finally, if the user spent 6 days on the system, this prompt will also inform him that the next day he can take the posttest and fill in the questionnaire.
 
 \section{Other views}
-
 \subsection{Login screen}
-
-\subsection{Test}
-
-\subsection{Questionnaire}
-
+\subsection{Descriptives screen}
+\subsection{Test and Questionnaire}
 \subsection{Debriefing}
-
-\subsection{Main window}
-
 \subsection{Help}
-
 \subsection{Learning progress}
 \label{sec:learningprogress}
-

@@ -97,7 +97,7 @@
 \contentsline {chapter}{Server design and development}{55}{chapter*.117}
 \contentsline {section}{Generic data entries}{55}{section*.118}
 \contentsline {subsection}{Concept map}{55}{section*.120}
-\contentsline {paragraph}{Nodes}{55}{section*.122}
+\contentsline {paragraph}{Nodes}{56}{section*.122}
 \contentsline {paragraph}{Edges}{56}{section*.123}
 \contentsline {paragraph}{Methods}{56}{section*.124}
 \contentsline {subsection}{Flashcards}{58}{section*.126}
@@ -120,78 +120,68 @@
 \contentsline {subsection}{Tests and Questionnaire}{62}{section*.145}
 \contentsline {paragraph}{Responses}{62}{section*.146}
 \contentsline {paragraph}{Constructors}{62}{section*.147}
-\contentsline {chapter}{Client design and development}{65}{chapter*.148}
-\contentsline {section}{Page elements}{65}{section*.149}
-\contentsline {subsection}{Colour scheme}{65}{section*.150}
+\contentsline {section}{Unittests}{64}{section*.148}
+\contentsline {chapter}{Client design and development}{65}{chapter*.149}
+\contentsline {section}{Page elements}{65}{section*.150}
 \contentsline {subsection}{Navigation menu}{65}{section*.151}
 \contentsline {subsection}{Instructions panel}{65}{section*.153}
 \contentsline {subsection}{Main viewer}{66}{section*.154}
 \contentsline {paragraph}{Visjs}{66}{section*.155}
-\contentsline {paragraph}{Nodes}{66}{section*.156}
-\contentsline {paragraph}{Edges}{66}{section*.157}
-\contentsline {paragraph}{Interaction}{66}{section*.158}
-\contentsline {paragraph}{Layout}{66}{section*.159}
-\contentsline {subsection}{Button panel}{67}{section*.160}
-\contentsline {section}{Learning process}{67}{section*.161}
-\contentsline {subsection}{Read source}{67}{section*.163}
-\contentsline {subsection}{Flashcard prompt}{67}{section*.164}
-\contentsline {subsection}{Flashcard response}{67}{section*.165}
-\contentsline {subsection}{Flashmap prompt}{67}{section*.166}
-\contentsline {subsection}{Flashmap response}{67}{section*.167}
-\contentsline {subsection}{Finished learning}{67}{section*.168}
-\contentsline {subsection}{No more instances}{67}{section*.169}
-\contentsline {section}{Other views}{67}{section*.170}
-\contentsline {subsection}{Login screen}{67}{section*.171}
-\contentsline {subsection}{Test}{67}{section*.172}
-\contentsline {subsection}{Questionnaire}{67}{section*.173}
-\contentsline {subsection}{Debriefing}{67}{section*.174}
-\contentsline {subsection}{Main window}{67}{section*.175}
-\contentsline {subsection}{Help}{67}{section*.176}
-\contentsline {subsection}{Learning progress}{67}{section*.177}
-\contentsline {chapter}{Formative evaluation}{68}{chapter*.178}
-\contentsline {section}{Technical tests}{68}{section*.179}
-\contentsline {subsection}{White-box testing}{68}{section*.180}
-\contentsline {subsection}{Black-box testing}{68}{section*.181}
-\contentsline {section}{Screening}{68}{section*.182}
+\contentsline {subsection}{Button panel}{66}{section*.156}
+\contentsline {section}{Learning process}{66}{section*.157}
+\contentsline {subsection}{Read source}{67}{section*.158}
+\contentsline {subsection}{Prompt}{67}{section*.159}
+\contentsline {subsection}{Show answer}{67}{section*.160}
+\contentsline {subsection}{Finished learning and No more instances}{67}{section*.161}
+\contentsline {section}{Other views}{68}{section*.162}
+\contentsline {subsection}{Login screen}{68}{section*.163}
+\contentsline {subsection}{Descriptives screen}{68}{section*.164}
+\contentsline {subsection}{Test and Questionnaire}{68}{section*.165}
+\contentsline {subsection}{Debriefing}{68}{section*.166}
+\contentsline {subsection}{Help}{68}{section*.167}
+\contentsline {subsection}{Learning progress}{68}{section*.168}
 \contentsline {part}{III\hspace {1em}Research}{69}{part.3}
-\contentsline {chapter}{Aims and goals for the research}{70}{chapter*.183}
-\contentsline {chapter}{Methods}{71}{chapter*.184}
-\contentsline {section}{Research design}{71}{section*.185}
-\contentsline {section}{Respondents}{71}{section*.186}
-\contentsline {section}{Procedure}{71}{section*.187}
-\contentsline {section}{Instrumentation}{71}{section*.188}
-\contentsline {section}{Analysis}{71}{section*.189}
-\contentsline {chapter}{Results}{72}{chapter*.190}
-\contentsline {section}{Quantitative results}{72}{section*.191}
-\contentsline {section}{Qualitative results}{72}{section*.192}
+\contentsline {chapter}{Aims and goals for the research}{70}{chapter*.169}
+\contentsline {chapter}{Methods}{71}{chapter*.170}
+\contentsline {section}{Research design}{71}{section*.171}
+\contentsline {section}{Respondents}{71}{section*.172}
+\contentsline {section}{Procedure}{71}{section*.173}
+\contentsline {section}{Instrumentation}{71}{section*.174}
+\contentsline {section}{Analysis}{71}{section*.175}
+\contentsline {chapter}{Results}{72}{chapter*.176}
+\contentsline {section}{Quantitative results}{72}{section*.177}
+\contentsline {section}{Qualitative results}{72}{section*.178}
 \contentsline {part}{IV\hspace {1em}Recommendations}{73}{part.4}
 \contentsline {part}{V\hspace {1em}}{74}{part.5}
-\contentsline {chapter}{Epilogue}{75}{chapter*.193}
-\contentsline {chapter}{References}{76}{chapter*.194}
-\contentsline {chapter}{Appendices}{81}{section*.195}
-\contentsline {chapter}{Test literature history 16th and 17th century}{82}{Appendix*.196}
-\contentsline {chapter}{Flashmap server Documentation}{85}{section*.199}
-\contentsline {chapter}{Source files of the client}{106}{Appendix*.200}
-\contentsline {section}{index.html}{106}{section*.201}
-\contentsline {section}{style.css}{106}{section*.202}
-\contentsline {section}{client.js}{108}{section*.203}
-\contentsline {chapter}{Pretest and posttest statistics}{119}{Appendix*.204}
-\contentsline {section}{Descriptives of the knowledge questions}{119}{section*.205}
-\contentsline {section}{Descriptives of the comprehension questions}{125}{section*.206}
-\contentsline {section}{Comparisons of the knowledge questions}{131}{section*.207}
-\contentsline {subsection}{Pre- and posttest comparisons}{131}{section*.208}
-\contentsline {subsection}{Between conditions}{131}{section*.209}
-\contentsline {section}{Comparisons of the comprehension questions}{134}{section*.210}
-\contentsline {subsection}{Between conditions}{134}{section*.211}
-\contentsline {chapter}{Questionnaire statistics}{138}{Appendix*.212}
-\contentsline {section}{Descriptives of Perceived Usefulness questions}{138}{section*.213}
-\contentsline {section}{Descriptives of Perceived Ease of Use questions}{144}{section*.214}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{150}{section*.215}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{152}{section*.216}
-\contentsline {chapter}{Instance statistics}{155}{Appendix*.217}
-\contentsline {section}{Descriptives of the number of responses}{155}{section*.218}
-\contentsline {section}{Descriptives of percentage of responses marked as correct}{161}{section*.219}
-\contentsline {subsubsection}{Descriptives of the amount of time spent on the application}{167}{section*.220}
-\contentsline {section}{Comparisons of the number of responses}{173}{section*.221}
-\contentsline {section}{Comparisons of the percentage of responses marked as correct}{175}{section*.222}
-\contentsline {section}{Comparisons of the amount of time spent on the application}{177}{section*.223}
+\contentsline {chapter}{Epilogue}{75}{chapter*.179}
+\contentsline {chapter}{References}{76}{chapter*.180}
+\contentsline {chapter}{Appendices}{81}{section*.181}
+\contentsline {chapter}{Test literature history 16th and 17th century}{82}{Appendix*.182}
+\contentsline {chapter}{Flashmap server Documentation}{85}{section*.185}
+\contentsline {chapter}{Source files of the client}{106}{Appendix*.186}
+\contentsline {section}{index.html}{106}{section*.187}
+\contentsline {section}{style.css}{106}{section*.188}
+\contentsline {section}{client.js}{108}{section*.189}
+\contentsline {chapter}{Screenshots of the client}{119}{Appendix*.190}
+\contentsline {section}{Learning process}{119}{section*.191}
+\contentsline {section}{Other views}{124}{section*.200}
+\contentsline {chapter}{Pretest and posttest statistics}{131}{Appendix*.212}
+\contentsline {section}{Descriptives of the knowledge questions}{131}{section*.213}
+\contentsline {section}{Descriptives of the comprehension questions}{137}{section*.214}
+\contentsline {section}{Comparisons of the knowledge questions}{143}{section*.215}
+\contentsline {subsection}{Pre- and posttest comparisons}{143}{section*.216}
+\contentsline {subsection}{Between conditions}{143}{section*.217}
+\contentsline {section}{Comparisons of the comprehension questions}{146}{section*.218}
+\contentsline {subsection}{Between conditions}{146}{section*.219}
+\contentsline {chapter}{Questionnaire statistics}{150}{Appendix*.220}
+\contentsline {section}{Descriptives of Perceived Usefulness questions}{150}{section*.221}
+\contentsline {section}{Descriptives of Perceived Ease of Use questions}{156}{section*.222}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{162}{section*.223}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{164}{section*.224}
+\contentsline {chapter}{Instance statistics}{167}{Appendix*.225}
+\contentsline {section}{Descriptives of the number of responses}{167}{section*.226}
+\contentsline {section}{Descriptives of percentage of responses marked as correct}{173}{section*.227}
+\contentsline {subsubsection}{Descriptives of the amount of time spent on the application}{179}{section*.228}
+\contentsline {section}{Comparisons of the number of responses}{185}{section*.229}
+\contentsline {section}{Comparisons of the percentage of responses marked as correct}{187}{section*.230}
+\contentsline {section}{Comparisons of the amount of time spent on the application}{189}{section*.231}
