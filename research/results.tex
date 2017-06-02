@@ -19,6 +19,37 @@ The participant descriptives are included in the \nameref{app:descriptives} appe
 
 \section{Learning gain}
 
+The pre- and posttest results are displayed in the \nameref{app:learning_gain} appendix on page~\ref{app:learning_gain}. These results are separately described for the knowledge questions and comprehension scores on the test, since they measure different variables. The different scores described and compared are the pretest scores, posttest scores, total scores, and the absolute (abs\_learn\_gain) and relative learning gains (rel\_learn\_gain). Additionally, they are reported as classical test theory scores (ctt), item response theory person abilities (irt), and person abilities from item response theory using fixed item difficulties from the combined pretest scores (fixed irt). Per category, the sample size, minimum, maximum, and mean values are displayed as descriptive values; the skew, kurtosis, and t and p values from the scipy normaltest are displayed as values for describing the distribution of the results; and $\alpha$ describes the reliability of the test (either Cronbach's alpha for the ctt results or the EAP value for the irt results). These results are described for the flashcard condition, the flashmap condition, and the combined sample of both conditions. The included graphs display histograms depicting the test matrices. Finally, the pre- and posttest scores are compared with each other by means of the non-parametric Mann-Whitney U test and the parametric Welchs' t-test in order to verify that users scored significantly higher on the posttest than on the pretest, and the learning gains between conditions are compared in order to answer research question~\ref{benefit}\ref{effectiveness}.
+
+For both the knowledge questions as for the comprehension questions, the ctt reliability for the combined pre- and posttest score for the combined flashcard and flashmap users is around .7 --- mainly because the omission process of unreliable items ---, whereas the fixed irt reliability is around .6 (see table~\ref{tab:know_gen} and table~\ref{tab:comp_gen}). According to \citeA{devellis}, this means that the results obtained from classical testing are acceptable, whereas the results obtained from the item response theory are questionnable at best. Additionally, both the score outcomes, the figures, and the pre- and posttest comparisons in tables~\ref{tab:know_pp_fc_comp}, \ref{tab:know_pp_fm_comp}, \ref{tab:know_pp_gen_comp}, and tables~\ref{tab:comp_pp_fc_comp}, \ref{tab:comp_pp_fm_comp}, \ref{tab:comp_pp_gen_comp} indicate an average positive learning gain from the classical test theory, but a negative gain from the item response theory. Therefore, the conclusion will be based on the results from the classical test theory only.
+
+Table~\ref{tab:learning_gain_effect} summarises the results related to learning gains. In the rows, the absolute and the relative classical test scores and the absolute item response theory person ability scores with fixed item difficulties are included for both the knowledge and comprehension questions. The item response theory results are only included for reference, and from this only the absolute learning gains are taken into consideration, since the person abilities are already estimated relative to the item difficulties. the columns include the reliability, the p-value of the normality test, the flashcard and flashmap mean score, and the p-values for in this case the Mann-Whitnney U test, since none of the results seem to be normaly distributed.
+
+The flashmap users seem to have a higher learning gain than the flashcard users on the knowledge questions, and that looking at only the ctt results they seem to have a lower gain on the comprehension questions. None of the Mann-Whitney U test p-values for the ctt results seem to be significant however, so no conclusions can be drawn yet. This is highly likely due to the low response rate, and more significant results might be found when using a larger sample, especially since the difference in mean values are relatively high in comparison to the variance in scores.
+
+\begin{table}
+    \centering
+    \begin{tabular}{lrrrrr}
+        \toprule
+        & $\alpha$ & norm-p & fc-$\mu$ & fm-$\mu$ & p-value \\
+        \midrule
+        \multicolumn{5}{l}{\emph{Knowledge questions}} \\
+        \midrule
+        abs-ctt & .721 & .364 & 1.25 & 2.27 & .394 \\
+        rel-ctt & .721 & .372 & 0.04 & 0.05 & .464 \\
+        irt & .671 & .690 & -2.67 & 3.17 & .000 \\
+        \midrule
+        \multicolumn{5}{l}{\emph{Comprehension questions}} \\
+        \midrule
+        abs-ctt & .714 & .110 & 2.00 & 0.91 & .218 \\
+        rel-ctt & .714 & .118 & 0.07 & 0.04 & .245\\
+        irt & .606 & .536 & -1.28 & -.97 & .688 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Compact view of the results relevant for answering research question~\protect\ref{benefit}\protect\ref{effectiveness}}
+    \label{tab:learning_gain_effect}
+\end{table}
+
 \section{Efficiency}
 
 \section{Usefulness}

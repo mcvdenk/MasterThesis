@@ -614,6 +614,29 @@ De~Simone, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+DeVellis%
+}{%
+DeVellis%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+devellis}
+\APACinsertmetastar {%
+devellis}%
+\begin{APACrefauthors}%
+DeVellis, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {Scale Development: Theory and applications} {Scale development:
+  Theory and applications}\ (\PrintOrdinal{2}\ \BEd).
+\newblock
+\APACaddressPublisher{London}{Sage publications Ltd}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dirksen%
 }{%
 Dirksen%
