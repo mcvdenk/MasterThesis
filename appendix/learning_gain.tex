@@ -1,12 +1,12 @@
 \chapter{Pretest and posttest statistics}
 
+\FloatBarrier
 \section{Descriptives of the knowledge questions}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Flashcard condition}\\
 \endfirsthead
 \endhead
-
 \toprule\addlinespace
 & N & min & max & mean & var & skew & kurt & norm-t &
 norm-p & $\alpha$
@@ -59,9 +59,19 @@ norm-p & $\alpha$
 1.01 & 0.62 & 5.132 & 0.0769 & 0.1088
 \\\addlinespace
 \bottomrule
+    \label{tab:know_fc}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/know_fc_diff.png} \includegraphics[width=\textwidth]{img/know_fc_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/know_fc_diff.png}
+    \caption{A histogram depicting the scores on the knowledge section of the pre- and posttest per item by flashcard users}
+    \label{fig:know_fc_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/know_fc_abil.png}
+    \caption{A histogram depicting the scores on the knowledge section of the pre- and posttest per flashcard user}
+    \label{fig:know_fc_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Flashmap condition}
@@ -118,9 +128,19 @@ norm-p & $\alpha$
 -0.02 & 2.44 & 6.403 & 0.0407 & 0.0000
 \\\addlinespace
 \bottomrule
+    \label{tab:know_fm}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/know_fm_diff.png} \includegraphics[width=\textwidth]{img/know_fm_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/know_fm_diff.png}
+    \caption{A histogram depicting the scores on the knowledge section of the pre- and posttest per item by flashmap users}
+    \label{fig:know_fm_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/know_fm_abil.png}
+    \caption{A histogram depicting the scores on the knowledge section of the pre- and posttest per flashmap user}
+    \label{fig:know_fm_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Combined conditions}
@@ -177,10 +197,21 @@ norm-p & $\alpha$
 -0.26 & 0.19 & 1.015 & 0.6019 & 0.2142
 \\\addlinespace
 \bottomrule
+    \label{tab:know_gen}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/know_gen_diff.png} \includegraphics[width=\textwidth]{img/know_gen_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/know_gen_diff.png}
+    \caption{A histogram depicting the scores on the knowledge section of the pre- and posttest per item}
+    \label{fig:know_gen_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/know_gen_abil.png}
+    \caption{A histogram depicting the scores on the knowledge section of the pre- and posttest per user}
+    \label{fig:know_gen_abil}
+\end{figure}
 
+\FloatBarrier
 \section{Descriptives of the comprehension questions}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
@@ -238,9 +269,19 @@ norm-p & $\alpha$
 -0.29 & -0.81 & 0.411 & 0.8142 & 0.3207
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_fc}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/comp_fc_diff.png} \includegraphics[width=\textwidth]{img/comp_fc_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/comp_fc_diff.png}
+    \caption{A histogram depicting the scores on the comprehension section of the pre- and posttest per item by flashcard users}
+    \label{fig:comp_fc_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/comp_fc_abil.png}
+    \caption{A histogram depicting the scores on the comprehension section of the pre- and posttest per flashcard user}
+    \label{fig:comp_fc_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Flashmap condition}
@@ -297,9 +338,19 @@ norm-p & $\alpha$
 & 0.01 & 4.277 & 0.1178 & 0.4888
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_fm}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/comp_fm_diff.png} \includegraphics[width=\textwidth]{img/comp_fm_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/comp_fm_diff.png}
+    \caption{A histogram depicting the scores on the comprehension section of the pre- and posttest per item by flashmap users}
+    \label{fig:comp_fm_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/comp_fm_abil.png}
+    \caption{A histogram depicting the scores on the comprehension section of the pre- and posttest per flashmap user}
+    \label{fig:comp_fm_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Combined conditions}
@@ -356,12 +407,24 @@ norm-p & $\alpha$
 & -0.76 & 0.640 & 0.7262 & 0.4618
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_gen}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/comp_gen_diff.png} \includegraphics[width=\textwidth]{img/comp_gen_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/comp_gen_diff.png}
+    \caption{A histogram depicting the scores on the comprehension section of the pre- and posttest per item by users}
+    \label{fig:comp_gen_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/comp_gen_abil.png}
+    \caption{A histogram depicting the scores on the comprehension section of the pre- and posttest per user}
+    \label{fig:comp_gen_abil}
+\end{figure}
 
+\FloatBarrier
 \section{Comparisons of the knowledge questions}
 
+\FloatBarrier
 \subsection{Pre- and posttest comparisons}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -380,6 +443,7 @@ norm-p & $\alpha$
 \textbf{fixed irt} & 5.454 & 0.0000 & 5.454 & 0.0001
 \\\addlinespace
 \bottomrule
+    \label{tab:know_pp_fc_comp}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -398,6 +462,7 @@ norm-p & $\alpha$
 \textbf{fixed irt} & -27.206 & 0.0000 & -27.206 & 0.0000
 \\\addlinespace
 \bottomrule
+    \label{tab:know_pp_fm_comp}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -416,8 +481,10 @@ norm-p & $\alpha$
 \textbf{fixed irt} & 1.591 & 0.1187 & 1.591 & 0.1217
 \\\addlinespace
 \bottomrule
+    \label{tab:know_pp_gen_comp}
 \end{longtable}
 
+\FloatBarrier
 \subsection{Between conditions}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -440,6 +507,7 @@ norm-p & $\alpha$
 \textbf{rel\_learn\_gain} & -0.747 & 0.4635 & -0.751 & 0.4611
 \\\addlinespace
 \bottomrule
+    \label{tab:know_cond_ctt_comp}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -462,6 +530,7 @@ norm-p & $\alpha$
 \textbf{rel\_learn\_gain} & 0.072 & 0.9436 & 0.074 & 0.9423
 \\\addlinespace
 \bottomrule
+    \label{tab:know_cond_irt_comp}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -484,11 +553,21 @@ norm-p & $\alpha$
 \textbf{rel\_learn\_gain} & -10.401 & 0.0000 & -10.845 & 0.0000
 \\\addlinespace
 \bottomrule
+    \label{tab:know_cond_adj_irt_comp}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/know_gain_diff.png}
-\includegraphics[width=\textwidth]{img/know_gain_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/know_gain_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:know_fc_diff} and~\protect\ref{fig:know_fm_diff}, with the pretest score subtracted from the posttest score}
+    \label{fig:know_gain_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/know_gain_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:know_fc_abil} and~\protect\ref{fig:know_fm_abil}, with the pretest score subtracted from the posttest score}
+    \label{fig:know_gain_abil}
+\end{figure}
 
+\FloatBarrier
 \section{Comparisons of the comprehension questions}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -507,6 +586,7 @@ norm-p & $\alpha$
 \textbf{fixed irt} & 1.856 & 0.0768 & 1.856 & 0.0770
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_pp_fc_comp}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -525,6 +605,7 @@ norm-p & $\alpha$
 \textbf{fixed irt} & 1.318 & 0.2024 & 1.318 & 0.2036
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_pp_fm_comp}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -543,8 +624,10 @@ norm-p & $\alpha$
 \textbf{fixed irt} & 0.595 & 0.5549 & 0.595 & 0.5549
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_pp_gen_comp}
 \end{longtable}
 
+\FloatBarrier
 \subsection{Between conditions}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -567,6 +650,7 @@ norm-p & $\alpha$
 \textbf{rel\_learn\_gain} & 1.197 & 0.2448 & 1.211 & 0.2399
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_cond_ctt_comp}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -589,6 +673,7 @@ norm-p & $\alpha$
 \textbf{rel\_learn\_gain} & 0.064 & 0.9496 & 0.066 & 0.9484
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_cond_irt_comp}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -611,7 +696,16 @@ norm-p & $\alpha$
 \textbf{rel\_learn\_gain} & -0.455 & 0.6537 & -0.465 & 0.6476
 \\\addlinespace
 \bottomrule
+    \label{tab:comp_cond_adj_irt_comp}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/comp_gain_diff.png}
-\includegraphics[width=\textwidth]{img/comp_gain_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/comp_gain_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:comp_fc_diff} and~\protect\ref{fig:comp_fm_diff}, with the pretest score subtracted from the posttest score}
+    \label{fig:comp_gain_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/comp_gain_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:comp_fc_abil} and~\protect\ref{fig:comp_fm_abil}, with the pretest score subtracted from the posttest score}
+    \label{fig:comp_gain_abil}
+\end{figure}

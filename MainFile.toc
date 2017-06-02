@@ -148,39 +148,64 @@
 \contentsline {section}{Instrumentation}{72}{section*.173}
 \contentsline {section}{Analysis}{72}{section*.174}
 \contentsline {chapter}{Results}{73}{chapter*.175}
-\contentsline {section}{Quantitative results}{73}{section*.176}
-\contentsline {section}{Qualitative results}{73}{section*.177}
-\contentsline {part}{IV\hspace {1em}Recommendations}{74}{part.4}
-\contentsline {part}{V\hspace {1em}}{75}{part.5}
-\contentsline {chapter}{Epilogue}{76}{chapter*.178}
-\contentsline {chapter}{References}{77}{chapter*.179}
-\contentsline {chapter}{Appendices}{82}{section*.180}
-\contentsline {chapter}{Test literature history 16th and 17th century}{83}{Appendix*.181}
-\contentsline {chapter}{Flashmap server Documentation}{87}{section*.184}
-\contentsline {chapter}{Source files of the client}{108}{Appendix*.185}
-\contentsline {section}{index.html}{108}{section*.186}
-\contentsline {section}{style.css}{108}{section*.187}
-\contentsline {section}{client.js}{110}{section*.188}
-\contentsline {chapter}{Screenshots of the client}{121}{Appendix*.189}
-\contentsline {section}{Learning process}{121}{section*.190}
-\contentsline {section}{Other views}{126}{section*.199}
-\contentsline {chapter}{Pretest and posttest statistics}{133}{Appendix*.211}
-\contentsline {section}{Descriptives of the knowledge questions}{133}{section*.212}
-\contentsline {section}{Descriptives of the comprehension questions}{139}{section*.213}
-\contentsline {section}{Comparisons of the knowledge questions}{145}{section*.214}
-\contentsline {subsection}{Pre- and posttest comparisons}{145}{section*.215}
-\contentsline {subsection}{Between conditions}{145}{section*.216}
-\contentsline {section}{Comparisons of the comprehension questions}{148}{section*.217}
-\contentsline {subsection}{Between conditions}{148}{section*.218}
-\contentsline {chapter}{Questionnaire statistics}{152}{Appendix*.219}
-\contentsline {section}{Descriptives of Perceived Usefulness questions}{152}{section*.220}
-\contentsline {section}{Descriptives of Perceived Ease of Use questions}{158}{section*.221}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{164}{section*.222}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{166}{section*.223}
-\contentsline {chapter}{Instance statistics}{169}{Appendix*.224}
-\contentsline {section}{Descriptives of the number of responses}{169}{section*.225}
-\contentsline {section}{Descriptives of percentage of responses marked as correct}{175}{section*.226}
-\contentsline {subsubsection}{Descriptives of the amount of time spent on the application}{181}{section*.227}
-\contentsline {section}{Comparisons of the number of responses}{187}{section*.228}
-\contentsline {section}{Comparisons of the percentage of responses marked as correct}{189}{section*.229}
-\contentsline {section}{Comparisons of the amount of time spent on the application}{191}{section*.230}
+\contentsline {section}{Descriptive data}{73}{section*.176}
+\contentsline {paragraph}{Dropout rates}{73}{section*.177}
+\contentsline {paragraph}{Gender}{73}{section*.178}
+\contentsline {paragraph}{Age}{73}{section*.179}
+\contentsline {section}{Learning gain}{73}{section*.180}
+\contentsline {section}{Efficiency}{73}{section*.181}
+\contentsline {section}{Usefulness}{73}{section*.182}
+\contentsline {subsection}{Usefulness items}{73}{section*.183}
+\contentsline {subsection}{Received comments}{73}{section*.184}
+\contentsline {section}{Ease of use}{73}{section*.185}
+\contentsline {subsection}{Ease of use items}{73}{section*.186}
+\contentsline {subsection}{Received comments}{73}{section*.187}
+\contentsline {section}{Usage}{73}{section*.188}
+\contentsline {subsection}{Number of responses}{73}{section*.189}
+\contentsline {subsection}{Exponents}{73}{section*.190}
+\contentsline {subsection}{Correct retrievals}{73}{section*.191}
+\contentsline {subsection}{Interview results}{73}{section*.192}
+\contentsline {chapter}{Conclusion and discussion}{74}{chapter*.193}
+\contentsline {part}{IV\hspace {1em}Recommendations}{75}{part.4}
+\contentsline {part}{V\hspace {1em}}{76}{part.5}
+\contentsline {chapter}{Epilogue}{77}{chapter*.194}
+\contentsline {chapter}{References}{78}{chapter*.195}
+\contentsline {chapter}{Appendices}{83}{section*.196}
+\contentsline {chapter}{Test literature history 16th and 17th century}{84}{Appendix*.197}
+\contentsline {chapter}{Flashmap server Documentation}{87}{section*.200}
+\contentsline {chapter}{Source files of the client}{108}{Appendix*.201}
+\contentsline {section}{index.html}{108}{section*.202}
+\contentsline {section}{style.css}{108}{section*.203}
+\contentsline {section}{client.js}{110}{section*.204}
+\contentsline {chapter}{Screenshots of the client}{121}{Appendix*.205}
+\contentsline {section}{Learning process}{121}{section*.206}
+\contentsline {section}{Other views}{126}{section*.215}
+\contentsline {subsection}{Descriptives}{126}{section*.227}
+\contentsline {subsection}{Comparisons}{126}{section*.234}
+\contentsline {chapter}{Descriptive statistics}{139}{Appendix*.236}
+\contentsline {section}{Gender}{139}{section*.237}
+\contentsline {section}{Age}{139}{section*.238}
+\contentsline {section}{Comparisons of ages among conditions}{143}{section*.242}
+\contentsline {subsubsection}{Age}{143}{section*.243}
+\contentsline {chapter}{Pretest and posttest statistics}{144}{Appendix*.245}
+\contentsline {section}{Descriptives of the knowledge questions}{144}{section*.246}
+\contentsline {section}{Descriptives of the comprehension questions}{152}{section*.253}
+\contentsline {section}{Comparisons of the knowledge questions}{160}{section*.260}
+\contentsline {subsection}{Pre- and posttest comparisons}{160}{section*.261}
+\contentsline {subsection}{Between conditions}{160}{section*.262}
+\contentsline {section}{Comparisons of the comprehension questions}{164}{section*.265}
+\contentsline {subsection}{Between conditions}{164}{section*.266}
+\contentsline {chapter}{Questionnaire statistics}{168}{Appendix*.269}
+\contentsline {section}{Descriptives of Perceived Usefulness questions}{168}{section*.270}
+\contentsline {section}{Descriptives of Perceived Ease of Use questions}{175}{section*.277}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{182}{section*.284}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{185}{section*.287}
+\contentsline {chapter}{Instance statistics}{188}{Appendix*.290}
+\contentsline {section}{Descriptives of the number of responses}{188}{section*.291}
+\contentsline {section}{Descriptives of the exponents of instances}{188}{section*.298}
+\contentsline {section}{Descriptives of percentage of responses marked as correct}{202}{section*.305}
+\contentsline {subsubsection}{Descriptives of the amount of time spent on the application}{209}{section*.312}
+\contentsline {section}{Comparisons of the number of responses}{216}{section*.319}
+\contentsline {section}{Comparisons of the exponents}{219}{section*.322}
+\contentsline {section}{Comparisons of the percentage of responses marked as correct}{222}{section*.325}
+\contentsline {section}{Comparisons of the amount of time spent on the application}{225}{section*.328}

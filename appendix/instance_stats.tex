@@ -1,5 +1,6 @@
 \chapter{Instance statistics}
 
+\FloatBarrier
 \section{Descriptives of the number of responses}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
@@ -18,10 +19,19 @@ norm-p & $\alpha$
 0.0000 & 0.8557
 \\\addlinespace
 \bottomrule
+    \label{tab:responses_fc}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/responses_fc_diff.png}
-\includegraphics[width=\textwidth]{img/responses_fc_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/responses_fc_diff.png}
+    \caption{A histogram depicting the number of responses per item given by flashcard users}
+    \label{fig:responses_fc_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/responses_fc_abil.png}
+    \caption{A histogram depicting the number of responses per flashcard user}
+    \label{fig:responses_fc_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Flashmap condition}
@@ -38,10 +48,19 @@ norm-p & $\alpha$
 & 0.7098
 \\\addlinespace
 \bottomrule
+    \label{tab:responses_fm}
 \end{longtable}
 
+\begin{figure}
 \includegraphics[width=\textwidth]{img/responses_fm_diff.png}
-\includegraphics[width=\textwidth]{img/responses_fm_abil.png}
+    \caption{A histogram depicting the number of responses per item given by flashmap users}
+    \label{fig:responses_fm_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/responses_fm_abil.png}
+    \caption{A histogram depicting the number of responses per flashmap user}
+    \label{fig:responses_fm_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Combined conditions}
@@ -58,11 +77,110 @@ norm-p & $\alpha$
 0.0000 & 0.8731
 \\\addlinespace
 \bottomrule
+    \label{tab:responses_gen}
 \end{longtable}
 
+\begin{figure}
 \includegraphics[width=\textwidth]{img/responses_gen_diff.png}
+    \caption{A histogram depicting the number of responses per item}
+    \label{fig:responses_gen_diff}
+\end{figure}
+\begin{figure}
 \includegraphics[width=\textwidth]{img/responses_gen_abil.png}
+    \caption{A histogram depicting the number of responses per user}
+    \label{fig:responses_gen_abil}
+\end{figure}
 
+\section{Descriptives of the exponents of instances}
+
+\begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
+    \caption{Flashcard condition}
+    \endfirsthead
+\toprule\addlinespace
+& sample & min & max & mean & variance & skew & kurtosis & normal-t &
+normal-p & $\alpha$
+\\\addlinespace
+\midrule
+\textbf{abs} & 12 & 211 & 821 & 367.17 & 23485.79 & 2.35 & 4.76 & 24.232
+& 0.0000 & 0.8230
+\\\addlinespace
+\textbf{rel} & 12 & 4 & 17 & 7.98 & 11.10 & 2.35 & 4.76 & 24.232 &
+0.0000 & 0.8230
+\\\addlinespace
+\bottomrule
+    \label{tab:exponent_fc}
+\end{longtable}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/exponent_fc_diff.png}
+    \caption{A histogram depicting the exponents per item of the flashcard users}
+    \label{fig:exponent_fc_diff}
+\end{figure}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/exponent_fc_abil.png}
+    \caption{A histogram depicting the exponents per flashcard user}
+    \label{fig:exponent_fc_abil}
+\end{figure}
+
+\begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
+    \caption{Flashmap condition}
+    \endfirsthead
+\toprule\addlinespace
+& sample & min & max & mean & variance & skew & kurtosis & normal-t &
+normal-p & $\alpha$
+\\\addlinespace
+\midrule
+\textbf{abs} & 11 & 308 & 623 & 421.09 & 9690.49 & 0.93 & -0.26 & 3.020
+& 0.2209 & 0.7809
+\\\addlinespace
+\textbf{rel} & 11 & 6 & 12 & 8.26 & 3.73 & 0.93 & -0.26 & 3.020 & 0.2209
+& 0.7809
+\\\addlinespace
+\bottomrule
+    \label{tab:exponent_fm}
+\end{longtable}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/exponent_fm_diff.png}
+    \caption{A histogram depicting the exponents per item of the flashmap users}
+    \label{fig:exponent_fm_diff}
+\end{figure}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/exponent_fm_abil.png}
+    \caption{A histogram depicting the exponents per flashmap user}
+    \label{fig:exponent_fm_abil}
+\end{figure}
+
+\begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
+    \caption{Combined conditions}
+    \endfirsthead
+\toprule\addlinespace
+& sample & min & max & mean & variance & skew & kurtosis & normal-t &
+normal-p & $\alpha$
+\\\addlinespace
+\midrule\endhead
+\textbf{abs} & 23 & 234 & 1180 & 432.61 & 34153.25 & 3.05 & 9.88 &
+40.011 & 0.0000 & 0.8758
+\\\addlinespace
+\textbf{rel} & 23 & 4 & 23 & 8.48 & 13.13 & 3.05 & 9.88 & 40.011 &
+0.0000 & 0.8758
+\\\addlinespace
+\bottomrule
+    \label{tab:exponent_gen}
+\end{longtable}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/exponent_gen_diff.png}
+    \caption{A histogram depicting the exponents per item}
+    \label{fig:exponent_gen_diff}
+\end{figure}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/exponent_gen_abil.png}
+    \caption{A histogram depicting the exponents per user}
+    \label{fig:exponent_gen_abil}
+\end{figure}
+
+\FloatBarrier
 \section{Descriptives of percentage of responses marked as correct}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
@@ -80,9 +198,19 @@ norm-p & $\alpha$
 & 0.9106
 \\\addlinespace
 \bottomrule
+    \label{tab:score_fc}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/score_fc_diff.png} \includegraphics[width=\textwidth]{img/score_fc_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/score_fc_diff.png}
+    \caption{A histogram depicting percentages of correct answers by flashcard users per item}
+    \label{fig:score_fc_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/score_fc_abil.png}
+    \caption{A histogram depicting percentages of correct answers per flashcard user}
+    \label{fig:score_fc_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Flashmap condition}
@@ -99,9 +227,19 @@ norm-p & $\alpha$
 & 0.9511
 \\\addlinespace
 \bottomrule
+    \label{tab:score_fm}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/score_fm_diff.png} \includegraphics[width=\textwidth]{img/score_fm_abil.png}
+\begin{figure}
+\includegraphics[width=\textwidth]{img/score_fm_diff.png}
+    \caption{A histogram depicting percentages of correct answers by flashmap users per item}
+    \label{fig:score_fm_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/score_fm_abil.png}
+    \caption{A histogram depicting percentages of correct answers per flashmap user}
+    \label{fig:score_fm_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Combined conditions}
@@ -118,11 +256,21 @@ norm-p & $\alpha$
 0.9459
 \\\addlinespace
 \bottomrule
+    \label{tab:score_gen}
 \end{longtable}
 
+\begin{figure}
 \includegraphics[width=\textwidth]{img/score_gen_diff.png}
-\includegraphics[width=\textwidth]{img/score_gen_abil.png}
+    \caption{A histogram depicting percentages of correct answers per item}
+    \label{fig:score_gen_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/score_gen_abil.png}
+    \caption{A histogram depicting percentages of correct answers per user}
+    \label{fig:score_gen_abil}
+\end{figure}
 
+\FloatBarrier
 \subsubsection{Descriptives of the amount of time spent on the application}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
@@ -140,9 +288,19 @@ norm-p & $\alpha$
 & 0.3402 & 0.8776
 \\\addlinespace
 \bottomrule
+    \label{tab:time_fc}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/time_fc_diff.png} \includegraphics[width=\textwidth]{img/time_fc_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/time_fc_diff.png}
+    \caption{A histogram depicting the time spent in seconds per item by flashcard users} 
+    \label{fig:time_fc_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/time_fc_abil.png}
+    \caption{A histogram depicting the time spent in seconds per flashcard user}
+    \label{fig:time_fc_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Flashmap condition}
@@ -159,9 +317,19 @@ norm-p & $\alpha$
 0.9551 & 0.8268
 \\\addlinespace
 \bottomrule
+    \label{tab:time_fm}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/time_fm_diff.png} \includegraphics[width=\textwidth]{img/time_fm_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/time_fm_diff.png}
+    \caption{A histogram depicting the time spent in seconds per item by flashmap users} 
+    \label{fig:time_fm_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/time_fm_abil.png}
+    \caption{A histogram depicting the time spent in seconds per flashmap user}
+    \label{fig:time_fm_abil}
+\end{figure}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Combined conditions}
@@ -178,10 +346,21 @@ norm-p & $\alpha$
 & 0.7617 & 0.8591
 \\\addlinespace
 \bottomrule
+    \label{tab:time_gen}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/time_gen_diff.png} \includegraphics[width=\textwidth]{img/time_gen_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/time_gen_diff.png}
+    \caption{A histogram depicting the time spent in seconds per item} 
+    \label{fig:time_gen_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/time_gen_abil.png}
+    \caption{A histogram depicting the time spent in seconds per user}
+    \label{fig:time_gen_abil}
+\end{figure}
 
+\FloatBarrier
 \section{Comparisons of the number of responses}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -195,11 +374,49 @@ norm-p & $\alpha$
 \textbf{rel} & 1.180 & 0.2513 & 1.220 & 0.2420
 \\\addlinespace
 \bottomrule
+    \label{tab:responses_comp}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/responses_diff.png}
-\includegraphics[width=\textwidth]{img/responses_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/responses_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:responses_fc_diff} and~\protect\ref{fig:responses_fm_diff}}
+    \label{fig:responses_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/responses_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:responses_fc_abil} and~\protect\ref{fig:responses_fm_abil}}
+    \label{fig:responses_abil}
+\end{figure}
 
+\FloatBarrier
+\section{Comparisons of the exponents}
+
+\begin{longtable}[c]{@{}lrrrr@{}}
+\toprule\addlinespace
+& \textbf{Mann-Whitney-U k} & \textbf{Mann-Whitney-U p} &
+\textbf{Welch's t-test k} & \textbf{Welch's t-test p}
+\\\addlinespace
+\midrule\endhead
+\textbf{abs} & -0.993 & 0.3319 & -1.012 & 0.3242
+\\\addlinespace
+\textbf{rel} & -0.239 & 0.8134 & -0.244 & 0.8097
+\\\addlinespace
+\bottomrule
+    \label{tab:exponent_comp}
+\end{longtable}
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/exponent_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:exponent_fc_diff} and~\protect\ref{fig:exponent_fm_diff}}
+    \label{fig:exponent_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/exponent_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:exponent_fc_abil} and~\protect\ref{fig:exponent_fm_abil}}
+    \label{fig:exponent_abil}
+\end{figure}
+
+\FloatBarrier
 \section{Comparisons of the percentage of responses marked as correct}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -213,10 +430,21 @@ norm-p & $\alpha$
 \textbf{rel} & -16.421 & 0.0000 & -15.689 & 0.0000
 \\\addlinespace
 \bottomrule
+    \label{tab:score_comp}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/score_diff.png} \includegraphics[width=\textwidth]{img/score_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/score_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:score_fc_diff} and~\protect\ref{fig:score_fm_diff}}
+    \label{fig:score_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/score_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:score_fc_abil} and~\protect\ref{fig:score_fm_abil}}
+    \label{fig:score_abil}
+\end{figure}
 
+\FloatBarrier
 \section{Comparisons of the amount of time spent on the application}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -230,6 +458,16 @@ norm-p & $\alpha$
 \textbf{rel} & 7.954 & 0.0000 & 8.324 & 0.0000
 \\\addlinespace
 \bottomrule
+    \label{tab:time_comp}
 \end{longtable}
 
-\includegraphics[width=\textwidth]{img/time_diff.png} \includegraphics[width=\textwidth]{img/time_abil.png}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/time_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:time_fc_diff} and~\protect\ref{fig:time_fm_diff}}
+    \label{fig:time_diff}
+\end{figure}
+\begin{figure}
+    \includegraphics[width=\textwidth]{img/time_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:time_fc_abil} and~\protect\ref{fig:time_fm_abil}}
+    \label{fig:time_abil}
+\end{figure}
