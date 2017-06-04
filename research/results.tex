@@ -21,6 +21,8 @@ The participant descriptives are included in the \nameref{app:descriptives} appe
 
 The pre- and posttest results are displayed in the \nameref{app:learning_gain} appendix on page~\ref{app:learning_gain}. These results are separately described for the knowledge questions and comprehension scores on the test, since they measure different variables. The different scores described and compared are the pretest scores, posttest scores, total scores, and the absolute (abs\_learn\_gain) and relative learning gains (rel\_learn\_gain). Additionally, they are reported as classical test theory scores (ctt), item response theory person abilities (irt), and person abilities from item response theory using fixed item difficulties from the combined pretest scores (fixed irt). Per category, the sample size, minimum, maximum, and mean values are displayed as descriptive values; the skew, kurtosis, and t and p values from the scipy normaltest are displayed as values for describing the distribution of the results; and $\alpha$ describes the reliability of the test (either Cronbach's alpha for the ctt results or the EAP value for the irt results). These results are described for the flashcard condition, the flashmap condition, and the combined sample of both conditions. The included graphs display histograms depicting the test matrices. Finally, the pre- and posttest scores are compared with each other by means of the non-parametric Mann-Whitney U test and the parametric Welchs' t-test in order to verify that users scored significantly higher on the posttest than on the pretest, and the learning gains between conditions are compared in order to answer research question~\ref{benefit}\ref{effectiveness}.
 
+Remarkable are the low scores on the tests, with on average only 1.3 points on the knowledge questions (0.43 on the pretest and 2.17 on the posttest) and only 1.33 points on the comprehension questions (0.33 on the pretest and 2.33 on the posttest). This would indicate that the tests are exceptionally difficult, even though the questions are directly derived from the textbook itself and the users drilling these questions over the course of 6 days. Especially the low posttest knowledge question scores from the flashcard group are striking, since these questions were literally rehearsed during the experiment.
+
 For both the knowledge questions as for the comprehension questions, the ctt reliability for the combined pre- and posttest score for the combined flashcard and flashmap users is around .7 --- mainly because the omission process of unreliable items ---, whereas the fixed irt reliability is around .6 (see table~\ref{tab:know_gen} and table~\ref{tab:comp_gen}). According to \citeA{devellis}, this means that the results obtained from classical testing are acceptable, whereas the results obtained from the item response theory are questionnable at best. Additionally, both the score outcomes, the figures, and the pre- and posttest comparisons in tables~\ref{tab:know_pp_fc_comp}, \ref{tab:know_pp_fm_comp}, \ref{tab:know_pp_gen_comp}, and tables~\ref{tab:comp_pp_fc_comp}, \ref{tab:comp_pp_fm_comp}, \ref{tab:comp_pp_gen_comp} indicate an average positive learning gain from the classical test theory, but a negative gain from the item response theory. Therefore, the conclusion will be based on the results from the classical test theory only.
 
 Table~\ref{tab:learning_gain_effect} summarises the results related to learning gains. In the rows, the absolute and the relative classical test scores and the absolute item response theory person ability scores with fixed item difficulties are included for both the knowledge and comprehension questions. The item response theory results are only included for reference, and from this only the absolute learning gains are taken into consideration, since the person abilities are already estimated relative to the item difficulties. the columns include the reliability, the p-value of the normality test, the flashcard and flashmap mean score, and the p-values for in this case the Mann-Whitnney U test, since none of the results seem to be normaly distributed.
@@ -31,19 +33,19 @@ The flashmap users seem to have a higher learning gain than the flashcard users 
     \centering
     \begin{tabular}{lrrrrr}
         \toprule
-        & $\alpha$ & norm-p & fc-$\mu$ & fm-$\mu$ & p-value \\
+        & $\alpha$ & $\mu_{fc}$ & $\mu_{fm}$ & $p$ \\
         \midrule
         \multicolumn{5}{l}{\emph{Knowledge questions}} \\
         \midrule
-        abs-ctt & .721 & .364 & 1.25 & 2.27 & .394 \\
-        rel-ctt & .721 & .372 & 0.04 & 0.05 & .464 \\
-        irt & .671 & .690 & -2.67 & 3.17 & .000 \\
+        abs-ctt & .721 & 1.25 & 2.27 & .394 \\
+        rel-ctt & .721 & 0.04 & 0.05 & .464 \\
+        irt & .671 & -2.67 & 3.17 & .000 \\
         \midrule
         \multicolumn{5}{l}{\emph{Comprehension questions}} \\
         \midrule
-        abs-ctt & .714 & .110 & 2.00 & 0.91 & .218 \\
-        rel-ctt & .714 & .118 & 0.07 & 0.04 & .245\\
-        irt & .606 & .536 & -1.28 & -.97 & .688 \\
+        abs-ctt & .714 & 2.00 & 0.91 & .218 \\
+        rel-ctt & .714 & 0.07 & 0.04 & .245\\
+        irt & .606 & -1.28 & -.97 & .688 \\
         \bottomrule
     \end{tabular}
     \caption{Compact view of the results relevant for answering research question~\protect\ref{benefit}\protect\ref{effectiveness}}
@@ -51,6 +53,55 @@ The flashmap users seem to have a higher learning gain than the flashcard users 
 \end{table}
 
 \section{Efficiency}
+
+In order to verify whether the users of the different conditions spent the same amount of effort and time on the system, the \nameref{app:instance_stats} appendix on page~\pageref{app:instance_stats} provides different statistics on the rehearsed instances. This entails the number of reviewed instances, the number of responses, the exponent from the instance.get\_exponent() function (indicating how often the instance was retrieved correctly since the last incorrect retrieval), the percentage of correct retrievals in comparison to the total amount of retrievals, and finally the amount of time the users spent on the system. For every category, the descriptives (sample, minimum, maximum, mean, and variance), distribution (skew, kurtosis and normality test t- and p-values), and cronbach's alpha are displayed, both separate for the flashcard and flashmap condition and for the combined sample of users. It should be noted that in most cases the cronbach's alpha is not a sufficient measure for determining the reliability of the test, since there is a natural decrease in most statistics over the course of the instances, since the latter instances are repeated less often than the earlier statistics. The ratio of correct retrievals might be the only exception here, however one would still expect a higher ratio of correct retrievals in earlier instances than in later instances. 
+
+Furthermore, the absolute score, the relative score and the mean score are displayed for each condition, where the relative score is the absolute score divided by the total amount of either flashcards or edges. In the combined condition, the relative score is omitted, since the relative score is only useful for comparing the conditions. The reason why the mean score is included next to the relative score is to provide additional insight in the score per reviewed instance, whereas the other relative score is just meant for being able to compare both groups.
+
+Finally, the flashcard and flashmap conditions are again compared using the Mann-Whitney U test and Welch's t-test. Table~\ref{tab:efficiency} displays all results in a more compact manner.
+
+\begin{table}
+    \centering
+    \begin{tabular}{lrrrrr}
+        \toprule
+        & $\alpha$ & $\mu_{fc}$ & $\mu_{fm}$ & $p$ \\
+        \midrule
+        \multicolumn{5}{l}{\emph{Reviewed instances}} \\
+        \midrule
+        abs & 0.979 & 72.83 & 131.45 & 0.001 \\
+        rel & 0.979 & 0.78 & 0.66 & 0.188 \\
+        \midrule
+        \multicolumn{5}{l}{\emph{Responses}} \\
+        \midrule
+        mean & 0.938 & 7.61 & 5.61 & 0.024 \\
+        \midrule
+        \multicolumn{5}{l}{\emph{Exponents}} \\
+        \midrule
+        mean & 0.893 & 6.67 & 6.38 & 0.625 \\
+        \midrule
+        \multicolumn{5}{l}{\emph{Correct retrievals}} \\
+        \midrule
+        mean & 0.978 & 0.86 & 0.89 & 0.000 \\
+        \midrule
+        \multicolumn{5}{l}{\emph{Time spent}} \\
+        \midrule
+        abs & 0.924 & 12374.41 & 14121.58 & 0.000 \\
+        mean & 0.924 & 169.77 & 117.30 & 0.000 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Compact view of the results relevant for answering research question~\protect\ref{benefit}\protect\ref{efficiency}}
+    \label{tab:efficiency}
+\end{table}
+
+\paragraph{Number of reviewed instances} Within these statistics, the mean statistics are left out, since they only make sense when reviewing them over the entire range of available instances. Furthermore, the flashcards cannot simply be compared one on one with the edges, since some of the flashcards encompass multiple edges instead of merely representing one edge. This is most notably the case when multiple sibling edges are presented as one instance to the user, which are thereby also represented by only one flashcard. Therefore, the combined conditions table only shows the relative score, since this is the only score comparable across both conditions. This is also noticable in the large difference in absolute mean values of the flashcard and flashmap condition (72.83 vs 131.45) and the low p-value on the Mann-Whitney U test (0.001). When however purely looking at the relative score, the average user reviewed 70\% of the available cards, where the flashcard users reviewed 78\% of the cards and the flashmap users 66\%. This difference is not yet significant ($p=.188$ on the Mann-Whiney U test). As can be seen in figure~\ref{fig:instance_abil} on page~\pageref{fig:instance_abil}, this difference is mainly due to both groups having reviewed about equal numbers of instances except for 2 users in the flashmap condition having reviewed less than 50\% of the edges.
+
+\paragraph{Number of responses} These first statistics depict the total number of reviews of instances per user. On average, a user has 641.87 responses, where flashcard users have 561.33 and flashmap users have 729.73 responses. Both the Mann-Whitney U test as the Welch's t-test provide a relatively high p-value (.813 and .810) when looking at the difference in relative score, indicating no (significant) difference between the number of responses within the flashcard users and the flashmap users when adjusting for the different numbers of flashcards and edges.
+
+\paragraph{Exponents} These statistics are useful as an indicator of learning progress of the user, since the exponents are used for rescheduling the instance where a higher exponent indicates a longer time interval until the next review. The mean exponent for a reviewed instance was 6.53, where it was 6.67 for flashcard users and 6.38 for flashmap users. This difference is not significant ($p=0.625$).
+
+\paragraph{Correct retrievals} The ratio of correct and total retrievals is also included, since this provides more insight in the effectiveness of the scheduling algorithm and the presentation form. For each reviewed instance, the ratio of correct and total retrievals is 0.87, where 0.86 for flashcard and 0.89 for flashmap users. This results in a small although significant ($p<0.001$) difference in favour of the flashmap users. In the interviews however some students stated to not have noticed the instructions teaching how to mark retrievals to be either correct or incorrect, resulting in a 100\% correct retrieval rate within the database (see also figure~\ref{fig:score_abil} on page~\pageref{fig:score_abil}).
+
+\paragraph{Time spent} The most efficient variable for determining the efficiency of the system is the amount of time spent by the user on the system. In total, the average user spent 13210 seconds (3 hours and 40 minutes) on the system, where the average flashcard user spent 12374 seconds (3 hours and 26 minutes) and the average flashmap user spent 14122 seconds (3 hours and 55 minutes). Per instance, this was on average 144.7 seconds, where 169.8 seconds for flashcard users and 117.3 seconds for flashmap users. Both these differences are significant ($p<0.001$).
 
 \section{Usefulness}
 
@@ -65,11 +116,5 @@ The flashmap users seem to have a higher learning gain than the flashcard users 
 \subsection{Received comments}
 
 \section{Usage}
-
-\subsection{Number of responses}
-
-\subsection{Exponents}
-
-\subsection{Correct retrievals}
 
 \subsection{Interview results}

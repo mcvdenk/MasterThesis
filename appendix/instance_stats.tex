@@ -2,6 +2,117 @@
 \label{app:instance_stats}
 
 \FloatBarrier
+\section{Descriptives on the number of reviewed instances}
+
+\begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
+    \caption{Flashcard condition}
+    \endfirsthead
+    \endhead
+\toprule\addlinespace
+& sample & min & max & mean & variance & skew & kurtosis & normal-t &
+normal-p & $\alpha$
+\\\addlinespace
+\midrule
+\textbf{abs} & 12 & 46 & 93 & 72.83 & 344.33 & -0.34 & -1.43 & 3.332 &
+0.1890 & 0.9790
+\\\addlinespace
+\textbf{rel} & 12 & 0.49 & 1 & 0.78 & 0.04 & -0.34 & -1.43 & 3.332 & 0.1890
+& 0.9790
+\\\addlinespace
+\bottomrule
+    \label{tab:instance_fc}
+\end{longtable}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/instance_fc_diff.png}
+    \caption{A histogram depicting the number of reviewed instances per item given by flashcard users}
+    \label{fig:instance_fc_diff}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/instance_fc_abil.png}
+    \caption{A histogram depicting the number of reviewed instances per flashcard user}
+    \label{fig:instance_fc_abil}
+\end{figure}
+
+\begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
+    \caption{Flashmap condition}
+    \endfirsthead
+    \endhead
+\toprule\addlinespace
+& sample & min & max & mean & variance & skew & kurtosis & normal-t &
+normal-p & $\alpha$
+\\\addlinespace
+\midrule
+\textbf{abs} & 11 & 54 & 199 & 131.45 & 2363.47 & 0.07 & -1.18 & 0.961 &
+0.6186 & 0.9924
+\\\addlinespace
+\textbf{rel} & 11 & 0.27 & 1 & 0.66 & 0.06 & 0.07 & -1.18 & 0.961 & 0.6186
+& 0.9924
+\\\addlinespace
+\bottomrule
+    \label{tab:instance_fm}
+\end{longtable}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/instance_fm_diff.png}
+    \caption{A histogram depicting the number of reviewed instances per item given by flashmap users}
+    \label{fig:instance_fm_diff}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/instance_fm_abil.png}
+    \caption{A histogram depicting the number of reviewed instances per flashmap user}
+    \label{fig:instance_fm_abil}
+\end{figure}
+
+\begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
+    \caption{Combined conditions}
+    \endfirsthead
+    \endhead
+\toprule\addlinespace
+& sample & min & max & mean & variance & skew & kurtosis & normal-t &
+normal-p & $\alpha$
+\\\addlinespace
+\midrule
+\textbf{rel} & 23 & 0.27 & 1 & 0.70 & 0.04 & -0.00 & -0.86 & 0.817 & 0.6647
+& 0.9896
+\\\addlinespace
+\bottomrule
+    \label{tab:instance_gen}
+\end{longtable}
+
+\section{Comparisons of reviewed instances}
+
+\begin{longtable}[c]{@{}lrrrr@{}}
+\toprule\addlinespace
+& \textbf{Mann-Whitney-U k} & \textbf{Mann-Whitney-U p} &
+\textbf{Welch's t-test k} & \textbf{Welch's t-test p}
+\\\addlinespace
+\midrule\endhead
+\textbf{abs} & -3.886 & 0.0009 & -3.756 & 0.0025
+\\\addlinespace
+\textbf{rel} & 1.362 & 0.1875 & 1.350 & 0.1924
+\\\addlinespace
+\bottomrule
+\end{longtable}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/instance_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:instance_fc_diff} and~\protect\ref{fig:instance_fm_diff}}
+    \label{fig:instance_diff}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/instance_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:instance_fc_abil} and~\protect\ref{fig:instance_fm_abil}}
+    \label{fig:instance_abil}
+\end{figure}
+
+\FloatBarrier
 \section{Descriptives of the number of responses}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
@@ -13,11 +124,14 @@
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 12 & 298 & 915 & 408.17 & 28248.33 & 2.53 & 5.26 & 26.675
-& 0.0000 & 0.8557
+\textbf{abs} & 12 & 298 & 1268 & 561.33 & 70295.70 & 1.69 & 2.26 &
+13.701 & 0.0011 & 0.9378
 \\\addlinespace
-\textbf{rel} & 12 & 6 & 19 & 8.87 & 13.35 & 2.53 & 5.26 & 26.675 &
-0.0000 & 0.8557
+\textbf{rel} & 12 & 3 & 13 & 6.04 & 8.13 & 1.69 & 2.26 & 13.701 & 0.0011
+& 0.9378
+\\\addlinespace
+\textbf{mean} & 12 & 5 & 14 & 7.61 & 5.84 & 2.33 & 4.62 & 23.813 &
+0.0000 & 0.9378
 \\\addlinespace
 \bottomrule
     \label{tab:responses_fc}
@@ -44,11 +158,14 @@ norm-p & $\alpha$
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 11 & 278 & 471 & 374.36 & 4875.05 & 0.13 & -1.28 & 1.516
-& 0.4686 & 0.7098
+\textbf{abs} & 11 & 344 & 1555 & 729.73 & 126333.42 & 1.13 & 0.55 &
+5.693 & 0.0581 & 0.9832
 \\\addlinespace
-\textbf{rel} & 11 & 5 & 9 & 7.49 & 1.95 & 0.13 & -1.28 & 1.516 & 0.4686
-& 0.7098
+\textbf{rel} & 11 & 1 & 7 & 3.67 & 3.19 & 1.13 & 0.55 & 5.693 & 0.0581 &
+0.9832
+\\\addlinespace
+\textbf{mean} & 11 & 3 & 7 & 5.61 & 1.75 & 0.03 & -0.80 & 0.063 & 0.9690
+& 0.9832
 \\\addlinespace
 \bottomrule
     \label{tab:responses_fm}
@@ -75,11 +192,11 @@ norm-p & $\alpha$
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 23 & 328 & 1230 & 474.74 & 34192.57 & 3.12 & 10.33 &
-41.081 & 0.0000 & 0.8731
+\textbf{abs} & 23 & 298 & 1555 & 641.87 & 99969.48 & 1.41 & 1.42 &
+11.547 & 0.0031 & 0.9579
 \\\addlinespace
-\textbf{rel} & 23 & 6 & 24 & 9.31 & 13.15 & 3.12 & 10.33 & 41.081 &
-0.0000 & 0.8731
+\textbf{mean} & 23 & 3 & 14 & 6.65 & 4.72 & 2.17 & 6.57 & 28.261 &
+0.0000 & 0.9572
 \\\addlinespace
 \bottomrule
     \label{tab:responses_gen}
@@ -98,6 +215,38 @@ norm-p & $\alpha$
     \label{fig:responses_gen_abil}
 \end{figure}
 
+\section{Comparisons of the number of responses}
+
+\begin{longtable}[c]{@{}lrrrr@{}}
+\toprule\addlinespace
+& \textbf{MW k} & \textbf{MW p} &
+\textbf{t-test k} & \textbf{t-test p}
+\\\addlinespace
+\midrule
+\textbf{abs} & -1.295 & 0.2092 & -1.279 & 0.2169
+\\\addlinespace
+\textbf{rel} & 2.361 & 0.0280 & 2.409 & 0.0265
+\\\addlinespace
+\textbf{mean} & 2.429 & 0.0242 & 2.489 & 0.0233
+\\\addlinespace
+\bottomrule
+    \label{tab:responses_comp}
+\end{longtable}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/responses_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:responses_fc_diff} and~\protect\ref{fig:responses_fm_diff}}
+    \label{fig:responses_diff}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/responses_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:responses_fc_abil} and~\protect\ref{fig:responses_fm_abil}}
+    \label{fig:responses_abil}
+\end{figure}
+
+\FloatBarrier
 \section{Descriptives of the exponents of instances}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
@@ -108,11 +257,14 @@ norm-p & $\alpha$
 normal-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 12 & 211 & 821 & 367.17 & 23485.79 & 2.35 & 4.76 & 24.232
-& 0.0000 & 0.8230
+\textbf{abs} & 12 & 218 & 966 & 495.42 & 41792.81 & 0.86 & 0.42 & 3.894
+& 0.1427 & 0.8933
 \\\addlinespace
-\textbf{rel} & 12 & 4 & 17 & 7.98 & 11.10 & 2.35 & 4.76 & 24.232 &
-0.0000 & 0.8230
+\textbf{rel} & 12 & 2 & 10 & 5.33 & 4.83 & 0.86 & 0.42 & 3.894 & 0.1427
+& 0.8933
+\\\addlinespace
+\textbf{mean} & 12 & 4 & 11 & 6.67 & 2.66 & 1.83 & 3.42 & 17.448 &
+0.0002 & 0.8933
 \\\addlinespace
 \bottomrule
     \label{tab:exponent_fc}
@@ -139,11 +291,14 @@ normal-p & $\alpha$
 normal-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 11 & 308 & 623 & 421.09 & 9690.49 & 0.93 & -0.26 & 3.020
-& 0.2209 & 0.7809
+\textbf{abs} & 11 & 330 & 1523 & 842.27 & 132229.22 & 0.67 & -0.65 &
+1.467 & 0.4803 & 0.9800
 \\\addlinespace
-\textbf{rel} & 11 & 6 & 12 & 8.26 & 3.73 & 0.93 & -0.26 & 3.020 & 0.2209
-& 0.7809
+\textbf{rel} & 11 & 1 & 7 & 4.21 & 3.31 & 0.67 & -0.65 & 1.467 & 0.4803
+& 0.9800
+\\\addlinespace
+\textbf{mean} & 11 & 5 & 8 & 6.38 & 1.01 & 1.14 & 0.11 & 4.835 & 0.0891
+& 0.9800
 \\\addlinespace
 \bottomrule
     \label{tab:exponent_fm}
@@ -169,12 +324,12 @@ normal-p & $\alpha$
 & sample & min & max & mean & variance & skew & kurtosis & normal-t &
 normal-p & $\alpha$
 \\\addlinespace
-\midrule\endhead
-\textbf{abs} & 23 & 234 & 1180 & 432.61 & 34153.25 & 3.05 & 9.88 &
-40.011 & 0.0000 & 0.8758
+\midrule
+\textbf{abs} & 23 & 218 & 1523 & 661.30 & 112385.58 & 1.09 & 0.62 &
+6.912 & 0.0316 & 0.9632
 \\\addlinespace
-\textbf{rel} & 23 & 4 & 23 & 8.48 & 13.13 & 3.05 & 9.88 & 40.011 &
-0.0000 & 0.8758
+\textbf{mean} & 23 & 4 & 11 & 6.53 & 1.81 & 1.95 & 4.68 & 23.191 &
+0.0000 & 0.9632
 \\\addlinespace
 \bottomrule
     \label{tab:exponent_gen}
@@ -193,6 +348,37 @@ normal-p & $\alpha$
     \label{fig:exponent_gen_abil}
 \end{figure}
 
+\section{Comparisons of the exponents}
+
+\begin{longtable}[c]{@{}lrrrr@{}}
+\toprule\addlinespace
+& \textbf{Mann-Whitney-U k} & \textbf{Mann-Whitney-U p} &
+\textbf{Welch's t-test k} & \textbf{Welch's t-test p}
+\\\addlinespace
+\midrule\endhead
+\textbf{abs} & -2.853 & 0.0095 & -2.786 & 0.0136
+\\\addlinespace
+\textbf{rel} & 1.319 & 0.2013 & 1.330 & 0.1978
+\\\addlinespace
+\textbf{mean} & 0.497 & 0.6246 & 0.507 & 0.6182
+\\\addlinespace
+\bottomrule
+    \label{tab:exponent_comp}
+\end{longtable}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/exponent_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:exponent_fc_diff} and~\protect\ref{fig:exponent_fm_diff}}
+    \label{fig:exponent_diff}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/exponent_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:exponent_fc_abil} and~\protect\ref{fig:exponent_fm_abil}}
+    \label{fig:exponent_abil}
+\end{figure}
+
 \FloatBarrier
 \section{Descriptives of percentage of responses marked as correct}
 
@@ -204,11 +390,14 @@ normal-p & $\alpha$
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 12 & 35 & 43 & 40.42 & 4.04 & -1.15 & 1.74 & 8.672 &
-0.0131 & 0.9106
+\textbf{abs} & 12 & 35 & 86 & 62.33 & 267.67 & -0.30 & -1.07 & 0.993 &
+0.6086 & 0.9780
 \\\addlinespace
-\textbf{rel} & 12 & 0 & 0 & 0.88 & 0.00 & -1.15 & 1.74 & 8.672 & 0.0131
-& 0.9106
+\textbf{rel} & 12 & 0.38 & 0.93 & 0.67 & 0.03 & -0.30 & -1.07 & 0.993 & 0.6086
+& 0.9780
+\\\addlinespace
+\textbf{mean} & 12 & 0 & 0 & 0.86 & 0.00 & -0.19 & -0.82 & 0.242 &
+0.8859 & 0.9780
 \\\addlinespace
 \bottomrule
     \label{tab:score_fc}
@@ -235,11 +424,14 @@ norm-p & $\alpha$
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 11 & 43 & 51 & 47.11 & 6.19 & 0.31 & -1.17 & 1.231 &
-0.5404 & 0.9511
+\textbf{abs} & 11 & 46 & 185 & 117.55 & 2006.59 & 0.05 & -1.06 & 0.548 &
+0.7605 & 0.9928
 \\\addlinespace
-\textbf{rel} & 11 & 0 & 1 & 0.92 & 0.00 & 0.31 & -1.17 & 1.231 & 0.5404
-& 0.9511
+\textbf{rel} & 11 & 0.23 & 0.93 & 0.59 & 0.05 & 0.05 & -1.06 & 0.548 & 0.7605
+& 0.9928
+\\\addlinespace
+\textbf{mean} & 11 & 0 & 1 & 0.89 & 0.00 & 0.22 & -1.19 & 1.178 & 0.5549
+& 0.9928
 \\\addlinespace
 \bottomrule
     \label{tab:score_fm}
@@ -266,11 +458,10 @@ norm-p & $\alpha$
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 23 & 40 & 51 & 45.97 & 6.47 & 0.06 & 0.22 & 0.711 &
-0.7008 & 0.9459
+\textbf{abs} & 23 & 35 & 185 & 88.74 & 1841.51 & 0.93 & -0.13 & 4.256 & 0.1191 & 0.9910
 \\\addlinespace
-\textbf{rel} & 23 & 0 & 1 & 0.90 & 0.00 & 0.06 & 0.22 & 0.711 & 0.7008 &
-0.9459
+\textbf{mean} & 23 & 0 & 1 & 0.87 & 0.00 & 0.07 & -0.67 & 0.272 & 0.8728
+& 0.9910
 \\\addlinespace
 \bottomrule
     \label{tab:score_gen}
@@ -289,8 +480,39 @@ norm-p & $\alpha$
     \label{fig:score_gen_abil}
 \end{figure}
 
+\section{Comparisons of the percentage of responses marked as correct}
+
+\begin{longtable}[c]{@{}lrrrr@{}}
+\toprule\addlinespace
+& \textbf{MW k} & \textbf{MW p} &
+\textbf{t-test k} & \textbf{t-test p}
+\\\addlinespace
+\midrule
+\textbf{abs} & -16.597 & 0.0000 & -15.857 & 0.0000
+\\\addlinespace
+\textbf{rel} & -16.421 & 0.0000 & -15.689 & 0.0000
+\\\addlinespace
+\textbf{mean} & -12.448 & 0.0000 & -11.895 & 0.0000
+\\\addlinespace
+\bottomrule
+    \label{tab:score_comp}
+\end{longtable}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/score_diff.png}
+    \caption{A comparison of figure~\protect\ref{fig:score_fc_diff} and~\protect\ref{fig:score_fm_diff}}
+    \label{fig:score_diff}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/score_abil.png}
+    \caption{A comparison of figure~\protect\ref{fig:score_fc_abil} and~\protect\ref{fig:score_fm_abil}}
+    \label{fig:score_abil}
+\end{figure}
+
 \FloatBarrier
-\subsubsection{Descriptives of the amount of time spent on the application}
+\section{Descriptives of the amount of time spent on the application}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
 \caption{Flashcard condition}
@@ -300,11 +522,14 @@ norm-p & $\alpha$
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 12 & 1544 & 12345 & 8173.94 & 10611999.29 & -0.77 & -0.33
-& 2.156 & 0.3402 & 0.8776
+\textbf{abs} & 12 & 1697 & 19721 & 12374.41 & 26140529.78 & -0.61 &
+-0.33 & 1.445 & 0.4855 & 0.9239
 \\\addlinespace
-\textbf{rel} & 12 & 33 & 268 & 177.69 & 5015.12 & -0.77 & -0.33 & 2.156
-& 0.3402 & 0.8776
+\textbf{rel} & 12 & 18 & 212 & 133.06 & 3022.38 & -0.61 & -0.33 & 1.445
+& 0.4855 & 0.9239
+\\\addlinespace
+\textbf{mean} & 12 & 35 & 249 & 169.77 & 3881.30 & -1.00 & 0.11 & 4.064
+& 0.1311 & 0.9239
 \\\addlinespace
 \bottomrule
     \label{tab:time_fc}
@@ -331,11 +556,14 @@ norm-p & $\alpha$
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 11 & 1707 & 12233 & 7221.30 & 8917086.17 & 0.05 & -0.44 &
-0.092 & 0.9551 & 0.8268
+\textbf{abs} & 11 & 2612 & 26869 & 14121.58 & 51451085.83 & 0.65 & -0.07
+& 1.907 & 0.3854 & 0.9501
 \\\addlinespace
-\textbf{rel} & 11 & 34 & 244 & 144.43 & 3566.83 & 0.05 & -0.44 & 0.092 &
-0.9551 & 0.8268
+\textbf{rel} & 11 & 13 & 135 & 70.96 & 1299.24 & 0.65 & -0.07 & 1.907 &
+0.3854 & 0.9501
+\\\addlinespace
+\textbf{mean} & 11 & 19 & 224 & 117.30 & 3303.44 & 0.24 & -0.34 & 0.380
+& 0.8271 & 0.9501
 \\\addlinespace
 \bottomrule
     \label{tab:time_fm}
@@ -362,11 +590,11 @@ norm-p & $\alpha$
 norm-p & $\alpha$
 \\\addlinespace
 \midrule
-\textbf{abs} & 23 & 1426 & 16484 & 9283.95 & 14203173.83 & -0.31 & -0.29
-& 0.544 & 0.7617 & 0.8591
+\textbf{abs} & 23 & 1697 & 26869 & 13210.01 & 37253452.58 & 0.43 & 0.55
+& 2.350 & 0.3088 & 0.9281
 \\\addlinespace
-\textbf{rel} & 23 & 27 & 323 & 182.04 & 5460.66 & -0.31 & -0.29 & 0.544
-& 0.7617 & 0.8591
+\textbf{mean} & 23 & 19 & 249 & 144.67 & 4160.26 & -0.29 & -0.93 & 1.630
+& 0.4427 & 0.9281
 \\\addlinespace
 \bottomrule
     \label{tab:time_gen}
@@ -385,95 +613,6 @@ norm-p & $\alpha$
     \label{fig:time_gen_abil}
 \end{figure}
 
-\FloatBarrier
-\section{Comparisons of the number of responses}
-
-\begin{longtable}[c]{@{}lrrrr@{}}
-\toprule\addlinespace
-& \textbf{MW k} & \textbf{MW p} &
-\textbf{t-test k} & \textbf{t-test p}
-\\\addlinespace
-\midrule
-\textbf{abs} & 0.619 & 0.5426 & 0.639 & 0.5324
-\\\addlinespace
-\textbf{rel} & 1.180 & 0.2513 & 1.220 & 0.2420
-\\\addlinespace
-\bottomrule
-    \label{tab:responses_comp}
-\end{longtable}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=.7\textwidth]{img/responses_diff.png}
-    \caption{A comparison of figure~\protect\ref{fig:responses_fc_diff} and~\protect\ref{fig:responses_fm_diff}}
-    \label{fig:responses_diff}
-\end{figure}
-\begin{figure}
-    \centering
-    \includegraphics[width=.7\textwidth]{img/responses_abil.png}
-    \caption{A comparison of figure~\protect\ref{fig:responses_fc_abil} and~\protect\ref{fig:responses_fm_abil}}
-    \label{fig:responses_abil}
-\end{figure}
-
-\FloatBarrier
-\section{Comparisons of the exponents}
-
-\begin{longtable}[c]{@{}lrrrr@{}}
-\toprule\addlinespace
-& \textbf{Mann-Whitney-U k} & \textbf{Mann-Whitney-U p} &
-\textbf{Welch's t-test k} & \textbf{Welch's t-test p}
-\\\addlinespace
-\midrule\endhead
-\textbf{abs} & -0.993 & 0.3319 & -1.012 & 0.3242
-\\\addlinespace
-\textbf{rel} & -0.239 & 0.8134 & -0.244 & 0.8097
-\\\addlinespace
-\bottomrule
-    \label{tab:exponent_comp}
-\end{longtable}
-
-\begin{figure}
-    \includegraphics[width=.7\textwidth]{img/exponent_diff.png}
-    \caption{A comparison of figure~\protect\ref{fig:exponent_fc_diff} and~\protect\ref{fig:exponent_fm_diff}}
-    \label{fig:exponent_diff}
-\end{figure}
-\begin{figure}
-    \includegraphics[width=.7\textwidth]{img/exponent_abil.png}
-    \caption{A comparison of figure~\protect\ref{fig:exponent_fc_abil} and~\protect\ref{fig:exponent_fm_abil}}
-    \label{fig:exponent_abil}
-\end{figure}
-
-\FloatBarrier
-\section{Comparisons of the percentage of responses marked as correct}
-
-\begin{longtable}[c]{@{}lrrrr@{}}
-\toprule\addlinespace
-& \textbf{MW k} & \textbf{MW p} &
-\textbf{t-test k} & \textbf{t-test p}
-\\\addlinespace
-\midrule
-\textbf{abs} & -16.597 & 0.0000 & -15.857 & 0.0000
-\\\addlinespace
-\textbf{rel} & -16.421 & 0.0000 & -15.689 & 0.0000
-\\\addlinespace
-\bottomrule
-    \label{tab:score_comp}
-\end{longtable}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=.7\textwidth]{img/score_diff.png}
-    \caption{A comparison of figure~\protect\ref{fig:score_fc_diff} and~\protect\ref{fig:score_fm_diff}}
-    \label{fig:score_diff}
-\end{figure}
-\begin{figure}
-    \centering
-    \includegraphics[width=.7\textwidth]{img/score_abil.png}
-    \caption{A comparison of figure~\protect\ref{fig:score_fc_abil} and~\protect\ref{fig:score_fm_abil}}
-    \label{fig:score_abil}
-\end{figure}
-
-\FloatBarrier
 \section{Comparisons of the amount of time spent on the application}
 
 \begin{longtable}[c]{@{}lrrrr@{}}
@@ -482,9 +621,11 @@ norm-p & $\alpha$
 \textbf{t-test k} & \textbf{t-test p}
 \\\addlinespace
 \midrule
-\textbf{abs} & 7.924 & 0.0000 & 8.292 & 0.0000
+\textbf{abs} & 7.522 & 0.0000 & 7.869 & 0.0000
 \\\addlinespace
-\textbf{rel} & 7.954 & 0.0000 & 8.324 & 0.0000
+\textbf{rel} & 7.787 & 0.0000 & 8.148 & 0.0000
+\\\addlinespace
+\textbf{mean} & 8.720 & 0.0000 & 9.126 & 0.0000
 \\\addlinespace
 \bottomrule
     \label{tab:time_comp}

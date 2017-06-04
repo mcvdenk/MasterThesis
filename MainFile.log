@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  2 JUN 2017 15:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  4 JUN 2017 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,11 +862,7 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforesubtabskip=\skip112
 \cftsubtabindent=\skip113
 \cftsubtabnumwidth=\skip114
-) (./MainFile.aux
-
-LaTeX Warning: Label `fig:examplemap' multiply defined.
-
-)
+) (./MainFile.aux)
 \openout1 = `MainFile.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
@@ -886,7 +882,8 @@ LaTeX Font Info:    ... okay on input line 126.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 126.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 126.
@@ -1005,7 +1002,7 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=369, 225.60284pt x 45.2892pt>
+<logo.png, id=381, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 137.
@@ -1047,7 +1044,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (./introduction/problem.tex [6
 
 ]
-<img/conceptmap.png, id=555, 415.5525pt x 353.82187pt>
+<img/conceptmap.png, id=570, 415.5525pt x 353.82187pt>
 File: img/conceptmap.png Graphic file (type png)
 
 <use img/conceptmap.png>
@@ -1058,7 +1055,7 @@ Underfull \vbox (badness 1052) has occurred while \output is active []
 
  [7]
 [8 <./img/conceptmap.png>] [9] [10] [11]
-<img/flashmap.png, id=719, 633.11531pt x 271.76532pt>
+<img/flashmap.png, id=733, 633.11531pt x 271.76532pt>
 File: img/flashmap.png Graphic file (type png)
  <use img/flashmap.png>
 Package pdftex.def Info: img/flashmap.png used on input line 87.
@@ -1070,14 +1067,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \c@researchquestion=\count146
 \c@subquestion=\count147
 
-[13 <./img/flashmap.png>] <img/tam.png, id=753, 666.99188pt x 189.70876pt>
+[13 <./img/flashmap.png>] <img/tam.png, id=767, 666.99188pt x 189.70876pt>
 File: img/tam.png Graphic file (type png)
 
 <use img/tam.png>
 Package pdftex.def Info: img/tam.png used on input line 132.
 (pdftex.def)             Requested size: 418.25368pt x 118.96425pt.
 ) (./introduction/theory.tex [14 <./img/tam.png>]
-<img/brainareas.png, id=784, 401.5pt x 261.97874pt>
+<img/brainareas.png, id=798, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
  <use img/brainareas.png>
 Package pdftex.def Info: img/brainareas.png used on input line 13.
@@ -1085,7 +1082,7 @@ Package pdftex.def Info: img/brainareas.png used on input line 13.
 
 [15
 
-] <img/modalmemory.png, id=804, 403.909pt x 136.51pt>
+] <img/modalmemory.png, id=818, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
 
 <use img/modalmemory.png>
@@ -1103,12 +1100,12 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 66.
  [18]
-<img/neuron.png, id=876, 803.0pt x 602.25pt>
+<img/neuron.png, id=891, 803.0pt x 602.25pt>
 File: img/neuron.png Graphic file (type png)
  <use img/neuron.png>
 Package pdftex.def Info: img/neuron.png used on input line 72.
 (pdftex.def)             Requested size: 334.60422pt x 250.95831pt.
- [19 <./img/neuron.png>] <img/powerlawforgetting.png, id=919, 521.95pt x 321.2p
+ [19 <./img/neuron.png>] <img/powerlawforgetting.png, id=933, 521.95pt x 321.2p
 t>
 File: img/powerlawforgetting.png Graphic file (type png)
 
@@ -1116,14 +1113,14 @@ File: img/powerlawforgetting.png Graphic file (type png)
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 88.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
 
-<img/powerlawlearning.png, id=920, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=934, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 94.
 (pdftex.def)             Requested size: 292.77629pt x 180.16974pt.
  [20] [21 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>] [22]
-<img/spacedrepetition.png, id=1015, 466.74374pt x 277.78781pt>
+<img/spacedrepetition.png, id=1029, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
@@ -1132,7 +1129,7 @@ Package pdftex.def Info: img/spacedrepetition.png used on input line 123.
 ) [23 <./img/spacedrepetition.png>] [24
 
 ]
-(./design/intro.tex <img/genericmodel.png, id=1035, 249.18094pt x 248.42813pt>
+(./design/intro.tex <img/genericmodel.png, id=1049, 249.18094pt x 248.42813pt>
 File: img/genericmodel.png Graphic file (type png)
 
 <use img/genericmodel.png>
@@ -1140,21 +1137,21 @@ Package pdftex.def Info: img/genericmodel.png used on input line 5.
 (pdftex.def)             Requested size: 209.12683pt x 208.50003pt.
 ) (./design/analysis.tex [25 <./img/genericmodel.png>] [26
 
-] <img/needsassessment.png, id=1066, 618.1494pt x 414.5889pt>
+] <img/needsassessment.png, id=1080, 618.1494pt x 414.5889pt>
 File: img/needsassessment.png Graphic file (type png)
 
 <use img/needsassessment.png>
 Package pdftex.def Info: img/needsassessment.png used on input line 19.
 (pdftex.def)             Requested size: 418.25368pt x 280.52496pt.
  [27 <./img/needsassessment.png>] [28]
-<img/curricular_spiderweb.png, id=1100, 776.4207pt x 601.7682pt>
+<img/curricular_spiderweb.png, id=1114, 776.4207pt x 601.7682pt>
 File: img/curricular_spiderweb.png Graphic file (type png)
 
 <use img/curricular_spiderweb.png>
 Package pdftex.def Info: img/curricular_spiderweb.png used on input line 48.
 (pdftex.def)             Requested size: 292.77629pt x 226.92049pt.
  [29 <./img/curricular_spiderweb.png>]
-[30] <img/braindevelopment.png, id=1141, 428.60126pt x 250.9375pt>
+[30] <img/braindevelopment.png, id=1156, 428.60126pt x 250.9375pt>
 File: img/braindevelopment.png Graphic file (type png)
 
 <use img/braindevelopment.png>
@@ -1175,21 +1172,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\OT1/cmr/m/n/10 (+20) Number of
  []
 
-[33] <img/ethnicitychart.png, id=1207, 455.90324pt x 255.95625pt>
+[33] <img/ethnicitychart.png, id=1221, 455.90324pt x 255.95625pt>
 File: img/ethnicitychart.png Graphic file (type png)
 
 <use img/ethnicitychart.png>
 Package pdftex.def Info: img/ethnicitychart.png used on input line 135.
 (pdftex.def)             Requested size: 292.77629pt x 164.38164pt.
 
-<img/denominations.png, id=1218, 455.301pt x 255.95625pt>
+<img/denominations.png, id=1232, 455.301pt x 255.95625pt>
 File: img/denominations.png Graphic file (type png)
 
 <use img/denominations.png>
 Package pdftex.def Info: img/denominations.png used on input line 145.
 (pdftex.def)             Requested size: 292.77629pt x 164.59645pt.
 
-<img/churchvisits.png, id=1219, 455.301pt x 255.95625pt>
+<img/churchvisits.png, id=1233, 455.301pt x 255.95625pt>
 File: img/churchvisits.png Graphic file (type png)
 
 <use img/churchvisits.png>
@@ -1208,7 +1205,7 @@ Package microtype Info: Loading generic settings for font family
 [37]) (./design/usecases.tex [38] [39
 
 ]
-<img/loginusecase.png, id=1315, 832.10875pt x 502.87875pt>
+<img/loginusecase.png, id=1329, 832.10875pt x 502.87875pt>
 File: img/loginusecase.png Graphic file (type png)
 
 <use img/loginusecase.png>
@@ -1218,7 +1215,7 @@ Package pdftex.def Info: img/loginusecase.png used on input line 30.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/mainusecase.png, id=1320, 816.04875pt x 574.145pt>
+<img/mainusecase.png, id=1334, 816.04875pt x 574.145pt>
 File: img/mainusecase.png Graphic file (type png)
 
 <use img/mainusecase.png>
@@ -1228,7 +1225,7 @@ Package pdftex.def Info: img/mainusecase.png used on input line 39.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[40] <img/loginactivity.png, id=1335, 437.635pt x 1576.89125pt>
+[40] <img/loginactivity.png, id=1349, 437.635pt x 1576.89125pt>
 File: img/loginactivity.png Graphic file (type png)
 
 <use img/loginactivity.png>
@@ -1247,7 +1244,7 @@ Overfull \vbox (3.94458pt too high) has occurred while \output is active []
 
 
 [43 <./img/loginactivity.png (PNG copy)>]
-<img/learningactivitygen.png, id=1362, 1080.035pt x 1508.63625pt>
+<img/learningactivitygen.png, id=1376, 1080.035pt x 1508.63625pt>
 File: img/learningactivitygen.png Graphic file (type png)
 
 <use img/learningactivitygen.png>
@@ -1261,7 +1258,7 @@ Underfull \vbox (badness 1552) has occurred while \output is active []
 
  [49]
 [50] [51] [52] [53]) (./design/server.tex [54]
-<img/classdiagram_concept_map.png, id=1518, 353.32pt x 594.22pt>
+<img/classdiagram_concept_map.png, id=1532, 353.32pt x 594.22pt>
 File: img/classdiagram_concept_map.png Graphic file (type png)
 
 <use img/classdiagram_concept_map.png>
@@ -1269,14 +1266,14 @@ Package pdftex.def Info: img/classdiagram_concept_map.png used on input line 12
 .
 (pdftex.def)             Requested size: 140.68933pt x 236.60846pt.
 
-<img/examplemap.png, id=1522, 233.87375pt x 791.95876pt>
+<img/examplemap.png, id=1536, 233.87375pt x 791.95876pt>
 File: img/examplemap.png Graphic file (type png)
 
 <use img/examplemap.png>
 Package pdftex.def Info: img/examplemap.png used on input line 25.
 (pdftex.def)             Requested size: 104.81396pt x 354.92172pt.
 
-<img/examplemap_objects.png, id=1523, 497.86pt x 1019.81pt>
+<img/examplemap_objects.png, id=1537, 497.86pt x 1019.81pt>
 File: img/examplemap_objects.png Graphic file (type png)
 
 <use img/examplemap_objects.png>
@@ -1291,21 +1288,21 @@ Overfull \hbox (5.96713pt too wide) in paragraph at lines 32--33
 
 ] [56 <./img/classdiagram_concept_map.png (PNG copy)>] [57 <./img/examplemap.pn
 g> <./img/examplemap_objects.png>]
-<img/examplemap_partial_d.png, id=1551, 284.06125pt x 1043.9pt>
+<img/examplemap_partial_d.png, id=1566, 284.06125pt x 1043.9pt>
 File: img/examplemap_partial_d.png Graphic file (type png)
 
 <use img/examplemap_partial_d.png>
 Package pdftex.def Info: img/examplemap_partial_d.png used on input line 52.
 (pdftex.def)             Requested size: 96.57953pt x 354.92172pt.
 
-<img/examplemap_partial_g.png, id=1554, 468.75125pt x 1043.9pt>
+<img/examplemap_partial_g.png, id=1569, 468.75125pt x 1043.9pt>
 File: img/examplemap_partial_g.png Graphic file (type png)
 
 <use img/examplemap_partial_g.png>
 Package pdftex.def Info: img/examplemap_partial_g.png used on input line 59.
 (pdftex.def)             Requested size: 159.3733pt x 354.92172pt.
 
-<img/classdiagram_user.png, id=1560, 1102.1175pt x 723.70375pt>
+<img/classdiagram_user.png, id=1575, 1102.1175pt x 723.70375pt>
 File: img/classdiagram_user.png Graphic file (type png)
 
 <use img/classdiagram_user.png>
@@ -1319,14 +1316,14 @@ Overfull \hbox (12.38872pt too wide) in paragraph at lines 120--123
 o-rithm uses two dif-fer-ent meth-ods from In-stances, namely get[]exponent()
  []
 
-<img/learningserver.png, id=1603, 527.9725pt x 521.95pt>
+<img/learningserver.png, id=1618, 527.9725pt x 521.95pt>
 File: img/learningserver.png Graphic file (type png)
 
 <use img/learningserver.png>
 Package pdftex.def Info: img/learningserver.png used on input line 132.
 (pdftex.def)             Requested size: 299.18314pt x 295.76509pt.
  [62] [63 <./img/learningserver.png (PNG copy)>])
-(./design/client.tex [64] <img/navmenu.png, id=1636, 715.92468pt x 52.69687pt>
+(./design/client.tex [64] <img/navmenu.png, id=1651, 715.92468pt x 52.69687pt>
 File: img/navmenu.png Graphic file (type png)
 
 <use img/navmenu.png>
@@ -1344,27 +1341,24 @@ Package pdftex.def Info: img/navmenu.png used on input line 16.
 
 ] [73
 
-]) (./research/discussion.tex
-Underfull \vbox (badness 3919) has occurred while \output is active []
+] [74] [75] [76]) (./research/discussion.tex
+[77]) [78
 
- [74]
-[75]) [76
-
-] [77
+] [79
 
 ] (./recommendations/features.tex)
 (./recommendations/research.tex) (./recommendations/implementation.tex)
-[78
+[80
 
-] (./epilogue/epilogue.tex) (./MainFile.bbl [79
+] (./epilogue/epilogue.tex) (./MainFile.bbl [81
 
 ]
 Underfull \vbox (badness 1953) has occurred while \output is active []
 
- [80
+ [82
 
 ]
-[81]
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 1245--1257
 \OT1/cmtt/m/n/10 www [] .leefbaarometer [] .nl / tabel [] .php [] ?indicator = 
 Leefbaarheidssituatie&schaal =
@@ -1382,7 +1376,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1269--1282
 51&D7 = l&HDR = T [] ,G4 [] ,G6 [] ,G5&STB = G3 [] ,G1 []
  []
 
-[82]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 1764--1776
 []$\OT1/cmtt/m/n/10 http :// statline [] .cbs [] .nl / Statweb / publication / 
 []?DM = SLNL&PA = 70794NED&D1 = a&D2 = 0 []
@@ -1394,26 +1388,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 1786--1799
 []?DM = SLNL&PA = 83288NED&D1 = a&D2 = 0 %
  []
 
-[83]) [84] [85
+[85]) [86] [87
 
 
-] (./appendix/exampletest.tex [86
+] (./appendix/exampletest.tex [88
 
 ]
-<img/laura.jpg, id=1903, 150.5625pt x 200.75pt>
+<img/laura.jpg, id=1942, 150.5625pt x 200.75pt>
 File: img/laura.jpg Graphic file (type jpg)
  <use img/laura.jpg>
 Package pdftex.def Info: img/laura.jpg used on input line 65.
 (pdftex.def)             Requested size: 125.47737pt x 167.3086pt.
 
-<img/emblem.jpg, id=1906, 301.125pt x 474.77374pt>
+<img/emblem.jpg, id=1945, 301.125pt x 474.77374pt>
 File: img/emblem.jpg Graphic file (type jpg)
  <use img/emblem.jpg>
 Package pdftex.def Info: img/emblem.jpg used on input line 72.
 (pdftex.def)             Requested size: 125.47737pt x 197.8388pt.
 )
-[87] [88 <./img/laura.jpg> <./img/emblem.jpg>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1940, 614.295pt x 79
+[89] [90 <./img/laura.jpg> <./img/emblem.jpg>]
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1979, 614.295pt x 79
 4.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
@@ -1429,7 +1423,7 @@ Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf
 used on input line 188.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1943, page=1, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1982, page=1, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
@@ -1466,10 +1460,10 @@ pdf)
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
  page1 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [89
+ [91
 
  <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1959, page=2, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1999, page=2, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
@@ -1491,153 +1485,153 @@ pdf)
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 2>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
  page2 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [90 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1964, page=3, 614.29
-5pt x 794.97pt>
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page3 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page3 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page3 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [91 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1980, page=4, 614.29
-5pt x 794.97pt>
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page4 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page4 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page4 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [92 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1985, page=5, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2005, page=3, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page5 used on input line 188.
+ page3 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page5 used on input line 188.
+ page3 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page5 used on input line 188.
+ page3 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [93 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1991, page=6, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2020, page=4, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page6 used on input line 188.
+ page4 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page6 used on input line 188.
+ page4 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page6 used on input line 188.
+ page4 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [94 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1996, page=7, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2025, page=5, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page7 used on input line 188.
+ page5 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page7 used on input line 188.
+ page5 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page7 used on input line 188.
+ page5 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [95 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2022, page=8, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2031, page=6, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page8 used on input line 188.
+ page6 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page8 used on input line 188.
+ page6 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page8 used on input line 188.
+ page6 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [96 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2032, page=9, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2036, page=7, 614.29
+5pt x 794.97pt>
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page7 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page7 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page7 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [97 <../software/server/doc/build/latex/Flashmapserver.pdf>]
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2062, page=8, 614.29
+5pt x 794.97pt>
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page8 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page8 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page8 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [98 <../software/server/doc/build/latex/Flashmapserver.pdf>]
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2072, page=9, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
@@ -1660,272 +1654,272 @@ pdf)
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
  page9 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [97 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2038, page=10, 614.2
-95pt x 794.97pt>
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page10 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page10 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page10 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [98 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2043, page=11, 614.2
-95pt x 794.97pt>
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page11 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page11 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
-pdf)
-
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
-Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page11 used on input line 188.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [99 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2048, page=12, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2077, page=10, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page12 used on input line 188.
+ page10 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page12 used on input line 188.
+ page10 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page12 used on input line 188.
+ page10 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [100 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2053, page=13, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2082, page=11, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page13 used on input line 188.
+ page11 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page13 used on input line 188.
+ page11 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page13 used on input line 188.
+ page11 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [101 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2058, page=14, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2087, page=12, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page14 used on input line 188.
+ page12 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page14 used on input line 188.
+ page12 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page14 used on input line 188.
+ page12 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [102 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2063, page=15, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2092, page=13, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page15 used on input line 188.
+ page13 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page15 used on input line 188.
+ page13 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page15 used on input line 188.
+ page13 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [103 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2069, page=16, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2098, page=14, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page16 used on input line 188.
+ page14 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page16 used on input line 188.
+ page14 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page16 used on input line 188.
+ page14 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [104 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2074, page=17, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2103, page=15, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page17 used on input line 188.
+ page15 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page17 used on input line 188.
+ page15 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page17 used on input line 188.
+ page15 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [105 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2079, page=18, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2108, page=16, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page18 used on input line 188.
+ page16 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page18 used on input line 188.
+ page16 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page18 used on input line 188.
+ page16 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [106 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2084, page=19, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2113, page=17, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page19 used on input line 188.
+ page17 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page19 used on input line 188.
+ page17 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page19 used on input line 188.
+ page17 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [107 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2094, page=20, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2118, page=18, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page20 used on input line 188.
+ page18 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page20 used on input line 188.
+ page18 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
-<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page20 used on input line 188.
+ page18 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [108 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=2099, page=21, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2123, page=19, 614.2
+95pt x 794.97pt>
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page19 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page19 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page19 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [109 <../software/server/doc/build/latex/Flashmapserver.pdf>]
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2134, page=20, 614.2
+95pt x 794.97pt>
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page20 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page20 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
+pdf)
+
+<use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
+Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
+ page20 used on input line 188.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [110 <../software/server/doc/build/latex/Flashmapserver.pdf>]
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=2139, page=21, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
@@ -1948,7 +1942,7 @@ pdf)
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
  page21 used on input line 188.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [109 <../software/server/doc/build/latex/Flashmapserver.pdf>]
+ [111 <../software/server/doc/build/latex/Flashmapserver.pdf>]
 (./appendix/clientsource.tex (../software/client/index.html
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
@@ -1961,19 +1955,13 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
- [110
+ [112
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111])
-[112] (../software/client/client.js
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [113]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [114]
+ [113])
+[114] (../software/client/client.js
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [115]
@@ -1994,103 +1982,109 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [120]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121]))
-(./appendix/screenshots.tex [122]
-<img/ui_read_request.png, id=2782, 557.6835pt x 427.5975pt>
+ [121]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123]))
+(./appendix/screenshots.tex [124]
+<img/ui_read_request.png, id=2821, 557.6835pt x 427.5975pt>
 File: img/ui_read_request.png Graphic file (type png)
 
 <use img/ui_read_request.png>
 Package pdftex.def Info: img/ui_read_request.png used on input line 8.
 (pdftex.def)             Requested size: 334.60422pt x 256.56047pt.
 
-<img/ui_fc_prompt.png, id=2783, 553.46774pt x 425.1885pt>
+<img/ui_fc_prompt.png, id=2822, 553.46774pt x 425.1885pt>
 File: img/ui_fc_prompt.png Graphic file (type png)
 
 <use img/ui_fc_prompt.png>
 Package pdftex.def Info: img/ui_fc_prompt.png used on input line 15.
 (pdftex.def)             Requested size: 334.60422pt x 257.06142pt.
 
-<img/ui_fm_prompt.png, id=2784, 558.28575pt x 426.393pt>
+<img/ui_fm_prompt.png, id=2823, 558.28575pt x 426.393pt>
 File: img/ui_fm_prompt.png Graphic file (type png)
 
 <use img/ui_fm_prompt.png>
 Package pdftex.def Info: img/ui_fm_prompt.png used on input line 22.
 (pdftex.def)             Requested size: 334.60422pt x 255.5515pt.
- <img/ui_undo.png, id=2785, 531.78674pt x 395.076pt>
+ <img/ui_undo.png, id=2824, 531.78674pt x 395.076pt>
 File: img/ui_undo.png Graphic file (type png)
 
 <use img/ui_undo.png>
 Package pdftex.def Info: img/ui_undo.png used on input line 29.
 (pdftex.def)             Requested size: 334.60422pt x 248.58571pt.
 
-<img/ui_fc_answer.png, id=2786, 561.89925pt x 428.19975pt>
+<img/ui_fc_answer.png, id=2825, 561.89925pt x 428.19975pt>
 File: img/ui_fc_answer.png Graphic file (type png)
 
 <use img/ui_fc_answer.png>
 Package pdftex.def Info: img/ui_fc_answer.png used on input line 36.
 (pdftex.def)             Requested size: 334.60422pt x 254.99435pt.
 
-<img/ui_fm_answer_correct.png, id=2787, 563.706pt x 428.802pt>
+<img/ui_fm_answer_correct.png, id=2826, 563.706pt x 428.802pt>
 File: img/ui_fm_answer_correct.png Graphic file (type png)
 
 <use img/ui_fm_answer_correct.png>
 Package pdftex.def Info: img/ui_fm_answer_correct.png used on input line 43.
 (pdftex.def)             Requested size: 334.60422pt x 254.53513pt.
 
-<img/ui_fm_answer_incorrect.png, id=2788, 560.69475pt x 427.5975pt>
+<img/ui_fm_answer_incorrect.png, id=2827, 560.69475pt x 427.5975pt>
 File: img/ui_fm_answer_incorrect.png Graphic file (type png)
 
 <use img/ui_fm_answer_incorrect.png>
 Package pdftex.def Info: img/ui_fm_answer_incorrect.png used on input line 50.
 (pdftex.def)             Requested size: 334.60422pt x 255.17726pt.
 
-<img/ui_no_more_instances.png, id=2789, 542.025pt x 393.26926pt>
+<img/ui_no_more_instances.png, id=2828, 542.025pt x 393.26926pt>
 File: img/ui_no_more_instances.png Graphic file (type png)
 
 <use img/ui_no_more_instances.png>
 Package pdftex.def Info: img/ui_no_more_instances.png used on input line 57.
 (pdftex.def)             Requested size: 334.60422pt x 242.78027pt.
- [123
+ [125
 
-] [124 <./img/ui_read_request.png> <./img/ui_fc_prompt.png>] [125 <./img/ui_fm_
+] [126 <./img/ui_read_request.png> <./img/ui_fc_prompt.png>] [127 <./img/ui_fm_
 prompt.png> <./img/ui_undo.png>]
-[126 <./img/ui_fc_answer.png> <./img/ui_fm_answer_correct.png>] [127 <./img/ui_
+[128 <./img/ui_fc_answer.png> <./img/ui_fm_answer_correct.png>] [129 <./img/ui_
 fm_answer_incorrect.png> <./img/ui_no_more_instances.png>]
-<img/ui_login.png, id=2811, 569.12625pt x 340.27126pt>
+<img/ui_login.png, id=2850, 569.12625pt x 340.27126pt>
 File: img/ui_login.png Graphic file (type png)
  <use img/ui_login.png>
 Package pdftex.def Info: img/ui_login.png used on input line 67.
 (pdftex.def)             Requested size: 334.60422pt x 200.06255pt.
 
-<img/ui_descriptives.png, id=2812, 576.35326pt x 427.5975pt>
+<img/ui_descriptives.png, id=2851, 576.35326pt x 427.5975pt>
 File: img/ui_descriptives.png Graphic file (type png)
 
 <use img/ui_descriptives.png>
 Package pdftex.def Info: img/ui_descriptives.png used on input line 74.
 (pdftex.def)             Requested size: 334.60422pt x 248.24161pt.
 
-<img/ui_test_top.png, id=2813, 558.28575pt x 427.5975pt>
+<img/ui_test_top.png, id=2852, 558.28575pt x 427.5975pt>
 File: img/ui_test_top.png Graphic file (type png)
 
 <use img/ui_test_top.png>
 Package pdftex.def Info: img/ui_test_top.png used on input line 81.
 (pdftex.def)             Requested size: 334.60422pt x 256.27339pt.
 
-<img/ui_test_bottom.png, id=2814, 564.30824pt x 427.5975pt>
+<img/ui_test_bottom.png, id=2853, 564.30824pt x 427.5975pt>
 File: img/ui_test_bottom.png Graphic file (type png)
 
 <use img/ui_test_bottom.png>
 Package pdftex.def Info: img/ui_test_bottom.png used on input line 88.
 (pdftex.def)             Requested size: 334.60422pt x 253.55263pt.
 
-<img/ui_questionnaire_top.png, id=2815, 560.0925pt x 427.5975pt>
+<img/ui_questionnaire_top.png, id=2854, 560.0925pt x 427.5975pt>
 File: img/ui_questionnaire_top.png Graphic file (type png)
 
 <use img/ui_questionnaire_top.png>
 Package pdftex.def Info: img/ui_questionnaire_top.png used on input line 95.
 (pdftex.def)             Requested size: 334.60422pt x 255.45781pt.
 
-<img/ui_questionnaire_bottom.png, id=2816, 561.89925pt x 428.19975pt>
+<img/ui_questionnaire_bottom.png, id=2855, 561.89925pt x 428.19975pt>
 File: img/ui_questionnaire_bottom.png Graphic file (type png)
 
 <use img/ui_questionnaire_bottom.png>
@@ -2098,44 +2092,44 @@ Package pdftex.def Info: img/ui_questionnaire_bottom.png used on input line 102
 .
 (pdftex.def)             Requested size: 334.60422pt x 254.99435pt.
 
-<img/ui_debriefing.png, id=2817, 570.933pt x 430.0065pt>
+<img/ui_debriefing.png, id=2856, 570.933pt x 430.0065pt>
 File: img/ui_debriefing.png Graphic file (type png)
 
 <use img/ui_debriefing.png>
 Package pdftex.def Info: img/ui_debriefing.png used on input line 109.
 (pdftex.def)             Requested size: 334.60422pt x 252.02193pt.
- <img/ui_help.png, id=2818, 566.115pt x 419.166pt>
+ <img/ui_help.png, id=2857, 566.115pt x 419.166pt>
 File: img/ui_help.png Graphic file (type png)
 
 <use img/ui_help.png>
 Package pdftex.def Info: img/ui_help.png used on input line 116.
 (pdftex.def)             Requested size: 334.60422pt x 247.75351pt.
 
-<img/ui_fc_learnprogress_1.png, id=2819, 568.524pt x 420.3705pt>
+<img/ui_fc_learnprogress_1.png, id=2858, 568.524pt x 420.3705pt>
 File: img/ui_fc_learnprogress_1.png Graphic file (type png)
 
 <use img/ui_fc_learnprogress_1.png>
 Package pdftex.def Info: img/ui_fc_learnprogress_1.png used on input line 123.
 (pdftex.def)             Requested size: 334.60422pt x 247.4135pt.
 
-<img/ui_fc_learnprogress_2.png, id=2820, 570.33075pt x 426.99525pt>
+<img/ui_fc_learnprogress_2.png, id=2859, 570.33075pt x 426.99525pt>
 File: img/ui_fc_learnprogress_2.png Graphic file (type png)
 
 <use img/ui_fc_learnprogress_2.png>
 Package pdftex.def Info: img/ui_fc_learnprogress_2.png used on input line 130.
 (pdftex.def)             Requested size: 334.60422pt x 250.51768pt.
 
-<img/ui_fm_learnprogress.png, id=2821, 570.933pt x 426.393pt>
+<img/ui_fm_learnprogress.png, id=2860, 570.933pt x 426.393pt>
 File: img/ui_fm_learnprogress.png Graphic file (type png)
 
 <use img/ui_fm_learnprogress.png>
 Package pdftex.def Info: img/ui_fm_learnprogress.png used on input line 137.
 (pdftex.def)             Requested size: 334.60422pt x 249.90408pt.
-) (./appendix/dropouts.tex [128] [129 <./img/ui_login.png> <./img/ui_descriptiv
-es.png>] [130 <./img/ui_test_top.png> <./img/ui_test_bottom.png>] [131 <./img/u
-i_questionnaire_top.png> <./img/ui_questionnaire_bottom.png>] [132 <./img/ui_de
-briefing.png> <./img/ui_help.png>] [133 <./img/ui_fc_learnprogress_1.png> <./im
-g/ui_fc_learnprogress_2.png>] [134 <./img/ui_fm_learnprogress.png>]
+) (./appendix/dropouts.tex [130] [131 <./img/ui_login.png> <./img/ui_descriptiv
+es.png>] [132 <./img/ui_test_top.png> <./img/ui_test_bottom.png>] [133 <./img/u
+i_questionnaire_top.png> <./img/ui_questionnaire_bottom.png>] [134 <./img/ui_de
+briefing.png> <./img/ui_help.png>] [135 <./img/ui_fc_learnprogress_1.png> <./im
+g/ui_fc_learnprogress_2.png>] [136 <./img/ui_fm_learnprogress.png>]
 Underfull \vbox (badness 10000) detected at line 24
  []
 
@@ -2143,81 +2137,81 @@ Underfull \vbox (badness 10000) detected at line 24
 Underfull \vbox (badness 10000) detected at line 44
  []
 
-<img/dropouts_fc.png, id=2851, 462.528pt x 346.896pt>
+<img/dropouts_fc.png, id=2890, 462.528pt x 346.896pt>
 File: img/dropouts_fc.png Graphic file (type png)
 
 <use img/dropouts_fc.png>
-Package pdftex.def Info: img/dropouts_fc.png used on input line 48.
+Package pdftex.def Info: img/dropouts_fc.png used on input line 63.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/dropouts_fm.png, id=2852, 462.528pt x 346.896pt>
+<img/dropouts_fm.png, id=2891, 462.528pt x 346.896pt>
 File: img/dropouts_fm.png Graphic file (type png)
 
 <use img/dropouts_fm.png>
-Package pdftex.def Info: img/dropouts_fm.png used on input line 54.
+Package pdftex.def Info: img/dropouts_fm.png used on input line 69.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/dropouts_gen.png, id=2853, 462.528pt x 346.896pt>
+<img/dropouts_gen.png, id=2892, 462.528pt x 346.896pt>
 File: img/dropouts_gen.png Graphic file (type png)
 
 <use img/dropouts_gen.png>
-Package pdftex.def Info: img/dropouts_gen.png used on input line 60.
+Package pdftex.def Info: img/dropouts_gen.png used on input line 75.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/activedays_fc.png, id=2854, 462.528pt x 346.896pt>
+<img/activedays_fc.png, id=2893, 462.528pt x 346.896pt>
 File: img/activedays_fc.png Graphic file (type png)
 
 <use img/activedays_fc.png>
-Package pdftex.def Info: img/activedays_fc.png used on input line 66.
+Package pdftex.def Info: img/activedays_fc.png used on input line 81.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/activedays_fm.png, id=2855, 462.528pt x 346.896pt>
+<img/activedays_fm.png, id=2894, 462.528pt x 346.896pt>
 File: img/activedays_fm.png Graphic file (type png)
 
 <use img/activedays_fm.png>
-Package pdftex.def Info: img/activedays_fm.png used on input line 72.
+Package pdftex.def Info: img/activedays_fm.png used on input line 87.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/activedays_gen.png, id=2856, 462.528pt x 346.896pt>
+<img/activedays_gen.png, id=2895, 462.528pt x 346.896pt>
 File: img/activedays_gen.png Graphic file (type png)
 
 <use img/activedays_gen.png>
-Package pdftex.def Info: img/activedays_gen.png used on input line 78.
+Package pdftex.def Info: img/activedays_gen.png used on input line 93.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [135
 
-] [136 <./img/dropouts_fc.png> <./img/dropouts_fm.png>] [137 <./img/dropouts_ge
-n.png> <./img/activedays_fc.png>] [138 <./img/activedays_fm.png> <./img/actived
-ays_gen.png>]
-<img/dropouts.png, id=2880, 462.528pt x 346.896pt>
+<img/dropouts.png, id=2896, 462.528pt x 346.896pt>
 File: img/dropouts.png Graphic file (type png)
  <use img/dropouts.png>
 Package pdftex.def Info: img/dropouts.png used on input line 100.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 )
-(./appendix/descriptives.tex [139 <./img/dropouts.png>]
-<img/age_fc.png, id=2893, 462.528pt x 346.896pt>
+(./appendix/descriptives.tex [137
+
+] [138 <./img/dropouts_fc.png> <./img/dropouts_fm.png>] [139 <./img/dropouts_ge
+n.png> <./img/activedays_fc.png>] [140 <./img/activedays_fm.png> <./img/actived
+ays_gen.png>] [141 <./img/dropouts.png>]
+<img/age_fc.png, id=2933, 462.528pt x 346.896pt>
 File: img/age_fc.png Graphic file (type png)
  <use img/age_fc.png>
 Package pdftex.def Info: img/age_fc.png used on input line 45.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/age_fm.png, id=2894, 462.528pt x 346.896pt>
+<img/age_fm.png, id=2934, 462.528pt x 346.896pt>
 File: img/age_fm.png Graphic file (type png)
  <use img/age_fm.png>
 Package pdftex.def Info: img/age_fm.png used on input line 50.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/age_gen.png, id=2895, 462.528pt x 346.896pt>
+<img/age_gen.png, id=2935, 462.528pt x 346.896pt>
 File: img/age_gen.png Graphic file (type png)
  <use img/age_gen.png>
 Package pdftex.def Info: img/age_gen.png used on input line 55.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-[140
+[142
 
-] [141 <./img/age_fc.png> <./img/age_fm.png>]
-<img/age.png, id=2910, 462.528pt x 346.896pt>
+] [143 <./img/age_fc.png> <./img/age_fm.png>]
+<img/age.png, id=2949, 462.528pt x 346.896pt>
 File: img/age.png Graphic file (type png)
  <use img/age.png>
 Package pdftex.def Info: img/age.png used on input line 79.
@@ -2227,7 +2221,7 @@ Package pdftex.def Info: img/age.png used on input line 79.
 Overfull \vbox (41.8613pt too high) has occurred while \output is active []
 
 
-[142 <./img/age_gen.png> <./img/age.png>]
+[144 <./img/age_gen.png> <./img/age.png>]
 Overfull \hbox (33.80554pt too wide) in alignment at lines 7--9
  [] [] [] [] [] [] [] [] [] [] [] 
  []
@@ -2246,14 +2240,14 @@ Overfull \hbox (33.80554pt too wide) in alignment at lines 10--64
 Underfull \vbox (badness 10000) detected at line 64
  []
 
-<img/know_fc_diff.png, id=2919, 462.528pt x 346.896pt>
+<img/know_fc_diff.png, id=2958, 462.528pt x 346.896pt>
 File: img/know_fc_diff.png Graphic file (type png)
 
 <use img/know_fc_diff.png>
 Package pdftex.def Info: img/know_fc_diff.png used on input line 68.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/know_fc_abil.png, id=2920, 462.528pt x 346.896pt>
+<img/know_fc_abil.png, id=2959, 462.528pt x 346.896pt>
 File: img/know_fc_abil.png Graphic file (type png)
 
 <use img/know_fc_abil.png>
@@ -2278,16 +2272,16 @@ Overfull \hbox (37.6389pt too wide) in alignment at lines 82--135
 Underfull \vbox (badness 10000) detected at line 135
  []
 
-[143
+[145
 
-] <img/know_fm_diff.png, id=2927, 462.528pt x 346.896pt>
+] <img/know_fm_diff.png, id=2967, 462.528pt x 346.896pt>
 File: img/know_fm_diff.png Graphic file (type png)
 
 <use img/know_fm_diff.png>
 Package pdftex.def Info: img/know_fm_diff.png used on input line 139.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/know_fm_abil.png, id=2928, 462.528pt x 346.896pt>
+<img/know_fm_abil.png, id=2968, 462.528pt x 346.896pt>
 File: img/know_fm_abil.png Graphic file (type png)
 
 <use img/know_fm_abil.png>
@@ -2312,7 +2306,7 @@ Overfull \hbox (34.30557pt too wide) in alignment at lines 153--206
 Underfull \vbox (badness 10000) detected at line 206
  []
 
-<img/know_gen_diff.png, id=2929, 462.528pt x 346.896pt>
+<img/know_gen_diff.png, id=2969, 462.528pt x 346.896pt>
 File: img/know_gen_diff.png Graphic file (type png)
 
 <use img/know_gen_diff.png>
@@ -2321,202 +2315,665 @@ Package pdftex.def Info: img/know_gen_diff.png used on input line 210.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [144]
-[145 <./img/know_fc_diff.png> <./img/know_fc_abil.png>] [146 <./img/know_fm_dif
+ [146]
+[147 <./img/know_fc_diff.png> <./img/know_fc_abil.png>] [148 <./img/know_fm_dif
 f.png> <./img/know_fm_abil.png>]
-<img/know_gen_abil.png, id=2951, 462.528pt x 346.896pt>
+<img/know_gen_abil.png, id=2990, 462.528pt x 346.896pt>
 File: img/know_gen_abil.png Graphic file (type png)
 
 <use img/know_gen_abil.png>
 Package pdftex.def Info: img/know_gen_abil.png used on input line 216.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [147 <./img/know_gen_diff.png> <./img/know_gen_abil.png>]
-Overfull \hbox (34.30557pt too wide) in alignment at lines 224--226
+ [149 <./img/know_gen_diff.png> <./img/know_gen_abil.png>]
+Underfull \vbox (badness 10000) detected at line 244
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 263
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 282
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 308
+ []
+
+[150
+
+]
+Underfull \vbox (badness 10000) detected at line 331
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 354
+ []
+
+<img/know_gain_diff.png, id=3006, 462.528pt x 346.896pt>
+File: img/know_gain_diff.png Graphic file (type png)
+
+<use img/know_gain_diff.png>
+Package pdftex.def Info: img/know_gain_diff.png used on input line 358.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/know_gain_abil.png, id=3011, 462.528pt x 346.896pt>
+File: img/know_gain_abil.png Graphic file (type png)
+
+<use img/know_gain_abil.png>
+Package pdftex.def Info: img/know_gain_abil.png used on input line 364.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+ [151] [152 <./img/know_gain_diff.png> <./img/know_gain_abil.png>]
+Overfull \hbox (34.30557pt too wide) in alignment at lines 372--374
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (34.30557pt too wide) in alignment at lines 226--227
+Overfull \hbox (34.30557pt too wide) in alignment at lines 374--375
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (34.30557pt too wide) in alignment at lines 227--280
+Overfull \hbox (34.30557pt too wide) in alignment at lines 375--428
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 280
+Underfull \vbox (badness 10000) detected at line 428
  []
 
-<img/comp_fc_diff.png, id=2960, 462.528pt x 346.896pt>
+<img/comp_fc_diff.png, id=3031, 462.528pt x 346.896pt>
 File: img/comp_fc_diff.png Graphic file (type png)
 
 <use img/comp_fc_diff.png>
-Package pdftex.def Info: img/comp_fc_diff.png used on input line 284.
+Package pdftex.def Info: img/comp_fc_diff.png used on input line 432.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/comp_fc_abil.png, id=2961, 462.528pt x 346.896pt>
+<img/comp_fc_abil.png, id=3032, 462.528pt x 346.896pt>
 File: img/comp_fc_abil.png Graphic file (type png)
 
 <use img/comp_fc_abil.png>
-Package pdftex.def Info: img/comp_fc_abil.png used on input line 290.
+Package pdftex.def Info: img/comp_fc_abil.png used on input line 438.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-Overfull \hbox (33.80554pt too wide) in alignment at lines 295--297
+Overfull \hbox (33.80554pt too wide) in alignment at lines 443--445
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.80554pt too wide) in alignment at lines 297--298
+Overfull \hbox (33.80554pt too wide) in alignment at lines 445--446
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.80554pt too wide) in alignment at lines 298--351
+Overfull \hbox (33.80554pt too wide) in alignment at lines 446--499
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 351
+Underfull \vbox (badness 10000) detected at line 499
  []
 
-[148
-
-] <img/comp_fm_diff.png, id=2968, 462.528pt x 346.896pt>
+[153] <img/comp_fm_diff.png, id=3040, 462.528pt x 346.896pt>
 File: img/comp_fm_diff.png Graphic file (type png)
 
 <use img/comp_fm_diff.png>
-Package pdftex.def Info: img/comp_fm_diff.png used on input line 355.
+Package pdftex.def Info: img/comp_fm_diff.png used on input line 503.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/comp_fm_abil.png, id=2969, 462.528pt x 346.896pt>
+<img/comp_fm_abil.png, id=3041, 462.528pt x 346.896pt>
 File: img/comp_fm_abil.png Graphic file (type png)
 
 <use img/comp_fm_abil.png>
-Package pdftex.def Info: img/comp_fm_abil.png used on input line 361.
+Package pdftex.def Info: img/comp_fm_abil.png used on input line 509.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-Overfull \hbox (33.80554pt too wide) in alignment at lines 366--368
+Overfull \hbox (33.80554pt too wide) in alignment at lines 514--516
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.80554pt too wide) in alignment at lines 368--369
+Overfull \hbox (33.80554pt too wide) in alignment at lines 516--517
  [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (33.80554pt too wide) in alignment at lines 369--422
+Overfull \hbox (33.80554pt too wide) in alignment at lines 517--570
  [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 422
- []
-
-<img/comp_gen_diff.png, id=2970, 462.528pt x 346.896pt>
-File: img/comp_gen_diff.png Graphic file (type png)
-
-<use img/comp_gen_diff.png>
-Package pdftex.def Info: img/comp_gen_diff.png used on input line 426.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/comp_gen_abil.png, id=2971, 462.528pt x 346.896pt>
-File: img/comp_gen_abil.png Graphic file (type png)
-
-<use img/comp_gen_abil.png>
-Package pdftex.def Info: img/comp_gen_abil.png used on input line 432.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [149] [150 <./img/comp_fc_diff.png> <./img/comp_fc_abil.png>] [151 <./img/comp
-_fm_diff.png> <./img/comp_fm_abil.png>] [152 <./img/comp_gen_diff.png> <./img/c
-omp_gen_abil.png>]
-Underfull \vbox (badness 10000) detected at line 460
- []
-
-
-Underfull \vbox (badness 10000) detected at line 479
- []
-
-
-Underfull \vbox (badness 10000) detected at line 498
- []
-
-
-Underfull \vbox (badness 10000) detected at line 524
- []
-
-[153]
-Underfull \vbox (badness 10000) detected at line 547
  []
 
 
 Underfull \vbox (badness 10000) detected at line 570
  []
 
-<img/know_gain_diff.png, id=3008, 462.528pt x 346.896pt>
-File: img/know_gain_diff.png Graphic file (type png)
+<img/comp_gen_diff.png, id=3042, 462.528pt x 346.896pt>
+File: img/comp_gen_diff.png Graphic file (type png)
 
-<use img/know_gain_diff.png>
-Package pdftex.def Info: img/know_gain_diff.png used on input line 574.
+<use img/comp_gen_diff.png>
+Package pdftex.def Info: img/comp_gen_diff.png used on input line 574.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/know_gain_abil.png, id=3013, 462.528pt x 346.896pt>
-File: img/know_gain_abil.png Graphic file (type png)
+<img/comp_gen_abil.png, id=3043, 462.528pt x 346.896pt>
+File: img/comp_gen_abil.png Graphic file (type png)
 
-<use img/know_gain_abil.png>
-Package pdftex.def Info: img/know_gain_abil.png used on input line 580.
+<use img/comp_gen_abil.png>
+Package pdftex.def Info: img/comp_gen_abil.png used on input line 580.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [154] [155 <./img/know_gain_diff.png> <./img/know_gain_abil.png>]
-Underfull \vbox (badness 10000) detected at line 607
+
+Underfull \vbox (badness 10000) detected at line 606
+ []
+
+[154]
+Underfull \vbox (badness 10000) detected at line 625
  []
 
 
-Underfull \vbox (badness 10000) detected at line 626
+Underfull \vbox (badness 10000) detected at line 644
+ []
+
+[155] [156 <./img/comp_fc_diff.png> <./img/comp_fc_abil.png>] [157 <./img/comp_
+fm_diff.png> <./img/comp_fm_abil.png>] [158 <./img/comp_gen_diff.png> <./img/co
+mp_gen_abil.png>]
+Underfull \vbox (badness 10000) detected at line 670
  []
 
 
-Underfull \vbox (badness 10000) detected at line 645
+Underfull \vbox (badness 10000) detected at line 693
  []
 
 
-Underfull \vbox (badness 10000) detected at line 671
+Underfull \vbox (badness 10000) detected at line 716
  []
 
-[156]
-Underfull \vbox (badness 10000) detected at line 694
- []
-
-
-Underfull \vbox (badness 10000) detected at line 717
- []
-
-<img/comp_gain_diff.png, id=3040, 462.528pt x 346.896pt>
+<img/comp_gain_diff.png, id=3078, 462.528pt x 346.896pt>
 File: img/comp_gain_diff.png Graphic file (type png)
 
 <use img/comp_gain_diff.png>
-Package pdftex.def Info: img/comp_gain_diff.png used on input line 721.
+Package pdftex.def Info: img/comp_gain_diff.png used on input line 720.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/comp_gain_abil.png, id=3045, 462.528pt x 346.896pt>
+<img/comp_gain_abil.png, id=3083, 462.528pt x 346.896pt>
 File: img/comp_gain_abil.png Graphic file (type png)
 
 <use img/comp_gain_abil.png>
-Package pdftex.def Info: img/comp_gain_abil.png used on input line 727.
+Package pdftex.def Info: img/comp_gain_abil.png used on input line 726.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-) (./appendix/questionnaire.tex [157] [158 <./img/comp_gain_diff.png> <./img/co
-mp_gain_abil.png>]
+) (./appendix/instance_stats.tex [159] [160 <./img/comp_gain_diff.png> <./img/c
+omp_gain_abil.png>]
+Overfull \hbox (4.37347pt too wide) in alignment at lines 7--9
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.37347pt too wide) in alignment at lines 9--10
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (4.37347pt too wide) in alignment at lines 10--24
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
 Underfull \vbox (badness 10000) detected at line 24
  []
 
-<img/usefulness_fc_diff.png, id=3065, 462.528pt x 346.896pt>
+<img/instance_fc_diff.png, id=3104, 462.528pt x 346.896pt>
+File: img/instance_fc_diff.png Graphic file (type png)
+
+<use img/instance_fc_diff.png>
+Package pdftex.def Info: img/instance_fc_diff.png used on input line 28.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/instance_fc_abil.png, id=3105, 462.528pt x 346.896pt>
+File: img/instance_fc_abil.png Graphic file (type png)
+
+<use img/instance_fc_abil.png>
+Package pdftex.def Info: img/instance_fc_abil.png used on input line 34.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Overfull \hbox (8.31792pt too wide) in alignment at lines 39--41
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.31792pt too wide) in alignment at lines 41--42
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (8.31792pt too wide) in alignment at lines 42--56
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 56
+ []
+
+<img/instance_fm_diff.png, id=3106, 462.528pt x 346.896pt>
+File: img/instance_fm_diff.png Graphic file (type png)
+
+<use img/instance_fm_diff.png>
+Package pdftex.def Info: img/instance_fm_diff.png used on input line 60.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/instance_fm_abil.png, id=3107, 462.528pt x 346.896pt>
+File: img/instance_fm_abil.png Graphic file (type png)
+
+<use img/instance_fm_abil.png>
+Package pdftex.def Info: img/instance_fm_abil.png used on input line 66.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Overfull \hbox (1.05966pt too wide) in alignment at lines 71--73
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.05966pt too wide) in alignment at lines 73--74
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.05966pt too wide) in alignment at lines 74--85
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 85
+ []
+
+
+Overfull \hbox (3.84846pt too wide) in alignment at lines 89--94
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.84846pt too wide) in alignment at lines 94--100
+ [] [] [] [] [] 
+ []
+
+
+Overfull \vbox (2.46982pt too high) has occurred while \output is active []
+
+
+[161
+
+] [162 <./img/instance_fc_diff.png> <./img/instance_fc_abil.png>] [163 <./img/i
+nstance_fm_diff.png> <./img/instance_fm_abil.png>]
+<img/instance_diff.png, id=3133, 462.528pt x 346.896pt>
+File: img/instance_diff.png Graphic file (type png)
+
+<use img/instance_diff.png>
+Package pdftex.def Info: img/instance_diff.png used on input line 104.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/instance_abil.png, id=3138, 462.528pt x 346.896pt>
+File: img/instance_abil.png Graphic file (type png)
+
+<use img/instance_abil.png>
+Package pdftex.def Info: img/instance_abil.png used on input line 110.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+ [164 <./img/instance_diff.png> <./img/instance_abil.png>]
+Underfull \vbox (badness 10000) detected at line 138
+ []
+
+<img/responses_fc_diff.png, id=3150, 462.528pt x 346.896pt>
+File: img/responses_fc_diff.png Graphic file (type png)
+
+<use img/responses_fc_diff.png>
+Package pdftex.def Info: img/responses_fc_diff.png used on input line 142.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/responses_fc_abil.png, id=3151, 462.528pt x 346.896pt>
+File: img/responses_fc_abil.png Graphic file (type png)
+
+<use img/responses_fc_abil.png>
+Package pdftex.def Info: img/responses_fc_abil.png used on input line 148.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Underfull \vbox (badness 10000) detected at line 172
+ []
+
+<img/responses_fm_diff.png, id=3152, 462.528pt x 346.896pt>
+File: img/responses_fm_diff.png Graphic file (type png)
+
+<use img/responses_fm_diff.png>
+Package pdftex.def Info: img/responses_fm_diff.png used on input line 176.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/responses_fm_abil.png, id=3153, 462.528pt x 346.896pt>
+File: img/responses_fm_abil.png Graphic file (type png)
+
+<use img/responses_fm_abil.png>
+Package pdftex.def Info: img/responses_fm_abil.png used on input line 182.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Underfull \vbox (badness 10000) detected at line 203
+ []
+
+<img/responses_gen_diff.png, id=3154, 462.528pt x 346.896pt>
+File: img/responses_gen_diff.png Graphic file (type png)
+
+<use img/responses_gen_diff.png>
+Package pdftex.def Info: img/responses_gen_diff.png used on input line 207.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/responses_gen_abil.png, id=3155, 462.528pt x 346.896pt>
+File: img/responses_gen_abil.png Graphic file (type png)
+
+<use img/responses_gen_abil.png>
+Package pdftex.def Info: img/responses_gen_abil.png used on input line 213.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Underfull \vbox (badness 10000) detected at line 234
+ []
+
+<img/responses_diff.png, id=3156, 462.528pt x 346.896pt>
+File: img/responses_diff.png Graphic file (type png)
+
+<use img/responses_diff.png>
+Package pdftex.def Info: img/responses_diff.png used on input line 238.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/responses_abil.png, id=3161, 462.528pt x 346.896pt>
+File: img/responses_abil.png Graphic file (type png)
+
+<use img/responses_abil.png>
+Package pdftex.def Info: img/responses_abil.png used on input line 244.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+ [165
+
+] [166 <./img/responses_fc_diff.png> <./img/responses_fc_abil.png>] [167 <./img
+/responses_fm_diff.png> <./img/responses_fm_abil.png>] [168 <./img/responses_ge
+n_diff.png> <./img/responses_gen_abil.png>]
+[169 <./img/responses_diff.png> <./img/responses_abil.png>]
+Overfull \hbox (19.44153pt too wide) in alignment at lines 252--254
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (19.44153pt too wide) in alignment at lines 254--271
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 271
+ []
+
+<img/exponent_fc_diff.png, id=3208, 462.528pt x 346.896pt>
+File: img/exponent_fc_diff.png Graphic file (type png)
+
+<use img/exponent_fc_diff.png>
+Package pdftex.def Info: img/exponent_fc_diff.png used on input line 275.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/exponent_fc_abil.png, id=3209, 462.528pt x 346.896pt>
+File: img/exponent_fc_abil.png Graphic file (type png)
+
+<use img/exponent_fc_abil.png>
+Package pdftex.def Info: img/exponent_fc_abil.png used on input line 281.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Overfull \hbox (25.83043pt too wide) in alignment at lines 286--288
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (25.83043pt too wide) in alignment at lines 288--305
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 305
+ []
+
+<img/exponent_fm_diff.png, id=3210, 462.528pt x 346.896pt>
+File: img/exponent_fm_diff.png Graphic file (type png)
+
+<use img/exponent_fm_diff.png>
+Package pdftex.def Info: img/exponent_fm_diff.png used on input line 309.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/exponent_fm_abil.png, id=3211, 462.528pt x 346.896pt>
+File: img/exponent_fm_abil.png Graphic file (type png)
+
+<use img/exponent_fm_abil.png>
+Package pdftex.def Info: img/exponent_fm_abil.png used on input line 315.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Overfull \hbox (25.83043pt too wide) in alignment at lines 320--322
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (25.83043pt too wide) in alignment at lines 322--336
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 336
+ []
+
+<img/exponent_gen_diff.png, id=3212, 462.528pt x 346.896pt>
+File: img/exponent_gen_diff.png Graphic file (type png)
+
+<use img/exponent_gen_diff.png>
+Package pdftex.def Info: img/exponent_gen_diff.png used on input line 340.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/exponent_gen_abil.png, id=3213, 462.528pt x 346.896pt>
+File: img/exponent_gen_abil.png Graphic file (type png)
+
+<use img/exponent_gen_abil.png>
+Package pdftex.def Info: img/exponent_gen_abil.png used on input line 346.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Overfull \hbox (14.16649pt too wide) in alignment at lines 353--358
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.16649pt too wide) in alignment at lines 358--367
+ [] [] [] [] [] 
+ []
+
+<img/exponent_diff.png, id=3214, 462.528pt x 346.896pt>
+File: img/exponent_diff.png Graphic file (type png)
+
+<use img/exponent_diff.png>
+Package pdftex.def Info: img/exponent_diff.png used on input line 371.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/exponent_abil.png, id=3219, 462.528pt x 346.896pt>
+File: img/exponent_abil.png Graphic file (type png)
+
+<use img/exponent_abil.png>
+Package pdftex.def Info: img/exponent_abil.png used on input line 377.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+ [170] [171 <./img/exponent_fc_diff.png> <./img/exponent_fc_abil.png>] [172 <./
+img/exponent_fm_diff.png> <./img/exponent_fm_abil.png>] [173 <./img/exponent_ge
+n_diff.png> <./img/exponent_gen_abil.png>] [174 <./img/exponent_diff.png> <./im
+g/exponent_abil.png>]
+Underfull \vbox (badness 10000) detected at line 404
+ []
+
+<img/score_fc_diff.png, id=3264, 462.528pt x 346.896pt>
+File: img/score_fc_diff.png Graphic file (type png)
+
+<use img/score_fc_diff.png>
+Package pdftex.def Info: img/score_fc_diff.png used on input line 408.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/score_fc_abil.png, id=3265, 462.528pt x 346.896pt>
+File: img/score_fc_abil.png Graphic file (type png)
+
+<use img/score_fc_abil.png>
+Package pdftex.def Info: img/score_fc_abil.png used on input line 414.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Underfull \vbox (badness 10000) detected at line 438
+ []
+
+<img/score_fm_diff.png, id=3266, 462.528pt x 346.896pt>
+File: img/score_fm_diff.png Graphic file (type png)
+
+<use img/score_fm_diff.png>
+Package pdftex.def Info: img/score_fm_diff.png used on input line 442.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/score_fm_abil.png, id=3267, 462.528pt x 346.896pt>
+File: img/score_fm_abil.png Graphic file (type png)
+
+<use img/score_fm_abil.png>
+Package pdftex.def Info: img/score_fm_abil.png used on input line 448.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Underfull \vbox (badness 10000) detected at line 468
+ []
+
+<img/score_gen_diff.png, id=3268, 462.528pt x 346.896pt>
+File: img/score_gen_diff.png Graphic file (type png)
+
+<use img/score_gen_diff.png>
+Package pdftex.def Info: img/score_gen_diff.png used on input line 472.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/score_gen_abil.png, id=3269, 462.528pt x 346.896pt>
+File: img/score_gen_abil.png Graphic file (type png)
+
+<use img/score_gen_abil.png>
+Package pdftex.def Info: img/score_gen_abil.png used on input line 478.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Underfull \vbox (badness 10000) detected at line 499
+ []
+
+<img/score_diff.png, id=3270, 462.528pt x 346.896pt>
+File: img/score_diff.png Graphic file (type png)
+ <use img/score_diff.png>
+Package pdftex.def Info: img/score_diff.png used on input line 503.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/score_abil.png, id=3275, 462.528pt x 346.896pt>
+File: img/score_abil.png Graphic file (type png)
+ <use img/score_abil.png>
+Package pdftex.def Info: img/score_abil.png used on input line 509.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+[175] [176 <./img/score_fc_diff.png> <./img/score_fc_abil.png>] [177 <./img/sco
+re_fm_diff.png> <./img/score_fm_abil.png>] [178 <./img/score_gen_diff.png> <./i
+mg/score_gen_abil.png>] [179 <./img/score_diff.png> <./img/score_abil.png>]
+Overfull \hbox (5.85822pt too wide) in alignment at lines 517--519
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.85822pt too wide) in alignment at lines 519--536
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 536
+ []
+
+<img/time_fc_diff.png, id=3320, 462.528pt x 346.896pt>
+File: img/time_fc_diff.png Graphic file (type png)
+
+<use img/time_fc_diff.png>
+Package pdftex.def Info: img/time_fc_diff.png used on input line 540.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/time_fc_abil.png, id=3321, 462.528pt x 346.896pt>
+File: img/time_fc_abil.png Graphic file (type png)
+
+<use img/time_fc_abil.png>
+Package pdftex.def Info: img/time_fc_abil.png used on input line 546.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Overfull \hbox (5.35818pt too wide) in alignment at lines 551--553
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.35818pt too wide) in alignment at lines 553--570
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 570
+ []
+
+<img/time_fm_diff.png, id=3322, 462.528pt x 346.896pt>
+File: img/time_fm_diff.png Graphic file (type png)
+
+<use img/time_fm_diff.png>
+Package pdftex.def Info: img/time_fm_diff.png used on input line 574.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/time_fm_abil.png, id=3323, 462.528pt x 346.896pt>
+File: img/time_fm_abil.png Graphic file (type png)
+
+<use img/time_fm_abil.png>
+Package pdftex.def Info: img/time_fm_abil.png used on input line 580.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Overfull \hbox (5.85822pt too wide) in alignment at lines 585--587
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.85822pt too wide) in alignment at lines 587--601
+ [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 601
+ []
+
+<img/time_gen_diff.png, id=3324, 462.528pt x 346.896pt>
+File: img/time_gen_diff.png Graphic file (type png)
+
+<use img/time_gen_diff.png>
+Package pdftex.def Info: img/time_gen_diff.png used on input line 605.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/time_gen_abil.png, id=3325, 462.528pt x 346.896pt>
+File: img/time_gen_abil.png Graphic file (type png)
+
+<use img/time_gen_abil.png>
+Package pdftex.def Info: img/time_gen_abil.png used on input line 611.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Underfull \vbox (badness 10000) detected at line 632
+ []
+
+<img/time_diff.png, id=3326, 462.528pt x 346.896pt>
+File: img/time_diff.png Graphic file (type png)
+ <use img/time_diff.png>
+Package pdftex.def Info: img/time_diff.png used on input line 636.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/time_abil.png, id=3331, 462.528pt x 346.896pt>
+File: img/time_abil.png Graphic file (type png)
+ <use img/time_abil.png>
+Package pdftex.def Info: img/time_abil.png used on input line 642.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+)
+(./appendix/questionnaire.tex [180] [181 <./img/time_fc_diff.png> <./img/time_f
+c_abil.png>] [182 <./img/time_fm_diff.png> <./img/time_fm_abil.png>] [183 <./im
+g/time_gen_diff.png> <./img/time_gen_abil.png>] [184 <./img/time_diff.png> <./i
+mg/time_abil.png>]
+Underfull \vbox (badness 10000) detected at line 24
+ []
+
+<img/usefulness_fc_diff.png, id=3378, 462.528pt x 346.896pt>
 File: img/usefulness_fc_diff.png Graphic file (type png)
 
 <use img/usefulness_fc_diff.png>
 Package pdftex.def Info: img/usefulness_fc_diff.png used on input line 28.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/usefulness_fc_abil.png, id=3066, 462.528pt x 346.896pt>
+<img/usefulness_fc_abil.png, id=3379, 462.528pt x 346.896pt>
 File: img/usefulness_fc_abil.png Graphic file (type png)
 
 <use img/usefulness_fc_abil.png>
@@ -2526,14 +2983,14 @@ Package pdftex.def Info: img/usefulness_fc_abil.png used on input line 34.
 Underfull \vbox (badness 10000) detected at line 55
  []
 
-<img/usefulness_fm_diff.png, id=3067, 462.528pt x 346.896pt>
+<img/usefulness_fm_diff.png, id=3380, 462.528pt x 346.896pt>
 File: img/usefulness_fm_diff.png Graphic file (type png)
 
 <use img/usefulness_fm_diff.png>
 Package pdftex.def Info: img/usefulness_fm_diff.png used on input line 59.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/usefulness_fm_abil.png, id=3068, 462.528pt x 346.896pt>
+<img/usefulness_fm_abil.png, id=3381, 462.528pt x 346.896pt>
 File: img/usefulness_fm_abil.png Graphic file (type png)
 
 <use img/usefulness_fm_abil.png>
@@ -2543,452 +3000,129 @@ Package pdftex.def Info: img/usefulness_fm_abil.png used on input line 65.
 Underfull \vbox (badness 10000) detected at line 86
  []
 
-<img/usefulness_gen_diff.png, id=3069, 462.528pt x 346.896pt>
+<img/usefulness_gen_diff.png, id=3382, 462.528pt x 346.896pt>
 File: img/usefulness_gen_diff.png Graphic file (type png)
 
 <use img/usefulness_gen_diff.png>
 Package pdftex.def Info: img/usefulness_gen_diff.png used on input line 90.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/usefulness_gen_abil.png, id=3070, 462.528pt x 346.896pt>
+<img/usefulness_gen_abil.png, id=3383, 462.528pt x 346.896pt>
 File: img/usefulness_gen_abil.png Graphic file (type png)
 
 <use img/usefulness_gen_abil.png>
 Package pdftex.def Info: img/usefulness_gen_abil.png used on input line 96.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [159
+ [185
 
-] [160 <./img/usefulness_fc_diff.png> <./img/usefulness_fc_abil.png>] [161 <./i
-mg/usefulness_fm_diff.png> <./img/usefulness_fm_abil.png>] [162 <./img/usefulne
+] [186 <./img/usefulness_fc_diff.png> <./img/usefulness_fc_abil.png>] [187 <./i
+mg/usefulness_fm_diff.png> <./img/usefulness_fm_abil.png>] [188 <./img/usefulne
 ss_gen_diff.png> <./img/usefulness_gen_abil.png>]
-Underfull \vbox (badness 10000) detected at line 120
+Underfull \vbox (badness 10000) detected at line 116
  []
 
-<img/easeofuse_fc_diff.png, id=3102, 462.528pt x 346.896pt>
-File: img/easeofuse_fc_diff.png Graphic file (type png)
-
-<use img/easeofuse_fc_diff.png>
-Package pdftex.def Info: img/easeofuse_fc_diff.png used on input line 124.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/easeofuse_fc_abil.png, id=3103, 462.528pt x 346.896pt>
-File: img/easeofuse_fc_abil.png Graphic file (type png)
-
-<use img/easeofuse_fc_abil.png>
-Package pdftex.def Info: img/easeofuse_fc_abil.png used on input line 130.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Underfull \vbox (badness 10000) detected at line 151
- []
-
-<img/easeofuse_fm_diff.png, id=3104, 462.528pt x 346.896pt>
-File: img/easeofuse_fm_diff.png Graphic file (type png)
-
-<use img/easeofuse_fm_diff.png>
-Package pdftex.def Info: img/easeofuse_fm_diff.png used on input line 155.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/easeofuse_fm_abil.png, id=3105, 462.528pt x 346.896pt>
-File: img/easeofuse_fm_abil.png Graphic file (type png)
-
-<use img/easeofuse_fm_abil.png>
-Package pdftex.def Info: img/easeofuse_fm_abil.png used on input line 161.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Underfull \vbox (badness 10000) detected at line 179
- []
-
-<img/easeofuse_gen_diff.png, id=3106, 462.528pt x 346.896pt>
-File: img/easeofuse_gen_diff.png Graphic file (type png)
-
-<use img/easeofuse_gen_diff.png>
-Package pdftex.def Info: img/easeofuse_gen_diff.png used on input line 183.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/easeofuse_gen_abil.png, id=3107, 462.528pt x 346.896pt>
-File: img/easeofuse_gen_abil.png Graphic file (type png)
-
-<use img/easeofuse_gen_abil.png>
-Package pdftex.def Info: img/easeofuse_gen_abil.png used on input line 189.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [163] [164 <./img/easeofuse_fc_diff.png> <./img/easeofuse_fc_abil.png>] [165 <
-./img/easeofuse_fm_diff.png> <./img/easeofuse_fm_abil.png>] [166 <./img/easeofu
-se_gen_diff.png> <./img/easeofuse_gen_abil.png>]
-Underfull \vbox (badness 10000) detected at line 210
- []
-
-<img/usefulness_diff.png, id=3140, 462.528pt x 346.896pt>
+<img/usefulness_diff.png, id=3416, 462.528pt x 346.896pt>
 File: img/usefulness_diff.png Graphic file (type png)
 
 <use img/usefulness_diff.png>
-Package pdftex.def Info: img/usefulness_diff.png used on input line 214.
+Package pdftex.def Info: img/usefulness_diff.png used on input line 120.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/usefulness_abil.png, id=3145, 462.528pt x 346.896pt>
+<img/usefulness_abil.png, id=3421, 462.528pt x 346.896pt>
 File: img/usefulness_abil.png Graphic file (type png)
 
 <use img/usefulness_abil.png>
-Package pdftex.def Info: img/usefulness_abil.png used on input line 220.
+Package pdftex.def Info: img/usefulness_abil.png used on input line 126.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [167] [168 <./img/usefulness_diff.png> <./img/usefulness_abil.png>]
-Underfull \vbox (badness 10000) detected at line 240
- []
-
-<img/easeofuse_diff.png, id=3163, 462.528pt x 346.896pt>
-File: img/easeofuse_diff.png Graphic file (type png)
-
-<use img/easeofuse_diff.png>
-Package pdftex.def Info: img/easeofuse_diff.png used on input line 244.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/easeofuse_abil.png, id=3168, 462.528pt x 346.896pt>
-File: img/easeofuse_abil.png Graphic file (type png)
-
-<use img/easeofuse_abil.png>
-Package pdftex.def Info: img/easeofuse_abil.png used on input line 250.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-) (./appendix/instance_stats.tex [169] [170 <./img/easeofuse_diff.png> <./img/e
-aseofuse_abil.png>]
-Underfull \vbox (badness 10000) detected at line 24
- []
-
-<img/responses_fc_diff.png, id=3187, 462.528pt x 346.896pt>
-File: img/responses_fc_diff.png Graphic file (type png)
-
-<use img/responses_fc_diff.png>
-Package pdftex.def Info: img/responses_fc_diff.png used on input line 28.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/responses_fc_abil.png, id=3188, 462.528pt x 346.896pt>
-File: img/responses_fc_abil.png Graphic file (type png)
-
-<use img/responses_fc_abil.png>
-Package pdftex.def Info: img/responses_fc_abil.png used on input line 34.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Underfull \vbox (badness 10000) detected at line 55
- []
-
-<img/responses_fm_diff.png, id=3189, 462.528pt x 346.896pt>
-File: img/responses_fm_diff.png Graphic file (type png)
-
-<use img/responses_fm_diff.png>
-Package pdftex.def Info: img/responses_fm_diff.png used on input line 59.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/responses_fm_abil.png, id=3190, 462.528pt x 346.896pt>
-File: img/responses_fm_abil.png Graphic file (type png)
-
-<use img/responses_fm_abil.png>
-Package pdftex.def Info: img/responses_fm_abil.png used on input line 65.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Underfull \vbox (badness 10000) detected at line 86
- []
-
-<img/responses_gen_diff.png, id=3191, 462.528pt x 346.896pt>
-File: img/responses_gen_diff.png Graphic file (type png)
-
-<use img/responses_gen_diff.png>
-Package pdftex.def Info: img/responses_gen_diff.png used on input line 90.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/responses_gen_abil.png, id=3192, 462.528pt x 346.896pt>
-File: img/responses_gen_abil.png Graphic file (type png)
-
-<use img/responses_gen_abil.png>
-Package pdftex.def Info: img/responses_gen_abil.png used on input line 96.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Overfull \hbox (9.1235pt too wide) in alignment at lines 103--105
- [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (9.1235pt too wide) in alignment at lines 105--119
- [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 119
- []
-
-[171
-
-] <img/exponent_fc_diff.png, id=3202, 462.528pt x 346.896pt>
-File: img/exponent_fc_diff.png Graphic file (type png)
-
-<use img/exponent_fc_diff.png>
-Package pdftex.def Info: img/exponent_fc_diff.png used on input line 123.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/exponent_fc_abil.png, id=3203, 462.528pt x 346.896pt>
-File: img/exponent_fc_abil.png Graphic file (type png)
-
-<use img/exponent_fc_abil.png>
-Package pdftex.def Info: img/exponent_fc_abil.png used on input line 129.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Overfull \hbox (7.2068pt too wide) in alignment at lines 134--136
- [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (7.2068pt too wide) in alignment at lines 136--150
- [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
+ [189] [190 <./img/usefulness_diff.png> <./img/usefulness_abil.png>]
 Underfull \vbox (badness 10000) detected at line 150
  []
 
-<img/exponent_fm_diff.png, id=3204, 462.528pt x 346.896pt>
-File: img/exponent_fm_diff.png Graphic file (type png)
+<img/easeofuse_fc_diff.png, id=3439, 462.528pt x 346.896pt>
+File: img/easeofuse_fc_diff.png Graphic file (type png)
 
-<use img/exponent_fm_diff.png>
-Package pdftex.def Info: img/exponent_fm_diff.png used on input line 154.
+<use img/easeofuse_fc_diff.png>
+Package pdftex.def Info: img/easeofuse_fc_diff.png used on input line 154.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/exponent_fm_abil.png, id=3205, 462.528pt x 346.896pt>
-File: img/exponent_fm_abil.png Graphic file (type png)
+<img/easeofuse_fc_abil.png, id=3440, 462.528pt x 346.896pt>
+File: img/easeofuse_fc_abil.png Graphic file (type png)
 
-<use img/exponent_fm_abil.png>
-Package pdftex.def Info: img/exponent_fm_abil.png used on input line 160.
+<use img/easeofuse_fc_abil.png>
+Package pdftex.def Info: img/easeofuse_fc_abil.png used on input line 160.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-Overfull \hbox (10.51239pt too wide) in alignment at lines 165--167
- [] [] [] [] [] [] [] [] [] [] [] 
+Underfull \vbox (badness 10000) detected at line 181
  []
 
+<img/easeofuse_fm_diff.png, id=3441, 462.528pt x 346.896pt>
+File: img/easeofuse_fm_diff.png Graphic file (type png)
 
-Overfull \hbox (10.51239pt too wide) in alignment at lines 167--172
- [] [] [] [] [] [] [] [] [] [] [] 
+<use img/easeofuse_fm_diff.png>
+Package pdftex.def Info: img/easeofuse_fm_diff.png used on input line 185.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/easeofuse_fm_abil.png, id=3442, 462.528pt x 346.896pt>
+File: img/easeofuse_fm_abil.png Graphic file (type png)
+
+<use img/easeofuse_fm_abil.png>
+Package pdftex.def Info: img/easeofuse_fm_abil.png used on input line 191.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+Underfull \vbox (badness 10000) detected at line 209
  []
 
+<img/easeofuse_gen_diff.png, id=3443, 462.528pt x 346.896pt>
+File: img/easeofuse_gen_diff.png Graphic file (type png)
 
-Overfull \hbox (10.51239pt too wide) in alignment at lines 172--181
- [] [] [] [] [] [] [] [] [] [] [] 
+<use img/easeofuse_gen_diff.png>
+Package pdftex.def Info: img/easeofuse_gen_diff.png used on input line 213.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+
+<img/easeofuse_gen_abil.png, id=3444, 462.528pt x 346.896pt>
+File: img/easeofuse_gen_abil.png Graphic file (type png)
+
+<use img/easeofuse_gen_abil.png>
+Package pdftex.def Info: img/easeofuse_gen_abil.png used on input line 219.
+(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
+ [191] [192 <./img/easeofuse_fc_diff.png> <./img/easeofuse_fc_abil.png>] [193 <
+./img/easeofuse_fm_diff.png> <./img/easeofuse_fm_abil.png>] [194 <./img/easeofu
+se_gen_diff.png> <./img/easeofuse_gen_abil.png>]
+Underfull \vbox (badness 10000) detected at line 239
  []
 
-<img/exponent_gen_diff.png, id=3206, 462.528pt x 346.896pt>
-File: img/exponent_gen_diff.png Graphic file (type png)
+<img/easeofuse_diff.png, id=3477, 462.528pt x 346.896pt>
+File: img/easeofuse_diff.png Graphic file (type png)
 
-<use img/exponent_gen_diff.png>
-Package pdftex.def Info: img/exponent_gen_diff.png used on input line 185.
+<use img/easeofuse_diff.png>
+Package pdftex.def Info: img/easeofuse_diff.png used on input line 243.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 
-<img/exponent_gen_abil.png, id=3207, 462.528pt x 346.896pt>
-File: img/exponent_gen_abil.png Graphic file (type png)
+<img/easeofuse_abil.png, id=3482, 462.528pt x 346.896pt>
+File: img/easeofuse_abil.png Graphic file (type png)
 
-<use img/exponent_gen_abil.png>
-Package pdftex.def Info: img/exponent_gen_abil.png used on input line 191.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [172] [173 <./img/responses_fc_diff.png> <./img/responses_fc_abil.png>] [174 <
-./img/responses_fm_diff.png> <./img/responses_fm_abil.png>] [175 <./img/respons
-es_gen_diff.png> <./img/responses_gen_abil.png>] [176 <./img/exponent_fc_diff.p
-ng> <./img/exponent_fc_abil.png>] [177 <./img/exponent_fm_diff.png> <./img/expo
-nent_fm_abil.png>] [178 <./img/exponent_gen_diff.png> <./img/exponent_gen_abil.
-png>]
-Underfull \vbox (badness 10000) detected at line 215
- []
-
-<img/score_fc_diff.png, id=3263, 462.528pt x 346.896pt>
-File: img/score_fc_diff.png Graphic file (type png)
-
-<use img/score_fc_diff.png>
-Package pdftex.def Info: img/score_fc_diff.png used on input line 219.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/score_fc_abil.png, id=3264, 462.528pt x 346.896pt>
-File: img/score_fc_abil.png Graphic file (type png)
-
-<use img/score_fc_abil.png>
-Package pdftex.def Info: img/score_fc_abil.png used on input line 225.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Underfull \vbox (badness 10000) detected at line 246
- []
-
-<img/score_fm_diff.png, id=3265, 462.528pt x 346.896pt>
-File: img/score_fm_diff.png Graphic file (type png)
-
-<use img/score_fm_diff.png>
-Package pdftex.def Info: img/score_fm_diff.png used on input line 250.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/score_fm_abil.png, id=3266, 462.528pt x 346.896pt>
-File: img/score_fm_abil.png Graphic file (type png)
-
-<use img/score_fm_abil.png>
-Package pdftex.def Info: img/score_fm_abil.png used on input line 256.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Underfull \vbox (badness 10000) detected at line 277
- []
-
-<img/score_gen_diff.png, id=3267, 462.528pt x 346.896pt>
-File: img/score_gen_diff.png Graphic file (type png)
-
-<use img/score_gen_diff.png>
-Package pdftex.def Info: img/score_gen_diff.png used on input line 281.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/score_gen_abil.png, id=3268, 462.528pt x 346.896pt>
-File: img/score_gen_abil.png Graphic file (type png)
-
-<use img/score_gen_abil.png>
-Package pdftex.def Info: img/score_gen_abil.png used on input line 287.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [179] [180 <./img/score_fc_diff.png> <./img/score_fc_abil.png>] [181 <./img/sc
-ore_fm_diff.png> <./img/score_fm_abil.png>]
-[182 <./img/score_gen_diff.png> <./img/score_gen_abil.png>]
-Underfull \vbox (badness 10000) detected at line 311
- []
-
-<img/time_fc_diff.png, id=3301, 462.528pt x 346.896pt>
-File: img/time_fc_diff.png Graphic file (type png)
-
-<use img/time_fc_diff.png>
-Package pdftex.def Info: img/time_fc_diff.png used on input line 315.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/time_fc_abil.png, id=3302, 462.528pt x 346.896pt>
-File: img/time_fc_abil.png Graphic file (type png)
-
-<use img/time_fc_abil.png>
-Package pdftex.def Info: img/time_fc_abil.png used on input line 321.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Underfull \vbox (badness 10000) detected at line 342
- []
-
-<img/time_fm_diff.png, id=3303, 462.528pt x 346.896pt>
-File: img/time_fm_diff.png Graphic file (type png)
-
-<use img/time_fm_diff.png>
-Package pdftex.def Info: img/time_fm_diff.png used on input line 346.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/time_fm_abil.png, id=3304, 462.528pt x 346.896pt>
-File: img/time_fm_abil.png Graphic file (type png)
-
-<use img/time_fm_abil.png>
-Package pdftex.def Info: img/time_fm_abil.png used on input line 352.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-Underfull \vbox (badness 10000) detected at line 373
- []
-
-<img/time_gen_diff.png, id=3305, 462.528pt x 346.896pt>
-File: img/time_gen_diff.png Graphic file (type png)
-
-<use img/time_gen_diff.png>
-Package pdftex.def Info: img/time_gen_diff.png used on input line 377.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/time_gen_abil.png, id=3306, 462.528pt x 346.896pt>
-File: img/time_gen_abil.png Graphic file (type png)
-
-<use img/time_gen_abil.png>
-Package pdftex.def Info: img/time_gen_abil.png used on input line 383.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [183] [184 <./img/time_fc_diff.png> <./img/time_fc_abil.png>] [185 <./img/time
-_fm_diff.png> <./img/time_fm_abil.png>] [186 <./img/time_gen_diff.png> <./img/t
-ime_gen_abil.png>]
-Underfull \vbox (badness 10000) detected at line 403
- []
-
-<img/responses_diff.png, id=3339, 462.528pt x 346.896pt>
-File: img/responses_diff.png Graphic file (type png)
-
-<use img/responses_diff.png>
-Package pdftex.def Info: img/responses_diff.png used on input line 407.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/responses_abil.png, id=3344, 462.528pt x 346.896pt>
-File: img/responses_abil.png Graphic file (type png)
-
-<use img/responses_abil.png>
-Package pdftex.def Info: img/responses_abil.png used on input line 413.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [187] [188 <./img/responses_diff.png> <./img/responses_abil.png>]
-Overfull \hbox (3.84846pt too wide) in alignment at lines 421--426
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (3.84846pt too wide) in alignment at lines 426--433
- [] [] [] [] [] 
- []
-
-<img/exponent_diff.png, id=3363, 462.528pt x 346.896pt>
-File: img/exponent_diff.png Graphic file (type png)
-
-<use img/exponent_diff.png>
-Package pdftex.def Info: img/exponent_diff.png used on input line 436.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/exponent_abil.png, id=3368, 462.528pt x 346.896pt>
-File: img/exponent_abil.png Graphic file (type png)
-
-<use img/exponent_abil.png>
-Package pdftex.def Info: img/exponent_abil.png used on input line 441.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
- [189] [190 <./img/exponent_diff.png> <./img/exponent_abil.png>]
-Underfull \vbox (badness 10000) detected at line 461
- []
-
-<img/score_diff.png, id=3387, 462.528pt x 346.896pt>
-File: img/score_diff.png Graphic file (type png)
- <use img/score_diff.png>
-Package pdftex.def Info: img/score_diff.png used on input line 465.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/score_abil.png, id=3392, 462.528pt x 346.896pt>
-File: img/score_abil.png Graphic file (type png)
- <use img/score_abil.png>
-Package pdftex.def Info: img/score_abil.png used on input line 471.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-[191] [192 <./img/score_diff.png> <./img/score_abil.png>]
-Underfull \vbox (badness 10000) detected at line 491
- []
-
-<img/time_diff.png, id=3410, 462.528pt x 346.896pt>
-File: img/time_diff.png Graphic file (type png)
- <use img/time_diff.png>
-Package pdftex.def Info: img/time_diff.png used on input line 495.
-(pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
-
-<img/time_abil.png, id=3415, 462.528pt x 346.896pt>
-File: img/time_abil.png Graphic file (type png)
- <use img/time_abil.png>
-Package pdftex.def Info: img/time_abil.png used on input line 501.
+<use img/easeofuse_abil.png>
+Package pdftex.def Info: img/easeofuse_abil.png used on input line 249.
 (pdftex.def)             Requested size: 292.77629pt x 219.59367pt.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
-
-[193] [194 <./img/time_diff.png> <./img/time_abil.png>]
+ [195] [196 <./img/easeofuse_diff.png> <./img/easeofuse_abil.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (./MainFile.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 85B2C910DF0B85050F4FD27D331913B8;6535.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: FD31F73877112E713B9AAD2E219FFD5B;6831.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 17005 strings out of 493304
- 258535 string characters out of 6139871
- 774484 words of memory out of 5000000
- 18413 multiletter control sequences out of 15000+600000
- 24550 words of font info for 182 fonts, out of 8000000 for 9000
+ 17076 strings out of 493304
+ 259875 string characters out of 6139871
+ 776195 words of memory out of 5000000
+ 18455 multiletter control sequences out of 15000+600000
+ 24745 words of font info for 185 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
- 41i,18n,47p,2655b,1859s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,47p,2655b,1857s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -3022,10 +3156,10 @@ e/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist
 ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MainFile.pdf (194 pages, 4012777 bytes).
+Output written on MainFile.pdf (196 pages, 4116374 bytes).
 PDF statistics:
- 3811 PDF objects out of 4296 (max. 8388607)
- 3241 compressed objects within 33 object streams
- 1339 named destinations out of 1440 (max. 500000)
- 36290 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 3879 PDF objects out of 4296 (max. 8388607)
+ 3289 compressed objects within 33 object streams
+ 1356 named destinations out of 1440 (max. 500000)
+ 36344 words of extra memory for PDF output out of 42996 (max. 10000000)
 
