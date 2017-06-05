@@ -149,24 +149,24 @@
 \contentsline {section}{Analysis}{72}{section*.174}
 \contentsline {chapter}{Results}{73}{chapter*.175}
 \contentsline {section}{User participation}{73}{section*.176}
-\contentsline {section}{Participant descriptives}{73}{section*.177}
-\contentsline {paragraph}{Gender}{73}{section*.178}
+\contentsline {section}{Participant descriptives}{74}{section*.177}
+\contentsline {paragraph}{Gender}{74}{section*.178}
 \contentsline {paragraph}{Age}{74}{section*.179}
 \contentsline {section}{Learning gain}{74}{section*.180}
 \contentsline {section}{Efficiency}{75}{section*.182}
-\contentsline {paragraph}{Number of reviewed instances}{75}{section*.184}
+\contentsline {paragraph}{Number of reviewed instances}{76}{section*.184}
 \contentsline {paragraph}{Number of responses}{76}{section*.185}
-\contentsline {paragraph}{Exponents}{76}{section*.186}
-\contentsline {paragraph}{Correct retrievals}{76}{section*.187}
+\contentsline {paragraph}{Exponents}{77}{section*.186}
+\contentsline {paragraph}{Correct retrievals}{77}{section*.187}
 \contentsline {paragraph}{Time spent}{77}{section*.188}
-\contentsline {section}{User perceptions about the software}{77}{section*.189}
-\contentsline {subsection}{Perceived usefulness}{77}{section*.191}
-\contentsline {paragraph}{Questionnaire}{77}{section*.192}
-\contentsline {paragraph}{Interviews}{77}{section*.193}
-\contentsline {subsection}{Perceived ease of use}{77}{section*.194}
-\contentsline {paragraph}{Questionnaire}{77}{section*.195}
-\contentsline {paragraph}{Interviews}{77}{section*.196}
-\contentsline {section}{Usage}{78}{section*.197}
+\contentsline {paragraph}{Interviews}{77}{section*.189}
+\contentsline {section}{User perceptions about the software}{77}{section*.190}
+\contentsline {subsection}{Perceived usefulness}{77}{section*.192}
+\contentsline {paragraph}{Questionnaire}{77}{section*.193}
+\contentsline {paragraph}{Interviews}{78}{section*.194}
+\contentsline {subsection}{Perceived ease of use}{78}{section*.195}
+\contentsline {paragraph}{Questionnaire}{78}{section*.196}
+\contentsline {paragraph}{Interviews}{78}{section*.197}
 \contentsline {chapter}{Conclusion and discussion}{79}{chapter*.198}
 \contentsline {part}{IV\hspace {1em}Recommendations}{80}{part.4}
 \contentsline {part}{V\hspace {1em}}{81}{part.5}
