@@ -178,6 +178,34 @@ Ausubel, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Baarda%
+, de Goede%
+\BCBL {}\ \BBA {} Teunissen%
+}{%
+Baarda%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+baarda}
+\APACinsertmetastar {%
+baarda}%
+\begin{APACrefauthors}%
+Baarda, D.%
+, de Goede, M.%
+\BCBL {}\ \BBA {} Teunissen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {Basisboek kwalitatief onderzoek: handleiding voor het opzetten
+  en uitvoeren van kwalitatief onderzoek} {Basisboek kwalitatief onderzoek:
+  handleiding voor het opzetten en uitvoeren van kwalitatief onderzoek}.
+\newblock
+\APACaddressPublisher{Groningen/Houten}{Noordhoff Uitgevers}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Barclay%
 , Bransford%
 , Franks%
@@ -1591,6 +1619,32 @@ Newell, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Nieveen%
+, Folmer%
+\BCBL {}\ \BBA {} Vielgen%
+}{%
+Nieveen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+slo}
+\APACinsertmetastar {%
+slo}%
+\begin{APACrefauthors}%
+Nieveen, N.%
+, Folmer, E.%
+\BCBL {}\ \BBA {} Vielgen, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {Evaluation Matchboard} {Evaluation matchboard}.
+\newblock
+\APACaddressPublisher{Enschede}{SLO}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Novak%
 \ \BBA {} Ca{\~n}as%
 }{%
@@ -1881,6 +1935,30 @@ Ruiz-Primo, M.%
 \newblock
 \APACjournalVolNumPages{Journal of Research in Science
   Teaching}{33}{6}{569--600}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schoonenboom%
+}{%
+Schoonenboom%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+mixedmethods}
+\APACinsertmetastar {%
+mixedmethods}%
+\begin{APACrefauthors}%
+Schoonenboom, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Points of addition and points of integration: Why oine
+  point of interface is not enough} {Points of addition and points of
+  integration: Why oine point of interface is not enough}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{}{}{1--13}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

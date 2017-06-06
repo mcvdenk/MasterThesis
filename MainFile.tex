@@ -152,18 +152,17 @@
 %    \input{./introduction/context.tex} %Reviewed by Tobias
     \input{./introduction/theory.tex} %Reviewed by Tobias, Paulina
 
-\part{Design Report}
+\part{Design Report} %TODO: incorporate feedback Boudewijn
     \input{./design/intro.tex} %Reviewed by Tobias TODO: Enlist separate aspects of the product
     \input{./design/analysis.tex} %Reviewed by Tobias, Paulina
-    \input{./design/usecases.tex} %Done, to be reviewed by Tobias
-    \input{./design/frameworks.tex} %Outlined
-    \input{./design/server.tex} %Done, to be reviewed by Tobias
-    \input{./design/client.tex} %Outlined
+    \input{./design/usecases.tex} %Done
+    \input{./design/frameworks.tex} %Done
+    \input{./design/server.tex} %Done
+    \input{./design/client.tex} %Done
 
 \part{Research}
-    \input{./research/aimsgoals.tex} %Not started
-    \input{./research/methods.tex} %Not started
-    \input{./research/results.tex} %Not started
+    \input{./research/methods.tex} %Outlined
+    \input{./research/results.tex} %Finished, TODO: incorporate feedback Tobias
     \input{./research/discussion.tex} %Not started
 
 \part{Recommendations}
@@ -171,13 +170,16 @@
     \input{./recommendations/research.tex} %Not started
     \input{./recommendations/implementation.tex} %Not started
 
-\part{}
+\part{Backmatter}
 
 \chapter{Epilogue}
 
 \input{./epilogue/epilogue.tex} %Not started
 
 \bibliography{references}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
 
 \begin{appendices}
     \input{./appendix/exampletest.tex}
@@ -188,6 +190,7 @@
     \includepdf[pages={1-}]{../software/server/doc/build/latex/Flashmapserver.pdf}
     \input{./appendix/clientsource.tex}
     \input{./appendix/screenshots.tex}
+    \input{./appendix/informed_consent_form.tex}
     \input{./appendix/dropouts.tex}
     \input{./appendix/descriptives.tex}
     \input{./appendix/learning_gain.tex}
