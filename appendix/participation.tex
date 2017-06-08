@@ -1,5 +1,5 @@
 \chapter{Participation statistics}
-\label{app:dropouts}
+\label{app:participation}
 
 \section{Descriptives}
 
@@ -20,7 +20,7 @@
 0.0000
 \\\addlinespace
 \bottomrule
-    \label{tab:dropouts_incl}
+    \label{tab:participation_incl}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lrrrrrrrrrr@{}}
@@ -40,7 +40,7 @@
 0.6628
 \\\addlinespace
 \bottomrule
-    \label{tab:dropouts_excl}
+    \label{tab:participation_excl}
 \end{longtable}
 
 \FloatBarrier
@@ -55,26 +55,20 @@
 & 0.008 & 0.9936 & 0.008 & 0.9937
 \\\addlinespace
 \bottomrule
-    \label{tab:dropouts-comp}
+    \label{tab:participation-comp}
 \end{longtable}
 
-\begin{figure}
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=.7\textwidth]{img/dropouts_fc.png}
-    \caption{A histogram depicting the active days of the flashcard users}
-    \label{fig:dropouts_fc}
+    \includegraphics[width=.7\textwidth]{img/participation.png}
+    \caption{A histogram comparing the amount of active days between flashcard and flashmap users}
+    \label{fig:participation}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=.7\textwidth]{img/dropouts_fm.png}
-    \caption{A histogram depicting the active days of the flashmap users}
-    \label{fig:dropouts_fm}
-\end{figure}
-\begin{figure}
-    \centering
-    \includegraphics[width=.7\textwidth]{img/dropouts_gen.png}
-    \caption{A histogram depicting the active days of all flashmap users}
-    \label{fig:dropouts_gen}
+    \includegraphics[width=.7\textwidth]{img/participation_gen.png}
+    \caption{A histogram depicting the amount of active days of all participants}
+    \label{fig:participation_gen}
 \end{figure}
 \begin{figure}
     \centering
@@ -93,11 +87,4 @@
     \includegraphics[width=.7\textwidth]{img/activedays_gen.png}
     \caption{A scatter diagram depicting how many users in total were active during which day of the experiment, combined with a step diagram depicting how many users finished the experiment that day (more than or equal to 6 successful days)}
     \label{fig:activedays_gen}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=.7\textwidth]{img/dropouts.png}
-    \caption{A comparison of figure~\protect\ref{fig:dropouts_fc} and~\protect\ref{fig:dropouts_fm}}
-    \label{fig:dropouts}
 \end{figure}

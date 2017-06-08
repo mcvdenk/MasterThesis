@@ -37,45 +37,45 @@ Name 1 in "Novak, D., and Ca{\~n}as, A.J." has a comma at the end for entry cons
 while executing---line 5079 of file apacite.bst
 Warning--No address in constructcmaps
 Warning--No journal in mixedmethods
-You've used 93 entries,
+You've used 97 entries,
             6951 wiz_defined-function locations,
-            1846 strings with 26451 characters,
-and the built_in function-call counts, 173691 in all, are:
-= -- 21208
-> -- 1278
-< -- 8693
-+ -- 8450
-- -- 174
-* -- 11595
-:= -- 32560
-add.period$ -- 384
-call.type$ -- 93
-change.case$ -- 1579
+            1869 strings with 26944 characters,
+and the built_in function-call counts, 180138 in all, are:
+= -- 22003
+> -- 1331
+< -- 8969
++ -- 8702
+- -- 182
+* -- 11996
+:= -- 33673
+add.period$ -- 400
+call.type$ -- 97
+change.case$ -- 1647
 chr.to.int$ -- 0
-cite$ -- 188
-duplicate$ -- 4395
-empty$ -- 7017
-format.name$ -- 2113
-if$ -- 32806
+cite$ -- 196
+duplicate$ -- 4574
+empty$ -- 7318
+format.name$ -- 2197
+if$ -- 34097
 int.to.chr$ -- 0
-int.to.str$ -- 279
+int.to.str$ -- 291
 missing$ -- 0
-newline$ -- 2348
-num.names$ -- 702
-pop$ -- 3096
+newline$ -- 2449
+num.names$ -- 734
+pop$ -- 3321
 preamble$ -- 1
-purify$ -- 368
+purify$ -- 384
 quote$ -- 0
-skip$ -- 10861
+skip$ -- 11203
 stack$ -- 0
-substring$ -- 9078
-swap$ -- 2729
-text.length$ -- 208
+substring$ -- 9353
+swap$ -- 2847
+text.length$ -- 216
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 7904
+type$ -- 8224
 warning$ -- 2
-while$ -- 738
+while$ -- 767
 width$ -- 0
-write$ -- 2843
+write$ -- 2963
 (There were 11 error messages)

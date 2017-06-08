@@ -532,6 +532,32 @@ Chung, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cohen%
+}{%
+Cohen%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+kappa}
+\APACinsertmetastar {%
+kappa}%
+\begin{APACrefauthors}%
+Cohen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1968}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Weighted kappa: Nominal scale agreement provision for
+  scaled disagreement or partial credit} {Weighted kappa: Nominal scale
+  agreement provision for scaled disagreement or partial credit}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Bulletin}{70}{4}{213--220}.
+\newblock
+\begin{APACrefDOI} \doi{10.1037/h0026256} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Craik%
 \ \BBA {} Lockhart%
 }{%
@@ -1852,6 +1878,36 @@ cbsdenom}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Robitzsch%
+, Kiefer%
+\BCBL {}\ \BBA {} Wu%
+}{%
+Robitzsch%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+ctt}
+\APACinsertmetastar {%
+ctt}%
+\begin{APACrefauthors}%
+Robitzsch, A.%
+, Kiefer, T.%
+\BCBL {}\ \BBA {} Wu, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {TAM: Test Analysis Modules} {Tam: Test analysis
+  modules}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=TAM}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 2.1-43}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Roediger%
 }{%
 Roediger%
@@ -2194,6 +2250,32 @@ Tzeng, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+van Berkel%
+\ \BBA {} Bax%
+}{%
+van Berkel%
+\ \BBA {} Bax%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+toetsen}
+\APACinsertmetastar {%
+toetsen}%
+\begin{APACrefauthors}%
+van Berkel, H.%
+\BCBT {}\ \BBA {} Bax, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {Toetsen in het hoger onderwijs} {Toetsen in het hoger
+  onderwijs}\ (\PrintOrdinal{2nd revised}\ \BEd).
+\newblock
+\APACaddressPublisher{Houten}{Bohn Stafleu van Loghum}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 van~den Akker%
 }{%
 van~den Akker%
@@ -2411,6 +2493,32 @@ Wickelgren, W.%
 \APACjournalVolNumPages{Memory \& Cognition}{2}{}{775--780}.
 \newblock
 \begin{APACrefDOI} \doi{10.3758/BF03198154} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Willse%
+}{%
+Willse%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+tamr}
+\APACinsertmetastar {%
+tamr}%
+\begin{APACrefauthors}%
+Willse, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {CTT: Classical Test Theory Functions} {Ctt: Classical
+  test theory functions}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=CTT}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 2.1}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

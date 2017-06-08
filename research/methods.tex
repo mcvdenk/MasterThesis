@@ -53,7 +53,11 @@ The quantitative and qualitative results will be mixed for the purposes of trian
 
 \subsection{Test}
 
-A test (either pre- or posttest) consists out of a knowledge section and a comprehension section, derived from Bloom's Taxonomy \cite{bloom}. The knowledge section aimed at measuring whether the rote memorisation was effective, and the comprehension section served the purpose of measuring whether the explicit relations within the flashmaps scaffolded the comprehension. Only these two levels were chosen, since higher levels are more time consuming to create and to answer by the students. Furthermore, the first step is to measure whether students can already generalise from only rehearsing questions on the knowledge level to questions on the comprehension level. The questions were randomly chosen from itembanks, where the itembank used for the knowledge questions were the flashcards themselves and the itembank for the comprehension questions a seperate set of 10 items. By randomly selecting the questions, the overall knowledge and comprehension are measured instead of specific subsets measured seperately on the pretest and posttest. This eliminates the specific item difficulty variable from the learning gain, increasing its validity. The random variable however also increases the variability of scores, decreasing the significance when comparing the conditions. Both the pretest and the posttest select 5 questions from each bank with non-overlapping items. Finally, a rubics was created in order to quantisise the openly formulated answers, consisting out of possible answer categories for each item.
+A test (either pre- or posttest) consists out of a knowledge section and a comprehension section, derived from Bloom's Taxonomy \cite{bloom}. The knowledge section aimed at measuring whether the rote memorisation was effective, and the comprehension section served the purpose of measuring whether the explicit relations within the flashmaps scaffolded the comprehension. Only these two levels were chosen, since higher levels are more time consuming to create and to answer by the students, and the first step is to only measure whether students can already generalise from only rehearsing questions on the knowledge level to questions on the comprehension level.
+
+The itembank used for the knowledge questions were the flashcards themselves, and the itembank for the comprehension questions a seperately constructed set of 10 items. Both the knowledge questions and the comprehension questions are based on a concept map encompassing the instructional material created by the researcher. The pretest and the posttest both randomly select 5 questions from each bank with non-overlapping items. By randomly selecting the questions, the overall knowledge and comprehension are measured instead of specific subsets measured seperately on the pretest and posttest. This eliminates the specific item difficulty variable from the learning gain, increasing its validity. The random variable however also increases the variability of scores, decreasing the significance when comparing the conditions.
+
+Finally, a rubic is created in order to quantisise the openly formulated answers, consisting out of possible answer categories for each item.
 
 \subsection{Questionnaire}
 
@@ -76,22 +80,52 @@ The interview is open instead of structured or semi-structured, since the interv
 \section{Analysis}
 \label{sec:analysis}
 
-\paragraph{Inter-rater reliability}
+\subsection{Inter-rater reliability}
 
-\paragraph{Classical test theory}
+In order to verify whether the rubics is a reliable measure for quantificating the open answers on the test questions, first the inter-reliability is calculated. This is done by calculating both the proportionate agreement as the more reliable weighted Cohen's kappa \cite{kappa} between of one of the teachers and the researcher which marked 10 randomly seleceted knowledge items and 12 randomly selected comprehension items. The items were selected from both the pretest and posttest from random participants, and shuffled in order to minimise any halo effect.
 
-\paragraph{Item response theory}
+\subsection{Test scores}
 
-\paragraph{Learning gain}
+In order to determine the score on a test, an item matrix is created with the response categories from the rubic as columns, the participants as rows, and the cells containing a 0 or 1 indicating whether the participants answer contained the response category. Each possible answer category from the rubic is chosen for the columns over the test items in order to more accurately determine item difficulties. The raw item difficulties are then calculated by the sum over the columns, whereas the raw person abilities are determined by the sum over the rows. Furthermore, the absolute and relative learning gain are calculated for comparing the conditions. The absolute learning gain entails simply subtracting the pretest person abilities from the posttest person abilities, resulting in a list of scores indicating how many more points each person scored on the posttest than on the pretest. The relative learning gain is calculated by the posttest score minus the pretest score divided by the maximum possible posttest score minus the pretest score. The main advantage of using relative gain over absolute gain is that each user can have a different maximum test score because of the items having different maximum scores and them being randomly selected for either the pre- or posttest, and the relative learning gain implicitly controls for this where the absolute gain does not.
 
-%Absolute and relative
+For each subcategory, two histograms are plotted: one for the item difficulty (expressed as the average amount of correct answer on an item per person) and one for the person ability (expressed as the average score of a person divided by the amount of items). The correction is necessary in order to compare the two groups on an equal level, and the numbers are not indicatory of the percentage of correct answers on the test. Both the pretest and the posttest histograms are plotted in one graph for each condition, and the learning gains of both conditions are also plotted in one graph for visualising the differences.
 
-\paragraph{Instance statistics}
+\subsection{Participation statistics}
 
-\paragraph{Questionnaire statistics}
+For determining the participation rates, a matrix is constructed containing the different days of the experiment as columns, the participants as rows, and the cells containing a 0 or 1 indicating the participant being active on that day. The participation rates are then calculated by the sum over the rows, and the amount of active participants from the sum over the columns. These matrixes are constructed seperately for the control group, the experimental group, and the group of combined experimental conditions. The statistics are depicted as histograms for the amount of active days for a participant, and as a scatterdiagram showing the amount of activity for each day of the experiment, combined with a step diagram showing the cumulative amount of finished participants. The days are indicated by a number from 0 to 28, where 0 is the day of presentation, day 21 is the day of the school test, and 28 is the last day with any activity.
 
-\paragraph{Comparisons}
+\subsection{Instance statistics}
 
-\paragraph{Hypotheses}
+This category contains all statistics derived from the Instance and Response objects in the database collected during the experiment. For all of the below subcategories, item matrices are constructed for the control group, experimental group, and the group of participants from combined conditions. These matrices consist of the Flashcards or Edges in the columns, depending on the condition, and the participants in the columns. Within the combined conditions group, flashcards are mapped to the first edge in their list of sources. Furthermore, for in the number of responses and time spent categories, the double flashmap instances are removed. These are the instances presented together in one flashmap to the user. Like in the previous categories, item scores are again calculated by sum over the columns, and person scores by sum over the rows. Additionally, a relative score is calculated by dividing sum by the amount of entries: for the item score the relative score is the sum (absolute score) divided by the amount of participants, and for the person score it is the absolute score divided by the amount of items. Finally, mean scores are calculated for both rows and columns. The relative score is meant for being able to compare both groups, whereas the mean score provides additional insight in the score per reviewed instance. Finally, histograms are depicted for both the item scores as the user scores.
 
-\paragraph{Interviews}
+\paragraph{Reviewed instances} In order to determine how much of the instructional material is reviewed by each participant, the first subcategory investigated is the amount of reviewed instances. The cell of the item matrices contains whether an instance for a participant contains any response. The relative score proves here the most useful, since this is the ratio of covered material.
+
+\paragraph{Number of responses} This statistic contains information on the number of times an instance is retrieved by a participant, which is included in order to compare whether both groups had an equal amount of opportunities to rehearse the instances. Since the ratio of retrieved instances is already known from the previous category, the mean number of responses per instance is the most useful score for comparing the experimental groups.
+
+\paragraph{Exponents} The exponent statistic is directly derived from the get\_expontent() function from Instance, indicating the amount of responses since the last incorrect retrieval. This is included as a measure of learning progress of an instance. For the same reasons as for the previous category, the mean values are the most useful measures for comparing the groups.
+
+\paragraph{Responses marked as correct} The ratio of the number of correct retrievals and the total number of retrievals is included in order to establish whether both groups had the same difficulty of retrieval from memory, and to verify whether participants indeed retrieve the instance correctly for 90\% of the retrievals as indicated by \citeA{microlearning}. The only relevant values are here the mean values, for the other values do not make sense.
+
+\paragraph{Time spent} Finally, the amount of time spent is calculated for each instance by the sum the retrieval time of each response, where the retrieval time is calculated by subtracting the time the instance was sent to the client from the time the instance was received on the server. The reason why this is chosen as the heuristic for time measurement is that this is the most intensive use of the system, whereas the times in between measure only the validating of an retieved answer or an intermission. Furthermore, the responses are filtered on only having retrieval times shorter than 5 minutes, since any longer retrieval time probably indicates an intermission between learning. For the same reason, the session time is also an unreliable measure. The absolute and mean values are here the most insightful, since the absolute values provide a measure of how much time the average user spent in total on the system, and the mean values are useful for comparing an individual flashcard with a flashmap. 
+
+\subsection{Questionnaire scores}
+
+The last quantitative category contains the scores on the questionnaire, divided in the perceived usefulness score and the perceived ease of use score. Again, an item matrix is constructed, with the questionnaire items (either usefulness or ease of use) represented by the columns and the participants by the rows, and the cells containing how the participant rated the item. This score is determined by the rating from the positive phrasing minus the rating from the negative rating, which should result in twice the positive rating if the participant rated the negatively phrased item with the inverse rating of the positive phrased item. This result thereby ranges from -4 to 4.
+
+\subsection{Classical test theory}
+
+In order to establish Cronbach's alpha, classical test analyses are conducted over all of the above described statistics, using the CTT package from R \cite{ctt}. Furthermore, if Cronbach's alpha was lower than 0.7 --- indicating a reliability classified by \citeA{devellis} and \citeA{toetsen} as questionnable at best---, the items indicated by the package as the most weak items are omitted until the alpha is higher than 0.7 as described by \citeA{toetsen} or participants are omitted since all of the items they responded to are omitted.
+
+\subsection{Item response theory}
+
+In order to provide an alternative measure of reliability, the EAP score from the TAM package in R \cite{tamr} is calculated, based on item response theory (IRT). This serves the determination of the reliability of the tests and the reliability of the questionnaire. Additionally, this package calculates the person ability score ($\theta$'s) and the item difficulties as dependent items, in contrast to classical test theory which calculates both values independently. The 1 parameter logistics IRT model or the Rasch model is used to determine these variables over the 2PL or higher models, since the sample is expected to be too small to provide any reliable estimators for other variables than item difficulty (e.g. item discrimination). Finally, the TAM package supports defining fixed item difficulties, which is necessary in order to compare two sets of test scores. The item difficulties from the combined pretest matrices are used for setting the item difficulties when determining the IRT person abilities of the posttest matrices.
+
+\subsection{Descriptive statistics}
+
+For each category described above, the descriptive statistics will be provided as sample size, minimum value, maximum value, mean value, variance, the skew, and the kurtosis (provided by the describe() function from the scipy.stats package for python), the t- and p-values for the normality of the distribution (provided by the normality() function from the same package), and the reliability from either classical test theory or item response theory as described in the previous sections.
+
+\subsection{Comparison tests}
+
+The tests used for comparing the control and experimental group are the Mann-Whitney U test and Welch's t-test provided by the scipy.stats package for python. If the p-value for the normality test is significant ($p<0.05$) for both distributions, the parametric Welch's t-test is used for the interpretation, otherwise the non-parametric Mann-Whitney U test is used.
+
+\subsection{Interviews}
