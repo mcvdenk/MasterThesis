@@ -587,6 +587,34 @@ Craik, F\BPBI I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+D'Agostino%
+\ \BBA {} Pearson%
+}{%
+D'Agostino%
+\ \BBA {} Pearson%
+}{%
+{\protect \APACyear {1973}}%
+}]{%
+normality}
+\APACinsertmetastar {%
+normality}%
+\begin{APACrefauthors}%
+D'Agostino, R.%
+\BCBT {}\ \BBA {} Pearson, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1973}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tests for departure from normality} {Tests for departure
+  from normality}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biometrika}{60}{}{613--622}.
+\newblock
+\begin{APACrefDOI} \doi{10.2307/2335012} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Davis%
 }{%
 Davis%
@@ -1400,6 +1428,38 @@ Macquarrie, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mann%
+\ \BBA {} Whitney%
+}{%
+Mann%
+\ \BBA {} Whitney%
+}{%
+{\protect \APACyear {1947}}%
+}]{%
+mannwhitneyu}
+\APACinsertmetastar {%
+mannwhitneyu}%
+\begin{APACrefauthors}%
+Mann, H\BPBI B.%
+\BCBT {}\ \BBA {} Whitney, D\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1947}{03}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On a Test of Whether one of Two Random Variables is
+  Stochastically Larger than the Other} {On a test of whether one of two random
+  variables is stochastically larger than the other}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Annals of Mathematical Statistics}{18}{1}{50--60}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1214/aoms/1177730491}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1214/aoms/1177730491} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Matsaridis%
 }{%
 Matsaridis%
@@ -1694,7 +1754,7 @@ Novak, D.%
   Them} {The theory underlying concept maps and how to construct and use them}\
   \APACbVolEdTR{}{\BTR{}}.
 \newblock
-\APACaddressInstitution{}{Institute for Human and Machine Cognition}.
+\APACaddressInstitution{Florida}{Institute for Human and Machine Cognition}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -2010,11 +2070,11 @@ Schoonenboom, J.%
 \newblock
 \APACrefYearMonthDay{2014}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Points of addition and points of integration: Why oine
-  point of interface is not enough} {Points of addition and points of
-  integration: Why oine point of interface is not enough}.{\BBCQ}
+\APACrefbtitle {Points of addition and points of integration: Why one point of
+  interface is not enough.} {Points of addition and points of integration: Why
+  one point of interface is not enough.}
 \newblock
-\APACjournalVolNumPages{}{}{}{1--13}.
+\APACaddressPublisher{Philadelphia}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -2417,6 +2477,32 @@ Wahlheim, C.%
   and Cognition}{40}{1}{94--105}.
 \newblock
 \begin{APACrefDOI} \doi{10.1037/a0034055} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Welch%
+}{%
+Welch%
+}{%
+{\protect \APACyear {1947}}%
+}]{%
+welch}
+\APACinsertmetastar {%
+welch}%
+\begin{APACrefauthors}%
+Welch, B\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1947}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The generalization of student's problem when several
+  different population varlances are involved} {The generalization of student's
+  problem when several different population varlances are involved}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biometrika}{34}{1-2}{28}.
+\newblock
+\begin{APACrefDOI} \doi{10.1093/biomet/34.1-2.28} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
