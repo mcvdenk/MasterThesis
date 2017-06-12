@@ -2,16 +2,16 @@
 \contentsline {chapter}{Project Description}{6}{chapter*.2}
 \contentsline {section}{Concept mapping}{7}{section*.3}
 \contentsline {subsection}{Definition}{7}{section*.4}
-\contentsline {subsection}{Effectiveness}{9}{section*.6}
+\contentsline {subsection}{Effectiveness}{8}{section*.6}
 \contentsline {subsection}{Applications of concept mapping}{9}{section*.7}
-\contentsline {section}{Flashcard system}{10}{section*.8}
-\contentsline {subsection}{Definition}{10}{section*.9}
+\contentsline {section}{Flashcard system}{9}{section*.8}
+\contentsline {subsection}{Definition}{9}{section*.9}
 \contentsline {subsection}{Effectiveness}{10}{section*.10}
-\contentsline {subsection}{Design features}{11}{section*.11}
+\contentsline {subsection}{Design features}{10}{section*.11}
 \contentsline {subsection}{Application of flashcards}{11}{section*.12}
-\contentsline {section}{Comparison of the two tools}{12}{section*.13}
+\contentsline {section}{Comparison of the two tools}{11}{section*.13}
 \contentsline {section}{Flashmap system}{12}{section*.14}
-\contentsline {section}{Evaluation}{13}{section*.16}
+\contentsline {section}{Evaluation}{12}{section*.16}
 \contentsline {chapter}{Cognitive theories}{15}{chapter*.18}
 \contentsline {section}{Storage and retrieval}{15}{section*.19}
 \contentsline {section}{Cognitive effects with regard to encoding practices}{17}{section*.22}
