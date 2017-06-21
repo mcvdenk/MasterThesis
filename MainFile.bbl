@@ -1943,31 +1943,6 @@ Robitzsch, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Roediger%
-}{%
-Roediger%
-}{%
-{\protect \APACyear {1980}}%
-}]{%
-roediger}
-\APACinsertmetastar {%
-roediger}%
-\begin{APACrefauthors}%
-Roediger, H.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1980}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Memory metaphors in cognitive psychology} {Memory
-  metaphors in cognitive psychology}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Memory \& Cognition}{8}{3}{231--246}.
-\newblock
-\begin{APACrefDOI} \doi{10.3758/BF03197611} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Rohrer%
 , Taylor%
 , Pashler%
