@@ -671,31 +671,6 @@ Davis, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-De~Simone%
-}{%
-De~Simone%
-}{%
-{\protect \APACyear {2007}}%
-}]{%
-desimone}
-\APACinsertmetastar {%
-desimone}%
-\begin{APACrefauthors}%
-De~Simone, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2007}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Applications of Concept Mapping} {Applications of
-  concept mapping}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{College Teaching}{55}{1}{33--36}.
-\newblock
-\begin{APACrefDOI} \doi{10.3200/CTCH.55.1.33-36} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 DeVellis%
 }{%
 DeVellis%

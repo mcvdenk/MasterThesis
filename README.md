@@ -1,95 +1,37 @@
 Planning thesis
 ===============
 
+* Concept map of thesis for explicitating links
+
 Introduction
 ------------
 
 * Weeding
+* Describe links (with other chapters)
+* Incorporate feedback
 
 Design
 ------
 
-* ~~General use cases:~~
-  * ~~Supported user actions and system reactions~~
-    * ~~Use case diagrams~~
-    * ~~Elaborate use case diagrams in text~~
-    * ~~Activity diagrams~~
-    * ~~Elaborate activity diagrams in text~~
-* Server implementation:
-  * ~~Class diagram~~
-  * Elaborate class diagram in text
-    * Explain scheduling implementation
-    * Explain partial map generation
-  * ~~Code documentation~~
-  * White-box tests
-* Client implementation:
-  * Design of the concept map
-    * Procedure
-    * Problems and solutions
-  * Screenshots
-  * Textual description of user interface
-  * Arguments for design choices
-    * Options in visjs
-    * Front-end design (minimalism framework?)
-  * Black-box tests
+* Reduce analysis to implications + incorporation system
+* Approach software description from user experience (current client chapter)
+* Move current server description to documentation
 
 Research
 --------
 
-* Method:
-  * Research design
-  * Respondents
-  * Instrumentation
-    * Test design
-  * Procedure
-  * Analysis
-    * Quantitative
-      * Classical reliability measure
-      * IRT reliability measure
-      * ANOVA on learning gain
-      * ANOVA on IRT theta's of learning gain
-      * Learning gain relative and absolute
-      * Measures for comparing the groups
-        * Amount of flashcards/edges processed
-        * Comparison of learning progress
-        * IRT thetas in pretest
-      * Questionnaire
-      * Instance stats
-        * Amount of responses
-        * Exponents
-        * Scores
-        * Time spent 
-      * Session stats
-        * Browser
-        * Time spent
-      * Dropout rates
-    * Qualitative
-      * Interviews (steps of Baarda)
-      * Questionnaire open questions
-* Results:
-  * Descriptives
-  * Quantitative results
-    * Classical reliability
-    * IRT reliability
-    * ANOVA on learning gain
-    * ANOVA on IRT theta's of learning gain
-    * Learning gain relative and absolute
-    * Times spent with tool
-    * Amount of flashcards/edges processed
-    * Comparison of learning progress
-    * IRT thetas in pretest
-    * Questionnaire
-  * Qualitative results
-    * Interviews (steps of Baarda)
-    * Questionnaire open questions
+* Weeding
+* Describe links (with other chapters)
+* Incorporate feedback
+
+
+* Results: tables on user participation
 * Conclusion:
-  * Answering the research question
-  * Hypotheses for explaining the results
-    * Less elaborative processing
-    * Cognitive load differences
-    * Results due to measuring error
-    * Phrasing of the question (for example the effect of the question mark)
+  * Answering the research questions based on bullet points
   * Limitations
+    * Low response rate
+    * No controlled experiment
+    * No formative evaluation of prototype
   * Future work (maybe separate part)
     * More generative
       * Students constructing the concept map/flashcards
@@ -100,3 +42,6 @@ Research
     * Visualisation of the concept map
     * More supported displays (tables etc.)
     * Combination of multiple displays
+
+Abstract
+--------
