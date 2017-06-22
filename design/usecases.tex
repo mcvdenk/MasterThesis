@@ -11,19 +11,9 @@ Furthermore, when using more generative strategies, the learning task becomes mo
 
 The most important factor for this design choice is feasibility. The teacher already stated that there is only limited time available during the lesson to introduce them to the software, so there is no time for extensive instruction on how to create concept maps, let alone creating the maps within the classroom. Additionally, students do not have much time at home to spend on creating the maps, and it is also known from both interviews with the teacher as literature that they will probably have only a low amount of intrinsic motivation. Finally, when the students have to create their own maps, it cannot be guaranted that they will include the nodes relevant for the goals of the instruction, and might become either to narrow or to extensive in certain branches. The same arguments are valid for letting students create their own flashcards. Therefore, despite of the benefits that a more generative approach may have for the learning process, the content will be supplied to the students instead.
 
-\section{Choice of platform}
-
-The next design decision is centered around the choice of platform or medium going to be used in order to support the learning tool. In the section \nameref{subsec:fcapplication} on page~\pageref{subsec:fcapplication} it is described that students generally prefer to use traditional or written flashcards, despite the many advantages of digital flashcards. However, with the flashmap tool this is not a feasible option, since the tool has to dynamically generate different graphs based on the general concept map and the profile of the students. Of course it would be possible to provide the concept map digitally and the flashcards in written form, however this would introduce an extra variable to the research design. Finally, with written flashcards one can only use rather crude methods for rescheduling the cards, instead of using the more precise algorithms possible within a digital tool.
-
-There are various options for the specific implementation, for example a computer program or an app. Of these options, a web application is the most convenient, since it is accessible for any device with a modern web browser, and immediately stores the usage data on a centralised server so that it is immediately accessible for the researcher. Furthermore, adjustments or fixes can be applied during the research, without all users having to update to the newest version.
-
-For the client, HTML, CSS, and Javascript are used, importing the vis.js library for visualising the concept map dynamically\footnote{\url{http://www.visjs.org/}}. Furthermore, Python is used for the server logic, communicating with the webclient through a websocket using JSON messages. The choice for Python is mainly based on preference by the programmer. Finally, MongoDB was used as a database engine since it stores data in a format very similar to JSON, which is also used by vis.js to represent concept maps.
-
-The server implementation will be further elaborated in the \nameref{ch:server} chapter on page~\pageref{ch:server}, and the client implementation in the \nameref{ch:client} chapter on page~\pageref{ch:client}.
-
 \section{Supported user actions}
 
-The final design decision related to the general ideation of software is deciding which use cases should be supported, which are generally displayed within a UML use case diagram \cite{uml}. For the flashmap software, the use cases are divided in cases related to the registering and login process (see figure~\ref{fig:loginusecase}), and the cases related to the main use of the software (see figure~\ref{fig:mainusecase}).
+The other design decision related to the general ideation of software is deciding which use cases should be supported, which are typically displayed within UML use case diagrams \cite{uml}. For the flashmap software, the use cases are divided in cases related to the registering and login process (see figure~\ref{fig:loginusecase}), and the cases related to the main use of the software (see figure~\ref{fig:mainusecase}).
 
 \begin{figure}[h!]
 \centering
