@@ -6,9 +6,9 @@ Planning thesis
 Introduction
 ------------
 
-* Weeding
-* Describe links (with other chapters)
-* Incorporate feedback
+* ~~Weeding~~
+* ~~Describe links (with other chapters)~~
+* ~~Incorporate feedback~~
 
 Design
 ------

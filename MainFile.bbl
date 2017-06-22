@@ -932,32 +932,6 @@ Grever, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Heemskerk%
-}{%
-Heemskerk%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-heemskerk}
-\APACinsertmetastar {%
-heemskerk}%
-\begin{APACrefauthors}%
-Heemskerk, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2010}.
-\unskip\
-\newblock
-\APACrefbtitle {Vroeger was het oorlog. Geschiedeniskennis bij Nederlandse
-  jongeren} {Vroeger was het oorlog. geschiedeniskennis bij nederlandse
-  jongeren}\ \APACtypeAddressSchool {Unpublished master's thesis}{}{}.
-\unskip\
-\newblock
-\APACaddressSchool {}{Erasmus Universiteit Rotterdam}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Hulstijn%
 }{%
 Hulstijn%
@@ -2283,37 +2257,6 @@ van Berkel, H.%
   onderwijs}\ (\PrintOrdinal{2nd revised}\ \BEd).
 \newblock
 \APACaddressPublisher{Houten}{Bohn Stafleu van Loghum}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-van~den Akker%
-}{%
-van~den Akker%
-}{%
-{\protect \APACyear {2003}}%
-}]{%
-curricularspiderweb}
-\APACinsertmetastar {%
-curricularspiderweb}%
-\begin{APACrefauthors}%
-van~den Akker, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2003}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Curriculum Perspectives: An Introduction} {Curriculum
-  perspectives: An introduction}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Curriculum Landscapes and Trends} {Curriculum landscapes
-  and trends}\ (\BPGS\ 1--10).
-\newblock
-\APACaddressPublisher{Dordrecht}{Springer Netherlands}.
-\newblock
-\begin{APACrefURL} \url{http://dx.doi.org/10.1007/978-94-017-1205-7_1}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1007/978-94-017-1205-7_1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
