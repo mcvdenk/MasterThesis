@@ -616,32 +616,6 @@ D'Agostino, R.%
 
 \bibitem [\protect \citeauthoryear {%
 Davis%
-}{%
-Davis%
-}{%
-{\protect \APACyear {1989}}%
-}]{%
-tamq}
-\APACinsertmetastar {%
-tamq}%
-\begin{APACrefauthors}%
-Davis, F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1989}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Perceived Usefulness, Perceived Ease of Use, and User
-  Acceptance of Information Technology} {Perceived usefulness, perceived ease
-  of use, and user acceptance of information technology}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{MIS Quarterly}{13}{3}{319--340}.
-\newblock
-\begin{APACrefDOI} \doi{10.2307/249008} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Davis%
 , Bagozzi%
 \BCBL {}\ \BBA {} Warshaw%
 }{%
@@ -1622,30 +1596,6 @@ Novak, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-(OMG)%
-}{%
-(OMG)%
-}{%
-{\protect \APACyear {2015}}%
-}]{%
-uml}
-\APACinsertmetastar {%
-uml}%
-\begin{APACrefauthors}%
-(OMG), O\BPBI M\BPBI G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{}{}.
-\newblock
-\APACrefbtitle {OMG Unified Modeling Language Reference Manual} {Omg unified
-  modeling language reference manual}\ (\PrintOrdinal{2.5}\ \BEd).
-\newblock
-\APAChowpublished {OMG Document Number formal/2015-03-01
-  (\url{http://www.omg.org/spec/UML/2.5/PDF})}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Pavlik%
 \ \BBA {} Anderson%
 }{%
@@ -2207,6 +2157,29 @@ von Glaserfield, E.%
 \APACjournalVolNumPages{Prospects}{31}{2}{161--173}.
 \newblock
 \begin{APACrefDOI} \doi{10.1007/BF03220058} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+voor Examens%
+}{%
+voor Examens%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+eindexamen}
+\APACinsertmetastar {%
+eindexamen}%
+\begin{APACrefauthors}%
+voor Examens, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{June}{}.
+\newblock
+\APACrefbtitle {Syllabus Centraal Examen 2016, nader vastgesteld.} {Syllabus
+  centraal examen 2016, nader vastgesteld.}
+\newblock
+\APACaddressPublisher{Utrecht}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

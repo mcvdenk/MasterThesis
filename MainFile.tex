@@ -119,10 +119,6 @@
     \vspace{2ex}
 }
 
-%%% END Article customizations
-
-%%% The "real" document content comes below...
-
 \begin{document}
 
 \hyphenation{re-con-struc-ti-vism sta-ten-bij-bel}
@@ -139,42 +135,26 @@
 \thispagestyle{fancy}
 \bibliographystyle{apacite}
 
-%\part{Research Proposal}
-%\input{./ResearchProposal/researchproposal.tex}
-%\bibliography{references}
-
 \input{./preface/acknowledgements.tex} %Not started
 \input{./preface/preamble.tex} %Not started
 \input{./preface/abstract.tex} %Not started
 
 \part{Introduction}
     \input{./introduction/problem.tex} %Reviewed by Tobias, Sanne
-%    \input{./introduction/context.tex} %Reviewed by Tobias
     \input{./introduction/theory.tex} %Reviewed by Tobias, Paulina
 
 \part{Design Report} %TODO: incorporate feedback Boudewijn
-    \input{./design/intro.tex} %Reviewed by Tobias TODO: Enlist separate aspects of the product
+    \input{./design/intro.tex} %Reviewed by Tobias
     \input{./design/analysis.tex} %Reviewed by Tobias, Paulina
-    \input{./design/usecases.tex} %Done
     \input{./design/frameworks.tex} %Done
-    \input{./design/server.tex} %Done
-    \input{./design/client.tex} %Done
+    \input{./design/software.tex} %Done
 
 \part{Research}
     \input{./research/methods.tex} %Outlined
     \input{./research/results.tex} %Finished, TODO: incorporate feedback Tobias
     \input{./research/discussion.tex} %Not started
 
-\part{Recommendations}
-    \input{./recommendations/features.tex} %Not started
-    \input{./recommendations/research.tex} %Not started
-    \input{./recommendations/implementation.tex} %Not started
-
 \part{Backmatter}
-
-\chapter{Epilogue}
-
-\input{./epilogue/epilogue.tex} %Not started
 
 \bibliography{references}
 
@@ -189,7 +169,6 @@
     \label{app:documentation}
     \includepdf[pages={1-}]{../software/server/doc/build/latex/Flashmapserver.pdf}
     \input{./appendix/clientsource.tex}
-    \input{./appendix/screenshots.tex}
     \input{./appendix/informed_consent_form.tex}
     \input{./appendix/participation.tex}
     \input{./appendix/descriptives.tex}

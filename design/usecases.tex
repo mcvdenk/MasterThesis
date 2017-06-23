@@ -22,7 +22,7 @@ The other design decision related to the general ideation of software is decidin
 \label{fig:loginusecase}
 \end{figure}
 
-\paragraph{Login use cases} When opening the webapplication, the user is first prompted with a login screen. Here, th e user can either enter an already existing username to continue this session, or he can enter a new name in order to register as a new user. When the user is registering as a new user, a form is presented asking for information on gender and birthdate as descriptive information, and asking for the specific code the user received on the informed consent form in order to validate that the user indeed signed this form before partaking in the research (see section \nameref{sec:procedure} on page~\pageref{sec:procedure}). After that, another form will be prompted for the pretest (section \nameref{sec:instrumentation} on page~\pageref{sec:instrumentation}). When the user has met certain criteria, a posttest similar to the pretest will be prompted, followed by a questionnaire and a debriefing text. When none of these criteria are met, the user can access he main use cases.
+\paragraph{Login use cases} When opening the webapplication, the user is first prompted with a login screen. Here, the user can either enter an already existing username to continue this session, or he can enter a new name in order to register as a new user. When the user is registering as a new user, a form is presented asking for information on gender and birthdate as descriptive information, and asking for the specific code the user received on the informed consent form in order to validate that the user indeed signed this form before partaking in the research (see section \nameref{sec:procedure} on page~\pageref{sec:procedure}). After that, another form will be prompted for the pretest (section \nameref{sec:instrumentation} on page~\pageref{sec:instrumentation}). When the user has met certain criteria, a posttest similar to the pretest will be prompted, followed by a questionnaire and a debriefing text. When none of these criteria are met, the user can access he main use cases.
 
 \begin{figure}[h!]
 \centering
@@ -36,52 +36,3 @@ The other design decision related to the general ideation of software is decidin
 \paragraph{Learning progress} When requesting the learning progress, the user is presented of an overview of what has already been learned and what is still left as either unseen items or items due for review. This provides an indication for the user so that he can estimate how much time he still needs to invest into the software, but also could stimulate the user by seeing the number of new or due items lowering and learned items increasing.
 
 Finally, the user can return to the login screen by logging out.
-
-\section{Detailed description of the client server interaction}
-
-Based on the previous description of use cases, there are two sets of complex interaction between the client and server, which are again the interaction for the login and registering process, and the interaction for the learning process. These are described as UML activity diagrams \cite{uml} in figure~\ref{fig:loginactivity} and figure~\ref{fig:learningactivitygen}. These diagrams are elaborated on below together with the specific network messages belonging to the interaction step. Each network message is a simple JSON message consisting of a \emph{keyword} field --- containing the main function which has to be performed by the other party --- and a \emph{data} field containing a dictionary with necessary supplementary data.
-
-\subsection{Login activities}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[height=\textheight-10ex]{img/loginactivity.png}
-\caption{An UML activity diagram displaying the server-client interactions when a user logs in}
-\label{fig:loginactivity}
-\end{figure}
-
-The exact reasoning behind the different activities can be found in the \nameref{sec:procedure} and \nameref{sec:instrumentation} sections of the \nameref{ch:methods} chapter on pages~\pageref{sec:procedure} and \pageref{sec:instrumentation}.
-
-\paragraph{Authenticate} When the user logs in, the client sends a message with keyword "AUTHENTICATE-REQUEST" and data containing a name field with the username. When a user with this username does not exist yet, the server creates a new user with a randomly assigned condition (either flashcard or flashmap, also known as control or experimental). When this user already exists, the server fetches this user from the database.
-
-\paragraph{Descriptives} The server then checks whether the user already has set description fields. If not, the server returns a message with keyword "DESCRIPTIVES-REQUEST", on which the client responds with keyword "DESCRIPTIVES-RESPONSE" with the data fields gender, birthdate, and code.
-
-\paragraph{Pretest} When the previous condition is met, the server will check whether the user has a registered pretest. If this is not the case, it will create a new test by randomly selecting 5 items from the flashcard dataset and 5 items from the itembank, which it will then send to the user with the keyword "TEST-REQUEST". After the user has answered the questions, the client sends the responses to the server with the keyword "TEST-RESPONSE".
-
-\paragraph{After the experiment} If the previous condition is also met, the user will be directed towards the main application with an "AUTHENTICATE-RESPONSE" message from the server, unless he has used the software for at least 15 minutes on 6 days. In that case the checks described below will be performed.
-
-\paragraph{Posttest} In this step the server checks whether the user also has a posttest entry. When this is not the case, it will send a similar test message to the pretest message, with the exception that the flashcards and test items from the pretest are excluded from the random selection in the posttest.
-
-\paragraph{Questionnaire} Sequentially, if the user has no questionnaire entry, the server will construct a new questionnaire by shuffling the Perceived Usefulness item, randomly selecting for each item whether it is positively phrased or negatively, copying this item set but with the opposite phrasing, and finally shuffeling the second set. The same is done for the Perceived Ease of Use items. This questionnaire is then sent to the client with the "QUESTIONNAIRE-REQUEST" keyword. The client sends a filled in version back with the "QUESTIONNAIRE-RESPONSE" keyword to the server with an extra textfield for what was good about the software, what could improved about the software, and an (optional) emailadress of the user for an interview at a later time.
-
-\paragraph{Debriefing} Finally, if the user has not debriefed before, the server sends a message with the keyword "DEBRIEFING-REQUEST" to the client, which will show a debriefing message to the user and returning a message with the keyword "DEBRIEFING-RESPONSE". When all the checks are met, the user will be directed to the main application with the "AUTHENTICATE-RESPONSE" message.
-
-\subsection{Learning activities}
-
-\begin{figure}
-\centering
-\includegraphics[width=.9\textwidth]{img/learningactivitygen.png}
-    \caption{An UML activity diagram describing the general server-client interactions related to reviewing items. The \protect\emph{Provide answers} activity is described in more detail on page~\protect\pageref{sec:client_learning}, and the \protect\emph{Store answers} and \protect\emph{Reschedule} activities in figure~\protect\ref{fig:learningserver} on page~\protect\pageref{fig:learningserver}}
-\label{fig:learningactivitygen}
-\end{figure}
-
-In the main application view, the user can either review items or view his learning progress. If he chooses the latter, a message will be sent to the server with the "LEARNED\_ITEMS-REQUEST" keyword, to which the server will respond with a "LEARNED\_ITEMS-RESPONSE" message containing information on the learning progress (see the \nameref{sec:learningprogress} section on page~\pageref{sec:learningprogress}). If the user wants to review items, the client will send a "LEARN-REQUEST" message to the server and the process described below is performed.
-
-\paragraph{Aimed time reached} First, the server checks whether the user already spent 15 minutes learning today. If this is the case, the client will display a message that the user has spent an sufficient amount of time on learning for today. This will not be directly be displayed as the activity diagram suggests, but rather it will show this message together with the next item.
-
-\paragraph{Selecting an item} After this, the server will check whether there is any item already due for review. If this is the case, the server will sent the item which is due for the longest time to the client with the keyword "LEARN-RESPONSE". If not, the server selects a new item from the database. It is then checked whether the user already read the section in the book related to this item. If not, the server sends a "READ\_SOURCE-REQUEST" to the client, which prompts the user whether he has read the source supplied in the source field of the message. If so, the client sends a "READ\_SOURCE-RESPONSE" message back to the server, which adds the supplied source to the list of read sources for the user. When the user has read the section , the server will sent a "LEARN-RESPONSE" message with a new item from the database. If there is no new item left, the server sends a message to the client with the keyword "NO\_MORE\_INSTANCES".
-
-
-\paragraph{Validating the item} When the user has reviewed the item, the client sents a "VALIDATE" message to the server with an 'id' field with the item id and a 'correct' field with information whether the user was able to think of the correct response for the item. This response will then be stored in the database by the server, and the item will be rescheduled for when it is due for the next review. After this, the server will repeat the learning cycle as if the client just sent a "LEARN-REQUEST" message.
-
-\paragraph{Undo previous response} When the supplied item is not the first item within the current learning section, the user can choose to undo the response of the previous item. The client will then send back a "UNDO" message to the server, which will then remove the previous response and also go back to the beginning of the learning cycle.
