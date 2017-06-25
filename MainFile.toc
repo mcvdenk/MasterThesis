@@ -93,38 +93,37 @@
 \contentsline {chapter}{Methods}{55}{chapter*.121}
 \contentsline {section}{Research design}{55}{section*.122}
 \contentsline {section}{Respondents}{55}{section*.123}
-\contentsline {section}{Procedure}{55}{section*.124}
-\contentsline {paragraph}{Review concept map, flashcards, and item bank}{55}{section*.125}
-\contentsline {paragraph}{Approval ethical committee}{55}{section*.126}
-\contentsline {paragraph}{Presentation}{56}{section*.127}
-\contentsline {paragraph}{Informed consent form}{56}{section*.128}
-\contentsline {paragraph}{Division of respondents}{56}{section*.129}
-\contentsline {paragraph}{Descriptives}{56}{section*.130}
-\contentsline {paragraph}{Pretest}{56}{section*.131}
-\contentsline {paragraph}{Experiment}{56}{section*.132}
-\contentsline {paragraph}{Posttest}{57}{section*.133}
-\contentsline {paragraph}{Questionnaire}{57}{section*.134}
-\contentsline {paragraph}{Debriefing}{57}{section*.135}
-\contentsline {paragraph}{Scoring sample items}{57}{section*.136}
-\contentsline {paragraph}{Interview}{57}{section*.137}
-\contentsline {paragraph}{Icecream vouchers}{57}{section*.138}
-\contentsline {section}{Instrumentation}{57}{section*.139}
-\contentsline {subsection}{Test}{57}{section*.140}
-\contentsline {subsection}{Questionnaire}{58}{section*.141}
-\contentsline {subsection}{Data collection during experiment}{58}{section*.142}
-\contentsline {paragraph}{Correctness retrievals}{58}{section*.143}
-\contentsline {paragraph}{Retrieval time}{58}{section*.144}
-\contentsline {paragraph}{Active days}{58}{section*.145}
-\contentsline {subsection}{Interview}{58}{section*.146}
-\contentsline {section}{Analysis}{59}{section*.147}
-\contentsline {subsection}{Inter-rater reliability}{59}{section*.148}
+\contentsline {paragraph}{Approach}{55}{section*.124}
+\contentsline {paragraph}{Informed consent form}{55}{section*.125}
+\contentsline {paragraph}{Division of respondents}{56}{section*.126}
+\contentsline {paragraph}{Selection of respondents}{56}{section*.127}
+\contentsline {section}{Instrumentation}{56}{section*.128}
+\contentsline {subsection}{Test}{56}{section*.129}
+\contentsline {subsection}{Questionnaire}{57}{section*.131}
+\contentsline {subsection}{Data collection during experiment}{57}{section*.132}
+\contentsline {paragraph}{Correctness retrievals}{57}{section*.133}
+\contentsline {paragraph}{Retrieval time}{58}{section*.134}
+\contentsline {paragraph}{Active days}{58}{section*.135}
+\contentsline {subsection}{Interview}{58}{section*.136}
+\contentsline {section}{Procedure}{58}{section*.137}
+\contentsline {paragraph}{Review concept map, flashcards, and item bank}{58}{section*.138}
+\contentsline {paragraph}{Approval ethical committee}{58}{section*.139}
+\contentsline {paragraph}{Descriptives}{58}{section*.140}
+\contentsline {paragraph}{Pretest}{58}{section*.141}
+\contentsline {paragraph}{Experiment}{59}{section*.142}
+\contentsline {paragraph}{Posttest}{59}{section*.143}
+\contentsline {paragraph}{Questionnaire}{59}{section*.144}
+\contentsline {paragraph}{Debriefing}{59}{section*.145}
+\contentsline {paragraph}{Interview}{59}{section*.146}
+\contentsline {paragraph}{Rewards}{59}{section*.147}
+\contentsline {section}{Analysis}{59}{section*.148}
 \contentsline {subsection}{Test scores}{59}{section*.149}
 \contentsline {subsection}{Participation statistics}{60}{section*.150}
 \contentsline {subsection}{Instance statistics}{60}{section*.151}
 \contentsline {paragraph}{Reviewed instances}{60}{section*.152}
 \contentsline {paragraph}{Number of responses}{60}{section*.153}
 \contentsline {paragraph}{Exponents}{60}{section*.154}
-\contentsline {paragraph}{Responses marked as correct}{60}{section*.155}
+\contentsline {paragraph}{Responses marked as correct}{61}{section*.155}
 \contentsline {paragraph}{Time spent}{61}{section*.156}
 \contentsline {subsection}{Questionnaire scores}{61}{section*.157}
 \contentsline {subsection}{Classical test theory}{61}{section*.158}
@@ -150,60 +149,57 @@
 \contentsline {paragraph}{Questionnaire}{67}{section*.181}
 \contentsline {paragraph}{Open questions}{68}{section*.182}
 \contentsline {paragraph}{Interviews}{68}{section*.183}
-\contentsline {subsection}{Perceived ease of use}{69}{section*.184}
-\contentsline {paragraph}{Questionnaire}{69}{section*.185}
+\contentsline {subsection}{Perceived ease of use}{68}{section*.184}
+\contentsline {paragraph}{Questionnaire}{68}{section*.185}
 \contentsline {paragraph}{Open questions}{69}{section*.186}
 \contentsline {paragraph}{Interviews}{69}{section*.187}
 \contentsline {chapter}{Conclusion and discussion}{70}{chapter*.188}
-\contentsline {part}{IV\hspace {1em}Recommendations}{71}{part.4}
-\contentsline {part}{V\hspace {1em}Backmatter}{72}{part.5}
-\contentsline {chapter}{Epilogue}{73}{chapter*.189}
-\contentsline {chapter}{References}{74}{chapter*.190}
-\contentsline {chapter}{Appendices}{79}{section*.191}
-\contentsline {chapter}{Test literature history 16th and 17th century}{80}{Appendix*.192}
-\contentsline {chapter}{Flashmap server Documentation}{83}{section*.195}
-\contentsline {chapter}{Source files of the client}{106}{Appendix*.196}
-\contentsline {section}{index.html}{106}{section*.197}
-\contentsline {section}{style.css}{106}{section*.198}
-\contentsline {section}{client.js}{108}{section*.199}
-\contentsline {chapter}{Informed consent form}{119}{Appendix*.200}
-\contentsline {section}{Letter}{119}{section*.201}
-\contentsline {section}{Informatie over het onderzoek}{121}{section*.202}
-\contentsline {subsection}{Beschrijving van het onderzoek}{121}{section*.203}
-\contentsline {subsection}{Voordelen voor de participant}{121}{section*.204}
-\contentsline {subsection}{Procedure}{122}{section*.205}
-\contentsline {section}{Toestemmingsverklaring}{123}{section*.206}
-\contentsline {chapter}{Participation statistics}{124}{Appendix*.207}
-\contentsline {section}{Descriptives}{124}{section*.208}
-\contentsline {section}{Comparisons among conditions}{124}{section*.209}
-\contentsline {chapter}{Descriptive statistics}{128}{Appendix*.215}
-\contentsline {section}{Gender}{128}{section*.216}
-\contentsline {section}{Age}{128}{section*.217}
-\contentsline {section}{Comparisons of ages among conditions}{130}{section*.221}
-\contentsline {subsubsection}{Age}{130}{section*.222}
-\contentsline {chapter}{Pretest and posttest statistics}{131}{Appendix*.224}
-\contentsline {section}{Inter-rater reliability}{131}{section*.225}
-\contentsline {section}{Descriptives of the knowledge questions}{132}{section*.227}
-\contentsline {section}{Comparisons of the knowledge questions}{137}{section*.234}
-\contentsline {subsection}{Pre- and posttest comparisons}{137}{section*.235}
-\contentsline {subsection}{Learning gain comparisons between conditions}{137}{section*.236}
-\contentsline {section}{Descriptives of the comprehension questions}{140}{section*.239}
-\contentsline {section}{Comparisons of the comprehension questions}{141}{section*.246}
-\contentsline {subsection}{Pre- and posttest comparisons}{141}{section*.247}
-\contentsline {subsection}{Learning gain comparisons between conditions}{146}{section*.248}
-\contentsline {chapter}{Instance statistics}{148}{Appendix*.251}
-\contentsline {section}{Descriptives on the number of reviewed instances}{148}{section*.252}
-\contentsline {section}{Comparisons of reviewed instances}{148}{section*.253}
-\contentsline {section}{Descriptives of the number of responses}{150}{section*.256}
-\contentsline {section}{Comparisons of the number of responses}{150}{section*.261}
-\contentsline {section}{Descriptives of the exponents of instances}{153}{section*.262}
-\contentsline {section}{Comparisons of the exponents}{153}{section*.267}
-\contentsline {section}{Descriptives of percentage of responses marked as correct}{156}{section*.268}
-\contentsline {section}{Comparisons of the percentage of responses marked as correct}{156}{section*.273}
-\contentsline {section}{Descriptives of the amount of time spent on the application}{159}{section*.274}
-\contentsline {section}{Comparisons of the amount of time spent on the application}{159}{section*.279}
-\contentsline {chapter}{Questionnaire statistics}{162}{Appendix*.280}
-\contentsline {section}{Descriptives of Perceived Usefulness questions}{162}{section*.281}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{162}{section*.288}
-\contentsline {section}{Descriptives of Perceived Ease of Use questions}{167}{section*.291}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{167}{section*.298}
+\contentsline {part}{IV\hspace {1em}Backmatter}{71}{part.4}
+\contentsline {chapter}{References}{72}{chapter*.189}
+\contentsline {chapter}{Appendices}{77}{section*.190}
+\contentsline {chapter}{Test literature history 16th and 17th century}{78}{Appendix*.191}
+\contentsline {chapter}{Flashmap server Documentation}{81}{section*.194}
+\contentsline {chapter}{Source files of the client}{104}{Appendix*.195}
+\contentsline {section}{index.html}{104}{section*.196}
+\contentsline {section}{style.css}{104}{section*.197}
+\contentsline {section}{client.js}{106}{section*.198}
+\contentsline {chapter}{Informed consent form}{117}{Appendix*.199}
+\contentsline {section}{Letter}{117}{section*.200}
+\contentsline {section}{Informatie over het onderzoek}{119}{section*.201}
+\contentsline {subsection}{Beschrijving van het onderzoek}{119}{section*.202}
+\contentsline {subsection}{Voordelen voor de participant}{119}{section*.203}
+\contentsline {subsection}{Procedure}{120}{section*.204}
+\contentsline {section}{Toestemmingsverklaring}{121}{section*.205}
+\contentsline {chapter}{Participation statistics}{122}{Appendix*.206}
+\contentsline {section}{Descriptives}{122}{section*.207}
+\contentsline {section}{Comparisons among conditions}{122}{section*.208}
+\contentsline {chapter}{Descriptive statistics}{126}{Appendix*.214}
+\contentsline {section}{Gender}{126}{section*.215}
+\contentsline {section}{Age}{126}{section*.216}
+\contentsline {section}{Comparisons of ages among conditions}{128}{section*.220}
+\contentsline {subsubsection}{Age}{128}{section*.221}
+\contentsline {chapter}{Pretest and posttest statistics}{129}{Appendix*.223}
+\contentsline {section}{Descriptives of the knowledge questions}{129}{section*.224}
+\contentsline {section}{Comparisons of the knowledge questions}{134}{section*.231}
+\contentsline {subsection}{Pre- and posttest comparisons}{134}{section*.232}
+\contentsline {subsection}{Learning gain comparisons between conditions}{134}{section*.233}
+\contentsline {section}{Descriptives of the comprehension questions}{137}{section*.236}
+\contentsline {section}{Comparisons of the comprehension questions}{138}{section*.243}
+\contentsline {subsection}{Pre- and posttest comparisons}{138}{section*.244}
+\contentsline {subsection}{Learning gain comparisons between conditions}{143}{section*.245}
+\contentsline {chapter}{Instance statistics}{145}{Appendix*.248}
+\contentsline {section}{Descriptives on the number of reviewed instances}{145}{section*.249}
+\contentsline {section}{Comparisons of reviewed instances}{145}{section*.250}
+\contentsline {section}{Descriptives of the number of responses}{147}{section*.253}
+\contentsline {section}{Comparisons of the number of responses}{147}{section*.258}
+\contentsline {section}{Descriptives of the exponents of instances}{150}{section*.259}
+\contentsline {section}{Comparisons of the exponents}{150}{section*.264}
+\contentsline {section}{Descriptives of percentage of responses marked as correct}{153}{section*.265}
+\contentsline {section}{Comparisons of the percentage of responses marked as correct}{153}{section*.270}
+\contentsline {section}{Descriptives of the amount of time spent on the application}{156}{section*.271}
+\contentsline {section}{Comparisons of the amount of time spent on the application}{156}{section*.276}
+\contentsline {chapter}{Questionnaire statistics}{159}{Appendix*.277}
+\contentsline {section}{Descriptives of Perceived Usefulness questions}{159}{section*.278}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{159}{section*.285}
+\contentsline {section}{Descriptives of Perceived Ease of Use questions}{164}{section*.288}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{164}{section*.295}
