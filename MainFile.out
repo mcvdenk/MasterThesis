@@ -11,76 +11,76 @@
 \BOOKMARK [1][-]{section*.18}{Storage and retrieval}{chapter*.16}% 11
 \BOOKMARK [1][-]{section*.21}{Cognitive effects with regard to encoding practices}{chapter*.16}% 12
 \BOOKMARK [1][-]{section*.25}{Cognitive effects with regard to retrieval practices}{chapter*.16}% 13
-\BOOKMARK [1][-]{section*.36}{Conclusion}{chapter*.16}% 14
+\BOOKMARK [1][-]{section*.33}{Conclusion}{chapter*.16}% 14
 \BOOKMARK [-1][-]{part.2}{II Design Report}{}% 15
-\BOOKMARK [0][-]{chapter*.38}{Analyses}{part.2}% 16
-\BOOKMARK [1][-]{section*.39}{Analysis of the learning context}{chapter*.38}% 17
-\BOOKMARK [1][-]{section*.42}{Analysis of the learner}{chapter*.38}% 18
-\BOOKMARK [1][-]{section*.48}{Analysis of the learning task}{chapter*.38}% 19
-\BOOKMARK [0][-]{chapter*.54}{Design frameworks}{part.2}% 20
-\BOOKMARK [1][-]{section*.55}{Supplantive or generative}{chapter*.54}% 21
-\BOOKMARK [1][-]{section*.56}{Concept map construction design features}{chapter*.54}% 22
-\BOOKMARK [1][-]{section*.57}{Flashcard learning design features}{chapter*.54}% 23
-\BOOKMARK [1][-]{section*.68}{The ARCS model}{chapter*.54}% 24
-\BOOKMARK [0][-]{chapter*.85}{Software design and development}{part.2}% 25
-\BOOKMARK [1][-]{section*.86}{Page elements}{chapter*.85}% 26
-\BOOKMARK [1][-]{section*.93}{Learning process}{chapter*.85}% 27
-\BOOKMARK [1][-]{section*.107}{Other views}{chapter*.85}% 28
-\BOOKMARK [1][-]{section*.121}{Testing the software}{chapter*.85}% 29
+\BOOKMARK [0][-]{chapter*.35}{Analyses}{part.2}% 16
+\BOOKMARK [1][-]{section*.36}{Analysis of the learning context}{chapter*.35}% 17
+\BOOKMARK [1][-]{section*.39}{Analysis of the learner}{chapter*.35}% 18
+\BOOKMARK [1][-]{section*.43}{Analysis of the learning task}{chapter*.35}% 19
+\BOOKMARK [0][-]{chapter*.49}{Design frameworks}{part.2}% 20
+\BOOKMARK [1][-]{section*.50}{Supplantive or generative}{chapter*.49}% 21
+\BOOKMARK [1][-]{section*.51}{Concept map construction design features}{chapter*.49}% 22
+\BOOKMARK [1][-]{section*.52}{Flashcard learning design features}{chapter*.49}% 23
+\BOOKMARK [1][-]{section*.63}{The ARCS model}{chapter*.49}% 24
+\BOOKMARK [0][-]{chapter*.80}{Software design and development}{part.2}% 25
+\BOOKMARK [1][-]{section*.81}{Page elements}{chapter*.80}% 26
+\BOOKMARK [1][-]{section*.88}{Learning process}{chapter*.80}% 27
+\BOOKMARK [1][-]{section*.102}{Other views}{chapter*.80}% 28
+\BOOKMARK [1][-]{section*.116}{Testing the software}{chapter*.80}% 29
 \BOOKMARK [-1][-]{part.3}{III Research}{}% 30
-\BOOKMARK [0][-]{chapter*.122}{Methods}{part.3}% 31
-\BOOKMARK [1][-]{section*.123}{Research design}{chapter*.122}% 32
-\BOOKMARK [1][-]{section*.124}{Respondents}{chapter*.122}% 33
-\BOOKMARK [1][-]{section*.129}{Instrumentation}{chapter*.122}% 34
-\BOOKMARK [1][-]{section*.138}{Procedure}{chapter*.122}% 35
-\BOOKMARK [1][-]{section*.153}{Analysis}{chapter*.122}% 36
-\BOOKMARK [0][-]{chapter*.168}{Results}{part.3}% 37
-\BOOKMARK [1][-]{section*.169}{Participant descriptions}{chapter*.168}% 38
-\BOOKMARK [1][-]{section*.175}{Learning gain}{chapter*.168}% 39
-\BOOKMARK [1][-]{section*.177}{System use}{chapter*.168}% 40
-\BOOKMARK [1][-]{section*.185}{User perceptions about the software}{chapter*.168}% 41
-\BOOKMARK [0][-]{chapter*.195}{Discussion}{part.3}% 42
-\BOOKMARK [1][-]{section*.196}{Conclusions}{chapter*.195}% 43
-\BOOKMARK [1][-]{section*.201}{Limitations}{chapter*.195}% 44
-\BOOKMARK [1][-]{section*.202}{Future work}{chapter*.195}% 45
+\BOOKMARK [0][-]{chapter*.117}{Methods}{part.3}% 31
+\BOOKMARK [1][-]{section*.118}{Research design}{chapter*.117}% 32
+\BOOKMARK [1][-]{section*.119}{Respondents}{chapter*.117}% 33
+\BOOKMARK [1][-]{section*.124}{Instrumentation}{chapter*.117}% 34
+\BOOKMARK [1][-]{section*.133}{Procedure}{chapter*.117}% 35
+\BOOKMARK [1][-]{section*.148}{Analysis}{chapter*.117}% 36
+\BOOKMARK [0][-]{chapter*.163}{Results}{part.3}% 37
+\BOOKMARK [1][-]{section*.164}{Participant descriptions}{chapter*.163}% 38
+\BOOKMARK [1][-]{section*.170}{Learning gain}{chapter*.163}% 39
+\BOOKMARK [1][-]{section*.172}{System use}{chapter*.163}% 40
+\BOOKMARK [1][-]{section*.180}{User perceptions about the software}{chapter*.163}% 41
+\BOOKMARK [0][-]{chapter*.190}{Discussion}{part.3}% 42
+\BOOKMARK [1][-]{section*.191}{Conclusions}{chapter*.190}% 43
+\BOOKMARK [1][-]{section*.196}{Limitations}{chapter*.190}% 44
+\BOOKMARK [1][-]{section*.197}{Future work}{chapter*.190}% 45
 \BOOKMARK [-1][-]{part.4}{IV Backmatter}{}% 46
-\BOOKMARK [0][-]{chapter*.203}{References}{part.4}% 47
-\BOOKMARK [0][-]{section*.204}{Appendices}{part.4}% 48
-\BOOKMARK [0][-]{Appendix*.205}{Test literature history 16th and 17th century}{part.4}% 49
-\BOOKMARK [0][-]{section*.208}{Flashmap server Documentation}{part.4}% 50
-\BOOKMARK [0][-]{Appendix*.209}{Source files of the client}{part.4}% 51
-\BOOKMARK [1][-]{section*.210}{index.html}{Appendix*.209}% 52
-\BOOKMARK [1][-]{section*.211}{style.css}{Appendix*.209}% 53
-\BOOKMARK [1][-]{section*.212}{client.js}{Appendix*.209}% 54
-\BOOKMARK [0][-]{Appendix*.213}{Informed consent form}{part.4}% 55
-\BOOKMARK [1][-]{section*.214}{Letter}{Appendix*.213}% 56
-\BOOKMARK [1][-]{section*.215}{Informatie over het onderzoek}{Appendix*.213}% 57
-\BOOKMARK [1][-]{section*.219}{Toestemmingsverklaring}{Appendix*.213}% 58
-\BOOKMARK [0][-]{Appendix*.220}{Participation statistics}{part.4}% 59
-\BOOKMARK [1][-]{section*.221}{Descriptives}{Appendix*.220}% 60
-\BOOKMARK [1][-]{section*.222}{Comparisons among conditions}{Appendix*.220}% 61
-\BOOKMARK [0][-]{Appendix*.228}{Descriptive statistics}{part.4}% 62
-\BOOKMARK [1][-]{section*.229}{Gender}{Appendix*.228}% 63
-\BOOKMARK [1][-]{section*.230}{Age}{Appendix*.228}% 64
-\BOOKMARK [1][-]{section*.234}{Comparisons of ages among conditions}{Appendix*.228}% 65
-\BOOKMARK [0][-]{Appendix*.237}{Pretest and posttest statistics}{part.4}% 66
-\BOOKMARK [1][-]{section*.238}{Descriptives of the knowledge questions}{Appendix*.237}% 67
-\BOOKMARK [1][-]{section*.245}{Comparisons of the knowledge questions}{Appendix*.237}% 68
-\BOOKMARK [1][-]{section*.250}{Descriptives of the comprehension questions}{Appendix*.237}% 69
-\BOOKMARK [1][-]{section*.257}{Comparisons of the comprehension questions}{Appendix*.237}% 70
-\BOOKMARK [0][-]{Appendix*.262}{Instance statistics}{part.4}% 71
-\BOOKMARK [1][-]{section*.263}{Descriptives on the number of reviewed instances}{Appendix*.262}% 72
-\BOOKMARK [1][-]{section*.264}{Comparisons of reviewed instances}{Appendix*.262}% 73
-\BOOKMARK [1][-]{section*.267}{Descriptives of the number of responses}{Appendix*.262}% 74
-\BOOKMARK [1][-]{section*.272}{Comparisons of the number of responses}{Appendix*.262}% 75
-\BOOKMARK [1][-]{section*.273}{Descriptives of the exponents of instances}{Appendix*.262}% 76
-\BOOKMARK [1][-]{section*.278}{Comparisons of the exponents}{Appendix*.262}% 77
-\BOOKMARK [1][-]{section*.279}{Descriptives of percentage of responses marked as correct}{Appendix*.262}% 78
-\BOOKMARK [1][-]{section*.284}{Comparisons of the percentage of responses marked as correct}{Appendix*.262}% 79
-\BOOKMARK [1][-]{section*.285}{Descriptives of the amount of time spent on the application}{Appendix*.262}% 80
-\BOOKMARK [1][-]{section*.290}{Comparisons of the amount of time spent on the application}{Appendix*.262}% 81
-\BOOKMARK [0][-]{Appendix*.291}{Questionnaire statistics}{part.4}% 82
-\BOOKMARK [1][-]{section*.292}{Descriptives of Perceived Usefulness questions}{Appendix*.291}% 83
-\BOOKMARK [1][-]{section*.299}{Comparisons of the Perceived Usefulness questions}{Appendix*.291}% 84
-\BOOKMARK [1][-]{section*.302}{Descriptives of Perceived Ease of Use questions}{Appendix*.291}% 85
-\BOOKMARK [1][-]{section*.309}{Comparisons of the Perceived Usefulness questions}{Appendix*.291}% 86
+\BOOKMARK [0][-]{chapter*.198}{References}{part.4}% 47
+\BOOKMARK [0][-]{section*.199}{Appendices}{part.4}% 48
+\BOOKMARK [0][-]{Appendix*.200}{Test literature history 16th and 17th century}{part.4}% 49
+\BOOKMARK [0][-]{section*.203}{Flashmap server Documentation}{part.4}% 50
+\BOOKMARK [0][-]{Appendix*.204}{Source files of the client}{part.4}% 51
+\BOOKMARK [1][-]{section*.205}{index.html}{Appendix*.204}% 52
+\BOOKMARK [1][-]{section*.206}{style.css}{Appendix*.204}% 53
+\BOOKMARK [1][-]{section*.207}{client.js}{Appendix*.204}% 54
+\BOOKMARK [0][-]{Appendix*.208}{Informed consent form}{part.4}% 55
+\BOOKMARK [1][-]{section*.209}{Letter}{Appendix*.208}% 56
+\BOOKMARK [1][-]{section*.210}{Informatie over het onderzoek}{Appendix*.208}% 57
+\BOOKMARK [1][-]{section*.214}{Toestemmingsverklaring}{Appendix*.208}% 58
+\BOOKMARK [0][-]{Appendix*.215}{Participation statistics}{part.4}% 59
+\BOOKMARK [1][-]{section*.216}{Descriptives}{Appendix*.215}% 60
+\BOOKMARK [1][-]{section*.217}{Comparisons among conditions}{Appendix*.215}% 61
+\BOOKMARK [0][-]{Appendix*.223}{Descriptive statistics}{part.4}% 62
+\BOOKMARK [1][-]{section*.224}{Gender}{Appendix*.223}% 63
+\BOOKMARK [1][-]{section*.225}{Age}{Appendix*.223}% 64
+\BOOKMARK [1][-]{section*.229}{Comparisons of ages among conditions}{Appendix*.223}% 65
+\BOOKMARK [0][-]{Appendix*.232}{Pretest and posttest statistics}{part.4}% 66
+\BOOKMARK [1][-]{section*.233}{Descriptives of the knowledge questions}{Appendix*.232}% 67
+\BOOKMARK [1][-]{section*.240}{Comparisons of the knowledge questions}{Appendix*.232}% 68
+\BOOKMARK [1][-]{section*.245}{Descriptives of the comprehension questions}{Appendix*.232}% 69
+\BOOKMARK [1][-]{section*.252}{Comparisons of the comprehension questions}{Appendix*.232}% 70
+\BOOKMARK [0][-]{Appendix*.257}{Instance statistics}{part.4}% 71
+\BOOKMARK [1][-]{section*.258}{Descriptives on the number of reviewed instances}{Appendix*.257}% 72
+\BOOKMARK [1][-]{section*.259}{Comparisons of reviewed instances}{Appendix*.257}% 73
+\BOOKMARK [1][-]{section*.262}{Descriptives of the number of responses}{Appendix*.257}% 74
+\BOOKMARK [1][-]{section*.267}{Comparisons of the number of responses}{Appendix*.257}% 75
+\BOOKMARK [1][-]{section*.268}{Descriptives of the exponents of instances}{Appendix*.257}% 76
+\BOOKMARK [1][-]{section*.273}{Comparisons of the exponents}{Appendix*.257}% 77
+\BOOKMARK [1][-]{section*.274}{Descriptives of percentage of responses marked as correct}{Appendix*.257}% 78
+\BOOKMARK [1][-]{section*.279}{Comparisons of the percentage of responses marked as correct}{Appendix*.257}% 79
+\BOOKMARK [1][-]{section*.280}{Descriptives of the amount of time spent on the application}{Appendix*.257}% 80
+\BOOKMARK [1][-]{section*.285}{Comparisons of the amount of time spent on the application}{Appendix*.257}% 81
+\BOOKMARK [0][-]{Appendix*.286}{Questionnaire statistics}{part.4}% 82
+\BOOKMARK [1][-]{section*.287}{Descriptives of Perceived Usefulness questions}{Appendix*.286}% 83
+\BOOKMARK [1][-]{section*.294}{Comparisons of the Perceived Usefulness questions}{Appendix*.286}% 84
+\BOOKMARK [1][-]{section*.297}{Descriptives of Perceived Ease of Use questions}{Appendix*.286}% 85
+\BOOKMARK [1][-]{section*.304}{Comparisons of the Perceived Usefulness questions}{Appendix*.286}% 86

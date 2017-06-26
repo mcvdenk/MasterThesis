@@ -18,201 +18,198 @@
 \contentsline {subsection}{Elaborative processing}{16}{section*.23}
 \contentsline {subsection}{Implications for concept mapping}{16}{section*.24}
 \contentsline {section}{Cognitive effects with regard to retrieval practices}{16}{section*.25}
-\contentsline {subsection}{Interference and Decay}{17}{section*.26}
-\contentsline {paragraph}{Theory of interference}{17}{section*.27}
-\contentsline {paragraph}{Theory of decay}{17}{section*.28}
-\contentsline {paragraph}{Long-term potentiation}{17}{section*.30}
-\contentsline {subsection}{Power laws of forgetting and learning}{18}{section*.31}
-\contentsline {subsection}{Spacing effect}{20}{section*.33}
-\contentsline {subsection}{Implications for the flashcard system}{20}{section*.34}
-\contentsline {section}{Conclusion}{21}{section*.36}
-\contentsline {part}{II\hspace {1em}Design Report}{22}{part.2}
-\contentsline {chapter}{Analyses}{24}{chapter*.38}
-\contentsline {section}{Analysis of the learning context}{24}{section*.39}
-\contentsline {subsection}{Needs assessment}{24}{section*.40}
-\contentsline {subsection}{The learning environment}{25}{section*.41}
-\contentsline {section}{Analysis of the learner}{25}{section*.42}
-\contentsline {subsection}{Physiological characteristics}{25}{section*.43}
-\contentsline {subsection}{Cognitive characteristics}{26}{section*.44}
-\contentsline {subsection}{Social characteristics}{27}{section*.45}
-\contentsline {section}{Analysis of the learning task}{28}{section*.48}
-\contentsline {subsection}{Learning goals}{28}{section*.49}
-\contentsline {subsection}{Types of learning}{28}{section*.50}
-\contentsline {subsection}{Concept map}{30}{section*.51}
-\contentsline {subsection}{Flashcards}{30}{section*.52}
-\contentsline {subsection}{Test specifications}{30}{section*.53}
-\contentsline {chapter}{Design frameworks}{32}{chapter*.54}
-\contentsline {section}{Supplantive or generative}{32}{section*.55}
-\contentsline {section}{Concept map construction design features}{33}{section*.56}
-\contentsline {section}{Flashcard learning design features}{33}{section*.57}
-\contentsline {subsection}{Presentation and retrieval modes}{33}{section*.58}
-\contentsline {subsection}{Retrieval practices}{34}{section*.59}
-\contentsline {paragraph}{Reception and production}{34}{section*.60}
-\contentsline {paragraph}{Recall and recognition}{34}{section*.61}
-\contentsline {subsection}{Increasing retrieval effort}{35}{section*.63}
-\contentsline {subsection}{Generative use}{35}{section*.64}
-\contentsline {subsection}{Block size}{36}{section*.65}
-\contentsline {subsection}{Expanded rehearsal}{36}{section*.66}
-\contentsline {subsection}{Adaptive sequencing}{36}{section*.67}
-\contentsline {section}{The ARCS model}{37}{section*.68}
-\contentsline {subsection}{Attention}{37}{section*.69}
-\contentsline {paragraph}{Perceptual arousal}{37}{section*.70}
-\contentsline {paragraph}{Inquiry arousal}{37}{section*.71}
-\contentsline {paragraph}{Variability}{38}{section*.72}
-\contentsline {subsection}{Relevance}{38}{section*.73}
-\contentsline {paragraph}{Goal orientation}{38}{section*.74}
-\contentsline {paragraph}{Motive matching}{38}{section*.75}
-\contentsline {paragraph}{Familiarity}{38}{section*.76}
-\contentsline {subsection}{Confidence}{38}{section*.77}
-\contentsline {paragraph}{Learning requirements}{38}{section*.78}
-\contentsline {paragraph}{Learning activities}{39}{section*.79}
-\contentsline {paragraph}{Success attributions}{39}{section*.80}
-\contentsline {subsection}{Satisfaction}{39}{section*.81}
-\contentsline {paragraph}{Self-reinforcement}{39}{section*.82}
-\contentsline {paragraph}{Extrinsic rewards}{39}{section*.83}
-\contentsline {paragraph}{Equity}{40}{section*.84}
-\contentsline {chapter}{Software design and development}{41}{chapter*.85}
-\contentsline {section}{Page elements}{41}{section*.86}
-\contentsline {subsection}{Navigation menu}{41}{section*.87}
-\contentsline {subsection}{Instructions panel}{41}{section*.89}
-\contentsline {subsection}{Main viewer}{41}{section*.90}
-\contentsline {paragraph}{Visjs}{42}{section*.91}
-\contentsline {subsection}{Button panel}{42}{section*.92}
-\contentsline {section}{Learning process}{42}{section*.93}
-\contentsline {subsection}{Read source}{43}{section*.94}
-\contentsline {subsection}{Prompt}{43}{section*.96}
-\contentsline {subsection}{Show answer}{45}{section*.100}
-\contentsline {subsection}{Finished learning and No more instances}{47}{section*.105}
-\contentsline {section}{Other views}{47}{section*.107}
-\contentsline {subsection}{Login screen}{49}{section*.108}
-\contentsline {subsection}{Descriptives, Test and Questionnaire forms}{49}{section*.110}
-\contentsline {subsection}{Debriefing}{49}{section*.114}
-\contentsline {subsection}{Help}{52}{section*.116}
-\contentsline {subsection}{Learning progress}{52}{section*.118}
-\contentsline {section}{Testing the software}{52}{section*.121}
-\contentsline {part}{III\hspace {1em}Research}{55}{part.3}
-\contentsline {chapter}{Methods}{56}{chapter*.122}
-\contentsline {section}{Research design}{56}{section*.123}
-\contentsline {section}{Respondents}{56}{section*.124}
-\contentsline {paragraph}{Approach}{56}{section*.125}
-\contentsline {paragraph}{Informed consent form}{57}{section*.126}
-\contentsline {paragraph}{Division of respondents}{57}{section*.127}
-\contentsline {paragraph}{Selection of respondents}{57}{section*.128}
-\contentsline {section}{Instrumentation}{57}{section*.129}
-\contentsline {subsection}{Test}{57}{section*.130}
-\contentsline {subsection}{Questionnaire}{58}{section*.132}
-\contentsline {subsection}{Data collection during experiment}{58}{section*.133}
-\contentsline {paragraph}{Correctness retrievals}{58}{section*.134}
-\contentsline {paragraph}{Retrieval time}{59}{section*.135}
-\contentsline {paragraph}{Active days}{59}{section*.136}
-\contentsline {subsection}{Interview}{59}{section*.137}
-\contentsline {section}{Procedure}{59}{section*.138}
-\contentsline {paragraph}{Review concept map, flashcards, and item bank}{59}{section*.139}
-\contentsline {paragraph}{Approval ethical committee}{59}{section*.140}
-\contentsline {paragraph}{Lessons}{59}{section*.141}
-\contentsline {paragraph}{Presentation}{59}{section*.142}
-\contentsline {paragraph}{Briefing and Informed Consent form}{60}{section*.143}
-\contentsline {paragraph}{Assignment conditions}{60}{section*.144}
-\contentsline {paragraph}{Descriptives}{60}{section*.145}
-\contentsline {paragraph}{Pretest}{60}{section*.146}
-\contentsline {paragraph}{Experiment}{60}{section*.147}
-\contentsline {paragraph}{Posttest}{60}{section*.148}
-\contentsline {paragraph}{Questionnaire}{60}{section*.149}
-\contentsline {paragraph}{Debriefing}{60}{section*.150}
-\contentsline {paragraph}{Interview}{60}{section*.151}
-\contentsline {paragraph}{Rewards}{60}{section*.152}
-\contentsline {section}{Analysis}{60}{section*.153}
-\contentsline {subsection}{Test scores}{60}{section*.154}
-\contentsline {subsection}{Participation statistics}{61}{section*.155}
-\contentsline {subsection}{Instance statistics}{61}{section*.156}
-\contentsline {paragraph}{Reviewed instances}{62}{section*.157}
-\contentsline {paragraph}{Number of responses}{62}{section*.158}
-\contentsline {paragraph}{Exponents}{62}{section*.159}
-\contentsline {paragraph}{Responses marked as correct}{62}{section*.160}
-\contentsline {paragraph}{Time spent}{62}{section*.161}
-\contentsline {subsection}{Questionnaire scores}{62}{section*.162}
-\contentsline {subsection}{Classical test theory}{63}{section*.163}
-\contentsline {subsection}{Item response theory}{63}{section*.164}
-\contentsline {subsection}{Descriptive statistics}{63}{section*.165}
-\contentsline {subsection}{Comparison tests}{63}{section*.166}
-\contentsline {subsection}{Interviews}{63}{section*.167}
-\contentsline {chapter}{Results}{64}{chapter*.168}
-\contentsline {section}{Participant descriptions}{64}{section*.169}
-\contentsline {subsection}{User participation}{64}{section*.170}
-\contentsline {subsection}{Descriptive variables}{65}{section*.172}
-\contentsline {paragraph}{Gender}{65}{section*.173}
-\contentsline {paragraph}{Age}{65}{section*.174}
-\contentsline {section}{Learning gain}{65}{section*.175}
-\contentsline {section}{System use}{66}{section*.177}
-\contentsline {paragraph}{Number of reviewed instances}{67}{section*.179}
-\contentsline {paragraph}{Number of responses}{68}{section*.180}
-\contentsline {paragraph}{Exponents}{68}{section*.181}
-\contentsline {paragraph}{Correct retrievals}{68}{section*.182}
-\contentsline {paragraph}{Time spent}{68}{section*.183}
-\contentsline {paragraph}{Interviews}{68}{section*.184}
-\contentsline {section}{User perceptions about the software}{68}{section*.185}
-\contentsline {subsection}{Perceived usefulness}{68}{section*.187}
-\contentsline {paragraph}{Questionnaire}{68}{section*.188}
-\contentsline {paragraph}{Open questions}{69}{section*.189}
-\contentsline {paragraph}{Interviews}{69}{section*.190}
-\contentsline {subsection}{Perceived ease of use}{70}{section*.191}
-\contentsline {paragraph}{Questionnaire}{70}{section*.192}
-\contentsline {paragraph}{Open questions}{70}{section*.193}
-\contentsline {paragraph}{Interviews}{70}{section*.194}
-\contentsline {chapter}{Discussion}{71}{chapter*.195}
-\contentsline {section}{Conclusions}{71}{section*.196}
-\contentsline {paragraph}{Learning gain}{71}{section*.197}
-\contentsline {paragraph}{Learning progress}{71}{section*.198}
-\contentsline {paragraph}{Perceived usefulness}{71}{section*.199}
-\contentsline {paragraph}{Perceived ease of use}{71}{section*.200}
-\contentsline {section}{Limitations}{72}{section*.201}
-\contentsline {section}{Future work}{72}{section*.202}
-\contentsline {part}{IV\hspace {1em}Backmatter}{73}{part.4}
-\contentsline {chapter}{References}{74}{chapter*.203}
-\contentsline {chapter}{Appendices}{79}{section*.204}
-\contentsline {chapter}{Test literature history 16th and 17th century}{80}{Appendix*.205}
-\contentsline {chapter}{Flashmap server Documentation}{83}{section*.208}
-\contentsline {chapter}{Source files of the client}{106}{Appendix*.209}
-\contentsline {section}{index.html}{106}{section*.210}
-\contentsline {section}{style.css}{106}{section*.211}
-\contentsline {section}{client.js}{108}{section*.212}
-\contentsline {chapter}{Informed consent form}{119}{Appendix*.213}
-\contentsline {section}{Letter}{119}{section*.214}
-\contentsline {section}{Informatie over het onderzoek}{121}{section*.215}
-\contentsline {subsection}{Beschrijving van het onderzoek}{121}{section*.216}
-\contentsline {subsection}{Voordelen voor de participant}{121}{section*.217}
-\contentsline {subsection}{Procedure}{122}{section*.218}
-\contentsline {section}{Toestemmingsverklaring}{123}{section*.219}
-\contentsline {chapter}{Participation statistics}{124}{Appendix*.220}
-\contentsline {section}{Descriptives}{124}{section*.221}
-\contentsline {section}{Comparisons among conditions}{124}{section*.222}
-\contentsline {chapter}{Descriptive statistics}{128}{Appendix*.228}
-\contentsline {section}{Gender}{128}{section*.229}
-\contentsline {section}{Age}{128}{section*.230}
-\contentsline {section}{Comparisons of ages among conditions}{130}{section*.234}
-\contentsline {subsubsection}{Age}{130}{section*.235}
-\contentsline {chapter}{Pretest and posttest statistics}{131}{Appendix*.237}
-\contentsline {section}{Descriptives of the knowledge questions}{131}{section*.238}
-\contentsline {section}{Comparisons of the knowledge questions}{136}{section*.245}
-\contentsline {subsection}{Pre- and posttest comparisons}{136}{section*.246}
-\contentsline {subsection}{Learning gain comparisons between conditions}{136}{section*.247}
-\contentsline {section}{Descriptives of the comprehension questions}{139}{section*.250}
-\contentsline {section}{Comparisons of the comprehension questions}{140}{section*.257}
-\contentsline {subsection}{Pre- and posttest comparisons}{140}{section*.258}
-\contentsline {subsection}{Learning gain comparisons between conditions}{145}{section*.259}
-\contentsline {chapter}{Instance statistics}{147}{Appendix*.262}
-\contentsline {section}{Descriptives on the number of reviewed instances}{147}{section*.263}
-\contentsline {section}{Comparisons of reviewed instances}{147}{section*.264}
-\contentsline {section}{Descriptives of the number of responses}{149}{section*.267}
-\contentsline {section}{Comparisons of the number of responses}{149}{section*.272}
-\contentsline {section}{Descriptives of the exponents of instances}{152}{section*.273}
-\contentsline {section}{Comparisons of the exponents}{152}{section*.278}
-\contentsline {section}{Descriptives of percentage of responses marked as correct}{155}{section*.279}
-\contentsline {section}{Comparisons of the percentage of responses marked as correct}{155}{section*.284}
-\contentsline {section}{Descriptives of the amount of time spent on the application}{158}{section*.285}
-\contentsline {section}{Comparisons of the amount of time spent on the application}{158}{section*.290}
-\contentsline {chapter}{Questionnaire statistics}{161}{Appendix*.291}
-\contentsline {section}{Descriptives of Perceived Usefulness questions}{161}{section*.292}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{161}{section*.299}
-\contentsline {section}{Descriptives of Perceived Ease of Use questions}{166}{section*.302}
-\contentsline {section}{Comparisons of the Perceived Usefulness questions}{166}{section*.309}
+\contentsline {subsection}{Long-term potentiation}{17}{section*.26}
+\contentsline {subsection}{Power laws of forgetting and learning}{18}{section*.28}
+\contentsline {subsection}{Spacing effect}{18}{section*.30}
+\contentsline {subsection}{Implications for the flashcard system}{20}{section*.31}
+\contentsline {section}{Conclusion}{20}{section*.33}
+\contentsline {part}{II\hspace {1em}Design Report}{21}{part.2}
+\contentsline {chapter}{Analyses}{23}{chapter*.35}
+\contentsline {section}{Analysis of the learning context}{23}{section*.36}
+\contentsline {subsection}{Needs assessment}{23}{section*.37}
+\contentsline {subsection}{The learning environment}{24}{section*.38}
+\contentsline {section}{Analysis of the learner}{24}{section*.39}
+\contentsline {subsection}{Physiological characteristics}{24}{section*.40}
+\contentsline {subsection}{Cognitive characteristics}{25}{section*.41}
+\contentsline {subsection}{Social characteristics}{26}{section*.42}
+\contentsline {section}{Analysis of the learning task}{26}{section*.43}
+\contentsline {subsection}{Learning goals}{26}{section*.44}
+\contentsline {subsection}{Types of learning}{27}{section*.45}
+\contentsline {subsection}{Concept map}{27}{section*.46}
+\contentsline {subsection}{Flashcards}{27}{section*.47}
+\contentsline {subsection}{Test specifications}{28}{section*.48}
+\contentsline {chapter}{Design frameworks}{29}{chapter*.49}
+\contentsline {section}{Supplantive or generative}{29}{section*.50}
+\contentsline {section}{Concept map construction design features}{30}{section*.51}
+\contentsline {section}{Flashcard learning design features}{30}{section*.52}
+\contentsline {subsection}{Presentation and retrieval modes}{30}{section*.53}
+\contentsline {subsection}{Retrieval practices}{31}{section*.54}
+\contentsline {paragraph}{Reception and production}{31}{section*.55}
+\contentsline {paragraph}{Recall and recognition}{31}{section*.56}
+\contentsline {subsection}{Increasing retrieval effort}{32}{section*.58}
+\contentsline {subsection}{Generative use}{32}{section*.59}
+\contentsline {subsection}{Block size}{33}{section*.60}
+\contentsline {subsection}{Expanded rehearsal}{33}{section*.61}
+\contentsline {subsection}{Adaptive sequencing}{33}{section*.62}
+\contentsline {section}{The ARCS model}{34}{section*.63}
+\contentsline {subsection}{Attention}{34}{section*.64}
+\contentsline {paragraph}{Perceptual arousal}{34}{section*.65}
+\contentsline {paragraph}{Inquiry arousal}{34}{section*.66}
+\contentsline {paragraph}{Variability}{35}{section*.67}
+\contentsline {subsection}{Relevance}{35}{section*.68}
+\contentsline {paragraph}{Goal orientation}{35}{section*.69}
+\contentsline {paragraph}{Motive matching}{35}{section*.70}
+\contentsline {paragraph}{Familiarity}{35}{section*.71}
+\contentsline {subsection}{Confidence}{35}{section*.72}
+\contentsline {paragraph}{Learning requirements}{35}{section*.73}
+\contentsline {paragraph}{Learning activities}{36}{section*.74}
+\contentsline {paragraph}{Success attributions}{36}{section*.75}
+\contentsline {subsection}{Satisfaction}{36}{section*.76}
+\contentsline {paragraph}{Self-reinforcement}{36}{section*.77}
+\contentsline {paragraph}{Extrinsic rewards}{36}{section*.78}
+\contentsline {paragraph}{Equity}{37}{section*.79}
+\contentsline {chapter}{Software design and development}{38}{chapter*.80}
+\contentsline {section}{Page elements}{38}{section*.81}
+\contentsline {subsection}{Navigation menu}{38}{section*.82}
+\contentsline {subsection}{Instructions panel}{38}{section*.84}
+\contentsline {subsection}{Main viewer}{38}{section*.85}
+\contentsline {paragraph}{Visjs}{39}{section*.86}
+\contentsline {subsection}{Button panel}{39}{section*.87}
+\contentsline {section}{Learning process}{39}{section*.88}
+\contentsline {subsection}{Read source}{40}{section*.89}
+\contentsline {subsection}{Prompt}{40}{section*.91}
+\contentsline {subsection}{Show answer}{42}{section*.95}
+\contentsline {subsection}{Finished learning and No more instances}{44}{section*.100}
+\contentsline {section}{Other views}{44}{section*.102}
+\contentsline {subsection}{Login screen}{46}{section*.103}
+\contentsline {subsection}{Descriptives, Test and Questionnaire forms}{46}{section*.105}
+\contentsline {subsection}{Debriefing}{46}{section*.109}
+\contentsline {subsection}{Help}{49}{section*.111}
+\contentsline {subsection}{Learning progress}{49}{section*.113}
+\contentsline {section}{Testing the software}{49}{section*.116}
+\contentsline {part}{III\hspace {1em}Research}{52}{part.3}
+\contentsline {chapter}{Methods}{53}{chapter*.117}
+\contentsline {section}{Research design}{53}{section*.118}
+\contentsline {section}{Respondents}{53}{section*.119}
+\contentsline {paragraph}{Approach}{53}{section*.120}
+\contentsline {paragraph}{Informed consent form}{54}{section*.121}
+\contentsline {paragraph}{Division of respondents}{54}{section*.122}
+\contentsline {paragraph}{Selection of respondents}{54}{section*.123}
+\contentsline {section}{Instrumentation}{54}{section*.124}
+\contentsline {subsection}{Test}{54}{section*.125}
+\contentsline {subsection}{Questionnaire}{55}{section*.127}
+\contentsline {subsection}{Data collection during experiment}{55}{section*.128}
+\contentsline {paragraph}{Correctness retrievals}{55}{section*.129}
+\contentsline {paragraph}{Retrieval time}{56}{section*.130}
+\contentsline {paragraph}{Active days}{56}{section*.131}
+\contentsline {subsection}{Interview}{56}{section*.132}
+\contentsline {section}{Procedure}{56}{section*.133}
+\contentsline {paragraph}{Review concept map, flashcards, and item bank}{56}{section*.134}
+\contentsline {paragraph}{Approval ethical committee}{56}{section*.135}
+\contentsline {paragraph}{Lessons}{56}{section*.136}
+\contentsline {paragraph}{Presentation}{56}{section*.137}
+\contentsline {paragraph}{Briefing and Informed Consent form}{57}{section*.138}
+\contentsline {paragraph}{Assignment conditions}{57}{section*.139}
+\contentsline {paragraph}{Descriptives}{57}{section*.140}
+\contentsline {paragraph}{Pretest}{57}{section*.141}
+\contentsline {paragraph}{Experiment}{57}{section*.142}
+\contentsline {paragraph}{Posttest}{57}{section*.143}
+\contentsline {paragraph}{Questionnaire}{57}{section*.144}
+\contentsline {paragraph}{Debriefing}{57}{section*.145}
+\contentsline {paragraph}{Interview}{57}{section*.146}
+\contentsline {paragraph}{Rewards}{57}{section*.147}
+\contentsline {section}{Analysis}{57}{section*.148}
+\contentsline {subsection}{Test scores}{57}{section*.149}
+\contentsline {subsection}{Participation statistics}{58}{section*.150}
+\contentsline {subsection}{Instance statistics}{58}{section*.151}
+\contentsline {paragraph}{Reviewed instances}{59}{section*.152}
+\contentsline {paragraph}{Number of responses}{59}{section*.153}
+\contentsline {paragraph}{Exponents}{59}{section*.154}
+\contentsline {paragraph}{Responses marked as correct}{59}{section*.155}
+\contentsline {paragraph}{Time spent}{59}{section*.156}
+\contentsline {subsection}{Questionnaire scores}{59}{section*.157}
+\contentsline {subsection}{Classical test theory}{60}{section*.158}
+\contentsline {subsection}{Item response theory}{60}{section*.159}
+\contentsline {subsection}{Descriptive statistics}{60}{section*.160}
+\contentsline {subsection}{Comparison tests}{60}{section*.161}
+\contentsline {subsection}{Interviews}{60}{section*.162}
+\contentsline {chapter}{Results}{61}{chapter*.163}
+\contentsline {section}{Participant descriptions}{61}{section*.164}
+\contentsline {subsection}{User participation}{61}{section*.165}
+\contentsline {subsection}{Descriptive variables}{62}{section*.167}
+\contentsline {paragraph}{Gender}{62}{section*.168}
+\contentsline {paragraph}{Age}{62}{section*.169}
+\contentsline {section}{Learning gain}{62}{section*.170}
+\contentsline {section}{System use}{63}{section*.172}
+\contentsline {paragraph}{Number of reviewed instances}{64}{section*.174}
+\contentsline {paragraph}{Number of responses}{65}{section*.175}
+\contentsline {paragraph}{Exponents}{65}{section*.176}
+\contentsline {paragraph}{Correct retrievals}{65}{section*.177}
+\contentsline {paragraph}{Time spent}{65}{section*.178}
+\contentsline {paragraph}{Interviews}{65}{section*.179}
+\contentsline {section}{User perceptions about the software}{65}{section*.180}
+\contentsline {subsection}{Perceived usefulness}{65}{section*.182}
+\contentsline {paragraph}{Questionnaire}{65}{section*.183}
+\contentsline {paragraph}{Open questions}{66}{section*.184}
+\contentsline {paragraph}{Interviews}{66}{section*.185}
+\contentsline {subsection}{Perceived ease of use}{67}{section*.186}
+\contentsline {paragraph}{Questionnaire}{67}{section*.187}
+\contentsline {paragraph}{Open questions}{67}{section*.188}
+\contentsline {paragraph}{Interviews}{67}{section*.189}
+\contentsline {chapter}{Discussion}{68}{chapter*.190}
+\contentsline {section}{Conclusions}{68}{section*.191}
+\contentsline {paragraph}{Learning gain}{68}{section*.192}
+\contentsline {paragraph}{Learning progress}{68}{section*.193}
+\contentsline {paragraph}{Perceived usefulness}{68}{section*.194}
+\contentsline {paragraph}{Perceived ease of use}{69}{section*.195}
+\contentsline {section}{Limitations}{69}{section*.196}
+\contentsline {section}{Future work}{69}{section*.197}
+\contentsline {part}{IV\hspace {1em}Backmatter}{70}{part.4}
+\contentsline {chapter}{References}{71}{chapter*.198}
+\contentsline {chapter}{Appendices}{76}{section*.199}
+\contentsline {chapter}{Test literature history 16th and 17th century}{77}{Appendix*.200}
+\contentsline {chapter}{Flashmap server Documentation}{81}{section*.203}
+\contentsline {chapter}{Source files of the client}{104}{Appendix*.204}
+\contentsline {section}{index.html}{104}{section*.205}
+\contentsline {section}{style.css}{104}{section*.206}
+\contentsline {section}{client.js}{106}{section*.207}
+\contentsline {chapter}{Informed consent form}{117}{Appendix*.208}
+\contentsline {section}{Letter}{117}{section*.209}
+\contentsline {section}{Informatie over het onderzoek}{119}{section*.210}
+\contentsline {subsection}{Beschrijving van het onderzoek}{119}{section*.211}
+\contentsline {subsection}{Voordelen voor de participant}{119}{section*.212}
+\contentsline {subsection}{Procedure}{120}{section*.213}
+\contentsline {section}{Toestemmingsverklaring}{121}{section*.214}
+\contentsline {chapter}{Participation statistics}{122}{Appendix*.215}
+\contentsline {section}{Descriptives}{122}{section*.216}
+\contentsline {section}{Comparisons among conditions}{122}{section*.217}
+\contentsline {chapter}{Descriptive statistics}{126}{Appendix*.223}
+\contentsline {section}{Gender}{126}{section*.224}
+\contentsline {section}{Age}{126}{section*.225}
+\contentsline {section}{Comparisons of ages among conditions}{128}{section*.229}
+\contentsline {subsubsection}{Age}{128}{section*.230}
+\contentsline {chapter}{Pretest and posttest statistics}{129}{Appendix*.232}
+\contentsline {section}{Descriptives of the knowledge questions}{129}{section*.233}
+\contentsline {section}{Comparisons of the knowledge questions}{134}{section*.240}
+\contentsline {subsection}{Pre- and posttest comparisons}{134}{section*.241}
+\contentsline {subsection}{Learning gain comparisons between conditions}{134}{section*.242}
+\contentsline {section}{Descriptives of the comprehension questions}{137}{section*.245}
+\contentsline {section}{Comparisons of the comprehension questions}{138}{section*.252}
+\contentsline {subsection}{Pre- and posttest comparisons}{138}{section*.253}
+\contentsline {subsection}{Learning gain comparisons between conditions}{143}{section*.254}
+\contentsline {chapter}{Instance statistics}{145}{Appendix*.257}
+\contentsline {section}{Descriptives on the number of reviewed instances}{145}{section*.258}
+\contentsline {section}{Comparisons of reviewed instances}{145}{section*.259}
+\contentsline {section}{Descriptives of the number of responses}{147}{section*.262}
+\contentsline {section}{Comparisons of the number of responses}{147}{section*.267}
+\contentsline {section}{Descriptives of the exponents of instances}{150}{section*.268}
+\contentsline {section}{Comparisons of the exponents}{150}{section*.273}
+\contentsline {section}{Descriptives of percentage of responses marked as correct}{153}{section*.274}
+\contentsline {section}{Comparisons of the percentage of responses marked as correct}{153}{section*.279}
+\contentsline {section}{Descriptives of the amount of time spent on the application}{156}{section*.280}
+\contentsline {section}{Comparisons of the amount of time spent on the application}{156}{section*.285}
+\contentsline {chapter}{Questionnaire statistics}{159}{Appendix*.286}
+\contentsline {section}{Descriptives of Perceived Usefulness questions}{159}{section*.287}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{159}{section*.294}
+\contentsline {section}{Descriptives of Perceived Ease of Use questions}{164}{section*.297}
+\contentsline {section}{Comparisons of the Perceived Usefulness questions}{164}{section*.304}
