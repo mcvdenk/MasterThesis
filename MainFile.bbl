@@ -303,35 +303,6 @@ Blankenship, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Bliss%
-\ \BBA {} Collingridge%
-}{%
-Bliss%
-\ \BBA {} Collingridge%
-}{%
-{\protect \APACyear {1993}}%
-}]{%
-longtermpotentiation}
-\APACinsertmetastar {%
-longtermpotentiation}%
-\begin{APACrefauthors}%
-Bliss, T.%
-\BCBT {}\ \BBA {} Collingridge, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1993}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A synaptic model of memory: long-term potentiation in
-  the hippocampus} {A synaptic model of memory: long-term potentiation in the
-  hippocampus}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Nature}{361}{}{31--39}.
-\newblock
-\begin{APACrefDOI} \doi{10.1038/361031a0} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Bloom%
 , Engelhart%
 , Furst%
@@ -1247,34 +1218,6 @@ Mann, H\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Matsaridis%
-}{%
-Matsaridis%
-}{%
-{\protect \APACyear {2013}}%
-}]{%
-website:neuron}
-\APACinsertmetastar {%
-website:neuron}%
-\begin{APACrefauthors}%
-Matsaridis, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2013}{April}{}.
-\newblock
-\APACrefbtitle {Neuroscience for beginners v2.0: Lesson 2 - The materialistic
-  mind - your brain's ingredients.} {Neuroscience for beginners v2.0: Lesson 2
-  - the materialistic mind - your brain's ingredients.}
-\newblock
-\begin{APACrefURL}
-  \url{http://neuroscientist.weebly.com/blog/lesson-2-the-materialistic-mind-your-brains-ingredients}
-  \end{APACrefURL}
-\newblock
-\APACrefnote{Retrieved September 9, 2016}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Mayer%
 }{%
 Mayer%
@@ -1624,35 +1567,6 @@ Powell, K.%
 \APACjournalVolNumPages{Nature}{442}{}{865--867}.
 \newblock
 \begin{APACrefDOI} \doi{10.1038/442865a} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Raymond%
-\ \BBA {} Redman%
-}{%
-Raymond%
-\ \BBA {} Redman%
-}{%
-{\protect \APACyear {2006}}%
-}]{%
-raymond}
-\APACinsertmetastar {%
-raymond}%
-\begin{APACrefauthors}%
-Raymond, C.%
-\BCBT {}\ \BBA {} Redman, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2006}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Spatial segregation of neuronal calcium signals encodes
-  different forms of LTP in rat hippocampus} {Spatial segregation of neuronal
-  calcium signals encodes different forms of ltp in rat hippocampus}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Physiology}{570}{}{97--111}.
-\newblock
-\begin{APACrefDOI} \doi{10.1113/jphysiol.2005.098947} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
