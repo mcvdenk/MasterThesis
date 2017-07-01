@@ -27,6 +27,13 @@ A sample of 23 divided over two conditions is too small for making any generalis
     \label{tab:participation}
 \end{table}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/activedays_gen.png}
+    \caption{A scatter diagram depicting how many users in total were active during which day of the experiment, combined with a step diagram depicting how many users finished the experiment that day (more than or equal to 6 successful days)}
+    \label{fig:activedays_gen}
+\end{figure}
+
 \subsection{Descriptive variables}
 
 The participant descriptives are included in the \nameref{app:descriptives} appendix on page~\ref{app:descriptives}, containing distributions of student gender and age.
@@ -34,6 +41,47 @@ The participant descriptives are included in the \nameref{app:descriptives} appe
 \paragraph{Gender} As can be seen in figure~\ref{tab:gender}, 15 out of the 23 total participants are male and 8 are female, where within the flashcards condition there is a 7 to 5 ratio and within the flashmap a 8 to 3 ratio. This is probably just coincidental due to the small sample size.
 
 \paragraph{Age} All students have an age within the range of 15 to 17 with an average age of 15.75 and a modus of 16, which is to be expected from VWO4 students. There is also no considerable age difference among the conditions, indicated in table~\ref{tab:age_comp} and figure~\ref{fig:age}.
+
+\begin{table}
+    \centering
+\begin{tabular}{lrrrr}
+\toprule\addlinespace
+& Total & Male & Female & Other
+\\\addlinespace
+\midrule
+\textbf{Flashcards} & 12 & 7 & 5 & 0
+\\\addlinespace
+\textbf{Flashmap} & 11 & 8 & 3 & 0
+\\\addlinespace
+\textbf{Total} & 23 & 15 & 8 & 0
+\\\addlinespace
+\bottomrule
+\end{tabular}
+\caption{The gender distribution of the respondents}
+\label{tab:gender}
+\end{table}
+
+\begin{table}
+\centering
+\begin{tabular}{lrrrrrrrrrr}
+\toprule\addlinespace
+& N & min & max & mean & var & skew & kurt & normal-t & normal-p
+\\\addlinespace
+\midrule
+\textbf{Flashcards} & 12 & 15 & 17 & 15.75 & 0.39 & 0.15 & -0.52 & 0.096
+& 0.9530
+\\\addlinespace
+\textbf{Flashmap} & 11 & 15 & 17 & 15.73 & 0.42 & 0.25 & -0.62 & 0.211 &
+0.8997
+\\\addlinespace
+\textbf{General} & 23 & 15 & 17 & 15.74 & 0.38 & 0.20 & -0.57 & 0.307 &
+0.8576
+\\\addlinespace
+\bottomrule
+\end{tabular}
+    \caption{The age distribution of the respondents}
+    \label{tab:age}
+\end{table}
 
 \section{Learning gain}
 
@@ -72,6 +120,18 @@ The flashmap users seem to have a higher learning gain than the flashcard users 
     \label{tab:learning_gain_effect}
 \end{table}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/know_gain_abil.png}
+    \caption{A histogram comparing the relative learning gain scores of the knowledge questions between the conditions}
+    \label{fig:know_gain_abil}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/comp_gain_abil.png}
+    \caption{A histogram comparing the relative learning gain scores of the comprehension questions between the conditions}
+    \label{fig:comp_gain_abil}
+\end{figure}
 \section{System use}
 
 In order to verify whether the users of the different conditions spent the same amount of effort and time on the system, answering research question~\ref{benefit}\ref{efficiency}, the \nameref{app:instance_stats} appendix on page~\pageref{app:instance_stats} provides different statistics on the rehearsed instances. This entails the number of reviewed instances, the number of responses, the exponent from the instance.get\_exponent() function (indicating how often the instance was retrieved correctly since the last incorrect retrieval), the percentage of correct retrievals in comparison to the total amount of retrievals, and finally the amount of time the users spent on the system. For every category, the descriptives (sample, minimum, maximum, mean, and variance), distribution (skew, kurtosis and normality test t- and p-values), and cronbach's alpha are displayed, both separate for the flashcard and flashmap condition and for the combined sample of users. It should be noted that in most cases the cronbach's alpha is not a sufficient measure for determining the reliability of the test, since there is a natural decrease in most statistics over the course of the instances, since the latter instances are repeated less often than the earlier statistics. The ratio of correct retrievals might be the only exception here, however one would still expect a higher ratio of correct retrievals in earlier instances than in later instances. 
@@ -115,13 +175,48 @@ Finally, the flashcard and flashmap conditions are again compared using the Mann
 
 \paragraph{Number of reviewed instances} Within these statistics, the mean statistics are left out, since they only make sense when reviewing them over the entire range of available instances. Furthermore, the flashcards cannot simply be compared one on one with the flashmaps, since some of the flashcards encompass multiple flashmaps instead of merely representing one flashmaps. This is most notably the case when multiple sibling relations between concepts are presented simultaniously to the user, which are thereby also represented by only one flashcard. Therefore, the combined conditions table only shows the relative score, since this is the only score comparable across both conditions. This is also noticable in the large difference in absolute mean values of the flashcard and flashmap condition (72.83 vs 131.45) and the low p-value on the Mann-Whitney U test (0.001). When however purely looking at the relative score, the average user reviewed 70\% of the available cards, where the flashcard users reviewed 78\% of the cards and the flashmap users 66\%. This difference is not yet significant ($p=.188$ on the Mann-Whiney U test). As can be seen in figure~\ref{fig:instance_abil} on page~\pageref{fig:instance_abil}, this difference is mainly due to both groups having reviewed about equal numbers of instances except for 2 users in the flashmap condition having reviewed less than 50\% of the edges.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/instance_abil.png}
+    \caption{A histogram depicting the number of instances covered by a user separate for the groups of flashcard and flashmap users}
+    \label{fig:instance_abil}
+\end{figure}
+
 \paragraph{Number of responses} These first statistics depict the total number of reviews of instances per user. On average, a user has 641.87 responses, where flashcard users have 561.33 and flashmap users have 729.73 responses. Both the Mann-Whitney U test as the Welch's t-test provide a relatively high p-value (.813 and .810) when looking at the difference in relative score, indicating no (significant) difference between the number of responses within the flashcard users and the flashmap users when adjusting for the different numbers of flashcards and edges.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/responses_abil.png}
+    \caption{A histogram depicting the number of responses per user separate for the groups of flashcard and flashmap users}
+    \label{fig:responses_abil}
+\end{figure}
 
 \paragraph{Exponents} These statistics are useful as an indicator of learning progress of the user, since the exponents are used for rescheduling the instance where a higher exponent indicates a longer time interval until the next review. The mean exponent for a reviewed instance was 6.53, where it was 6.67 for flashcard users and 6.38 for flashmap users. This difference is not significant ($p=0.625$).
 
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/exponent_abil.png}
+    \caption{A histogram depicting the exponents per user separate for the flashcard and flashmap users}
+    \label{fig:exponent_abil}
+\end{figure}
+
 \paragraph{Correct retrievals} The ratio of correct and total retrievals is also included, since this provides more insight in the effectiveness of the scheduling algorithm and the presentation form. For each reviewed instance, the ratio of correct and total retrievals is 0.87, where 0.86 for flashcard and 0.89 for flashmap users. This results in a small although significant ($p<0.001$) difference in favour of the flashmap users. In the interviews however some students stated to not have noticed the instructions teaching how to mark retrievals to be either correct or incorrect, resulting in a 100\% correct retrieval rate within the database (see also figure~\ref{fig:score_abil} on page~\pageref{fig:score_abil}).
 
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/score_abil.png}
+    \caption{A histogram depicting percentages of correct answers per user separate for the flashcard and flashmap users}
+    \label{fig:score_abil}
+\end{figure}
+
 \paragraph{Time spent} The most efficient variable for determining the efficiency of the system is the amount of time spent by the user on the system. In total, the average user spent 13210 seconds (3 hours and 40 minutes) on the system, where the average flashcard user spent 12374 seconds (3 hours and 26 minutes) and the average flashmap user spent 14122 seconds (3 hours and 55 minutes). Per instance, this was on average 144.7 seconds, where 169.8 seconds for flashcard users and 117.3 seconds for flashmap users. Both these differences are significant ($p<0.001$).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/time_abil.png}
+    \caption{A histogram depicting the time spent in seconds per user separate for the flashcard and flashmap users}
+    \label{fig:time_abil}
+\end{figure}
 
 \paragraph{Interviews} During the interviews it was learned that the students thought that some of the instances were reviewed too often, sometimes leading to frustration. Some of the students offered the suggestion to add a third validation for a longer scheduling interval, much like Anki already does. Others suggested an option to learn flashcards per section of the instructional material seperately instead of reviewing all the flashcards, so that they could focus on the lesser known or more important sections. Finally, one flashcard user stated that it was not necessary to read the instructional material at all for using the system, and that he learned the flashcards without reading. Other flashmap students however indicated that the book was necessary to comprehend the relations between the concepts.
 
@@ -147,6 +242,13 @@ Both the question of how useful (research question~\ref{perception}\ref{usefulne
 
 \paragraph{Questionnaire} The perceived usefulness part of the questionnaire has a relatively low reliability ($\alpha=0.651$), which makes drawing definite conclusions questionable according to \citeA{devellis}. The average perceived usefulness score was 7.61 on a scale of -24 to 24, which indicates a slight positive score. The average flashcard user rated it as 6.50, and the average flashmap user as 8.82. These differences are however not significant ($p=0.245$).
 
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/usefulness_abil.png}
+    \caption{A histogram depicting a comparison of perceived usefulness between the conditions}
+    \label{fig:usefulness_abil}
+\end{figure}
+
 \paragraph{Open questions} Within the open question asking what the user perceived to be good about the system, students mainly mentioned why the system helped them preparing for the exam. The responses could be categorised in 3 subcategories:
 %
 \begin{itemize}
@@ -164,6 +266,13 @@ There were however some problems with the specific implementation. As already st
 \subsection{Perceived ease of use}
 
 \paragraph{Questionnaire} The perceived ease of use part of the questionnaire had a sufficiently high reliability ($\alpha=0.829$), and is therefore reliable to be used for drawing conclusions. The average score for the perceived ease of use section was 7.39, which translates again to a slightly positive score. The difference between the flashcard and flashmap users is relatively small (6.58 for flashcard users and 8.27 for flashmap users), which is not significant ($p=0.485$).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.7\textwidth]{img/easeofuse_abil.png}
+    \caption{A histogram depicting a comparison of perceived ease of use between the conditions}
+    \label{fig:easeofuse_abil}
+\end{figure}
 
 \paragraph{Open questions} Most of the statements about what could be improved related to the ease of use of the system. Some flashmap users stated that certain flashmaps were too large and therefore unreadable, whereas others perceived zooming in and out on the flashmap to be inconveniant. One of the flashcard users indicated that the questions were sometimes unclearly formulated. Some of the users generally stated the instructions should be more clear, or that the indicators could be improved (e.g. ``It was unclear how much one should learn on a day''). Finally, certain students perceived the system to be a bit boring because of the repetitive nature of drill and practice.
 

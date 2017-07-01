@@ -1,7 +1,9 @@
 % !TEX TS-program = pdflatex
 % !TEX encoding = UTF-8 Unicode
 
-\documentclass[twoside]{report} % use larger type; default would be 10pt
+\documentclass[twoside,11pt]{report} % use larger type; default would be 10pt
+
+\linespread{1}
 
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
 
@@ -10,38 +12,27 @@
 % See the LaTeX Companion or other references for full information.
 
 %%% PAGE DIMENSIONS
-\usepackage{geometry} % to change the page dimensions
-\geometry{a4paper} % or letterpaper (US) or a5paper or....
-% \geometry{margin=2in} % for example, change the margins to 2 inches all round
-% \geometry{landscape} % set up the page for landscape
-%   read geometry.pdf for detailed page layout information
+\usepackage{geometry}
+\geometry{a4paper}
+\geometry{margin=2.5cm}
+\setlength{\parindent}{1.25cm}
+\renewcommand*\rmdefault{ptm}
 
-\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{longtable}
 \usepackage{placeins}
-%\makeatletter
-%\AtBeginDocument{%
-%  \expandafter\renewcommand\expandafter\subsection\expandafter{%
-%    \expandafter\@fb@secFB\subsection
-%  }%
-%}
-%\makeatother
-
-%%% PACKAGES
-\usepackage{booktabs} % for much better looking tables
-\usepackage{array} % for better arrays (eg matrices) in maths
-\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
-\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{paralist}
+\usepackage{verbatim}
 \usepackage[font=small,labelfont=it]{caption}
 \usepackage{pdfpages}
 \usepackage{hyperref}
-%\usepackage{bibtopic}
 \usepackage{wrapfig}
 \usepackage{titling}
 \usepackage{michatitle}
-\usepackage{gitinfo2}
 \usepackage[gen]{eurosym}
 \usepackage{textcomp}
 \usepackage{listings}
@@ -58,43 +49,31 @@
 }
 
 %%% HEADERS & FOOTERS
-\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
-\pagestyle{fancy} % options: empty , plain , fancy
-\renewcommand{\headrulewidth}{0pt} % customise the layout...
-%\lhead{\gitAbbrevHash}\chead{}\rhead{Micha van den Enk {[}s1004654{]}}
-%\lfoot{\today}\cfoot{}\rfoot{\thepage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
 
 \let\Oldpart\part
 \newcommand{\parttitle}{}
 \renewcommand{\part}[1]{\Oldpart{#1}\renewcommand{\parttitle}{#1}}
 
-%%%FIX PARTS!!!!!!!!!!
-
 \fancyhead[LO,RE]{\parttitle}
 \fancyhead[C]{}
-\fancyhead[RO,LE]{\gitAbbrevHash}
 \fancyfoot[LO,RE]{\today}
 \fancyfoot[RO,LE]{\thepage}
 \fancyfoot[C]{Micha van den Enk {[}s1004654{]}}
 
-%%% SECTION TITLE APPEARANCE
 \usepackage{sectsty}
 \allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
 \setcounter{secnumdepth}{-1} 
-% (This matches ConTeXt defaults)
-
-%%% RULE
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
-%%% BIBLIOGRAPHY
+\usepackage{apacite}
 
-\usepackage{apacite}                           %bibliography in apa-style
-
-%%% ToC (table of contents) APPEARANCE
-\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\usepackage[titles,subfigure]{tocloft}
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
-\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape}
 \setcounter{tocdepth}{1}
 
 \makeatletter
