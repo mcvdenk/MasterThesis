@@ -80,7 +80,7 @@
 \contentsline {subsection}{Show answer}{35}{section*.92}
 \contentsline {subsection}{Finished learning and No more instances}{37}{section*.98}
 \contentsline {section}{Other views}{40}{section*.100}
-\contentsline {subsection}{Login screen}{40}{section*.101}
+\contentsline {subsection}{Log-in screen}{40}{section*.101}
 \contentsline {subsection}{Descriptives, Test and Questionnaire forms}{40}{section*.103}
 \contentsline {subsection}{Debriefing}{40}{section*.107}
 \contentsline {subsection}{Help}{43}{section*.109}
@@ -179,7 +179,7 @@
 \contentsline {subsection}{Procedure}{116}{section*.222}
 \contentsline {section}{Toestemmingsverklaring}{117}{section*.223}
 \contentsline {chapter}{Instruments used within the experiment}{118}{Appendix*.224}
-\contentsline {section}{Rubic for the test questions}{118}{section*.225}
+\contentsline {section}{Rubric for the test questions}{118}{section*.225}
 \contentsline {subsection}{Knowledge questions}{118}{section*.226}
 \contentsline {subsection}{Comprehension questions}{123}{section*.227}
 \contentsline {section}{Translated questions from the Technology Acceptance Model}{125}{section*.228}

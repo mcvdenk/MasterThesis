@@ -136,22 +136,22 @@ Finally, when the user has spent 15 minutes on the system or when there are no i
 
 \section{Other views}
 
-Next to the main functionality described in the previous section there are also other views for accommodating the other use cases. For new users, these are the log-in screen, the descriptives screen, and the pretest, for regular users there are the help screen and the learning progress screen, and for the users which are finished there are the posttest, questionnaire, and debriefing screens.
+Next to the main functionality described in the previous section there are also other views for accommodating the other use cases. For new users, these are the login screen, the descriptives screen, and the pretest, for regular users there are the help screen and the learning progress screen, and for the users which are finished there are the posttest, questionnaire, and debriefing screens.
 
-\subsection{Log-in screen}
+\subsection{Login screen}
 
-The main viewer in the log-in screen containing a simple form with a text field for the user name, and a submit button for logging in (figure~\ref{fig:ui_login}). Furthermore, a text within the instructions panel refers the users to the researcher's email address for when they require further instructions or when the logging in does not function.
+The main viewer in the login screen containing a simple form with a textfield for the username, and a submit button for logging in (figure~\ref{fig:ui_login}). Furthermore, a text within the instructions panel refers the users to the researcher's email adress for when they require further instructions or when the logging in does not function.
 
 \begin{figure}
     \centering
     \includegraphics[width=.8\textwidth]{img/ui_login.png}
-    \caption{The log-in screen}
+    \caption{The login screen}
     \label{fig:ui_login}
 \end{figure}
 
 \subsection{Descriptives, Test and Questionnaire forms}
 
-These screens also contain basic forms, all containing questions or items and either text fields or radio button selection panels, depending on whether the question or item is open or closed, and a submit button at the bottom. (figures~\ref{fig:ui_descriptives}, \ref{fig:ui_test}, and~\ref{fig:ui_questionnaire}). The date field within the descriptives form is checked to be a valid date before the user can submit. Furthermore, the questionnaire item contains an email field for when the user wants to sign up for a later interview, which is a voluntary field and can be left empty. The instructions element again provide instructions for how to fill in the forms.
+These screens also contain basic forms, all containing questions or items and either textfields or radiobutton selection panels, depending on whether the question or item is open or closed, and a submit button at the bottom. (figures~\ref{fig:ui_descriptives}, \ref{fig:ui_test}, and~\ref{fig:ui_questionnaire}). The date field within the descriptives form is checked to be a valid date before the user can submit. Furthermore, the questionnaire item contains an email field for when the user wants to sign up for a later interview, which is a voluntary field and can be left empty. The instructions element again provide instructions for how to fill in the forms.
 
 \begin{figure}
     \centering
@@ -209,7 +209,7 @@ Finally, when the user is finished using the system and filling in the posttest 
 
 \subsection{Help}
 
-The help screen (figure~\ref{fig:ui_help}) contains some global information about the experiment and on what conditions the user can receive the ice cream coupon. It also states that the system will notify the user as soon as he is ready for today.
+The help screen (figure~\ref{fig:ui_help}) contains some global information about the experiment and on what conditions the user can receive the icecream coupon. It also states that the system will notify the user as soon as he is ready for today.
 
 \begin{figure}
     \centering
