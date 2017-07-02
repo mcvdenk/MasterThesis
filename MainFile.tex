@@ -3,8 +3,6 @@
 
 \documentclass[twoside,11pt]{report} % use larger type; default would be 10pt
 
-\linespread{1}
-
 \usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
 
 %%% Examples of Article customizations
@@ -17,6 +15,10 @@
 \geometry{margin=2.5cm}
 \setlength{\parindent}{1.25cm}
 \renewcommand*\rmdefault{ptm}
+\linespread{1}
+\usepackage{enumitem}
+\setlist{nosep}
+\setlength{\parskip}{0pt}
 
 \usepackage{graphicx}
 \usepackage{caption}
@@ -25,7 +27,6 @@
 \usepackage{placeins}
 \usepackage{booktabs}
 \usepackage{array}
-\usepackage{paralist}
 \usepackage{verbatim}
 \usepackage[font=small,labelfont=it]{caption}
 \usepackage{pdfpages}
@@ -58,10 +59,15 @@
 \renewcommand{\part}[1]{\Oldpart{#1}\renewcommand{\parttitle}{#1}}
 
 \fancyhead[LO,RE]{\parttitle}
+\fancyhead[LE,RO]{\thetitle}
 \fancyhead[C]{}
 \fancyfoot[LO,RE]{\today}
 \fancyfoot[RO,LE]{\thepage}
 \fancyfoot[C]{Micha van den Enk {[}s1004654{]}}
+
+\renewcommand{\headrulewidth}{.5pt}
+\renewcommand{\footrulewidth}{.5pt}
+\setlength{\headheight}{14pt}
 
 \usepackage{sectsty}
 \allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
@@ -144,11 +150,11 @@
     \input{./appendix/exampletest.tex}
     \cleardoublepage
     \phantomsection
-    \addcontentsline{toc}{chapter}{Flashmap server Documentation}
-    \label{app:documentation}
+    \addcontentsline{toc}{chapter}{Flashmap server Documentation} \label{app:documentation}
     \includepdf[pages={1-}]{../software/server/doc/build/latex/Flashmapserver.pdf}
     \input{./appendix/clientsource.tex}
     \input{./appendix/informed_consent_form.tex}
+    \input{./appendix/test_items.tex}
     \input{./appendix/participation.tex}
     \input{./appendix/descriptives.tex}
     \input{./appendix/learning_gain.tex}

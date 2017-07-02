@@ -219,31 +219,6 @@ Barclay, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Barnes%
-}{%
-Barnes%
-}{%
-{\protect \APACyear {1979}}%
-}]{%
-barnes}
-\APACinsertmetastar {%
-barnes}%
-\begin{APACrefauthors}%
-Barnes, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1979}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Memory deficits associated with senescence: A
-  neurophysiological and behavioral study in the rat} {Memory deficits
-  associated with senescence: A neurophysiological and behavioral study in the
-  rat}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of Comparative Physiology}{43}{}{74--104}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Blakemore%
 , Burnett%
 \BCBL {}\ \BBA {} Dahl%
@@ -2218,38 +2193,6 @@ Xue, G.%
   suppression}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Cognitive Neuroscience}{23}{}{1624--1633}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Zhang%
-\ \BBA {} von Dran%
-}{%
-Zhang%
-\ \BBA {} von Dran%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-websitedesign}
-\APACinsertmetastar {%
-websitedesign}%
-\begin{APACrefauthors}%
-Zhang, P.%
-\BCBT {}\ \BBA {} von Dran, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Satisfiers and Dissatisfiers: A two factor theory for
-  website design and evaluation} {Satisfiers and dissatisfiers: A two factor
-  theory for website design and evaluation}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of the American society for information
-  science}{51}{}{1253--1268}.
-\newblock
-\begin{APACrefDOI}
-  \doi{10.1002/1097-4571(2000)9999:9999<::AID-ASI1039>3.0.CO;2-O}
-  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

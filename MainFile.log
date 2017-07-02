@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  1 JUL 2017 11:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.26)  2 JUL 2017 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MainFile.tex
+**MainFile
 (./MainFile.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
@@ -272,6 +272,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
 )
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen111
+\enit@toks=\toks18
+\enit@inbox=\box26
+\enitdp@description=\count91
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -295,10 +303,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count91
+\Gread@gobject=\count92
 ))
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -306,77 +314,69 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen113
-\captionmargin@=\dimen114
-\captionwidth=\dimen115
-\caption@tempdima=\dimen116
-\caption@indent=\dimen117
-\caption@parindent=\dimen118
-\caption@hangindent=\dimen119
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
 )
-\c@ContinuedFloat=\count92
+\c@ContinuedFloat=\count93
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count93
-\c@subtable=\count94
+\c@subfigure=\count94
+\c@subtable=\count95
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip43
-\LTright=\skip44
-\LTpre=\skip45
-\LTpost=\skip46
-\LTchunksize=\count95
-\LTcapwidth=\dimen120
-\LT@head=\box26
-\LT@firsthead=\box27
-\LT@foot=\box28
-\LT@lastfoot=\box29
-\LT@cols=\count96
-\LT@rows=\count97
-\c@LT@tables=\count98
-\c@LT@chunks=\count99
-\LT@p@ftn=\toks18
+\LTleft=\skip44
+\LTright=\skip45
+\LTpre=\skip46
+\LTpost=\skip47
+\LTchunksize=\count96
+\LTcapwidth=\dimen121
+\LT@head=\box27
+\LT@firsthead=\box28
+\LT@foot=\box29
+\LT@lastfoot=\box30
+\LT@cols=\count97
+\LT@rows=\count98
+\c@LT@tables=\count99
+\c@LT@chunks=\count100
+\LT@p@ftn=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen121
-\lightrulewidth=\dimen122
-\cmidrulewidth=\dimen123
-\belowrulesep=\dimen124
-\belowbottomsep=\dimen125
-\aboverulesep=\dimen126
-\abovetopsep=\dimen127
-\cmidrulesep=\dimen128
-\cmidrulekern=\dimen129
-\defaultaddspace=\dimen130
-\@cmidla=\count100
-\@cmidlb=\count101
-\@aboverulesep=\dimen131
-\@belowrulesep=\dimen132
-\@thisruleclass=\count102
-\@lastruleclass=\count103
-\@thisrulewidth=\dimen133
+\heavyrulewidth=\dimen122
+\lightrulewidth=\dimen123
+\cmidrulewidth=\dimen124
+\belowrulesep=\dimen125
+\belowbottomsep=\dimen126
+\aboverulesep=\dimen127
+\abovetopsep=\dimen128
+\cmidrulesep=\dimen129
+\cmidrulekern=\dimen130
+\defaultaddspace=\dimen131
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen132
+\@belowrulesep=\dimen133
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen134
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen134
-\extrarowheight=\dimen135
-\NC@list=\toks19
-\extratabsurround=\skip47
-\backup@length=\skip48
-)
-(/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
-Package: paralist 2013/06/09 v2.4 Extended list environments
-\pltopsep=\skip49
-\plpartopsep=\skip50
-\plitemsep=\skip51
-\plparsep=\skip52
-\pl@lab=\toks20
+\col@sep=\dimen135
+\extrarowheight=\dimen136
+\NC@list=\toks20
+\extratabsurround=\skip48
+\backup@length=\skip49
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
@@ -392,16 +392,16 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count104
-\calc@Bcount=\count105
-\calc@Adimen=\dimen136
-\calc@Bdimen=\dimen137
-\calc@Askip=\skip53
-\calc@Bskip=\skip54
+\calc@Acount=\count105
+\calc@Bcount=\count106
+\calc@Adimen=\dimen137
+\calc@Bdimen=\dimen138
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count106
-\calc@Cskip=\skip55
+\calc@Ccount=\count107
+\calc@Cskip=\skip52
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
@@ -429,10 +429,10 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box30
+\AM@pagebox=\box31
 \AM@toc@title=\toks23
-\c@AM@survey=\count107
-\AM@templatesizebox=\box31
+\c@AM@survey=\count108
+\AM@templatesizebox=\box32
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -486,16 +486,16 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen138
-\Hy@linkcounter=\count108
-\Hy@pagecounter=\count109
+\@linkdim=\dimen139
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count110
+\Hy@SavedSpaceFactor=\count111
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -507,17 +507,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count111
+\c@Hy@tempcnt=\count112
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen139
-\Fld@menulength=\count112
-\Field@Width=\dimen140
-\Fld@charsize=\dimen141
+\XeTeXLinkMargin=\dimen140
+\Fld@menulength=\count113
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -527,43 +527,43 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count113
-\c@Item=\count114
-\c@Hfootnote=\count115
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count116
-\c@bookmark@seq@number=\count117
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen142
-\WF@size=\dimen143
-\c@WF@wrappedlines=\count118
-\WF@box=\box32
+\wrapoverhang=\dimen143
+\WF@size=\dimen144
+\c@WF@wrappedlines=\count119
+\WF@box=\box33
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip57
-\thanksmargin=\skip58
-\droptitle=\skip59
+\thanksmarkwidth=\skip54
+\thanksmargin=\skip55
+\droptitle=\skip56
 ) (./michatitle.sty
 Package: michatitle 
 ) (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box33
+\@eurobox=\box34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -721,24 +721,24 @@ Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count119
-\lst@gtempboxa=\box34
+\lst@mode=\count120
+\lst@gtempboxa=\box35
 \lst@token=\toks25
-\lst@length=\count120
-\lst@currlwidth=\dimen144
-\lst@column=\count121
-\lst@pos=\count122
-\lst@lostspace=\dimen145
-\lst@width=\dimen146
-\lst@newlines=\count123
-\lst@lineno=\count124
-\lst@maxwidth=\dimen147
+\lst@length=\count121
+\lst@currlwidth=\dimen145
+\lst@column=\count122
+\lst@pos=\count123
+\lst@lostspace=\dimen146
+\lst@width=\dimen147
+\lst@newlines=\count124
+\lst@lineno=\count125
+\lst@maxwidth=\dimen148
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-\c@lstnumber=\count125
-\lst@skipnumbers=\count126
-\lst@framebox=\box35
+\c@lstnumber=\count126
+\lst@skipnumbers=\count127
+\lst@framebox=\box36
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2013/08/26 1.5b listings configuration
@@ -747,25 +747,25 @@ Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count127
-\c@@ppsavesec=\count128
-\c@@ppsaveapp=\count129
+\c@@pps=\count128
+\c@@ppsavesec=\count129
+\c@@ppsaveapp=\count130
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks26
-\MT@count=\count130
+\MT@count=\count131
 LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen148
+\MT@outer@kern=\dimen149
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count131
+\MT@listname@count=\count132
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip60
+\MT@outer@space=\skip57
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -773,15 +773,15 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip61
-\f@ncyO@elh=\skip62
-\f@ncyO@erh=\skip63
-\f@ncyO@olh=\skip64
-\f@ncyO@orh=\skip65
-\f@ncyO@elf=\skip66
-\f@ncyO@erf=\skip67
-\f@ncyO@olf=\skip68
-\f@ncyO@orf=\skip69
+\fancy@headwidth=\skip58
+\f@ncyO@elh=\skip59
+\f@ncyO@erh=\skip60
+\f@ncyO@olh=\skip61
+\f@ncyO@orh=\skip62
+\f@ncyO@elf=\skip63
+\f@ncyO@erf=\skip64
+\f@ncyO@olf=\skip65
+\f@ncyO@orf=\skip66
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
@@ -789,82 +789,82 @@ les
 )
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count132
-\bibleftmargin=\skip70
-\bibindent=\skip71
-\bibparsep=\skip72
-\bibitemsep=\skip73
-\biblabelsep=\skip74
+\c@BibCnt=\count133
+\bibleftmargin=\skip67
+\bibindent=\skip68
+\bibparsep=\skip69
+\bibitemsep=\skip70
+\biblabelsep=\skip71
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip75
-\cftbeforetoctitleskip=\skip76
-\cftaftertoctitleskip=\skip77
-\cftbeforepartskip=\skip78
-\cftpartnumwidth=\skip79
-\cftpartindent=\skip80
-\cftbeforechapskip=\skip81
-\cftchapindent=\skip82
-\cftchapnumwidth=\skip83
-\cftbeforesecskip=\skip84
-\cftsecindent=\skip85
-\cftsecnumwidth=\skip86
-\cftbeforesubsecskip=\skip87
-\cftsubsecindent=\skip88
-\cftsubsecnumwidth=\skip89
-\cftbeforesubsubsecskip=\skip90
-\cftsubsubsecindent=\skip91
-\cftsubsubsecnumwidth=\skip92
-\cftbeforeparaskip=\skip93
-\cftparaindent=\skip94
-\cftparanumwidth=\skip95
-\cftbeforesubparaskip=\skip96
-\cftsubparaindent=\skip97
-\cftsubparanumwidth=\skip98
-\cftbeforeloftitleskip=\skip99
-\cftafterloftitleskip=\skip100
-\cftbeforefigskip=\skip101
-\cftfigindent=\skip102
-\cftfignumwidth=\skip103
-\cftbeforelottitleskip=\skip104
-\cftafterlottitleskip=\skip105
-\cftbeforetabskip=\skip106
-\cfttabindent=\skip107
-\cfttabnumwidth=\skip108
-\cftbeforesubfigskip=\skip109
-\cftsubfigindent=\skip110
-\cftsubfignumwidth=\skip111
-\cftbeforesubtabskip=\skip112
-\cftsubtabindent=\skip113
-\cftsubtabnumwidth=\skip114
+\cftparskip=\skip72
+\cftbeforetoctitleskip=\skip73
+\cftaftertoctitleskip=\skip74
+\cftbeforepartskip=\skip75
+\cftpartnumwidth=\skip76
+\cftpartindent=\skip77
+\cftbeforechapskip=\skip78
+\cftchapindent=\skip79
+\cftchapnumwidth=\skip80
+\cftbeforesecskip=\skip81
+\cftsecindent=\skip82
+\cftsecnumwidth=\skip83
+\cftbeforesubsecskip=\skip84
+\cftsubsecindent=\skip85
+\cftsubsecnumwidth=\skip86
+\cftbeforesubsubsecskip=\skip87
+\cftsubsubsecindent=\skip88
+\cftsubsubsecnumwidth=\skip89
+\cftbeforeparaskip=\skip90
+\cftparaindent=\skip91
+\cftparanumwidth=\skip92
+\cftbeforesubparaskip=\skip93
+\cftsubparaindent=\skip94
+\cftsubparanumwidth=\skip95
+\cftbeforeloftitleskip=\skip96
+\cftafterloftitleskip=\skip97
+\cftbeforefigskip=\skip98
+\cftfigindent=\skip99
+\cftfignumwidth=\skip100
+\cftbeforelottitleskip=\skip101
+\cftafterlottitleskip=\skip102
+\cftbeforetabskip=\skip103
+\cfttabindent=\skip104
+\cfttabnumwidth=\skip105
+\cftbeforesubfigskip=\skip106
+\cftsubfigindent=\skip107
+\cftsubfignumwidth=\skip108
+\cftbeforesubtabskip=\skip109
+\cftsubtabindent=\skip110
+\cftsubtabnumwidth=\skip111
 ) (./MainFile.aux)
 \openout1 = `MainFile.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 107.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 101.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 107.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -887,7 +887,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-38.1381pt
-* \headheight=12.0pt
+* \headheight=14.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
@@ -906,16 +906,16 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen149
-\scratchbox=\box36
-\nofMPsegments=\count134
-\nofMParguments=\count135
+\scratchcounter=\count134
+\scratchdimen=\dimen150
+\scratchbox=\box37
+\nofMPsegments=\count135
+\nofMParguments=\count136
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen150
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen151
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
 \everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -942,8 +942,8 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box37
-Package hyperref Info: Link coloring OFF on input line 101.
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring OFF on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -951,18 +951,18 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count139
+\c@section@level=\count140
 )
-LaTeX Info: Redefining \ref on input line 101.
-LaTeX Info: Redefining \pageref on input line 101.
-LaTeX Info: Redefining \nameref on input line 101.
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
 
 (./MainFile.out) (./MainFile.out)
 \@outlinefile=\write3
 \openout3 = `MainFile.out'.
 
-\c@lstlisting=\count140
-LaTeX Info: Redefining \microtypecontext on input line 101.
+\c@lstlisting=\count141
+LaTeX Info: Redefining \microtypecontext on input line 107.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -976,36 +976,36 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-\c@maskedRefs=\count141
+\c@maskedRefs=\count142
 
 (/usr/share/texlive/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-<logo.png, id=341, 225.60284pt x 45.2892pt>
+<logo.png, id=357, 225.60284pt x 45.2892pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 112.
+Package pdftex.def Info: logo.png used on input line 118.
 (pdftex.def)             Requested size: 455.24411pt x 91.39221pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 112.
+(Font)              <10.95> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 112.
+(Font)              <8> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 112.
+(Font)              <6> on input line 118.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1018,646 +1018,304 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2
+ [2
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [3])
 \tf@toc=\write4
 \openout4 = `MainFile.toc'.
 
- (./preface/abstract.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5
+ (./preface/abstract.tex [4]) [5
 
 ] [6
 
 ] (./introduction/problem.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [7
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7
-
-] <img/conceptmap.png, id=524, 2799.45876pt x 1685.29625pt>
+]
+<img/conceptmap.png, id=544, 2799.45876pt x 1685.29625pt>
 File: img/conceptmap.png Graphic file (type png)
 
 <use img/conceptmap.png>
-Package pdftex.def Info: img/conceptmap.png used on input line 30.
+Package pdftex.def Info: img/conceptmap.png used on input line 31.
 (pdftex.def)             Requested size: 455.24411pt x 274.05026pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 <./img/conceptmap.png (PNG copy)>]
-Underfull \vbox (badness 1231) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10] <img/flashmap.png, id=641, 633.11531pt x 271.76532pt>
+ [8] [9 <./img/conceptmap.png (PNG copy)>] [10]
+<img/flashmap.png, id=660, 633.11531pt x 271.76532pt>
 File: img/flashmap.png Graphic file (type png)
-
-<use img/flashmap.png>
-Package pdftex.def Info: img/flashmap.png used on input line 70.
+ <use img/flashmap.png>
+Package pdftex.def Info: img/flashmap.png used on input line 71.
 (pdftex.def)             Requested size: 455.24411pt x 195.41792pt.
-\c@researchquestion=\count142
-\c@subquestion=\count143
+\c@researchquestion=\count143
+\c@subquestion=\count144
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 <./img/flashmap.png>] <img/tam.png, id=652, 666.99188pt x 189.70876pt>
+[11 <./img/flashmap.png>] <img/tam.png, id=677, 666.99188pt x 189.70876pt>
 File: img/tam.png Graphic file (type png)
 
 <use img/tam.png>
-Package pdftex.def Info: img/tam.png used on input line 108.
+Package pdftex.def Info: img/tam.png used on input line 109.
 (pdftex.def)             Requested size: 455.24411pt x 129.48654pt.
-) (./introduction/theory.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12 <./img/tam.png>] <img/brainareas.png, id=684, 401.5pt x 261.97874pt>
+) (./introduction/theory.tex [12 <./img/tam.png>]
+<img/brainareas.png, id=701, 401.5pt x 261.97874pt>
 File: img/brainareas.png Graphic file (type png)
-
-<use img/brainareas.png>
+ <use img/brainareas.png>
 Package pdftex.def Info: img/brainareas.png used on input line 17.
 (pdftex.def)             Requested size: 227.62206pt x 148.52594pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13
-
-] <img/modalmemory.png, id=706, 403.909pt x 136.51pt>
+<img/modalmemory.png, id=712, 403.909pt x 136.51pt>
 File: img/modalmemory.png Graphic file (type png)
-
-<use img/modalmemory.png>
+ <use img/modalmemory.png>
 Package pdftex.def Info: img/modalmemory.png used on input line 26.
 (pdftex.def)             Requested size: 227.62206pt x 76.92831pt.
 
-Underfull \vbox (badness 3168) has occurred while \output is active []
+[13
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14 <./img/brainareas.png> <./img/modalmemory.png>]
-<img/powerlawforgetting.png, id=759, 521.95pt x 321.2pt>
+] [14 <./img/brainareas.png> <./img/modalmemory.png>]
+<img/powerlawforgetting.png, id=778, 521.95pt x 321.2pt>
 File: img/powerlawforgetting.png Graphic file (type png)
 
 <use img/powerlawforgetting.png>
 Package pdftex.def Info: img/powerlawforgetting.png used on input line 60.
 (pdftex.def)             Requested size: 318.66948pt x 196.10815pt.
 
-<img/powerlawlearning.png, id=760, 521.95pt x 321.2pt>
+<img/powerlawlearning.png, id=779, 521.95pt x 321.2pt>
 File: img/powerlawlearning.png Graphic file (type png)
 
 <use img/powerlawlearning.png>
 Package pdftex.def Info: img/powerlawlearning.png used on input line 66.
 (pdftex.def)             Requested size: 318.66948pt x 196.10815pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>]
-<img/spacedrepetition.png, id=837, 466.74374pt x 277.78781pt>
+ [15] [16 <./img/powerlawforgetting.png> <./img/powerlawlearning.png>]
+<img/spacedrepetition.png, id=848, 466.74374pt x 277.78781pt>
 File: img/spacedrepetition.png Graphic file (type png)
 
 <use img/spacedrepetition.png>
-Package pdftex.def Info: img/spacedrepetition.png used on input line 93.
+Package pdftex.def Info: img/spacedrepetition.png used on input line 90.
 (pdftex.def)             Requested size: 227.62206pt x 135.47292pt.
-)
+) [17 <./img/spacedrepetition.png>] [18
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18 <./img/spacedrepetition.png>] [19
-
-] (./design/intro.tex
-<img/genericmodel.png, id=875, 249.18094pt x 248.42813pt>
+]
+(./design/intro.tex <img/genericmodel.png, id=878, 249.18094pt x 248.42813pt>
 File: img/genericmodel.png Graphic file (type png)
 
 <use img/genericmodel.png>
 Package pdftex.def Info: img/genericmodel.png used on input line 5.
 (pdftex.def)             Requested size: 227.62206pt x 226.9418pt.
-) (./design/analysis.tex
+) (./design/analysis.tex [19 <./img/genericmodel.png>] [20
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20 <./img/genericmodel.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23]
+] [21] [22]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 68.
+(Font)              <9> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 68.
+(Font)              <5> on input line 70.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [23]) (./design/frameworks.tex [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24]) (./design/frameworks.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
-Underfull \vbox (badness 5519) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26
+ [25
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 23.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 21.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[30]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32]) (./design/software.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33] <img/navmenu.png, id=1119, 715.92468pt x 52.69687pt>
+) [26] [27] [28]
+[29] [30] [31]) (./design/software.tex [32]
+<img/navmenu.png, id=1132, 715.92468pt x 52.69687pt>
 File: img/navmenu.png Graphic file (type png)
-
-<use img/navmenu.png>
+ <use img/navmenu.png>
 Package pdftex.def Info: img/navmenu.png used on input line 16.
 (pdftex.def)             Requested size: 364.19667pt x 26.8075pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34
+[33
 
  <./img/navmenu.png>]
-<img/ui_read_request.png, id=1132, 557.6835pt x 427.5975pt>
+<img/ui_read_request.png, id=1145, 557.6835pt x 427.5975pt>
 File: img/ui_read_request.png Graphic file (type png)
 
 <use img/ui_read_request.png>
 Package pdftex.def Info: img/ui_read_request.png used on input line 50.
 (pdftex.def)             Requested size: 364.19667pt x 279.25305pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[35] <img/ui_fc_prompt.png, id=1146, 553.46774pt x 425.1885pt>
+ [34]
+<img/ui_fc_prompt.png, id=1156, 553.46774pt x 425.1885pt>
 File: img/ui_fc_prompt.png Graphic file (type png)
 
 <use img/ui_fc_prompt.png>
 Package pdftex.def Info: img/ui_fc_prompt.png used on input line 61.
 (pdftex.def)             Requested size: 364.19667pt x 279.79483pt.
 
-<img/ui_fm_prompt.png, id=1147, 558.28575pt x 426.393pt>
+<img/ui_fm_prompt.png, id=1157, 558.28575pt x 426.393pt>
 File: img/ui_fm_prompt.png Graphic file (type png)
 
 <use img/ui_fm_prompt.png>
 Package pdftex.def Info: img/ui_fm_prompt.png used on input line 70.
 (pdftex.def)             Requested size: 364.19667pt x 278.15411pt.
- <img/ui_undo.png, id=1149, 531.78674pt x 395.076pt>
-File: img/ui_undo.png Graphic file (type png)
-
-<use img/ui_undo.png>
-Package pdftex.def Info: img/ui_undo.png used on input line 79.
-(pdftex.def)             Requested size: 364.19667pt x 270.57117pt.
-
-<img/ui_fc_answer.png, id=1153, 561.89925pt x 428.19975pt>
+ [35 <./img/ui_read_request.png>] [36 <./img/ui_fc_prompt.png> <./img/ui_fm_pro
+mpt.png>]
+<img/ui_fc_answer.png, id=1178, 561.89925pt x 428.19975pt>
 File: img/ui_fc_answer.png Graphic file (type png)
 
 <use img/ui_fc_answer.png>
-Package pdftex.def Info: img/ui_fc_answer.png used on input line 90.
+Package pdftex.def Info: img/ui_fc_answer.png used on input line 85.
 (pdftex.def)             Requested size: 364.19667pt x 277.54901pt.
 
-<img/ui_fm_answer_correct.png, id=1154, 563.706pt x 428.802pt>
+<img/ui_fm_answer_correct.png, id=1179, 563.706pt x 428.802pt>
 File: img/ui_fm_answer_correct.png Graphic file (type png)
 
 <use img/ui_fm_answer_correct.png>
-Package pdftex.def Info: img/ui_fm_answer_correct.png used on input line 97.
+Package pdftex.def Info: img/ui_fm_answer_correct.png used on input line 92.
 (pdftex.def)             Requested size: 364.19667pt x 277.04298pt.
 
-<img/ui_fm_answer_incorrect.png, id=1155, 560.69475pt x 427.5975pt>
+<img/ui_fm_answer_incorrect.png, id=1180, 560.69475pt x 427.5975pt>
 File: img/ui_fm_answer_incorrect.png Graphic file (type png)
 
 <use img/ui_fm_answer_incorrect.png>
-Package pdftex.def Info: img/ui_fm_answer_incorrect.png used on input line 104.
-
+Package pdftex.def Info: img/ui_fm_answer_incorrect.png used on input line 99.
 (pdftex.def)             Requested size: 364.19667pt x 277.74586pt.
 
+<img/ui_undo.png, id=1181, 531.78674pt x 395.076pt>
+File: img/ui_undo.png Graphic file (type png)
+ <use img/ui_undo.png>
+Package pdftex.def Info: img/ui_undo.png used on input line 106.
+(pdftex.def)             Requested size: 364.19667pt x 270.57117pt.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36 <./img/ui_read_request.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37 <./img/ui_fc_prompt.png> <./img/ui_fm_prompt.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38 <./img/ui_undo.png> <./img/ui_fc_answer.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[39 <./img/ui_fm_answer_correct.png> <./img/ui_fm_answer_incorrect.png>]
-<img/learningserver.png, id=1181, 527.9725pt x 521.95pt>
+<img/learningserver.png, id=1184, 527.9725pt x 521.95pt>
 File: img/learningserver.png Graphic file (type png)
 
 <use img/learningserver.png>
-Package pdftex.def Info: img/learningserver.png used on input line 119.
+Package pdftex.def Info: img/learningserver.png used on input line 121.
 (pdftex.def)             Requested size: 355.44765pt x 351.39154pt.
 
-<img/ui_no_more_instances.png, id=1183, 542.025pt x 393.26926pt>
+<img/ui_no_more_instances.png, id=1186, 542.025pt x 393.26926pt>
 File: img/ui_no_more_instances.png Graphic file (type png)
 
 <use img/ui_no_more_instances.png>
-Package pdftex.def Info: img/ui_no_more_instances.png used on input line 130.
+Package pdftex.def Info: img/ui_no_more_instances.png used on input line 132.
 (pdftex.def)             Requested size: 364.19667pt x 264.25113pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[40 <./img/learningserver.png (PNG copy)>]
-<img/ui_login.png, id=1192, 569.12625pt x 340.27126pt>
+ [37 <./img/ui_fc_answer.png>] [38 <./img/ui_fm_answer_correct.png> <./img/ui_f
+m_answer_incorrect.png>] [39 <./img/ui_undo.png> <./img/learningserver.png (PNG
+ copy)>]
+<img/ui_login.png, id=1205, 569.12625pt x 340.27126pt>
 File: img/ui_login.png Graphic file (type png)
  <use img/ui_login.png>
-Package pdftex.def Info: img/ui_login.png used on input line 145.
+Package pdftex.def Info: img/ui_login.png used on input line 147.
 (pdftex.def)             Requested size: 364.19667pt x 217.75728pt.
 
-<img/ui_descriptives.png, id=1196, 576.35326pt x 427.5975pt>
+<img/ui_descriptives.png, id=1209, 576.35326pt x 427.5975pt>
 File: img/ui_descriptives.png Graphic file (type png)
 
 <use img/ui_descriptives.png>
-Package pdftex.def Info: img/ui_descriptives.png used on input line 156.
+Package pdftex.def Info: img/ui_descriptives.png used on input line 158.
 (pdftex.def)             Requested size: 364.19667pt x 270.1969pt.
 
-<img/ui_test_top.png, id=1197, 558.28575pt x 427.5975pt>
+<img/ui_test_top.png, id=1210, 558.28575pt x 427.5975pt>
 File: img/ui_test_top.png Graphic file (type png)
 
 <use img/ui_test_top.png>
-Package pdftex.def Info: img/ui_test_top.png used on input line 164.
+Package pdftex.def Info: img/ui_test_top.png used on input line 166.
 (pdftex.def)             Requested size: 182.09486pt x 139.46341pt.
 
-<img/ui_test_bottom.png, id=1198, 564.30824pt x 427.5975pt>
+<img/ui_test_bottom.png, id=1211, 564.30824pt x 427.5975pt>
 File: img/ui_test_bottom.png Graphic file (type png)
 
 <use img/ui_test_bottom.png>
-Package pdftex.def Info: img/ui_test_bottom.png used on input line 171.
+Package pdftex.def Info: img/ui_test_bottom.png used on input line 173.
 (pdftex.def)             Requested size: 182.09486pt x 137.98232pt.
 
-<img/ui_questionnaire_top.png, id=1199, 560.0925pt x 427.5975pt>
+<img/ui_questionnaire_top.png, id=1212, 560.0925pt x 427.5975pt>
 File: img/ui_questionnaire_top.png Graphic file (type png)
 
 <use img/ui_questionnaire_top.png>
-Package pdftex.def Info: img/ui_questionnaire_top.png used on input line 182.
+Package pdftex.def Info: img/ui_questionnaire_top.png used on input line 184.
 (pdftex.def)             Requested size: 182.09486pt x 139.01973pt.
 
-<img/ui_questionnaire_bottom.png, id=1200, 561.89925pt x 428.19975pt>
+<img/ui_questionnaire_bottom.png, id=1213, 561.89925pt x 428.19975pt>
 File: img/ui_questionnaire_bottom.png Graphic file (type png)
 
 <use img/ui_questionnaire_bottom.png>
-Package pdftex.def Info: img/ui_questionnaire_bottom.png used on input line 189
+Package pdftex.def Info: img/ui_questionnaire_bottom.png used on input line 191
 .
 (pdftex.def)             Requested size: 182.09486pt x 138.7647pt.
-
-<img/ui_debriefing.png, id=1202, 570.933pt x 430.0065pt>
+ [40 <./img/ui_no_more_instances.png>]
+[41 <./img/ui_login.png> <./img/ui_descriptives.png>] [42 <./img/ui_test_top.pn
+g> <./img/ui_test_bottom.png> <./img/ui_questionnaire_top.png> <./img/ui_questi
+onnaire_bottom.png>] <img/ui_debriefing.png, id=1236, 570.933pt x 430.0065pt>
 File: img/ui_debriefing.png Graphic file (type png)
 
 <use img/ui_debriefing.png>
-Package pdftex.def Info: img/ui_debriefing.png used on input line 203.
+Package pdftex.def Info: img/ui_debriefing.png used on input line 205.
 (pdftex.def)             Requested size: 364.19667pt x 274.31087pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[41 <./img/ui_no_more_instances.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42 <./img/ui_login.png> <./img/ui_descriptives.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43 <./img/ui_test_top.png> <./img/ui_test_bottom.png> <./img/ui_questionnaire_
-top.png> <./img/ui_questionnaire_bottom.png> <./img/ui_debriefing.png>]
-<img/ui_help.png, id=1225, 566.115pt x 419.166pt>
+ <img/ui_help.png, id=1238, 566.115pt x 419.166pt>
 File: img/ui_help.png Graphic file (type png)
- <use img/ui_help.png>
-Package pdftex.def Info: img/ui_help.png used on input line 214.
+
+<use img/ui_help.png>
+Package pdftex.def Info: img/ui_help.png used on input line 216.
 (pdftex.def)             Requested size: 364.19667pt x 269.66603pt.
 
-<img/ui_fc_learnprogress_1.png, id=1229, 568.524pt x 420.3705pt>
+<img/ui_fc_learnprogress_1.png, id=1242, 568.524pt x 420.3705pt>
 File: img/ui_fc_learnprogress_1.png Graphic file (type png)
 
 <use img/ui_fc_learnprogress_1.png>
-Package pdftex.def Info: img/ui_fc_learnprogress_1.png used on input line 229.
+Package pdftex.def Info: img/ui_fc_learnprogress_1.png used on input line 231.
 (pdftex.def)             Requested size: 145.67644pt x 107.70941pt.
 
-<img/ui_fc_learnprogress_2.png, id=1230, 570.33075pt x 426.99525pt>
+<img/ui_fc_learnprogress_2.png, id=1243, 570.33075pt x 426.99525pt>
 File: img/ui_fc_learnprogress_2.png Graphic file (type png)
 
 <use img/ui_fc_learnprogress_2.png>
-Package pdftex.def Info: img/ui_fc_learnprogress_2.png used on input line 236.
+Package pdftex.def Info: img/ui_fc_learnprogress_2.png used on input line 238.
 (pdftex.def)             Requested size: 145.67644pt x 109.06152pt.
 
-<img/ui_fm_learnprogress.png, id=1231, 570.933pt x 426.393pt>
+<img/ui_fm_learnprogress.png, id=1244, 570.933pt x 426.393pt>
 File: img/ui_fm_learnprogress.png Graphic file (type png)
 
 <use img/ui_fm_learnprogress.png>
-Package pdftex.def Info: img/ui_fm_learnprogress.png used on input line 246.
+Package pdftex.def Info: img/ui_fm_learnprogress.png used on input line 248.
 (pdftex.def)             Requested size: 364.19667pt x 272.00574pt.
-)
+) [43 <./img/ui_debriefing.png>] [44 <./img/ui_help.png> <./img/ui_fc_learnprog
+ress_1.png> <./img/ui_fc_learnprogress_2.png>] [45 <./img/ui_fm_learnprogress.p
+ng>] [46
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[44 <./img/ui_help.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[45 <./img/ui_fc_learnprogress_1.png> <./img/ui_fc_learnprogress_2.png> <./img/
-ui_fm_learnprogress.png>] [46
-
-] (./research/methods.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[47
+] (./research/methods.tex [47
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [48]
+Underfull \vbox (badness 1168) has occurred while \output is active []
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[49]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[50]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52]) (./research/results.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[53]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54] <img/activedays_gen.png, id=1400, 462.528pt x 346.896pt>
+ [49]
+[50] [51] [52]) (./research/results.tex [53] [54]
+<img/activedays_gen.png, id=1421, 462.528pt x 346.896pt>
 File: img/activedays_gen.png Graphic file (type png)
 
 <use img/activedays_gen.png>
 Package pdftex.def Info: img/activedays_gen.png used on input line 32.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[55
+ [55
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [56 <./img/activedays_gen.png>]
-<img/know_gain_abil.png, id=1449, 462.528pt x 346.896pt>
+<img/know_gain_abil.png, id=1470, 462.528pt x 346.896pt>
 File: img/know_gain_abil.png Graphic file (type png)
 
 <use img/know_gain_abil.png>
 Package pdftex.def Info: img/know_gain_abil.png used on input line 125.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/comp_gain_abil.png, id=1450, 462.528pt x 346.896pt>
+<img/comp_gain_abil.png, id=1471, 462.528pt x 346.896pt>
 File: img/comp_gain_abil.png Graphic file (type png)
 
 <use img/comp_gain_abil.png>
@@ -1666,801 +1324,676 @@ Package pdftex.def Info: img/comp_gain_abil.png used on input line 131.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[57]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[58 <./img/know_gain_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[59 <./img/comp_gain_abil.png>]
-<img/instance_abil.png, id=1491, 462.528pt x 346.896pt>
+ [57]
+[58 <./img/know_gain_abil.png>] [59 <./img/comp_gain_abil.png>]
+<img/instance_abil.png, id=1512, 462.528pt x 346.896pt>
 File: img/instance_abil.png Graphic file (type png)
 
 <use img/instance_abil.png>
 Package pdftex.def Info: img/instance_abil.png used on input line 180.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/responses_abil.png, id=1492, 462.528pt x 346.896pt>
+<img/responses_abil.png, id=1513, 462.528pt x 346.896pt>
 File: img/responses_abil.png Graphic file (type png)
 
 <use img/responses_abil.png>
 Package pdftex.def Info: img/responses_abil.png used on input line 189.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/exponent_abil.png, id=1493, 462.528pt x 346.896pt>
+<img/exponent_abil.png, id=1514, 462.528pt x 346.896pt>
 File: img/exponent_abil.png Graphic file (type png)
 
 <use img/exponent_abil.png>
 Package pdftex.def Info: img/exponent_abil.png used on input line 198.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/score_abil.png, id=1496, 462.528pt x 346.896pt>
+<img/score_abil.png, id=1517, 462.528pt x 346.896pt>
 File: img/score_abil.png Graphic file (type png)
  <use img/score_abil.png>
 Package pdftex.def Info: img/score_abil.png used on input line 207.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[60]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[61 <./img/instance_abil.png> <./img/responses_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[62 <./img/exponent_abil.png> <./img/score_abil.png>]
-<img/time_abil.png, id=1522, 462.528pt x 346.896pt>
+[60] [61 <./img/instance_abil.png> <./img/responses_abil.png>] [62 <./img/expon
+ent_abil.png> <./img/score_abil.png>]
+<img/time_abil.png, id=1543, 462.528pt x 346.896pt>
 File: img/time_abil.png Graphic file (type png)
  <use img/time_abil.png>
 Package pdftex.def Info: img/time_abil.png used on input line 216.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-Underfull \vbox (badness 3281) has occurred while \output is active []
+Underfull \vbox (badness 5711) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[63 <./img/time_abil.png>]
-<img/usefulness_abil.png, id=1540, 462.528pt x 346.896pt>
+ [63 <./img/time_abil.png>] <img/usefulness_abil.png, id=1561, 462.528pt x 346.
+896pt>
 File: img/usefulness_abil.png Graphic file (type png)
 
 <use img/usefulness_abil.png>
 Package pdftex.def Info: img/usefulness_abil.png used on input line 247.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[64 <./img/usefulness_abil.png>]
-<img/easeofuse_abil.png, id=1551, 462.528pt x 346.896pt>
+ [64 <./img/usefulness_abil.png>]
+<img/easeofuse_abil.png, id=1572, 462.528pt x 346.896pt>
 File: img/easeofuse_abil.png Graphic file (type png)
 
 <use img/easeofuse_abil.png>
 Package pdftex.def Info: img/easeofuse_abil.png used on input line 272.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 ) (./research/discussion.tex
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+ [65 <./img/easeofuse_abil.png>] [66] [67
 
-[65 <./img/easeofuse_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[66]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[67
-
-])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[68] [69
+]) [68] [69
 
 ] (./MainFile.bbl
+Underfull \vbox (badness 2142) has occurred while \output is active []
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[70
+ [70
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[71]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[72])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[73] [74
+[71] [72]) [73] [74
 
 
 ] (./appendix/exampletest.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+ [75
 
-[75
-
-] <img/laura.jpg, id=1668, 150.5625pt x 200.75pt>
+]
+<img/laura.jpg, id=1699, 150.5625pt x 200.75pt>
 File: img/laura.jpg Graphic file (type jpg)
  <use img/laura.jpg>
 Package pdftex.def Info: img/laura.jpg used on input line 65.
 (pdftex.def)             Requested size: 136.57462pt x 182.11607pt.
 
-<img/emblem.jpg, id=1671, 301.125pt x 474.77374pt>
+<img/emblem.jpg, id=1702, 301.125pt x 474.77374pt>
 File: img/emblem.jpg Graphic file (type jpg)
  <use img/emblem.jpg>
 Package pdftex.def Info: img/emblem.jpg used on input line 72.
 (pdftex.def)             Requested size: 136.57462pt x 215.34142pt.
 )
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[76 <./img/laura.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[77 <./img/emblem.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[78
+[76 <./img/laura.jpg>] [77 <./img/emblem.jpg>] [78
 
 ]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1704, 614.295pt x 79
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1724, 614.295pt x 79
 4.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
  <use ../software/server/doc/build/latex/Flashmapserver.pdf>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf 
-used on input line 149.
+used on input line 154.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf 
-used on input line 149.
+used on input line 154.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1707, page=1, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1727, page=1, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 1>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page1 used on input line 149.
+ page1 used on input line 154.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 1>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page1 used on input line 149.
+ page1 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 1>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page1 used on input line 149.
+ page1 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 1>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page1 used on input line 149.
+ page1 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 1>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page1 used on input line 149.
+ page1 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [79 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1724, page=2, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1744, page=2, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 2>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page2 used on input line 149.
+ page2 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 2>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page2 used on input line 149.
+ page2 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 2>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page2 used on input line 149.
+ page2 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [80 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1729, page=3, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1749, page=3, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page3 used on input line 149.
+ page3 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page3 used on input line 149.
+ page3 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 3>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page3 used on input line 149.
+ page3 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [81 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1744, page=4, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1765, page=4, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page4 used on input line 149.
+ page4 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page4 used on input line 149.
+ page4 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 4>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page4 used on input line 149.
+ page4 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [82 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1749, page=5, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1770, page=5, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page5 used on input line 149.
+ page5 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page5 used on input line 149.
+ page5 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 5>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page5 used on input line 149.
+ page5 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [83 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1755, page=6, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1776, page=6, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page6 used on input line 149.
+ page6 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page6 used on input line 149.
+ page6 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 6>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page6 used on input line 149.
+ page6 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [84 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1761, page=7, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1781, page=7, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page7 used on input line 149.
+ page7 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page7 used on input line 149.
+ page7 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 7>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page7 used on input line 149.
+ page7 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [85 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1787, page=8, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1807, page=8, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page8 used on input line 149.
+ page8 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page8 used on input line 149.
+ page8 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 8>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page8 used on input line 149.
+ page8 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [86 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1797, page=9, 614.29
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1817, page=9, 614.29
 5pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 9>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page9 used on input line 149.
+ page9 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 9>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page9 used on input line 149.
+ page9 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 9>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page9 used on input line 149.
+ page9 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [87 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1802, page=10, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1822, page=10, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page10 used on input line 149.
+ page10 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page10 used on input line 149.
+ page10 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 10>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page10 used on input line 149.
+ page10 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [88 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1807, page=11, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1827, page=11, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page11 used on input line 149.
+ page11 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page11 used on input line 149.
+ page11 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 11>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page11 used on input line 149.
+ page11 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [89 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1812, page=12, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1832, page=12, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page12 used on input line 149.
+ page12 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page12 used on input line 149.
+ page12 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 12>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page12 used on input line 149.
+ page12 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [90 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1817, page=13, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1837, page=13, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page13 used on input line 149.
+ page13 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page13 used on input line 149.
+ page13 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 13>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page13 used on input line 149.
+ page13 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [91 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1823, page=14, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1843, page=14, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page14 used on input line 149.
+ page14 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page14 used on input line 149.
+ page14 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 14>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page14 used on input line 149.
+ page14 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [92 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1828, page=15, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1848, page=15, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page15 used on input line 149.
+ page15 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page15 used on input line 149.
+ page15 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 15>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page15 used on input line 149.
+ page15 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [93 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1833, page=16, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1853, page=16, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page16 used on input line 149.
+ page16 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page16 used on input line 149.
+ page16 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 16>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page16 used on input line 149.
+ page16 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [94 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1838, page=17, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1858, page=17, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page17 used on input line 149.
+ page17 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page17 used on input line 149.
+ page17 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 17>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page17 used on input line 149.
+ page17 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [95 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1843, page=18, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1863, page=18, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page18 used on input line 149.
+ page18 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page18 used on input line 149.
+ page18 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 18>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page18 used on input line 149.
+ page18 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [96 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1848, page=19, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1868, page=19, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page19 used on input line 149.
+ page19 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page19 used on input line 149.
+ page19 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 19>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page19 used on input line 149.
+ page19 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [97 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1854, page=20, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1874, page=20, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page20 used on input line 149.
+ page20 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page20 used on input line 149.
+ page20 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 20>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page20 used on input line 149.
+ page20 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [98 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1859, page=21, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1879, page=21, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 21>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page21 used on input line 149.
+ page21 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 21>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page21 used on input line 149.
+ page21 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 21>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page21 used on input line 149.
+ page21 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [99 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1869, page=22, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1889, page=22, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 22>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page22 used on input line 149.
+ page22 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 22>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page22 used on input line 149.
+ page22 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 22>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page22 used on input line 149.
+ page22 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [100 <../software/server/doc/build/latex/Flashmapserver.pdf>]
-<../software/server/doc/build/latex/Flashmapserver.pdf, id=1874, page=23, 614.2
+<../software/server/doc/build/latex/Flashmapserver.pdf, id=1894, page=23, 614.2
 95pt x 794.97pt>
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 23>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page23 used on input line 149.
+ page23 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 23>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page23 used on input line 149.
+ page23 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: ../software/server/doc/build/latex/Flashmapserver.pdf Graphic file (type 
 pdf)
 
 <use ../software/server/doc/build/latex/Flashmapserver.pdf, page 23>
 Package pdftex.def Info: ../software/server/doc/build/latex/Flashmapserver.pdf,
- page23 used on input line 149.
+ page23 used on input line 154.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [101 <../software/server/doc/build/latex/Flashmapserver.pdf>]
 (./appendix/clientsource.tex (../software/client/index.html
@@ -2480,120 +2013,38 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[102
+ [102
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[103]) (../software/client/client.js
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[104]
+ [103])
+(../software/client/client.js [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[105]
+ [105]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[106]
+ [106]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[107]
+ [107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[108]
+ [108]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[109]
+ [109]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[110]
+ [110]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[111]
+ [111]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[112])) (./appendix/informed_consent_form.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[113]
+ [112]))
+(./appendix/informed_consent_form.tex [113]
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
@@ -2602,12 +2053,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 Underfull \hbox (badness 10000) in paragraph at lines 10--13
 
  []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
 [114
 
@@ -2621,34 +2066,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [115
 
 
-]
+] [116
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[116
-
-]) (./appendix/participation.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[117
+]) (./appendix/test_items.tex [117
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122]
+[123]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+[125]) (./appendix/participation.tex [126]
 Underfull \vbox (badness 10000) detected at line 24
  []
 
@@ -2656,116 +2103,76 @@ Underfull \vbox (badness 10000) detected at line 24
 Underfull \vbox (badness 10000) detected at line 44
  []
 
-<img/participation.png, id=2578, 462.528pt x 346.896pt>
+<img/participation.png, id=2639, 462.528pt x 346.896pt>
 File: img/participation.png Graphic file (type png)
 
 <use img/participation.png>
 Package pdftex.def Info: img/participation.png used on input line 63.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/participation_gen.png, id=2579, 462.528pt x 346.896pt>
+<img/participation_gen.png, id=2640, 462.528pt x 346.896pt>
 File: img/participation_gen.png Graphic file (type png)
 
 <use img/participation_gen.png>
 Package pdftex.def Info: img/participation_gen.png used on input line 69.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/activedays_fc.png, id=2580, 462.528pt x 346.896pt>
+<img/activedays_fc.png, id=2641, 462.528pt x 346.896pt>
 File: img/activedays_fc.png Graphic file (type png)
 
 <use img/activedays_fc.png>
 Package pdftex.def Info: img/activedays_fc.png used on input line 75.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/activedays_fm.png, id=2581, 462.528pt x 346.896pt>
+<img/activedays_fm.png, id=2642, 462.528pt x 346.896pt>
 File: img/activedays_fm.png Graphic file (type png)
 
 <use img/activedays_fm.png>
 Package pdftex.def Info: img/activedays_fm.png used on input line 81.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
-) (./appendix/descriptives.tex
+) (./appendix/descriptives.tex [127
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[118
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[119 <./img/participation.png> <./img/participation_gen.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[120 <./img/activedays_fc.png> <./img/activedays_fm.png>]
-<img/age_fc.png, id=2600, 462.528pt x 346.896pt>
+] [128 <./img/participation.png> <./img/participation_gen.png>] [129 <./img/act
+ivedays_fc.png> <./img/activedays_fm.png>] <img/age_fc.png, id=2663, 462.528pt 
+x 346.896pt>
 File: img/age_fc.png Graphic file (type png)
- <use img/age_fc.png>
+
+<use img/age_fc.png>
 Package pdftex.def Info: img/age_fc.png used on input line 9.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
-
-<img/age_fm.png, id=2601, 462.528pt x 346.896pt>
+ <img/age_fm.png, id=2664, 462.528pt x 346.896pt>
 File: img/age_fm.png Graphic file (type png)
- <use img/age_fm.png>
+
+<use img/age_fm.png>
 Package pdftex.def Info: img/age_fm.png used on input line 14.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
-
-<img/age_gen.png, id=2602, 462.528pt x 346.896pt>
+ <img/age_gen.png, id=2665, 462.528pt x 346.896pt>
 File: img/age_gen.png Graphic file (type png)
- <use img/age_gen.png>
+
+<use img/age_gen.png>
 Package pdftex.def Info: img/age_gen.png used on input line 19.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
+ [130
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[121
-
- <./img/age_fc.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[122 <./img/age_fm.png> <./img/age_gen.png>]
-<img/age.png, id=2618, 462.528pt x 346.896pt>
+ <./img/age_fc.png>] [131 <./img/age_fm.png> <./img/age_gen.png>] <img/age.png,
+ id=2680, 462.528pt x 346.896pt>
 File: img/age.png Graphic file (type png)
  <use img/age.png>
 Package pdftex.def Info: img/age.png used on input line 43.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 )
-(./appendix/learning_gain.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[123 <./img/age.png>]
+(./appendix/learning_gain.tex [132 <./img/age.png>]
 Underfull \vbox (badness 10000) detected at line 63
  []
 
-<img/know_fc_diff.png, id=2625, 462.528pt x 346.896pt>
+<img/know_fc_diff.png, id=2687, 462.528pt x 346.896pt>
 File: img/know_fc_diff.png Graphic file (type png)
 
 <use img/know_fc_diff.png>
 Package pdftex.def Info: img/know_fc_diff.png used on input line 67.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/know_fc_abil.png, id=2626, 462.528pt x 346.896pt>
+<img/know_fc_abil.png, id=2688, 462.528pt x 346.896pt>
 File: img/know_fc_abil.png Graphic file (type png)
 
 <use img/know_fc_abil.png>
@@ -2790,22 +2197,16 @@ Overfull \hbox (4.60861pt too wide) in alignment at lines 81--134
 Underfull \vbox (badness 10000) detected at line 134
  []
 
+[133
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[124
-
-] <img/know_fm_diff.png, id=2633, 462.528pt x 346.896pt>
+] <img/know_fm_diff.png, id=2696, 462.528pt x 346.896pt>
 File: img/know_fm_diff.png Graphic file (type png)
 
 <use img/know_fm_diff.png>
 Package pdftex.def Info: img/know_fm_diff.png used on input line 138.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/know_fm_abil.png, id=2634, 462.528pt x 346.896pt>
+<img/know_fm_abil.png, id=2697, 462.528pt x 346.896pt>
 File: img/know_fm_abil.png Graphic file (type png)
 
 <use img/know_fm_abil.png>
@@ -2830,48 +2231,22 @@ Overfull \hbox (0.96231pt too wide) in alignment at lines 152--205
 Underfull \vbox (badness 10000) detected at line 205
  []
 
-<img/know_gen_diff.png, id=2635, 462.528pt x 346.896pt>
+<img/know_gen_diff.png, id=2698, 462.528pt x 346.896pt>
 File: img/know_gen_diff.png Graphic file (type png)
 
 <use img/know_gen_diff.png>
 Package pdftex.def Info: img/know_gen_diff.png used on input line 209.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/know_gen_abil.png, id=2636, 462.528pt x 346.896pt>
+<img/know_gen_abil.png, id=2699, 462.528pt x 346.896pt>
 File: img/know_gen_abil.png Graphic file (type png)
 
 <use img/know_gen_abil.png>
 Package pdftex.def Info: img/know_gen_abil.png used on input line 215.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[125]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[126 <./img/know_fc_diff.png> <./img/know_fc_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[127 <./img/know_fm_diff.png> <./img/know_fm_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[128 <./img/know_gen_diff.png> <./img/know_gen_abil.png>]
+ [134] [135 <./img/know_fc_diff.png> <./img/know_fc_abil.png>] [136 <./img/know
+_fm_diff.png> <./img/know_fm_abil.png>] [137 <./img/know_gen_diff.png> <./img/k
+now_gen_abil.png>]
 Underfull \vbox (badness 10000) detected at line 243
  []
 
@@ -2891,17 +2266,11 @@ Underfull \vbox (badness 10000) detected at line 307
 Underfull \vbox (badness 10000) detected at line 330
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[129]
+[138]
 Underfull \vbox (badness 10000) detected at line 353
  []
 
-<img/know_gain_diff.png, id=2674, 462.528pt x 346.896pt>
+<img/know_gain_diff.png, id=2735, 462.528pt x 346.896pt>
 File: img/know_gain_diff.png Graphic file (type png)
 
 <use img/know_gain_diff.png>
@@ -2926,21 +2295,15 @@ Overfull \hbox (0.96231pt too wide) in alignment at lines 368--421
 Underfull \vbox (badness 10000) detected at line 421
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[130 <./img/know_gain_diff.png>]
-<img/comp_fc_diff.png, id=2688, 462.528pt x 346.896pt>
+[139 <./img/know_gain_diff.png>]
+<img/comp_fc_diff.png, id=2750, 462.528pt x 346.896pt>
 File: img/comp_fc_diff.png Graphic file (type png)
 
 <use img/comp_fc_diff.png>
 Package pdftex.def Info: img/comp_fc_diff.png used on input line 425.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/comp_fc_abil.png, id=2689, 462.528pt x 346.896pt>
+<img/comp_fc_abil.png, id=2751, 462.528pt x 346.896pt>
 File: img/comp_fc_abil.png Graphic file (type png)
 
 <use img/comp_fc_abil.png>
@@ -2965,20 +2328,14 @@ Overfull \hbox (0.27231pt too wide) in alignment at lines 439--492
 Underfull \vbox (badness 10000) detected at line 492
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[131] <img/comp_fm_diff.png, id=2695, 462.528pt x 346.896pt>
+[140] <img/comp_fm_diff.png, id=2757, 462.528pt x 346.896pt>
 File: img/comp_fm_diff.png Graphic file (type png)
 
 <use img/comp_fm_diff.png>
 Package pdftex.def Info: img/comp_fm_diff.png used on input line 496.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/comp_fm_abil.png, id=2696, 462.528pt x 346.896pt>
+<img/comp_fm_abil.png, id=2758, 462.528pt x 346.896pt>
 File: img/comp_fm_abil.png Graphic file (type png)
 
 <use img/comp_fm_abil.png>
@@ -3003,14 +2360,14 @@ Overfull \hbox (0.27231pt too wide) in alignment at lines 510--563
 Underfull \vbox (badness 10000) detected at line 563
  []
 
-<img/comp_gen_diff.png, id=2697, 462.528pt x 346.896pt>
+<img/comp_gen_diff.png, id=2759, 462.528pt x 346.896pt>
 File: img/comp_gen_diff.png Graphic file (type png)
 
 <use img/comp_gen_diff.png>
 Package pdftex.def Info: img/comp_gen_diff.png used on input line 567.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/comp_gen_abil.png, id=2698, 462.528pt x 346.896pt>
+<img/comp_gen_abil.png, id=2760, 462.528pt x 346.896pt>
 File: img/comp_gen_abil.png Graphic file (type png)
 
 <use img/comp_gen_abil.png>
@@ -3024,44 +2381,13 @@ Underfull \vbox (badness 10000) detected at line 599
 Underfull \vbox (badness 10000) detected at line 618
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[132]
+[141]
 Underfull \vbox (badness 10000) detected at line 637
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[133]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[134 <./img/comp_fc_diff.png> <./img/comp_fc_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[135 <./img/comp_fm_diff.png> <./img/comp_fm_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[136 <./img/comp_gen_diff.png> <./img/comp_gen_abil.png>]
+[142] [143 <./img/comp_fc_diff.png> <./img/comp_fc_abil.png>] [144 <./img/comp_
+fm_diff.png> <./img/comp_fm_abil.png>] [145 <./img/comp_gen_diff.png> <./img/co
+mp_gen_abil.png>]
 Underfull \vbox (badness 10000) detected at line 663
  []
 
@@ -3073,27 +2399,13 @@ Underfull \vbox (badness 10000) detected at line 686
 Underfull \vbox (badness 10000) detected at line 709
  []
 
-<img/comp_gain_diff.png, id=2733, 462.528pt x 346.896pt>
+<img/comp_gain_diff.png, id=2796, 462.528pt x 346.896pt>
 File: img/comp_gain_diff.png Graphic file (type png)
 
 <use img/comp_gain_diff.png>
 Package pdftex.def Info: img/comp_gain_diff.png used on input line 713.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
-) (./appendix/instance_stats.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[137]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[138 <./img/comp_gain_diff.png>]
+) (./appendix/instance_stats.tex [146] [147 <./img/comp_gain_diff.png>]
 Underfull \vbox (badness 10000) detected at line 24
  []
 
@@ -3105,20 +2417,13 @@ Underfull \vbox (badness 10000) detected at line 43
 Underfull \vbox (badness 10000) detected at line 59
  []
 
-<img/instance_diff.png, id=2752, 462.528pt x 346.896pt>
+<img/instance_diff.png, id=2815, 462.528pt x 346.896pt>
 File: img/instance_diff.png Graphic file (type png)
 
 <use img/instance_diff.png>
 Package pdftex.def Info: img/instance_diff.png used on input line 78.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[139
+ [148
 
 ]
 Underfull \vbox (badness 10000) detected at line 106
@@ -3132,21 +2437,21 @@ Underfull \vbox (badness 10000) detected at line 127
 Underfull \vbox (badness 10000) detected at line 145
  []
 
-<img/responses_diff.png, id=2762, 462.528pt x 346.896pt>
+<img/responses_diff.png, id=2824, 462.528pt x 346.896pt>
 File: img/responses_diff.png Graphic file (type png)
 
 <use img/responses_diff.png>
 Package pdftex.def Info: img/responses_diff.png used on input line 149.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/responses_gen_diff.png, id=2763, 462.528pt x 346.896pt>
+<img/responses_gen_diff.png, id=2825, 462.528pt x 346.896pt>
 File: img/responses_gen_diff.png Graphic file (type png)
 
 <use img/responses_gen_diff.png>
 Package pdftex.def Info: img/responses_gen_diff.png used on input line 156.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/responses_gen_abil.png, id=2764, 462.528pt x 346.896pt>
+<img/responses_gen_abil.png, id=2826, 462.528pt x 346.896pt>
 File: img/responses_gen_abil.png Graphic file (type png)
 
 <use img/responses_gen_abil.png>
@@ -3160,20 +2465,8 @@ Underfull \vbox (badness 10000) detected at line 183
 Overfull \vbox (178.37866pt too high) has occurred while \output is active []
 
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[140 <./img/instance_diff.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[141 <./img/responses_diff.png> <./img/responses_gen_diff.png>]
+[149 <./img/instance_diff.png>] [150 <./img/responses_diff.png> <./img/response
+s_gen_diff.png>]
 Underfull \vbox (badness 10000) detected at line 207
  []
 
@@ -3205,21 +2498,21 @@ Overfull \hbox (1.67369pt too wide) in alignment at lines 232--246
 Underfull \vbox (badness 10000) detected at line 246
  []
 
-<img/exponent_diff.png, id=2784, 462.528pt x 346.896pt>
+<img/exponent_diff.png, id=2845, 462.528pt x 346.896pt>
 File: img/exponent_diff.png Graphic file (type png)
 
 <use img/exponent_diff.png>
 Package pdftex.def Info: img/exponent_diff.png used on input line 250.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/exponent_gen_diff.png, id=2785, 462.528pt x 346.896pt>
+<img/exponent_gen_diff.png, id=2846, 462.528pt x 346.896pt>
 File: img/exponent_gen_diff.png Graphic file (type png)
 
 <use img/exponent_gen_diff.png>
 Package pdftex.def Info: img/exponent_gen_diff.png used on input line 257.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/exponent_gen_abil.png, id=2786, 462.528pt x 346.896pt>
+<img/exponent_gen_abil.png, id=2847, 462.528pt x 346.896pt>
 File: img/exponent_gen_abil.png Graphic file (type png)
 
 <use img/exponent_gen_abil.png>
@@ -3229,20 +2522,8 @@ Package pdftex.def Info: img/exponent_gen_abil.png used on input line 263.
 Overfull \vbox (178.37866pt too high) has occurred while \output is active []
 
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[142 <./img/responses_gen_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[143 <./img/exponent_diff.png> <./img/exponent_gen_diff.png>]
+[151 <./img/responses_gen_abil.png>] [152 <./img/exponent_diff.png> <./img/expo
+nent_gen_diff.png>]
 Underfull \vbox (badness 10000) detected at line 308
  []
 
@@ -3254,20 +2535,20 @@ Underfull \vbox (badness 10000) detected at line 329
 Underfull \vbox (badness 10000) detected at line 346
  []
 
-<img/score_diff.png, id=2805, 462.528pt x 346.896pt>
+<img/score_diff.png, id=2867, 462.528pt x 346.896pt>
 File: img/score_diff.png Graphic file (type png)
  <use img/score_diff.png>
 Package pdftex.def Info: img/score_diff.png used on input line 350.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/score_gen_diff.png, id=2806, 462.528pt x 346.896pt>
+<img/score_gen_diff.png, id=2868, 462.528pt x 346.896pt>
 File: img/score_gen_diff.png Graphic file (type png)
 
 <use img/score_gen_diff.png>
 Package pdftex.def Info: img/score_gen_diff.png used on input line 357.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/score_gen_abil.png, id=2807, 462.528pt x 346.896pt>
+<img/score_gen_abil.png, id=2869, 462.528pt x 346.896pt>
 File: img/score_gen_abil.png Graphic file (type png)
 
 <use img/score_gen_abil.png>
@@ -3281,20 +2562,8 @@ Underfull \vbox (badness 10000) detected at line 384
 Overfull \vbox (166.37866pt too high) has occurred while \output is active []
 
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[144 <./img/exponent_gen_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[145 <./img/score_diff.png> <./img/score_gen_diff.png>]
+[153 <./img/exponent_gen_abil.png>] [154 <./img/score_diff.png> <./img/score_ge
+n_diff.png>]
 Underfull \vbox (badness 10000) detected at line 408
  []
 
@@ -3306,20 +2575,20 @@ Underfull \vbox (badness 10000) detected at line 429
 Underfull \vbox (badness 10000) detected at line 447
  []
 
-<img/time_diff.png, id=2827, 462.528pt x 346.896pt>
+<img/time_diff.png, id=2888, 462.528pt x 346.896pt>
 File: img/time_diff.png Graphic file (type png)
  <use img/time_diff.png>
 Package pdftex.def Info: img/time_diff.png used on input line 451.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/time_gen_diff.png, id=2828, 462.528pt x 346.896pt>
+<img/time_gen_diff.png, id=2889, 462.528pt x 346.896pt>
 File: img/time_gen_diff.png Graphic file (type png)
 
 <use img/time_gen_diff.png>
 Package pdftex.def Info: img/time_gen_diff.png used on input line 458.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/time_gen_abil.png, id=2829, 462.528pt x 346.896pt>
+<img/time_gen_abil.png, id=2890, 462.528pt x 346.896pt>
 File: img/time_gen_abil.png Graphic file (type png)
 
 <use img/time_gen_abil.png>
@@ -3333,27 +2602,8 @@ Underfull \vbox (badness 10000) detected at line 485
 Overfull \vbox (178.37866pt too high) has occurred while \output is active []
 
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[146 <./img/score_gen_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[147 <./img/time_diff.png> <./img/time_gen_diff.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[148 <./img/time_gen_abil.png>]
+[155 <./img/score_gen_abil.png>] [156 <./img/time_diff.png> <./img/time_gen_dif
+f.png>] [157 <./img/time_gen_abil.png>]
 Underfull \vbox (badness 10000) detected at line 24
  []
 
@@ -3365,14 +2615,14 @@ Underfull \vbox (badness 10000) detected at line 42
 Underfull \vbox (badness 10000) detected at line 57
  []
 
-<img/usefulness_gen_diff.png, id=2854, 462.528pt x 346.896pt>
+<img/usefulness_gen_diff.png, id=2916, 462.528pt x 346.896pt>
 File: img/usefulness_gen_diff.png Graphic file (type png)
 
 <use img/usefulness_gen_diff.png>
 Package pdftex.def Info: img/usefulness_gen_diff.png used on input line 61.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/usefulness_gen_abil.png, id=2855, 462.528pt x 346.896pt>
+<img/usefulness_gen_abil.png, id=2917, 462.528pt x 346.896pt>
 File: img/usefulness_gen_abil.png Graphic file (type png)
 
 <use img/usefulness_gen_abil.png>
@@ -3382,29 +2632,15 @@ Package pdftex.def Info: img/usefulness_gen_abil.png used on input line 67.
 Underfull \vbox (badness 10000) detected at line 84
  []
 
-<img/usefulness_diff.png, id=2856, 462.528pt x 346.896pt>
+<img/usefulness_diff.png, id=2918, 462.528pt x 346.896pt>
 File: img/usefulness_diff.png Graphic file (type png)
 
 <use img/usefulness_diff.png>
 Package pdftex.def Info: img/usefulness_diff.png used on input line 88.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
+ [158
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[149
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[150 <./img/usefulness_gen_diff.png> <./img/usefulness_gen_abil.png>]
+] [159 <./img/usefulness_gen_diff.png> <./img/usefulness_gen_abil.png>]
 Underfull \vbox (badness 10000) detected at line 112
  []
 
@@ -3416,14 +2652,14 @@ Underfull \vbox (badness 10000) detected at line 130
 Underfull \vbox (badness 10000) detected at line 145
  []
 
-<img/easeofuse_gen_diff.png, id=2873, 462.528pt x 346.896pt>
+<img/easeofuse_gen_diff.png, id=2936, 462.528pt x 346.896pt>
 File: img/easeofuse_gen_diff.png Graphic file (type png)
 
 <use img/easeofuse_gen_diff.png>
 Package pdftex.def Info: img/easeofuse_gen_diff.png used on input line 149.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 
-<img/easeofuse_gen_abil.png, id=2874, 462.528pt x 346.896pt>
+<img/easeofuse_gen_abil.png, id=2937, 462.528pt x 346.896pt>
 File: img/easeofuse_gen_abil.png Graphic file (type png)
 
 <use img/easeofuse_gen_abil.png>
@@ -3433,55 +2669,36 @@ Package pdftex.def Info: img/easeofuse_gen_abil.png used on input line 155.
 Underfull \vbox (badness 10000) detected at line 172
  []
 
-<img/easeofuse_diff.png, id=2875, 462.528pt x 346.896pt>
+<img/easeofuse_diff.png, id=2938, 462.528pt x 346.896pt>
 File: img/easeofuse_diff.png Graphic file (type png)
 
 <use img/easeofuse_diff.png>
 Package pdftex.def Info: img/easeofuse_diff.png used on input line 176.
 (pdftex.def)             Requested size: 318.66948pt x 239.01443pt.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 
 Overfull \vbox (71.00368pt too high) has occurred while \output is active []
 
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[151 <./img/usefulness_diff.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[152 <./img/easeofuse_gen_diff.png> <./img/easeofuse_gen_abil.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[153 <./img/easeofuse_diff.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+[160 <./img/usefulness_diff.png>] [161 <./img/easeofuse_gen_diff.png> <./img/ea
+seofuse_gen_abil.png>] [162 <./img/easeofuse_diff.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./MainFile.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `MainFile.out' has not changed.
-(rerunfilecheck)             Checksum: 1749553D614C374F716E804B89FD0C14;6140.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+(rerunfilecheck)             Checksum: DBB61F7745C208588FB717F78E660A64;6497.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 16127 strings out of 493304
- 243962 string characters out of 6139871
- 681008 words of memory out of 5000000
- 17542 multiletter control sequences out of 15000+600000
- 60895 words of font info for 329 fonts, out of 8000000 for 9000
+ 16310 strings out of 493304
+ 247309 string characters out of 6139871
+ 685493 words of memory out of 5000000
+ 17703 multiletter control sequences out of 15000+600000
+ 59770 words of font info for 332 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
- 41i,18n,47p,2305b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,47p,2301b,1858s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/
@@ -3504,12 +2721,11 @@ texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MainFile.pdf (153 pages, 2645650 bytes).
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MainFile.pdf (162 pages, 2653438 bytes).
 PDF statistics:
- 3230 PDF objects out of 3580 (max. 8388607)
- 2830 compressed objects within 29 object streams
- 1260 named destinations out of 1440 (max. 500000)
- 59079 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 3292 PDF objects out of 3580 (max. 8388607)
+ 2884 compressed objects within 29 object streams
+ 1275 named destinations out of 1440 (max. 500000)
+ 55015 words of extra memory for PDF output out of 61914 (max. 10000000)
 

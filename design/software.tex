@@ -1,7 +1,7 @@
 \chapter{Software design and development}
 \label{ch:software}
 
-Within this chapter, the software is described from a user's perspective and linked to the design implications provided in the \nameref{ch:analysis} and the \nameref{ch:frameworks} chapters. The software is implemented as a webapplication in order to facilitate easy access from any webbrowser with internet connectivity. For a more technical description of the server and client, the full server documentation is included within the \nameref{app:documentation} appendix, and the client source code within the \nameref{app:clientsource} appendix.
+Within this chapter, the software is described from a user's perspective and linked to the design implications provided in the \nameref{ch:analysis} and the \nameref{ch:frameworks} chapters. The software is implemented as a webapplication in order to facilitate easy access from any webbrowser with internet connectivity. For a more technical description of the server and client, the full server documentation is included within the Flashmap Server Documentation appendix on page~\pageref{app:documentation}, and the client source code within the \nameref{app:clientsource} appendix on page~\pageref{app:clientsource}. Finally, the complete source code is available on github\footnote{\url{https://github.com/mcvdenk/MasterThesis-Software}}.
 
 \section{Page elements}
 
@@ -9,7 +9,7 @@ Each page is represented as a webpage containing 4 different page elements, whic
 
 \subsection{Navigation menu}
 
-The navigation appears as a centered div at the top of the screen, displaying buttons for the pages of the applications plus a button to contact the developer for help. An image of this menu is included in figure~\ref{fig:navmenu}.
+The navigation is centered at the top of the screen, displaying buttons for the pages of the applications and a button to contact the developer for help (see figure~\ref{fig:navmenu}).
 
 \begin{figure}
     \centering
@@ -20,17 +20,17 @@ The navigation appears as a centered div at the top of the screen, displaying bu
 
 \subsection{Instructions panel}
 
-The instructions panel is the next element is placed below the navigation menu, and is reserved for providing the user with extra instructions where needed. It does not have a background colour, but it does have a fixed height in order to keep all elements at the same place independent of the length of the instruction. The instruction has a centric text-alignment.
+The instructions panel is the next element is placed below the navigation menu, and is reserved for providing the user with extra instructions where needed. It does not have a background colour, but it does have a fixed height in order to keep all elements at the same place independent of the length of the instruction.
 
 \subsection{Main viewer}
 
-The main viewer is the center element, and expands from the instruction panel to the button panel. Within this container, the main content of the specific view is displayed, such as the flashcard or concept map, the questionnaire, or the login form. In order to stand out from the rest of the page, it has a separate background with rounded corners. The background colour is somewhat lighter in comparison to the general background colour in order for the text to be better readable. The main viewer is also the container for visjs, which is a javascript library for rendering graphs in browsers.
+The main viewer is the central element, and expands from the instruction panel to the button panel. Within this container, the main content of the specific view is displayed, such as the flashcard or concept map, the questionnaire, or the login form. In order to stand out from the rest of the page, it has a separate background with rounded corners. The background colour is somewhat lighter in comparison to the general background colour in order for the text to be better readable. The main viewer is also the container for visjs, which is a javascript library for rendering graphs in browsers.
 
-\paragraph{Visjs} Since the content contained within the graph is dynamic because of the partial maps returned from the server, generated automatic layouts of graphs are necessary. Visjs is capable of two models for automatic layout, namely hierarchical and force-directed. As described in the \nameref{sec:cmapframework} section on page~\pageref{sec:cmapframework}, the initial idea was to render the graphs as hierarchical. Upon trying this with different subgraphs however it was found that automatic assignment for the different nodes on different hierarchical levels was not correctly done by visjs. This is mainly due to the two options for hierarchical layouts, namely hubcentered and directed. The idea of a hubcentered hierarchy is that the levels of the nodes within the hierarchy are based on the amount of other nodes directly or indirectly linked to this node. This works especially well for tree graphs, but because of the cross-links a concept map is not a tree graph. The other option, directed hierarchy, should make advantage of the directed edges by determining the levels of the nodes based on the direction of the edges. Unfortunately, this is implemented within visjs as only the root and the leaves being determined whether there are only incoming or outgoing edges, whereas the rest of the nodes are still placed based on the hubcentered layout, unlike in other graph layout engines such as DOT. 
+\paragraph{Visjs} Since the content contained within the graph is dynamic because of the partial maps returned from the server, generated automatic layouts of graphs are necessary. Visjs is capable of two models for automatic layout, namely hierarchical and force-directed. As described in the \nameref{sec:cmapframework} section on page~\pageref{sec:cmapframework}, the initial idea was to render the graphs as hierarchical. Upon trying this with different subgraphs however it was found that automatic assignment for the different nodes on different hierarchical levels was not correctly done by visjs. This is mainly due to the two options for hierarchical layouts, namely hubcentered and directed. The idea of a hubcentered hierarchy is that the levels of the nodes within the hierarchy are based on the amount of other nodes directly or indirectly linked to this node. This works especially well for tree graphs, but a concept map is not a tree graph because of the cross-links. The other option, directed hierarchy, should make advantage of the directed edges by determining the levels of the nodes based on the direction of the edges. Unfortunately, this is implemented within visjs as only the root and the leaves being determined whether there are only incoming or outgoing edges, whereas the rest of the nodes are still placed based on the hubcentered layout, unlike in other graph layout engines such as DOT. 
 
 Because this rendering leads to more confusing graphs, the force-directed layout was chosen instead, despite this resulting in a more cyclical graphs common in other visualisation techniques such as mind maps. This layout engine attempts to position the nodes in such a way that all edges are about equally long and there are as few crossing edges as possible. This is done by assigning forces among the set of edges and the set of nodes, for example for having all nodes an inverse gravity force and all edges a spring force.
 
-The other options include options for assigning colours fitting within the existing colour scheme, and for the user being able to reposition nodes if for example the edge labels are not readable because of overlapping with other edges.
+The other settings in visjs include options for assigning colours fitting within the existing colour scheme, and for the user being able to reposition nodes if for example the edge labels are not readable because of overlapping with other edges.
 
 \subsection{Button panel}
 
@@ -39,11 +39,11 @@ Finally, within the footer of the page, a button panel is included. Here the use
 \section{Learning process}
 \label{sec:client_learning}
 
-The core functionality of the client is reviewing the user instances. In general, every time an instance is reviewed, first the question or incomplete flashmap is prompted, the user thinks of the correct answer, the client shows the correct answer, and finally the user indicates whether his answer was correct or incorrect. Furthermore, the client can prompt whether the user has read a certain section from the textbook, indicate that the user is finished with learning for today, or state that there are no more instances left to review. Finally, the user can also undo his last submitted response. These use cases are elaborated below.
+The core functionality of the client is reviewing the user instances. In general, every time an instance is reviewed, first the question or incomplete flashmap is prompted, the user thinks of the correct answer, the client shows the correct answer, and finally the user indicates whether his answer was correct or incorrect. Alternatively, the system can prompt whether the user has read a certain section from the textbook, indicate that the user is finished with learning for today, or state that there are no more instances left to review. Finally, the user can also undo his last submitted response. These use cases are elaborated below.
 
 \subsection{Read source}
 
-When a new user starts learning, he will first be asked whether he has read section 13.1 from the instructional material (see figure~\ref{fig:ui_read_request}). Within the main viewer the question "Did you read section 13.1 already? If no, read this now." is displayed in Dutch. The user can then press the "Read" button in the button panel, which will lead to prompting the first instance. This screen is simular for each subsequent section prompt.
+Every time the user is encountered with a flashcard or flashmap from a new section within the instructional material, the user is prompted whether this section has been read, since the rehearsal of items cannot be meaningful when the user is not familiar with the content. These prompts take often place at the beginning of a session so that the user does not have to interrupt a session. Furthermore, they prompt two sections ahead of the material currently being learned or reviewed by the user from the flashmap or flashcards in order to guarantee that the user is familiar with the material before learning the items. The user is prompted to read a section at most once per day. Within the main viewer the question "Did you read section 13.1 already? If no, read this now." is displayed in Dutch. The user can then press the "Read" button in the button panel, which will lead to prompting the first instance. This screen is simular for each subsequent section prompt.
 
 \begin{figure}
     \centering
@@ -54,7 +54,7 @@ When a new user starts learning, he will first be asked whether he has read sect
 
 \subsection{Prompt}
 
-The prompt of an instance is dependent on the experimental condition of the user. If the user is a flashcard user, he will see the prompt such as in figure~\ref{fig:ui_fc_prompt}. The main viewer contains the specific flashcard question, and the button panel contains a button with the label "Show answer". The flashmap users get to see a partial incomplete flashmap within the main viewer (figure~\ref{fig:ui_fm_prompt}), which they can drag around and zoom in and out on. The cues which have to be retrieved are indicated by orange empty nodes.
+When requesting items for review, the user can receive a due or new flashcard or flashmap, depending whether there are any old items due for review and the experimental group the user is in. If the user is a flashcard user, he will see the prompt such as in figure~\ref{fig:ui_fc_prompt}. The main viewer contains the specific flashcard question, and the button panel contains a button with the label "Show answer". The flashmap users get to see a partial incomplete flashmap within the main viewer (figure~\ref{fig:ui_fm_prompt}), which they can drag around and zoom in and out on. The cues which have to be retrieved are indicated by orange empty nodes.
 
 \begin{figure}
     \centering
@@ -72,18 +72,13 @@ The partial map displayed to the user is a concept map containing all the concep
     \label{fig:ui_fm_prompt}
 \end{figure}
 
-The button panel is the same for both conditions. After the user has at least responded to one instance, an "Undo" button appears left to the "Show answer" button (see figure~\ref{fig:ui_undo}), with which the user can reanswer his previous response. The instructions element also shows instructions on what the user should achieve (to retrieve the correct answer from memory).
-
-\begin{figure}
-    \centering
-    \includegraphics[width=.8\textwidth]{img/ui_undo.png}
-    \caption{The user interface when prompting a flashcard with an undo option}
-    \label{fig:ui_undo}
-\end{figure}
+The button panel is the same for both conditions. The instructions element also shows instructions on what the user should achieve (to retrieve the correct answer from memory).
 
 \subsection{Show answer}
 
 After the user has pressed the "Show answer" button, the show answer prompt will be shown. Flashcard users get to see the correct answer in the main viewer below the question, with "Incorrect" and "Correct" buttons in the button panel to indicate whether the correct answer could be retrieved (figure~\ref{fig:ui_fc_answer}. Flashmap users get to see the correct answers within the previously empty nodes, which will also turn green indicating that the user retrieved them correctly (figure~\ref{fig:ui_fm_answer_correct}). When the user did not retrieve an answer correctly, he can click on that node, turning it red (figure~\ref{fig:ui_fm_answer_incorrect}). After the user indicated the correct and incorrect retrievals, he can click on a "Next" button in the button panel. The instructions element again contains instructions on what to do within this screen.
+
+When the user has submitted at least one response within one session, he can undo this response if he is not content with it. For example, the user could after seeing the correct response decide that he thought of a similar enough answer, but after deeper reflection still decide that his answer was not sufficient. In this case, he could use the undo option in order to be presented with the previous response again and select the 'incorrect' option. The "Undo" button appears left to the "Show answer" button (see figure~\ref{fig:ui_undo}).
 
 \begin{figure}
     \centering
@@ -104,6 +99,13 @@ After the user has pressed the "Show answer" button, the show answer prompt will
     \includegraphics[width=.8\textwidth]{img/ui_fm_answer_incorrect.png}
     \caption{The user interface when showing the answer to a flashmap, here indicated as incorrect by the user}
     \label{fig:ui_fm_answer_incorrect}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.8\textwidth]{img/ui_undo.png}
+    \caption{The user interface when prompting a flashcard with an undo option}
+    \label{fig:ui_undo}
 \end{figure}
 
 After the user has provided the answer to the system, the system reschedules the flashmap or flashcard. In the~\nameref{subsec:adaptivesequencing} chapter on page~\pageref{subsec:adaptivesequencing}, it is described that in order to calculate the interval until the next review, one needs the number of correct responses since the last incorrect response. This is done by going through all the responses for the specific flashcard or flashmap in descending order of sent in date, increasing a counter until an incorrect response is found. Then, $5^{exp}$ seconds are taken as the interval until the next review of the flashcard or flashmap. Examples:
